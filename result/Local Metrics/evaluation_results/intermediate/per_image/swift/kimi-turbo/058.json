@@ -1,0 +1,152 @@
+{
+  "image_id": "058",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6052466327116007,
+    "size": 0.7555616656660605,
+    "color": 0.7912430167198181
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 9,
+    "matched": 5,
+    "similarity": 0.96,
+    "coverage": 0.8333333333333334,
+    "overall": 0.96
+  },
+  "details": {
+    "image_id": "058",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\058.png",
+    "gen_path": "swift_post\\kimi-turbo\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 13,
+      "matched_pairs": 9,
+      "position_score": 0.6052466327116007,
+      "size_score": 0.7555616656660605,
+      "color_score": 0.7912430167198181
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 9,
+      "matched_pairs": 5,
+      "text_score": 0.96,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.96,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 168,
+          "y": 30,
+          "w": 417,
+          "h": 79
+        },
+        {
+          "text": "Overview",
+          "x": 53,
+          "y": 156,
+          "w": 145,
+          "h": 36
+        },
+        {
+          "text": "Ranking",
+          "x": 312,
+          "y": 153,
+          "w": 128,
+          "h": 44
+        },
+        {
+          "text": "Stats",
+          "x": 583,
+          "y": 157,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 182,
+          "y": 254,
+          "w": 388,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 281,
+          "y": 413,
+          "w": 191,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 156,
+          "y": 21,
+          "w": 407,
+          "h": 81
+        },
+        {
+          "text": "Overview",
+          "x": 59,
+          "y": 161,
+          "w": 144,
+          "h": 36
+        },
+        {
+          "text": "Ranking",
+          "x": 294,
+          "y": 153,
+          "w": 132,
+          "h": 52
+        },
+        {
+          "text": "Stats",
+          "x": 549,
+          "y": 161,
+          "w": 84,
+          "h": 36
+        },
+        {
+          "text": "Overview",
+          "x": 253,
+          "y": 267,
+          "w": 214,
+          "h": 50
+        },
+        {
+          "text": "Steps Today",
+          "x": 39,
+          "y": 341,
+          "w": 193,
+          "h": 52
+        },
+        {
+          "text": "8,432",
+          "x": 587,
+          "y": 347,
+          "w": 90,
+          "h": 40
+        },
+        {
+          "text": "Goal",
+          "x": 45,
+          "y": 449,
+          "w": 76,
+          "h": 36
+        },
+        {
+          "text": "10,000",
+          "x": 571,
+          "y": 449,
+          "w": 106,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

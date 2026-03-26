@@ -1,0 +1,96 @@
+{
+  "image_id": "039",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5257290401512933,
+    "size": 0.6646375052071866,
+    "color": 0.45927199721336365
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "039",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\039.png",
+    "gen_path": "swift_post\\glm\\039.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 11,
+      "matched_pairs": 9,
+      "position_score": 0.5257290401512933,
+      "size_score": 0.6646375052071866,
+      "color_score": 0.45927199721336365
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 160,
+          "y": 38,
+          "w": 430,
+          "h": 56
+        },
+        {
+          "text": "Payment Progress",
+          "x": 221,
+          "y": 835,
+          "w": 310,
+          "h": 45
+        },
+        {
+          "text": "Reset Progress",
+          "x": 248,
+          "y": 1075,
+          "w": 258,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 150,
+          "y": 33,
+          "w": 421,
+          "h": 61
+        },
+        {
+          "text": "1%",
+          "x": 289,
+          "y": 235,
+          "w": 150,
+          "h": 90
+        },
+        {
+          "text": "Payment Progress",
+          "x": 205,
+          "y": 433,
+          "w": 313,
+          "h": 50
+        },
+        {
+          "text": "Reset Progress",
+          "x": 232,
+          "y": 693,
+          "w": 259,
+          "h": 52
+        }
+      ]
+    }
+  }
+}

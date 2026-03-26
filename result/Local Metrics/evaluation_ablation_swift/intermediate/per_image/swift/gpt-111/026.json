@@ -1,0 +1,159 @@
+{
+  "image_id": "026",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.4537889520783193,
+    "size": 0.48901139628418033,
+    "color": 0.35821446776390076
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 6,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.2,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "026",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\026.png",
+    "gen_path": "swift_ablation\\gpt-111\\026.png",
+    "ui_evaluation": {
+      "ref_blocks": 74,
+      "gen_blocks": 13,
+      "matched_pairs": 13,
+      "position_score": 0.4537889520783193,
+      "size_score": 0.48901139628418033,
+      "color_score": 0.35821446776390076
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 6,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.2,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Glass Doc Reader",
+          "x": 141,
+          "y": 77,
+          "w": 472,
+          "h": 60
+        },
+        {
+          "text": "Document Reader",
+          "x": 76,
+          "y": 387,
+          "w": 305,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 1.",
+          "x": 77,
+          "y": 453,
+          "w": 590,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 2_",
+          "x": 77,
+          "y": 511,
+          "w": 592,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 3_",
+          "x": 77,
+          "y": 569,
+          "w": 592,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 4.",
+          "x": 77,
+          "y": 627,
+          "w": 594,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 5.",
+          "x": 77,
+          "y": 683,
+          "w": 594,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 6.",
+          "x": 77,
+          "y": 743,
+          "w": 594,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 7.",
+          "x": 77,
+          "y": 801,
+          "w": 590,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 8.",
+          "x": 77,
+          "y": 859,
+          "w": 594,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Glass Doc Reader",
+          "x": 160,
+          "y": 28,
+          "w": 402,
+          "h": 56
+        },
+        {
+          "text": "Document Reader",
+          "x": 189,
+          "y": 271,
+          "w": 345,
+          "h": 48
+        },
+        {
+          "text": "This is a sample",
+          "x": 95,
+          "y": 345,
+          "w": 238,
+          "h": 42
+        },
+        {
+          "text": "of text content",
+          "x": 393,
+          "y": 343,
+          "w": 226,
+          "h": 38
+        },
+        {
+          "text": "number 1.",
+          "x": 95,
+          "y": 383,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "line",
+          "x": 327,
+          "y": 340,
+          "w": 68,
+          "h": 43
+        }
+      ]
+    }
+  }
+}

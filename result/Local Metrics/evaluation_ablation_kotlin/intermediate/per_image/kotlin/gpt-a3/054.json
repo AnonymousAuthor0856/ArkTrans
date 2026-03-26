@@ -1,0 +1,173 @@
+{
+  "image_id": "054",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.37473035853506104,
+    "size": 0.4748632308225058,
+    "color": 0.40790286660194397
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 3,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.06666666666666667,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "054",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\054.png",
+    "gen_path": "kt_ablation\\gpt-a3\\054.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 6,
+      "matched_pairs": 6,
+      "position_score": 0.37473035853506104,
+      "size_score": 0.4748632308225058,
+      "color_score": 0.40790286660194397
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 3,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.06666666666666667,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 138,
+          "y": 33,
+          "w": 449,
+          "h": 61
+        },
+        {
+          "text": "Assignments",
+          "x": 24,
+          "y": 156,
+          "w": 222,
+          "h": 48
+        },
+        {
+          "text": "Linear Algebra HW1",
+          "x": 61,
+          "y": 405,
+          "w": 256,
+          "h": 36
+        },
+        {
+          "text": "Data Structures HW2",
+          "x": 398,
+          "y": 406,
+          "w": 268,
+          "h": 30
+        },
+        {
+          "text": "Submitted",
+          "x": 136,
+          "y": 436,
+          "w": 106,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 485,
+          "y": 431,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Algorithm HW3",
+          "x": 91,
+          "y": 747,
+          "w": 198,
+          "h": 36
+        },
+        {
+          "text": "Probability HW4",
+          "x": 426,
+          "y": 741,
+          "w": 213,
+          "h": 42
+        },
+        {
+          "text": "Graded",
+          "x": 152,
+          "y": 778,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 485,
+          "y": 773,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Progress Chart",
+          "x": 23,
+          "y": 945,
+          "w": 255,
+          "h": 51
+        },
+        {
+          "text": "Week 1: 70%",
+          "x": 26,
+          "y": 1064,
+          "w": 138,
+          "h": 26
+        },
+        {
+          "text": "Week 2: 90%",
+          "x": 26,
+          "y": 1152,
+          "w": 138,
+          "h": 28
+        },
+        {
+          "text": "I^~.",
+          "x": 27,
+          "y": 1243,
+          "w": 62,
+          "h": 14
+        },
+        {
+          "text": "cnoi",
+          "x": 119,
+          "y": 1243,
+          "w": 42,
+          "h": 14
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 30,
+          "y": 24,
+          "w": 495,
+          "h": 64
+        },
+        {
+          "text": "wtitle",
+          "x": 143,
+          "y": 227,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "wstatus",
+          "x": 141,
+          "y": 264,
+          "w": 97,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

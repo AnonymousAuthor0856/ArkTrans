@@ -1,0 +1,131 @@
+{
+  "image_id": "021",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.33271012018889473,
+    "size": 0.524210559543486,
+    "color": 0.5004170536994934
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.25,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "021",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\021.png",
+    "gen_path": "kt_post\\kimi-turbo\\021.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.33271012018889473,
+      "size_score": 0.524210559543486,
+      "color_score": 0.5004170536994934
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.25,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 178,
+          "y": 33,
+          "w": 365,
+          "h": 60
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 187,
+          "w": 214,
+          "h": 42
+        },
+        {
+          "text": "To Do",
+          "x": 55,
+          "y": 313,
+          "w": 101,
+          "h": 41
+        },
+        {
+          "text": "In Progres:",
+          "x": 516,
+          "y": 311,
+          "w": 180,
+          "h": 50
+        },
+        {
+          "text": "Write report",
+          "x": 87,
+          "y": 401,
+          "w": 154,
+          "h": 39
+        },
+        {
+          "text": "Implement",
+          "x": 548,
+          "y": 403,
+          "w": 144,
+          "h": 36
+        },
+        {
+          "text": "Design mockup",
+          "x": 85,
+          "y": 512,
+          "w": 202,
+          "h": 39
+        },
+        {
+          "text": "Fix layout k",
+          "x": 549,
+          "y": 515,
+          "w": 144,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 47,
+          "w": 198,
+          "h": 38
+        },
+        {
+          "text": "col.title",
+          "x": 195,
+          "y": 157,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "task",
+          "x": 222,
+          "y": 228,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "Kanban Board",
+          "x": 139,
+          "y": 1175,
+          "w": 446,
+          "h": 68
+        }
+      ]
+    }
+  }
+}

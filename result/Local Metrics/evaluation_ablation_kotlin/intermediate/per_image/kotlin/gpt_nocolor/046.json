@@ -1,0 +1,159 @@
+{
+  "image_id": "046",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7010649264453198,
+    "size": 0.8051172411664141,
+    "color": 0.6323989629745483
+  },
+  "text_scores": {
+    "ref_count": 11,
+    "gen_count": 5,
+    "matched": 3,
+    "similarity": 0.8559218559218559,
+    "coverage": 0.2727272727272727,
+    "overall": 0.8559218559218559
+  },
+  "details": {
+    "image_id": "046",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\046.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\046.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 23,
+      "matched_pairs": 23,
+      "position_score": 0.7010649264453198,
+      "size_score": 0.8051172411664141,
+      "color_score": 0.6323989629745483
+    },
+    "text_evaluation": {
+      "ref_texts": 11,
+      "gen_texts": 5,
+      "matched_pairs": 3,
+      "text_score": 0.8559218559218559,
+      "coverage": 0.2727272727272727,
+      "overall_score": 0.8559218559218559,
+      "ref_text_list": [
+        {
+          "text": "Coupon Pack",
+          "x": 186,
+          "y": 33,
+          "w": 352,
+          "h": 75
+        },
+        {
+          "text": "Nearby Packs",
+          "x": 30,
+          "y": 162,
+          "w": 256,
+          "h": 50
+        },
+        {
+          "text": "Your Coupon Packs",
+          "x": 28,
+          "y": 641,
+          "w": 363,
+          "h": 54
+        },
+        {
+          "text": "Grocery Pack",
+          "x": 112,
+          "y": 752,
+          "w": 201,
+          "h": 41
+        },
+        {
+          "text": "Cafe Bunc",
+          "x": 545,
+          "y": 753,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "-S5",
+          "x": 67,
+          "y": 805,
+          "w": 98,
+          "h": 64
+        },
+        {
+          "text": "-15%",
+          "x": 500,
+          "y": 812,
+          "w": 136,
+          "h": 52
+        },
+        {
+          "text": "Redeem",
+          "x": 194,
+          "y": 912,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Redee",
+          "x": 626,
+          "y": 912,
+          "w": 66,
+          "h": 28
+        },
+        {
+          "text": "My Coupons",
+          "x": 99,
+          "y": 1114,
+          "w": 186,
+          "h": 43
+        },
+        {
+          "text": "Explore More",
+          "x": 433,
+          "y": 1115,
+          "w": 196,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "ACoupon Pack $",
+          "x": 183,
+          "y": 24,
+          "w": 363,
+          "h": 69
+        },
+        {
+          "text": "Your Coupon Packs",
+          "x": 103,
+          "y": 562,
+          "w": 517,
+          "h": 78
+        },
+        {
+          "text": "ctitle",
+          "x": 103,
+          "y": 693,
+          "w": 102,
+          "h": 40
+        },
+        {
+          "text": "c.value",
+          "x": 57,
+          "y": 754,
+          "w": 235,
+          "h": 72
+        },
+        {
+          "text": "Redeem",
+          "x": 183,
+          "y": 870,
+          "w": 97,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

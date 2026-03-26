@@ -1,0 +1,159 @@
+{
+  "image_id": "009",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.850549993774068,
+    "size": 0.8809601401304854,
+    "color": 0.5140486359596252
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 8,
+    "matched": 6,
+    "similarity": 0.8888888888888888,
+    "coverage": 0.75,
+    "overall": 0.8888888888888888
+  },
+  "details": {
+    "image_id": "009",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\009.png",
+    "gen_path": "kt_post\\gpt\\009.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 21,
+      "matched_pairs": 19,
+      "position_score": 0.850549993774068,
+      "size_score": 0.8809601401304854,
+      "color_score": 0.5140486359596252
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 8,
+      "matched_pairs": 6,
+      "text_score": 0.8888888888888888,
+      "coverage": 0.75,
+      "overall_score": 0.8888888888888888,
+      "ref_text_list": [
+        {
+          "text": "Video Player",
+          "x": 267,
+          "y": 45,
+          "w": 189,
+          "h": 43
+        },
+        {
+          "text": "Video Surface",
+          "x": 257,
+          "y": 389,
+          "w": 208,
+          "h": 38
+        },
+        {
+          "text": "Journey through the Skies",
+          "x": 42,
+          "y": 731,
+          "w": 388,
+          "h": 48
+        },
+        {
+          "text": "1.35",
+          "x": 46,
+          "y": 916,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "4.00",
+          "x": 622,
+          "y": 916,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "-1Os",
+          "x": 130,
+          "y": 1020,
+          "w": 80,
+          "h": 39
+        },
+        {
+          "text": "+30s",
+          "x": 513,
+          "y": 1023,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "Fullscreen",
+          "x": 292,
+          "y": 1168,
+          "w": 138,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Video Player",
+          "x": 124,
+          "y": 35,
+          "w": 199,
+          "h": 48
+        },
+        {
+          "text": "Video Surface",
+          "x": 253,
+          "y": 345,
+          "w": 216,
+          "h": 36
+        },
+        {
+          "text": "Sample Video",
+          "x": 253,
+          "y": 739,
+          "w": 215,
+          "h": 48
+        },
+        {
+          "text": "0.00",
+          "x": 76,
+          "y": 906,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "3*00",
+          "x": 588,
+          "y": 906,
+          "w": 54,
+          "h": 28
+        },
+        {
+          "text": "-10s",
+          "x": 147,
+          "y": 1013,
+          "w": 78,
+          "h": 36
+        },
+        {
+          "text": "+30s",
+          "x": 497,
+          "y": 1013,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "Fullscreen",
+          "x": 294,
+          "y": 1148,
+          "w": 136,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

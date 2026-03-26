@@ -1,0 +1,117 @@
+{
+  "image_id": "058",
+  "language": "swift",
+  "llm_name": "gpt-a2",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3904219399768499,
+    "size": 0.40970900739144095,
+    "color": 0.2812497019767761
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.3333333333333333,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "058",
+    "language": "swift",
+    "llm_name": "gpt-a2",
+    "ref_path": "suc\\swift_img\\058.png",
+    "gen_path": "swift_ablation\\gpt-a2\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.3904219399768499,
+      "size_score": 0.40970900739144095,
+      "color_score": 0.2812497019767761
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.3333333333333333,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 168,
+          "y": 30,
+          "w": 417,
+          "h": 79
+        },
+        {
+          "text": "Overview",
+          "x": 53,
+          "y": 156,
+          "w": 145,
+          "h": 36
+        },
+        {
+          "text": "Ranking",
+          "x": 312,
+          "y": 153,
+          "w": 128,
+          "h": 44
+        },
+        {
+          "text": "Stats",
+          "x": 583,
+          "y": 157,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 182,
+          "y": 254,
+          "w": 388,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 281,
+          "y": 413,
+          "w": 191,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 145,
+          "y": 55,
+          "w": 428,
+          "h": 88
+        },
+        {
+          "text": "Overview",
+          "x": 70,
+          "y": 201,
+          "w": 145,
+          "h": 40
+        },
+        {
+          "text": "Activity",
+          "x": 298,
+          "y": 195,
+          "w": 124,
+          "h": 52
+        },
+        {
+          "text": "Rewards",
+          "x": 515,
+          "y": 203,
+          "w": 132,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

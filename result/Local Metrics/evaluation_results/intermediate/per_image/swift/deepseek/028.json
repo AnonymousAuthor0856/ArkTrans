@@ -1,0 +1,236 @@
+{
+  "image_id": "028",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2022425268257911,
+    "size": 0.17926529375025205,
+    "color": 0.18212291598320007
+  },
+  "text_scores": {
+    "ref_count": 20,
+    "gen_count": 7,
+    "matched": 3,
+    "similarity": 0.8888888888888888,
+    "coverage": 0.15,
+    "overall": 0.8888888888888888
+  },
+  "details": {
+    "image_id": "028",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\028.png",
+    "gen_path": "swift_post\\deepseek\\028.png",
+    "ui_evaluation": {
+      "ref_blocks": 35,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.2022425268257911,
+      "size_score": 0.17926529375025205,
+      "color_score": 0.18212291598320007
+    },
+    "text_evaluation": {
+      "ref_texts": 20,
+      "gen_texts": 7,
+      "matched_pairs": 3,
+      "text_score": 0.8888888888888888,
+      "coverage": 0.15,
+      "overall_score": 0.8888888888888888,
+      "ref_text_list": [
+        {
+          "text": "Productivity Check",
+          "x": 163,
+          "y": 23,
+          "w": 428,
+          "h": 68
+        },
+        {
+          "text": "Daily",
+          "x": 157,
+          "y": 160,
+          "w": 74,
+          "h": 37
+        },
+        {
+          "text": "Weekly",
+          "x": 304,
+          "y": 158,
+          "w": 103,
+          "h": 39
+        },
+        {
+          "text": "Monthly",
+          "x": 479,
+          "y": 157,
+          "w": 117,
+          "h": 42
+        },
+        {
+          "text": "Weekly Throughput",
+          "x": 60,
+          "y": 286,
+          "w": 334,
+          "h": 54
+        },
+        {
+          "text": "Mon",
+          "x": 78,
+          "y": 684,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "Tue",
+          "x": 172,
+          "y": 684,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "Wed",
+          "x": 256,
+          "y": 684,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "Thu",
+          "x": 350,
+          "y": 684,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Fri",
+          "x": 446,
+          "y": 684,
+          "w": 40,
+          "h": 30
+        },
+        {
+          "text": "Sat",
+          "x": 530,
+          "y": 684,
+          "w": 50,
+          "h": 30
+        },
+        {
+          "text": "Sun",
+          "x": 614,
+          "y": 684,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Form Batch #A-102",
+          "x": 63,
+          "y": 829,
+          "w": 326,
+          "h": 40
+        },
+        {
+          "text": "Completed",
+          "x": 537,
+          "y": 833,
+          "w": 152,
+          "h": 38
+        },
+        {
+          "text": "100%",
+          "x": 606,
+          "y": 904,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Invoice Set #B-231",
+          "x": 59,
+          "y": 1049,
+          "w": 320,
+          "h": 42
+        },
+        {
+          "text": "In Progress",
+          "x": 531,
+          "y": 1054,
+          "w": 160,
+          "h": 39
+        },
+        {
+          "text": "75%/",
+          "x": 614,
+          "y": 1126,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Submit New Form",
+          "x": 223,
+          "y": 1225,
+          "w": 304,
+          "h": 42
+        },
+        {
+          "text": "17",
+          "x": 246,
+          "y": 476,
+          "w": 151,
+          "h": 214
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Productivity Check",
+          "x": 70,
+          "y": 21,
+          "w": 456,
+          "h": 80
+        },
+        {
+          "text": "filter",
+          "x": 313,
+          "y": 115,
+          "w": 78,
+          "h": 36
+        },
+        {
+          "text": "Weekly Throughput",
+          "x": 212,
+          "y": 234,
+          "w": 301,
+          "h": 45
+        },
+        {
+          "text": "data label",
+          "x": 304,
+          "y": 576,
+          "w": 114,
+          "h": 26
+        },
+        {
+          "text": "itemtitle",
+          "x": 29,
+          "y": 719,
+          "w": 140,
+          "h": 36
+        },
+        {
+          "text": "item status",
+          "x": 560,
+          "y": 724,
+          "w": 128,
+          "h": 26
+        },
+        {
+          "text": "30%",
+          "x": 638,
+          "y": 788,
+          "w": 54,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "image_id": "021",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3373256829507977,
+    "size": 0.3605411291701308,
+    "color": 0.34364113211631775
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 0.8181818181818181,
+    "coverage": 0.2,
+    "overall": 0.8181818181818181
+  },
+  "details": {
+    "image_id": "021",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\021.png",
+    "gen_path": "swift_ablation\\gpt-111\\021.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 6,
+      "matched_pairs": 6,
+      "position_score": 0.3373256829507977,
+      "size_score": 0.3605411291701308,
+      "color_score": 0.34364113211631775
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 0.8181818181818181,
+      "coverage": 0.2,
+      "overall_score": 0.8181818181818181,
+      "ref_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 190,
+          "y": 38,
+          "w": 374,
+          "h": 56
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 165,
+          "w": 216,
+          "h": 42
+        },
+        {
+          "text": "To Do",
+          "x": 119,
+          "y": 285,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "In",
+          "x": 550,
+          "y": 288,
+          "w": 36,
+          "h": 32
+        },
+        {
+          "text": "Progres",
+          "x": 585,
+          "y": 281,
+          "w": 141,
+          "h": 50
+        },
+        {
+          "text": "Write report",
+          "x": 151,
+          "y": 357,
+          "w": 162,
+          "h": 37
+        },
+        {
+          "text": "Implement",
+          "x": 580,
+          "y": 355,
+          "w": 145,
+          "h": 39
+        },
+        {
+          "text": "Design mockup",
+          "x": 150,
+          "y": 437,
+          "w": 208,
+          "h": 40
+        },
+        {
+          "text": "Fix layout",
+          "x": 583,
+          "y": 439,
+          "w": 130,
+          "h": 38
+        },
+        {
+          "text": "Task Completion",
+          "x": 28,
+          "y": 1208,
+          "w": 284,
+          "h": 51
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 206,
+          "y": 30,
+          "w": 308,
+          "h": 48
+        },
+        {
+          "text": "col.title",
+          "x": 189,
+          "y": 155,
+          "w": 128,
+          "h": 38
+        },
+        {
+          "text": "task",
+          "x": 222,
+          "y": 224,
+          "w": 62,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "image_id": "004",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": false,
+  "error_msg": "编译未通过：图片不存在",
+  "ui_scores": {
+    "position": 0.0,
+    "size": 0.0,
+    "color": 0.0
+  },
+  "text_scores": {
+    "ref_count": 0,
+    "gen_count": 0,
+    "matched": 0,
+    "similarity": 0.0,
+    "coverage": 0.0,
+    "overall": 0.0
+  },
+  "details": {}
+}

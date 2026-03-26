@@ -1,0 +1,208 @@
+{
+  "image_id": "060",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3515581786649903,
+    "size": 0.37182123621390806,
+    "color": 0.06342557072639465
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 7,
+    "matched": 2,
+    "similarity": 0.8333333333333333,
+    "coverage": 0.125,
+    "overall": 0.8333333333333333
+  },
+  "details": {
+    "image_id": "060",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\060.png",
+    "gen_path": "swift_post\\glm\\060.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.3515581786649903,
+      "size_score": 0.37182123621390806,
+      "color_score": 0.06342557072639465
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 7,
+      "matched_pairs": 2,
+      "text_score": 0.8333333333333333,
+      "coverage": 0.125,
+      "overall_score": 0.8333333333333333,
+      "ref_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 208,
+          "y": 32,
+          "w": 336,
+          "h": 50
+        },
+        {
+          "text": "Unit Map Visualization",
+          "x": 182,
+          "y": 198,
+          "w": 384,
+          "h": 51
+        },
+        {
+          "text": "Active Unit: Length",
+          "x": 266,
+          "y": 264,
+          "w": 220,
+          "h": 32
+        },
+        {
+          "text": "Length",
+          "x": 44,
+          "y": 453,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 494,
+          "w": 170,
+          "h": 30
+        },
+        {
+          "text": "Weight",
+          "x": 46,
+          "y": 638,
+          "w": 126,
+          "h": 48
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 682,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Temperature",
+          "x": 45,
+          "y": 829,
+          "w": 224,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 870,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Speed",
+          "x": 41,
+          "y": 1013,
+          "w": 119,
+          "h": 50
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 1058,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Length",
+          "x": 61,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Weight",
+          "x": 239,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Temper",
+          "x": 413,
+          "y": 1222,
+          "w": 110,
+          "h": 41
+        },
+        {
+          "text": "Speed",
+          "x": 596,
+          "y": 1240,
+          "w": 93,
+          "h": 38
+        },
+        {
+          "text": "ature",
+          "x": 414,
+          "y": 1260,
+          "w": 76,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 186,
+          "y": 33,
+          "w": 352,
+          "h": 55
+        },
+        {
+          "text": "Area",
+          "x": 360,
+          "y": 306,
+          "w": 62,
+          "h": 28
+        },
+        {
+          "text": "km",
+          "x": 335,
+          "y": 595,
+          "w": 52,
+          "h": 36
+        },
+        {
+          "text": "miles",
+          "x": 319,
+          "y": 731,
+          "w": 84,
+          "h": 36
+        },
+        {
+          "text": "km",
+          "x": 260,
+          "y": 914,
+          "w": 46,
+          "h": 30
+        },
+        {
+          "text": "miles",
+          "x": 390,
+          "y": 914,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Map",
+          "x": 293,
+          "y": 301,
+          "w": 70,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "image_id": "036",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.11382856165169306,
+    "size": 0.12911636892379802,
+    "color": 0.07165547460317612
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 3,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 0.42857142857142855,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "036",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\036.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\036.png",
+    "ui_evaluation": {
+      "ref_blocks": 21,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.11382856165169306,
+      "size_score": 0.12911636892379802,
+      "color_score": 0.07165547460317612
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 3,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 0.42857142857142855,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 171,
+          "y": 34,
+          "w": 378,
+          "h": 73
+        },
+        {
+          "text": "BTC",
+          "x": 116,
+          "y": 192,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "ETH",
+          "x": 258,
+          "y": 192,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "SOL",
+          "x": 400,
+          "y": 192,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "ADA",
+          "x": 544,
+          "y": 194,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Price Variation",
+          "x": 237,
+          "y": 839,
+          "w": 244,
+          "h": 42
+        },
+        {
+          "text": "Auto Update",
+          "x": 31,
+          "y": 995,
+          "w": 160,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 184,
+          "y": 27,
+          "w": 356,
+          "h": 72
+        },
+        {
+          "text": "Price Variation",
+          "x": 237,
+          "y": 679,
+          "w": 248,
+          "h": 42
+        },
+        {
+          "text": "Auto Update",
+          "x": 30,
+          "y": 824,
+          "w": 195,
+          "h": 43
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "image_id": "029",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7842686772329572,
+    "size": 0.8298162354373937,
+    "color": 0.7441576719284058
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 14,
+    "matched": 8,
+    "similarity": 0.8319235588972431,
+    "coverage": 0.42105263157894735,
+    "overall": 0.8319235588972431
+  },
+  "details": {
+    "image_id": "029",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\029.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\029.png",
+    "ui_evaluation": {
+      "ref_blocks": 30,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.7842686772329572,
+      "size_score": 0.8298162354373937,
+      "color_score": 0.7441576719284058
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 14,
+      "matched_pairs": 8,
+      "text_score": 0.8319235588972431,
+      "coverage": 0.42105263157894735,
+      "overall_score": 0.8319235588972431,
+      "ref_text_list": [
+        {
+          "text": "File Manager",
+          "x": 215,
+          "y": 73,
+          "w": 324,
+          "h": 68
+        },
+        {
+          "text": "Recent Files",
+          "x": 29,
+          "y": 233,
+          "w": 208,
+          "h": 40
+        },
+        {
+          "text": "PDF",
+          "x": 170,
+          "y": 334,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "Spreadsheet",
+          "x": 469,
+          "y": 333,
+          "w": 172,
+          "h": 36
+        },
+        {
+          "text": "Report pdf",
+          "x": 51,
+          "y": 445,
+          "w": 189,
+          "h": 50
+        },
+        {
+          "text": "Budget xlsx",
+          "x": 407,
+          "y": 444,
+          "w": 203,
+          "h": 52
+        },
+        {
+          "text": "2.1 MB",
+          "x": 54,
+          "y": 496,
+          "w": 82,
+          "h": 28
+        },
+        {
+          "text": "1.2 MB",
+          "x": 408,
+          "y": 496,
+          "w": 84,
+          "h": 28
+        },
+        {
+          "text": "Image",
+          "x": 153,
+          "y": 596,
+          "w": 90,
+          "h": 38
+        },
+        {
+          "text": "Slides",
+          "x": 512,
+          "y": 598,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Presentation ppt",
+          "x": 405,
+          "y": 663,
+          "w": 287,
+          "h": 54
+        },
+        {
+          "text": "Design psd",
+          "x": 51,
+          "y": 709,
+          "w": 197,
+          "h": 52
+        },
+        {
+          "text": "X",
+          "x": 408,
+          "y": 722,
+          "w": 26,
+          "h": 26
+        },
+        {
+          "text": "4.7 MB",
+          "x": 54,
+          "y": 760,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "5.4 MB",
+          "x": 410,
+          "y": 760,
+          "w": 86,
+          "h": 28
+        },
+        {
+          "text": "Text",
+          "x": 168,
+          "y": 862,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "MeetingNotes.tx",
+          "x": 52,
+          "y": 932,
+          "w": 282,
+          "h": 48
+        },
+        {
+          "text": "t",
+          "x": 57,
+          "y": 985,
+          "w": 14,
+          "h": 26
+        },
+        {
+          "text": "64 KB",
+          "x": 54,
+          "y": 1024,
+          "w": 74,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "File Manager",
+          "x": 200,
+          "y": 24,
+          "w": 327,
+          "h": 75
+        },
+        {
+          "text": "Recent Files",
+          "x": 30,
+          "y": 144,
+          "w": 205,
+          "h": 42
+        },
+        {
+          "text": "Project Plan",
+          "x": 100,
+          "y": 244,
+          "w": 181,
+          "h": 42
+        },
+        {
+          "text": "Budget 2026",
+          "x": 433,
+          "y": 245,
+          "w": 196,
+          "h": 42
+        },
+        {
+          "text": "PDF",
+          "x": 108,
+          "y": 298,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "2.4MB",
+          "x": 190,
+          "y": 298,
+          "w": 82,
+          "h": 28
+        },
+        {
+          "text": "XLSX",
+          "x": 440,
+          "y": 298,
+          "w": 70,
+          "h": 28
+        },
+        {
+          "text": "1.1 MB",
+          "x": 538,
+          "y": 298,
+          "w": 82,
+          "h": 28
+        },
+        {
+          "text": "Meeting Notes",
+          "x": 78,
+          "y": 398,
+          "w": 226,
+          "h": 49
+        },
+        {
+          "text": "Design Mock",
+          "x": 434,
+          "y": 402,
+          "w": 197,
+          "h": 43
+        },
+        {
+          "text": "TXT",
+          "x": 114,
+          "y": 456,
+          "w": 54,
+          "h": 28
+        },
+        {
+          "text": "18 KB",
+          "x": 194,
+          "y": 456,
+          "w": 74,
+          "h": 28
+        },
+        {
+          "text": "PNG",
+          "x": 446,
+          "y": 456,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "3.8 MB",
+          "x": 532,
+          "y": 456,
+          "w": 84,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

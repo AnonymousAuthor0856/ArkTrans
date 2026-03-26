@@ -1,0 +1,124 @@
+{
+  "image_id": "041",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6462416658852811,
+    "size": 0.8950524069580269,
+    "color": 0.8608676791191101
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 7,
+    "matched": 4,
+    "similarity": 0.9166666666666666,
+    "coverage": 1.0,
+    "overall": 0.9166666666666666
+  },
+  "details": {
+    "image_id": "041",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\041.png",
+    "gen_path": "swift_post\\gpt\\041.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 14,
+      "matched_pairs": 12,
+      "position_score": 0.6462416658852811,
+      "size_score": 0.8950524069580269,
+      "color_score": 0.8608676791191101
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 7,
+      "matched_pairs": 4,
+      "text_score": 0.9166666666666666,
+      "coverage": 1.0,
+      "overall_score": 0.9166666666666666,
+      "ref_text_list": [
+        {
+          "text": "Monochrome Bag",
+          "x": 60,
+          "y": 428,
+          "w": 302,
+          "h": 51
+        },
+        {
+          "text": "minimalist and timeless design piece.",
+          "x": 87,
+          "y": 497,
+          "w": 482,
+          "h": 38
+        },
+        {
+          "text": "S79.00",
+          "x": 61,
+          "y": 554,
+          "w": 123,
+          "h": 42
+        },
+        {
+          "text": "Add to Cart",
+          "x": 279,
+          "y": 647,
+          "w": 196,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Product Detail",
+          "x": 170,
+          "y": 34,
+          "w": 385,
+          "h": 62
+        },
+        {
+          "text": "Monochrome Bag",
+          "x": 192,
+          "y": 505,
+          "w": 338,
+          "h": 56
+        },
+        {
+          "text": "A minimalist and timeless",
+          "x": 73,
+          "y": 579,
+          "w": 378,
+          "h": 36
+        },
+        {
+          "text": "piece:",
+          "x": 555,
+          "y": 579,
+          "w": 88,
+          "h": 42
+        },
+        {
+          "text": "$79.00",
+          "x": 290,
+          "y": 634,
+          "w": 138,
+          "h": 52
+        },
+        {
+          "text": "Add to Cart",
+          "x": 271,
+          "y": 739,
+          "w": 182,
+          "h": 38
+        },
+        {
+          "text": "design",
+          "x": 444,
+          "y": 570,
+          "w": 115,
+          "h": 55
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "image_id": "038",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.21230784193319244,
+    "size": 0.2532313437935581,
+    "color": 0.22952063381671906
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "038",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\038.png",
+    "gen_path": "swift_ablation\\gpt-111\\038.png",
+    "ui_evaluation": {
+      "ref_blocks": 7,
+      "gen_blocks": 9,
+      "matched_pairs": 7,
+      "position_score": 0.21230784193319244,
+      "size_score": 0.2532313437935581,
+      "color_score": 0.22952063381671906
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 162,
+          "y": 38,
+          "w": 428,
+          "h": 56
+        },
+        {
+          "text": "Scanning Active",
+          "x": 24,
+          "y": 1058,
+          "w": 278,
+          "h": 54
+        },
+        {
+          "text": "Add Marker",
+          "x": 277,
+          "y": 1173,
+          "w": 200,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 174,
+          "y": 2,
+          "w": 372,
+          "h": 52
+        },
+        {
+          "text": "Scanning Active",
+          "x": 23,
+          "y": 874,
+          "w": 282,
+          "h": 60
+        },
+        {
+          "text": "Off",
+          "x": 390,
+          "y": 888,
+          "w": 48,
+          "h": 32
+        },
+        {
+          "text": "Add Marker",
+          "x": 259,
+          "y": 1001,
+          "w": 203,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

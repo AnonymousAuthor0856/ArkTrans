@@ -1,0 +1,194 @@
+{
+  "image_id": "060",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7438437207934226,
+    "size": 0.05400966209303464,
+    "color": 0.4206426739692688
+  },
+  "text_scores": {
+    "ref_count": 13,
+    "gen_count": 8,
+    "matched": 4,
+    "similarity": 0.7547619047619047,
+    "coverage": 0.3076923076923077,
+    "overall": 0.7547619047619047
+  },
+  "details": {
+    "image_id": "060",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\060.png",
+    "gen_path": "kt_post\\glm\\060.png",
+    "ui_evaluation": {
+      "ref_blocks": 18,
+      "gen_blocks": 17,
+      "matched_pairs": 17,
+      "position_score": 0.7438437207934226,
+      "size_score": 0.05400966209303464,
+      "color_score": 0.4206426739692688
+    },
+    "text_evaluation": {
+      "ref_texts": 13,
+      "gen_texts": 8,
+      "matched_pairs": 4,
+      "text_score": 0.7547619047619047,
+      "coverage": 0.3076923076923077,
+      "overall_score": 0.7547619047619047,
+      "ref_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 200,
+          "y": 31,
+          "w": 322,
+          "h": 51
+        },
+        {
+          "text": "Unit Map Visualization",
+          "x": 176,
+          "y": 305,
+          "w": 370,
+          "h": 52
+        },
+        {
+          "text": "Active Unit: Length",
+          "x": 257,
+          "y": 368,
+          "w": 210,
+          "h": 36
+        },
+        {
+          "text": "Length",
+          "x": 44,
+          "y": 666,
+          "w": 120,
+          "h": 48
+        },
+        {
+          "text": "to convert",
+          "x": 90,
+          "y": 709,
+          "w": 116,
+          "h": 25
+        },
+        {
+          "text": "Weight",
+          "x": 44,
+          "y": 852,
+          "w": 122,
+          "h": 48
+        },
+        {
+          "text": "to convert",
+          "x": 90,
+          "y": 898,
+          "w": 116,
+          "h": 24
+        },
+        {
+          "text": "Temperature",
+          "x": 43,
+          "y": 1039,
+          "w": 215,
+          "h": 51
+        },
+        {
+          "text": "to convert",
+          "x": 90,
+          "y": 1085,
+          "w": 116,
+          "h": 25
+        },
+        {
+          "text": "Sneed",
+          "x": 48,
+          "y": 1208,
+          "w": 104,
+          "h": 32
+        },
+        {
+          "text": "Tap -",
+          "x": 41,
+          "y": 705,
+          "w": 53,
+          "h": 36
+        },
+        {
+          "text": "Tap",
+          "x": 42,
+          "y": 893,
+          "w": 50,
+          "h": 34
+        },
+        {
+          "text": "Tap `",
+          "x": 41,
+          "y": 1080,
+          "w": 54,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 98,
+          "y": 49,
+          "w": 528,
+          "h": 79
+        },
+        {
+          "text": "240",
+          "x": 270,
+          "y": 324,
+          "w": 186,
+          "h": 96
+        },
+        {
+          "text": "Enter value to convert",
+          "x": 197,
+          "y": 447,
+          "w": 330,
+          "h": 36
+        },
+        {
+          "text": "Result: 0.00",
+          "x": 247,
+          "y": 701,
+          "w": 227,
+          "h": 49
+        },
+        {
+          "text": "Len;",
+          "x": 78,
+          "y": 946,
+          "w": 62,
+          "h": 28
+        },
+        {
+          "text": "Wei ..",
+          "x": 239,
+          "y": 944,
+          "w": 81,
+          "h": 32
+        },
+        {
+          "text": "Te.",
+          "x": 400,
+          "y": 944,
+          "w": 38,
+          "h": 32
+        },
+        {
+          "text": "Vol.",
+          "x": 560,
+          "y": 946,
+          "w": 52,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

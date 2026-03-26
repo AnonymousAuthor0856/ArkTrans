@@ -1,0 +1,117 @@
+{
+  "image_id": "024",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8154720553653855,
+    "size": 0.8767957415367538,
+    "color": 0.7652316689491272
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 5,
+    "matched": 5,
+    "similarity": 0.8833333333333334,
+    "coverage": 1.0,
+    "overall": 0.8833333333333334
+  },
+  "details": {
+    "image_id": "024",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\024.png",
+    "gen_path": "swift_post\\deepseek\\024.png",
+    "ui_evaluation": {
+      "ref_blocks": 8,
+      "gen_blocks": 9,
+      "matched_pairs": 8,
+      "position_score": 0.8154720553653855,
+      "size_score": 0.8767957415367538,
+      "color_score": 0.7652316689491272
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 5,
+      "matched_pairs": 5,
+      "text_score": 0.8833333333333334,
+      "coverage": 1.0,
+      "overall_score": 0.8833333333333334,
+      "ref_text_list": [
+        {
+          "text": "Retro Whiteboard",
+          "x": 158,
+          "y": 30,
+          "w": 437,
+          "h": 53
+        },
+        {
+          "text": "Clear",
+          "x": 612,
+          "y": 1218,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "Red",
+          "x": 120,
+          "y": 1252,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Yellow",
+          "x": 332,
+          "y": 1252,
+          "w": 88,
+          "h": 30
+        },
+        {
+          "text": "Gre",
+          "x": 564,
+          "y": 1252,
+          "w": 48,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Whiteboard",
+          "x": 80,
+          "y": 20,
+          "w": 562,
+          "h": 72
+        },
+        {
+          "text": "Clez",
+          "x": 663,
+          "y": 1063,
+          "w": 56,
+          "h": 36
+        },
+        {
+          "text": "Red",
+          "x": 121,
+          "y": 1113,
+          "w": 64,
+          "h": 36
+        },
+        {
+          "text": "Yellow",
+          "x": 303,
+          "y": 1113,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Green",
+          "x": 515,
+          "y": 1113,
+          "w": 94,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

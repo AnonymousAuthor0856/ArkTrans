@@ -1,0 +1,196 @@
+{
+  "_meta": {
+    "version": "1.1",
+    "description": "SwiftUI to ArkTS component mapping - simplified for base-code generation",
+    "note": "Complex transformations (frame, colors, etc.) handled in post_fix"
+  },
+  
+  "VStack": {
+    "arkts_component": "Column",
+    "template": "{indent}Column({ space: {space} }) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "spacing": { "type": "param", "param_name": "space", "default": 0 },
+      "alignment": { "type": "alignment", "chain_method": "alignItems" }
+    },
+    "default_props": { "space": 0 }
+  },
+  
+  "HStack": {
+    "arkts_component": "Row", 
+    "template": "{indent}Row({ space: {space} }) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "spacing": { "type": "param", "param_name": "space", "default": 0 },
+      "alignment": { "type": "alignment", "chain_method": "alignItems" }
+    },
+    "default_props": { "space": 0 }
+  },
+  
+  "ZStack": {
+    "arkts_component": "Stack",
+    "template": "{indent}Stack({ alignContent: {align} }) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "alignment": { "type": "param", "param_name": "align", "default": "Alignment.Center" }
+    }
+  },
+  
+  "NavigationView": {
+    "arkts_component": "Stack",
+    "template": "{indent}Stack() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "ScrollView": {
+    "arkts_component": "Scroll",
+    "template": "{indent}Scroll() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "List": {
+    "arkts_component": "List",
+    "template": "{indent}List({ space: {space} }) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "spacing": { "type": "param", "param_name": "space", "default": 0 }
+    }
+  },
+  
+  "LazyVGrid": {
+    "arkts_component": "Grid",
+    "template": "{indent}Grid() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "LazyHGrid": {
+    "arkts_component": "Grid",
+    "template": "{indent}Grid() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "Text": {
+    "arkts_component": "Text",
+    "template": "{indent}Text({text}){chain}",
+    "props_mapping": {
+      "text": { "type": "content" }
+    }
+  },
+  
+  "Button": {
+    "arkts_component": "Button",
+    "template_with_children": "{indent}Button() {{{content}\n{indent}}}{chain}",
+    "template": "{indent}Button(){chain}"
+  },
+  
+  "Image": {
+    "arkts_component": "Image",
+    "template": "{indent}Image({src}){chain}",
+    "props_mapping": {
+      "systemName": { "type": "param", "param_name": "src" },
+      "name": { "type": "param", "param_name": "src" }
+    }
+  },
+  
+  "Spacer": {
+    "arkts_component": "Blank",
+    "template": "{indent}Blank(){chain}"
+  },
+  
+  "Divider": {
+    "arkts_component": "Divider", 
+    "template": "{indent}Divider(){chain}"
+  },
+  
+  "TextField": {
+    "arkts_component": "TextInput",
+    "template": "{indent}TextInput(){chain}"
+  },
+  
+  "SecureField": {
+    "arkts_component": "TextInput",
+    "template": "{indent}TextInput(){chain}"
+  },
+  
+  "Slider": {
+    "arkts_component": "Slider",
+    "template": "{indent}Slider(){chain}"
+  },
+  
+  "Toggle": {
+    "arkts_component": "Toggle",
+    "template": "{indent}Toggle(){chain}"
+  },
+  
+  "Picker": {
+    "arkts_component": "Select",
+    "template": "{indent}Select(){chain}"
+  },
+  
+  "DatePicker": {
+    "arkts_component": "DatePicker",
+    "template": "{indent}DatePicker(){chain}"
+  },
+  
+  "Stepper": {
+    "arkts_component": "Stepper",
+    "template": "{indent}Stepper(){chain}"
+  },
+  
+  "Rectangle": {
+    "arkts_component": "Rect",
+    "template": "{indent}Rect(){chain}"
+  },
+  
+  "RoundedRectangle": {
+    "arkts_component": "Rect",
+    "template": "{indent}Rect(){chain}"
+  },
+  
+  "Circle": {
+    "arkts_component": "Circle",
+    "template": "{indent}Circle(){chain}"
+  },
+  
+  "Capsule": {
+    "arkts_component": "Rect",
+    "template": "{indent}Rect(){chain}"
+  },
+  
+  "Ellipse": {
+    "arkts_component": "Ellipse",
+    "template": "{indent}Ellipse(){chain}"
+  },
+  
+  "ForEach": {
+    "arkts_component": "ForEach",
+    "template": "{indent}ForEach() {{{content}\n{indent}}}"
+  },
+  
+  "Section": {
+    "arkts_component": "Column",
+    "template": "{indent}Column() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "Group": {
+    "arkts_component": "Stack",
+    "template": "{indent}Stack() {{{content}\n{indent}}}{chain}"
+  },
+  
+  "ProgressView": {
+    "arkts_component": "Progress",
+    "template": "{indent}Progress(){chain}"
+  },
+  
+  "ActivityIndicator": {
+    "arkts_component": "LoadingProgress",
+    "template": "{indent}LoadingProgress(){chain}"
+  },
+  
+  "Canvas": {
+    "arkts_component": "Canvas",
+    "template": "{indent}Canvas(){chain}"
+  },
+  
+  "Path": {
+    "arkts_component": "Path",
+    "template": "{indent}Path(){chain}"
+  },
+  
+  "Shape": {
+    "arkts_component": "Shape",
+    "template": "{indent}Shape(){chain}"
+  }
+}

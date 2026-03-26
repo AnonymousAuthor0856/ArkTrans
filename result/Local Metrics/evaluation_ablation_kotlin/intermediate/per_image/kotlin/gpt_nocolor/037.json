@@ -1,0 +1,222 @@
+{
+  "image_id": "037",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6215963669017428,
+    "size": 0.38193359251046166,
+    "color": 0.6465981006622314
+  },
+  "text_scores": {
+    "ref_count": 13,
+    "gen_count": 12,
+    "matched": 5,
+    "similarity": 0.8666666666666666,
+    "coverage": 0.38461538461538464,
+    "overall": 0.8666666666666666
+  },
+  "details": {
+    "image_id": "037",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\037.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\037.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 16,
+      "matched_pairs": 16,
+      "position_score": 0.6215963669017428,
+      "size_score": 0.38193359251046166,
+      "color_score": 0.6465981006622314
+    },
+    "text_evaluation": {
+      "ref_texts": 13,
+      "gen_texts": 12,
+      "matched_pairs": 5,
+      "text_score": 0.8666666666666666,
+      "coverage": 0.38461538461538464,
+      "overall_score": 0.8666666666666666,
+      "ref_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 184,
+          "y": 29,
+          "w": 358,
+          "h": 75
+        },
+        {
+          "text": "Total Spent",
+          "x": 281,
+          "y": 323,
+          "w": 162,
+          "h": 38
+        },
+        {
+          "text": "S2,411.25",
+          "x": 246,
+          "y": 354,
+          "w": 229,
+          "h": 66
+        },
+        {
+          "text": "Housing",
+          "x": 149,
+          "y": 725,
+          "w": 128,
+          "h": 40
+        },
+        {
+          "text": "S1,250.00",
+          "x": 477,
+          "y": 717,
+          "w": 169,
+          "h": 50
+        },
+        {
+          "text": "Food",
+          "x": 150,
+          "y": 864,
+          "w": 78,
+          "h": 32
+        },
+        {
+          "text": "S480.50",
+          "x": 505,
+          "y": 855,
+          "w": 140,
+          "h": 44
+        },
+        {
+          "text": "Transport",
+          "x": 148,
+          "y": 998,
+          "w": 149,
+          "h": 43
+        },
+        {
+          "text": "S21",
+          "x": 505,
+          "y": 993,
+          "w": 66,
+          "h": 44
+        },
+        {
+          "text": "Home",
+          "x": 46,
+          "y": 1218,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Reports",
+          "x": 172,
+          "y": 1216,
+          "w": 115,
+          "h": 40
+        },
+        {
+          "text": "Goals",
+          "x": 438,
+          "y": 1218,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Settings",
+          "x": 554,
+          "y": 1209,
+          "w": 125,
+          "h": 49
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 190,
+          "y": 28,
+          "w": 343,
+          "h": 62
+        },
+        {
+          "text": "Uverview",
+          "x": 287,
+          "y": 108,
+          "w": 146,
+          "h": 30
+        },
+        {
+          "text": "Budget",
+          "x": 77,
+          "y": 383,
+          "w": 104,
+          "h": 40
+        },
+        {
+          "text": "Spent",
+          "x": 561,
+          "y": 385,
+          "w": 86,
+          "h": 38
+        },
+        {
+          "text": "82,500",
+          "x": 71,
+          "y": 421,
+          "w": 141,
+          "h": 56
+        },
+        {
+          "text": "$1,420",
+          "x": 506,
+          "y": 422,
+          "w": 140,
+          "h": 52
+        },
+        {
+          "text": "Remaining",
+          "x": 75,
+          "y": 525,
+          "w": 145,
+          "h": 44
+        },
+        {
+          "text": "$1,080",
+          "x": 545,
+          "y": 527,
+          "w": 100,
+          "h": 40
+        },
+        {
+          "text": "Home",
+          "x": 50,
+          "y": 1202,
+          "w": 70,
+          "h": 26
+        },
+        {
+          "text": "Stats",
+          "x": 192,
+          "y": 1202,
+          "w": 62,
+          "h": 26
+        },
+        {
+          "text": "Bills",
+          "x": 368,
+          "y": 1202,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "Settings",
+          "x": 479,
+          "y": 1196,
+          "w": 101,
+          "h": 41
+        }
+      ]
+    }
+  }
+}

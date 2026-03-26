@@ -1,0 +1,264 @@
+{
+  "image_id": "030",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6035267429898941,
+    "size": 0.7096315827857894,
+    "color": 0.5769508481025696
+  },
+  "text_scores": {
+    "ref_count": 20,
+    "gen_count": 11,
+    "matched": 5,
+    "similarity": 0.7964102564102564,
+    "coverage": 0.25,
+    "overall": 0.7964102564102564
+  },
+  "details": {
+    "image_id": "030",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\030.png",
+    "gen_path": "kt_post\\glm\\030.png",
+    "ui_evaluation": {
+      "ref_blocks": 57,
+      "gen_blocks": 26,
+      "matched_pairs": 26,
+      "position_score": 0.6035267429898941,
+      "size_score": 0.7096315827857894,
+      "color_score": 0.5769508481025696
+    },
+    "text_evaluation": {
+      "ref_texts": 20,
+      "gen_texts": 11,
+      "matched_pairs": 5,
+      "text_score": 0.7964102564102564,
+      "coverage": 0.25,
+      "overall_score": 0.7964102564102564,
+      "ref_text_list": [
+        {
+          "text": "Clipboard History",
+          "x": 165,
+          "y": 34,
+          "w": 357,
+          "h": 64
+        },
+        {
+          "text": "Clear",
+          "x": 570,
+          "y": 50,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Link",
+          "x": 118,
+          "y": 186,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "5 min ago",
+          "x": 531,
+          "y": 185,
+          "w": 136,
+          "h": 36
+        },
+        {
+          "text": "https://WWW.example com/modern-design",
+          "x": 52,
+          "y": 236,
+          "w": 612,
+          "h": 48
+        },
+        {
+          "text": "Text",
+          "x": 118,
+          "y": 392,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "23 min ago",
+          "x": 515,
+          "y": 391,
+          "w": 154,
+          "h": 36
+        },
+        {
+          "text": "Final",
+          "x": 53,
+          "y": 447,
+          "w": 78,
+          "h": 36
+        },
+        {
+          "text": "project review notes have been",
+          "x": 124,
+          "y": 440,
+          "w": 456,
+          "h": 53
+        },
+        {
+          "text": "updated.",
+          "x": 50,
+          "y": 488,
+          "w": 135,
+          "h": 52
+        },
+        {
+          "text": "Color",
+          "x": 118,
+          "y": 646,
+          "w": 78,
+          "h": 30
+        },
+        {
+          "text": "hour ago",
+          "x": 541,
+          "y": 644,
+          "w": 128,
+          "h": 37
+        },
+        {
+          "text": "#OOZBFF",
+          "x": 53,
+          "y": 701,
+          "w": 136,
+          "h": 36
+        },
+        {
+          "text": "Text",
+          "x": 118,
+          "y": 852,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "3 hours ago",
+          "x": 505,
+          "y": 850,
+          "w": 164,
+          "h": 37
+        },
+        {
+          "text": "Meeting at 3 PM with the design team:",
+          "x": 55,
+          "y": 905,
+          "w": 546,
+          "h": 45
+        },
+        {
+          "text": "File",
+          "x": 118,
+          "y": 1058,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "Yesterdav",
+          "x": 532,
+          "y": 1058,
+          "w": 136,
+          "h": 30
+        },
+        {
+          "text": "History Limit (Hours)",
+          "x": 27,
+          "y": 1113,
+          "w": 282,
+          "h": 43
+        },
+        {
+          "text": "24",
+          "x": 650,
+          "y": 1118,
+          "w": 42,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Clipboard History",
+          "x": 150,
+          "y": 32,
+          "w": 307,
+          "h": 53
+        },
+        {
+          "text": "Clear",
+          "x": 602,
+          "y": 40,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "Clipboard Item 1",
+          "x": 235,
+          "y": 171,
+          "w": 246,
+          "h": 42
+        },
+        {
+          "text": "Copied 2 minutes ago",
+          "x": 236,
+          "y": 216,
+          "w": 246,
+          "h": 32
+        },
+        {
+          "text": "Clipboard Item 2",
+          "x": 235,
+          "y": 337,
+          "w": 248,
+          "h": 42
+        },
+        {
+          "text": "Copied 15 minutes ago",
+          "x": 230,
+          "y": 382,
+          "w": 260,
+          "h": 32
+        },
+        {
+          "text": "Clipboard Item 3",
+          "x": 235,
+          "y": 503,
+          "w": 250,
+          "h": 42
+        },
+        {
+          "text": "Copied 1 hour ago",
+          "x": 254,
+          "y": 548,
+          "w": 210,
+          "h": 32
+        },
+        {
+          "text": "Storage Used",
+          "x": 97,
+          "y": 1147,
+          "w": 184,
+          "h": 44
+        },
+        {
+          "text": "Manage",
+          "x": 547,
+          "y": 1163,
+          "w": 115,
+          "h": 41
+        },
+        {
+          "text": "2.4 MB of 10 MB",
+          "x": 100,
+          "y": 1182,
+          "w": 190,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "image_id": "055",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8139968995489213,
+    "size": 0.8194517772502985,
+    "color": 0.8402618169784546
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 3,
+    "matched": 3,
+    "similarity": 0.7561904761904762,
+    "coverage": 0.42857142857142855,
+    "overall": 0.7561904761904762
+  },
+  "details": {
+    "image_id": "055",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\055.png",
+    "gen_path": "kt_post\\glm\\055.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.8139968995489213,
+      "size_score": 0.8194517772502985,
+      "color_score": 0.8402618169784546
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 3,
+      "matched_pairs": 3,
+      "text_score": 0.7561904761904762,
+      "coverage": 0.42857142857142855,
+      "overall_score": 0.7561904761904762,
+      "ref_text_list": [
+        {
+          "text": "Workout Plan",
+          "x": 190,
+          "y": 36,
+          "w": 346,
+          "h": 56
+        },
+        {
+          "text": "Sign In to Continue",
+          "x": 184,
+          "y": 158,
+          "w": 352,
+          "h": 56
+        },
+        {
+          "text": "Workout Preview",
+          "x": 254,
+          "y": 424,
+          "w": 214,
+          "h": 32
+        },
+        {
+          "text": "Authenticate",
+          "x": 267,
+          "y": 705,
+          "w": 192,
+          "h": 38
+        },
+        {
+          "text": "Home",
+          "x": 39,
+          "y": 1187,
+          "w": 92,
+          "h": 36
+        },
+        {
+          "text": "Plan",
+          "x": 321,
+          "y": 1186,
+          "w": 72,
+          "h": 38
+        },
+        {
+          "text": "Profile",
+          "x": 585,
+          "y": 1187,
+          "w": 100,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "HomWork8et PlarRrofile",
+          "x": 85,
+          "y": 33,
+          "w": 554,
+          "h": 62
+        },
+        {
+          "text": "Workout Preview",
+          "x": 233,
+          "y": 303,
+          "w": 256,
+          "h": 36
+        },
+        {
+          "text": "Authenticate",
+          "x": 249,
+          "y": 583,
+          "w": 224,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

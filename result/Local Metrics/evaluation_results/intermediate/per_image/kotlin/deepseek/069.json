@@ -1,0 +1,271 @@
+{
+  "image_id": "069",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5670160310235596,
+    "size": 0.5541998321527443,
+    "color": 0.25505322217941284
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 13,
+    "matched": 4,
+    "similarity": 0.830316742081448,
+    "coverage": 0.21052631578947367,
+    "overall": 0.830316742081448
+  },
+  "details": {
+    "image_id": "069",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\069.png",
+    "gen_path": "kt_post\\deepseek\\069.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 26,
+      "matched_pairs": 26,
+      "position_score": 0.5670160310235596,
+      "size_score": 0.5541998321527443,
+      "color_score": 0.25505322217941284
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 13,
+      "matched_pairs": 4,
+      "text_score": 0.830316742081448,
+      "coverage": 0.21052631578947367,
+      "overall_score": 0.830316742081448,
+      "ref_text_list": [
+        {
+          "text": "SupplyHub",
+          "x": 273,
+          "y": 31,
+          "w": 170,
+          "h": 44
+        },
+        {
+          "text": "Logistics",
+          "x": 277,
+          "y": 67,
+          "w": 114,
+          "h": 36
+        },
+        {
+          "text": "AII",
+          "x": 94,
+          "y": 200,
+          "w": 34,
+          "h": 24
+        },
+        {
+          "text": "Atlantic",
+          "x": 214,
+          "y": 198,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Pacific",
+          "x": 378,
+          "y": 196,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Inland",
+          "x": 530,
+          "y": 198,
+          "w": 78,
+          "h": 28
+        },
+        {
+          "text": "Cargo",
+          "x": 43,
+          "y": 311,
+          "w": 137,
+          "h": 63
+        },
+        {
+          "text": "Copper stack",
+          "x": 83,
+          "y": 661,
+          "w": 204,
+          "h": 44
+        },
+        {
+          "text": "Fiber reels",
+          "x": 407,
+          "y": 659,
+          "w": 163,
+          "h": 41
+        },
+        {
+          "text": "SH-014",
+          "x": 86,
+          "y": 710,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "SH-022",
+          "x": 408,
+          "y": 710,
+          "w": 100,
+          "h": 32
+        },
+        {
+          "text": "Fill 78%",
+          "x": 84,
+          "y": 756,
+          "w": 94,
+          "h": 26
+        },
+        {
+          "text": "Fill 64%",
+          "x": 406,
+          "y": 754,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "0 [",
+          "x": 142,
+          "y": 904,
+          "w": 217,
+          "h": 162
+        },
+        {
+          "text": "Manifest filter",
+          "x": 50,
+          "y": 1155,
+          "w": 164,
+          "h": 30
+        },
+        {
+          "text": "Dispatch",
+          "x": 461,
+          "y": 1177,
+          "w": 138,
+          "h": 42
+        },
+        {
+          "text": "AII",
+          "x": 52,
+          "y": 1200,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "grid",
+          "x": 385,
+          "y": 66,
+          "w": 57,
+          "h": 36
+        },
+        {
+          "text": "grid",
+          "x": 173,
+          "y": 308,
+          "w": 93,
+          "h": 63
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Manifest filter",
+          "x": 100,
+          "y": 36,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "activeFiltervalue",
+          "x": 49,
+          "y": 79,
+          "w": 284,
+          "h": 38
+        },
+        {
+          "text": "Dispatch",
+          "x": 388,
+          "y": 56,
+          "w": 156,
+          "h": 48
+        },
+        {
+          "text": "Laiyu yiu",
+          "x": 51,
+          "y": 146,
+          "w": 240,
+          "h": 43
+        },
+        {
+          "text": "card.title",
+          "x": 125,
+          "y": 475,
+          "w": 154,
+          "h": 40
+        },
+        {
+          "text": "card id",
+          "x": 147,
+          "y": 525,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Fill ${this card}",
+          "x": 101,
+          "y": 567,
+          "w": 200,
+          "h": 38
+        },
+        {
+          "text": "Route manifest",
+          "x": 48,
+          "y": 928,
+          "w": 348,
+          "h": 50
+        },
+        {
+          "text": "S{this entry}",
+          "x": 79,
+          "y": 1065,
+          "w": 221,
+          "h": 53
+        },
+        {
+          "text": "49",
+          "x": 304,
+          "y": 1078,
+          "w": 34,
+          "h": 24
+        },
+        {
+          "text": "S{thisentry}",
+          "x": 341,
+          "y": 1065,
+          "w": 221,
+          "h": 53
+        },
+        {
+          "text": "Details",
+          "x": 576,
+          "y": 1100,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "entry status",
+          "x": 233,
+          "y": 1123,
+          "w": 180,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

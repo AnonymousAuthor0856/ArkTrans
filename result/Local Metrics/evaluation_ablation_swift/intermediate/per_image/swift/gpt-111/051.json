@@ -1,0 +1,201 @@
+{
+  "image_id": "051",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1130683312997909,
+    "size": 0.1333752265439171,
+    "color": 0.08040473610162735
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 7,
+    "matched": 6,
+    "similarity": 0.956140350877193,
+    "coverage": 0.4,
+    "overall": 0.956140350877193
+  },
+  "details": {
+    "image_id": "051",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\051.png",
+    "gen_path": "swift_ablation\\gpt-111\\051.png",
+    "ui_evaluation": {
+      "ref_blocks": 39,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.1130683312997909,
+      "size_score": 0.1333752265439171,
+      "color_score": 0.08040473610162735
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 7,
+      "matched_pairs": 6,
+      "text_score": 0.956140350877193,
+      "coverage": 0.4,
+      "overall_score": 0.956140350877193,
+      "ref_text_list": [
+        {
+          "text": "Metro Planner",
+          "x": 0,
+          "y": 40,
+          "w": 373,
+          "h": 56
+        },
+        {
+          "text": "Next Departures",
+          "x": 60,
+          "y": 715,
+          "w": 282,
+          "h": 49
+        },
+        {
+          "text": "08.45",
+          "x": 62,
+          "y": 772,
+          "w": 86,
+          "h": 32
+        },
+        {
+          "text": "Line",
+          "x": 166,
+          "y": 772,
+          "w": 62,
+          "h": 32
+        },
+        {
+          "text": "On Time",
+          "x": 588,
+          "y": 772,
+          "w": 100,
+          "h": 30
+        },
+        {
+          "text": "09:10",
+          "x": 62,
+          "y": 818,
+          "w": 84,
+          "h": 32
+        },
+        {
+          "text": "Line 2",
+          "x": 162,
+          "y": 820,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 586,
+          "y": 820,
+          "w": 102,
+          "h": 26
+        },
+        {
+          "text": "09:30",
+          "x": 62,
+          "y": 864,
+          "w": 84,
+          "h": 32
+        },
+        {
+          "text": "Line 3",
+          "x": 166,
+          "y": 864,
+          "w": 84,
+          "h": 32
+        },
+        {
+          "text": "On Time",
+          "x": 586,
+          "y": 866,
+          "w": 102,
+          "h": 26
+        },
+        {
+          "text": "Routes",
+          "x": 30,
+          "y": 1264,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Planner",
+          "x": 226,
+          "y": 1264,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "Tickets",
+          "x": 432,
+          "y": 1262,
+          "w": 100,
+          "h": 32
+        },
+        {
+          "text": "Profile",
+          "x": 632,
+          "y": 1264,
+          "w": 90,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Routes",
+          "x": 28,
+          "y": 46,
+          "w": 111,
+          "h": 39
+        },
+        {
+          "text": "Planner",
+          "x": 213,
+          "y": 47,
+          "w": 120,
+          "h": 36
+        },
+        {
+          "text": "Tickets",
+          "x": 407,
+          "y": 47,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "Profile",
+          "x": 592,
+          "y": 48,
+          "w": 100,
+          "h": 32
+        },
+        {
+          "text": "Next Departures",
+          "x": 202,
+          "y": 714,
+          "w": 317,
+          "h": 53
+        },
+        {
+          "text": "it",
+          "x": 60,
+          "y": 776,
+          "w": 30,
+          "h": 32
+        },
+        {
+          "text": "On Time",
+          "x": 546,
+          "y": 776,
+          "w": 114,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

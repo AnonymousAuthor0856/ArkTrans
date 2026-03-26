@@ -1,0 +1,341 @@
+{
+  "image_id": "008",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5849858468662917,
+    "size": 0.6414618340709272,
+    "color": 0.6078165173530579
+  },
+  "text_scores": {
+    "ref_count": 28,
+    "gen_count": 14,
+    "matched": 12,
+    "similarity": 0.9105820105820106,
+    "coverage": 0.42857142857142855,
+    "overall": 0.9105820105820106
+  },
+  "details": {
+    "image_id": "008",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\008.png",
+    "gen_path": "kt_post\\gpt\\008.png",
+    "ui_evaluation": {
+      "ref_blocks": 52,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.5849858468662917,
+      "size_score": 0.6414618340709272,
+      "color_score": 0.6078165173530579
+    },
+    "text_evaluation": {
+      "ref_texts": 28,
+      "gen_texts": 14,
+      "matched_pairs": 12,
+      "text_score": 0.9105820105820106,
+      "coverage": 0.42857142857142855,
+      "overall_score": 0.9105820105820106,
+      "ref_text_list": [
+        {
+          "text": "",
+          "x": 30,
+          "y": 10,
+          "w": 60,
+          "h": 28
+        },
+        {
+          "text": "Health Dashboard",
+          "x": 166,
+          "y": 85,
+          "w": 389,
+          "h": 52
+        },
+        {
+          "text": "Good Morningl",
+          "x": 45,
+          "y": 207,
+          "w": 220,
+          "h": 44
+        },
+        {
+          "text": "Ready for your workout?",
+          "x": 44,
+          "y": 254,
+          "w": 446,
+          "h": 52
+        },
+        {
+          "text": "Start Workout",
+          "x": 257,
+          "y": 335,
+          "w": 208,
+          "h": 36
+        },
+        {
+          "text": "Today's Metrics",
+          "x": 18,
+          "y": 454,
+          "w": 291,
+          "h": 50
+        },
+        {
+          "text": "72",
+          "x": 41,
+          "y": 619,
+          "w": 54,
+          "h": 40
+        },
+        {
+          "text": "842",
+          "x": 207,
+          "y": 617,
+          "w": 76,
+          "h": 42
+        },
+        {
+          "text": "7.",
+          "x": 389,
+          "y": 619,
+          "w": 64,
+          "h": 40
+        },
+        {
+          "text": "420",
+          "x": 567,
+          "y": 619,
+          "w": 76,
+          "h": 40
+        },
+        {
+          "text": "Heart",
+          "x": 36,
+          "y": 668,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Steps",
+          "x": 208,
+          "y": 666,
+          "w": 70,
+          "h": 31
+        },
+        {
+          "text": "Sleep",
+          "x": 385,
+          "y": 666,
+          "w": 69,
+          "h": 30
+        },
+        {
+          "text": "Calories",
+          "x": 557,
+          "y": 665,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Recent Workouts",
+          "x": 13,
+          "y": 763,
+          "w": 312,
+          "h": 42
+        },
+        {
+          "text": "View AII",
+          "x": 566,
+          "y": 768,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Morning Run",
+          "x": 135,
+          "y": 879,
+          "w": 188,
+          "h": 42
+        },
+        {
+          "text": "Star",
+          "x": 592,
+          "y": 898,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "32 min",
+          "x": 134,
+          "y": 922,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "284 kcal",
+          "x": 244,
+          "y": 922,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Yoga Flow",
+          "x": 130,
+          "y": 1020,
+          "w": 160,
+          "h": 48
+        },
+        {
+          "text": "Star",
+          "x": 592,
+          "y": 1042,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "45 min",
+          "x": 134,
+          "y": 1066,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "156 kcal",
+          "x": 244,
+          "y": 1066,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Dashboard",
+          "x": 24,
+          "y": 1214,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "Workouts",
+          "x": 214,
+          "y": 1214,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Nutrition",
+          "x": 404,
+          "y": 1214,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Profile",
+          "x": 598,
+          "y": 1214,
+          "w": 76,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Health Dashboard",
+          "x": 166,
+          "y": 30,
+          "w": 389,
+          "h": 48
+        },
+        {
+          "text": "Good Morningl",
+          "x": 246,
+          "y": 140,
+          "w": 233,
+          "h": 49
+        },
+        {
+          "text": "Ready for your workout?",
+          "x": 45,
+          "y": 183,
+          "w": 631,
+          "h": 80
+        },
+        {
+          "text": "Start Workout",
+          "x": 251,
+          "y": 284,
+          "w": 219,
+          "h": 37
+        },
+        {
+          "text": "Today's Metrics",
+          "x": 23,
+          "y": 400,
+          "w": 338,
+          "h": 61
+        },
+        {
+          "text": "7,842",
+          "x": 290,
+          "y": 578,
+          "w": 143,
+          "h": 63
+        },
+        {
+          "text": "Steps",
+          "x": 321,
+          "y": 635,
+          "w": 75,
+          "h": 38
+        },
+        {
+          "text": "Recent Workouts",
+          "x": 12,
+          "y": 715,
+          "w": 369,
+          "h": 49
+        },
+        {
+          "text": "View AlI",
+          "x": 612,
+          "y": 726,
+          "w": 96,
+          "h": 28
+        },
+        {
+          "text": "Full Body HIIT",
+          "x": 227,
+          "y": 823,
+          "w": 216,
+          "h": 42
+        },
+        {
+          "text": "Start",
+          "x": 578,
+          "y": 844,
+          "w": 64,
+          "h": 28
+        },
+        {
+          "text": "28 min",
+          "x": 222,
+          "y": 864,
+          "w": 94,
+          "h": 32
+        },
+        {
+          "text": "320 kcal",
+          "x": 334,
+          "y": 864,
+          "w": 114,
+          "h": 32
+        },
+        {
+          "text": "Home",
+          "x": 324,
+          "y": 1228,
+          "w": 72,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

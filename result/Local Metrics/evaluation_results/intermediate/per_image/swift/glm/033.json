@@ -1,0 +1,117 @@
+{
+  "image_id": "033",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6755803853422783,
+    "size": 0.9092633231227774,
+    "color": 0.8064038157463074
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 5,
+    "matched": 5,
+    "similarity": 0.925,
+    "coverage": 1.0,
+    "overall": 0.925
+  },
+  "details": {
+    "image_id": "033",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\033.png",
+    "gen_path": "swift_post\\glm\\033.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 13,
+      "matched_pairs": 13,
+      "position_score": 0.6755803853422783,
+      "size_score": 0.9092633231227774,
+      "color_score": 0.8064038157463074
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 5,
+      "matched_pairs": 5,
+      "text_score": 0.925,
+      "coverage": 1.0,
+      "overall_score": 0.925,
+      "ref_text_list": [
+        {
+          "text": "Bill Calendar",
+          "x": 208,
+          "y": 30,
+          "w": 338,
+          "h": 56
+        },
+        {
+          "text": "Current Spending",
+          "x": 59,
+          "y": 175,
+          "w": 301,
+          "h": 49
+        },
+        {
+          "text": "S5o0 / S1,000",
+          "x": 60,
+          "y": 286,
+          "w": 389,
+          "h": 69
+        },
+        {
+          "text": "Adjust Spending",
+          "x": 236,
+          "y": 496,
+          "w": 280,
+          "h": 50
+        },
+        {
+          "text": "Reset",
+          "x": 327,
+          "y": 697,
+          "w": 102,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Bill Calendar",
+          "x": 212,
+          "y": 30,
+          "w": 302,
+          "h": 54
+        },
+        {
+          "text": "Current Spending",
+          "x": 224,
+          "y": 402,
+          "w": 272,
+          "h": 48
+        },
+        {
+          "text": "$500 / $2000",
+          "x": 176,
+          "y": 512,
+          "w": 370,
+          "h": 74
+        },
+        {
+          "text": "Adjust Spending",
+          "x": 233,
+          "y": 733,
+          "w": 254,
+          "h": 44
+        },
+        {
+          "text": "Reset",
+          "x": 316,
+          "y": 948,
+          "w": 90,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

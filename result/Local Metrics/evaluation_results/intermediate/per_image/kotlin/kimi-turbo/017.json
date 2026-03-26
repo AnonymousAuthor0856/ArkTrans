@@ -1,0 +1,117 @@
+{
+  "image_id": "017",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.459051211738088,
+    "size": 0.6478272649687332,
+    "color": 0.6165329217910767
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 3,
+    "matched": 3,
+    "similarity": 0.9761904761904763,
+    "coverage": 0.42857142857142855,
+    "overall": 0.9761904761904763
+  },
+  "details": {
+    "image_id": "017",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\017.png",
+    "gen_path": "kt_post\\kimi-turbo\\017.png",
+    "ui_evaluation": {
+      "ref_blocks": 34,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.459051211738088,
+      "size_score": 0.6478272649687332,
+      "color_score": 0.6165329217910767
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 3,
+      "matched_pairs": 3,
+      "text_score": 0.9761904761904763,
+      "coverage": 0.42857142857142855,
+      "overall_score": 0.9761904761904763,
+      "ref_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 109,
+          "y": 33,
+          "w": 510,
+          "h": 60
+        },
+        {
+          "text": "Bass 40%",
+          "x": 30,
+          "y": 160,
+          "w": 118,
+          "h": 30
+        },
+        {
+          "text": "Mid 50%",
+          "x": 30,
+          "y": 326,
+          "w": 106,
+          "h": 30
+        },
+        {
+          "text": "",
+          "x": 143,
+          "y": 351,
+          "w": 132,
+          "h": 114
+        },
+        {
+          "text": "Treble 60%",
+          "x": 30,
+          "y": 492,
+          "w": 134,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 70%",
+          "x": 30,
+          "y": 767,
+          "w": 291,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 252,
+          "y": 990,
+          "w": 219,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 31,
+          "y": 33,
+          "w": 650,
+          "h": 69
+        },
+        {
+          "text": "Master Volume 50%",
+          "x": 215,
+          "y": 235,
+          "w": 294,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 248,
+          "y": 438,
+          "w": 227,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

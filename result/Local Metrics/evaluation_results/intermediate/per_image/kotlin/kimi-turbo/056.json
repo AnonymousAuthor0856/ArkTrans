@@ -1,0 +1,152 @@
+{
+  "image_id": "056",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7397163699831114,
+    "size": 0.8751260215308915,
+    "color": 0.609103262424469
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 5,
+    "matched": 1,
+    "similarity": 0.7272727272727273,
+    "coverage": 0.1,
+    "overall": 0.7272727272727273
+  },
+  "details": {
+    "image_id": "056",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\056.png",
+    "gen_path": "kt_post\\kimi-turbo\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.7397163699831114,
+      "size_score": 0.8751260215308915,
+      "color_score": 0.609103262424469
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 5,
+      "matched_pairs": 1,
+      "text_score": 0.7272727272727273,
+      "coverage": 0.1,
+      "overall_score": 0.7272727272727273,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 254,
+          "y": 38,
+          "w": 110,
+          "h": 56
+        },
+        {
+          "text": "Meals",
+          "x": 82,
+          "y": 162,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Chat",
+          "x": 330,
+          "y": 162,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Meals",
+          "x": 28,
+          "y": 258,
+          "w": 264,
+          "h": 52
+        },
+        {
+          "text": "Meal",
+          "x": 310,
+          "y": 394,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "7",
+          "x": 393,
+          "y": 399,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "Meal 2",
+          "x": 310,
+          "y": 578,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Meal 3",
+          "x": 310,
+          "y": 762,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Log",
+          "x": 359,
+          "y": 31,
+          "w": 117,
+          "h": 81
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Diet Log",
+          "x": 224,
+          "y": 30,
+          "w": 276,
+          "h": 90
+        },
+        {
+          "text": "Tab 1",
+          "x": 45,
+          "y": 169,
+          "w": 84,
+          "h": 36
+        },
+        {
+          "text": "Tab 2",
+          "x": 189,
+          "y": 169,
+          "w": 84,
+          "h": 36
+        },
+        {
+          "text": "Tab 3",
+          "x": 331,
+          "y": 169,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Page 1 Content",
+          "x": 241,
+          "y": 266,
+          "w": 239,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

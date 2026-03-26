@@ -1,0 +1,124 @@
+{
+  "image_id": "041",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8941339262505493,
+    "size": 0.9655967541431357,
+    "color": 0.2699836790561676
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 6,
+    "matched": 5,
+    "similarity": 0.9516908212560387,
+    "coverage": 1.0,
+    "overall": 0.9516908212560387
+  },
+  "details": {
+    "image_id": "041",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\041.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\041.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 15,
+      "matched_pairs": 11,
+      "position_score": 0.8941339262505493,
+      "size_score": 0.9655967541431357,
+      "color_score": 0.2699836790561676
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 6,
+      "matched_pairs": 5,
+      "text_score": 0.9516908212560387,
+      "coverage": 1.0,
+      "overall_score": 0.9516908212560387,
+      "ref_text_list": [
+        {
+          "text": "Product Detail",
+          "x": 29,
+          "y": 35,
+          "w": 368,
+          "h": 60
+        },
+        {
+          "text": "Monochrome Bag",
+          "x": 60,
+          "y": 504,
+          "w": 296,
+          "h": 51
+        },
+        {
+          "text": "A minimalist and timeless design piece.",
+          "x": 61,
+          "y": 571,
+          "w": 498,
+          "h": 40
+        },
+        {
+          "text": "S79.00",
+          "x": 59,
+          "y": 627,
+          "w": 120,
+          "h": 42
+        },
+        {
+          "text": "Add to Cart",
+          "x": 265,
+          "y": 721,
+          "w": 192,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Product Detail",
+          "x": 170,
+          "y": 34,
+          "w": 385,
+          "h": 62
+        },
+        {
+          "text": "Monochrome",
+          "x": 193,
+          "y": 507,
+          "w": 252,
+          "h": 44
+        },
+        {
+          "text": "A minimalist and timeless design piece:",
+          "x": 109,
+          "y": 576,
+          "w": 500,
+          "h": 41
+        },
+        {
+          "text": "$79.00",
+          "x": 290,
+          "y": 630,
+          "w": 138,
+          "h": 52
+        },
+        {
+          "text": "Add to Cart",
+          "x": 271,
+          "y": 735,
+          "w": 182,
+          "h": 36
+        },
+        {
+          "text": "Bag",
+          "x": 441,
+          "y": 502,
+          "w": 90,
+          "h": 60
+        }
+      ]
+    }
+  }
+}

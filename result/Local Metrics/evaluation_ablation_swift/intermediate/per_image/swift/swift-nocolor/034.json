@@ -1,0 +1,285 @@
+{
+  "image_id": "034",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7200842098403653,
+    "size": 0.7561949015350724,
+    "color": 0.7770006060600281
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 18,
+    "matched": 6,
+    "similarity": 0.8124515893313847,
+    "coverage": 0.375,
+    "overall": 0.8124515893313847
+  },
+  "details": {
+    "image_id": "034",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\034.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\034.png",
+    "ui_evaluation": {
+      "ref_blocks": 30,
+      "gen_blocks": 31,
+      "matched_pairs": 30,
+      "position_score": 0.7200842098403653,
+      "size_score": 0.7561949015350724,
+      "color_score": 0.7770006060600281
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 18,
+      "matched_pairs": 6,
+      "text_score": 0.8124515893313847,
+      "coverage": 0.375,
+      "overall_score": 0.8124515893313847,
+      "ref_text_list": [
+        {
+          "text": "Explore Map",
+          "x": 209,
+          "y": 34,
+          "w": 336,
+          "h": 75
+        },
+        {
+          "text": "[earch destination",
+          "x": 49,
+          "y": 189,
+          "w": 236,
+          "h": 36
+        },
+        {
+          "text": "Central Plaza",
+          "x": 53,
+          "y": 303,
+          "w": 204,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 616,
+          "y": 324,
+          "w": 56,
+          "h": 26
+        },
+        {
+          "text": "1.2 km",
+          "x": 54,
+          "y": 342,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Museum District",
+          "x": 54,
+          "y": 445,
+          "w": 253,
+          "h": 39
+        },
+        {
+          "text": "View",
+          "x": 616,
+          "y": 468,
+          "w": 56,
+          "h": 24
+        },
+        {
+          "text": "3.4 km",
+          "x": 54,
+          "y": 486,
+          "w": 88,
+          "h": 30
+        },
+        {
+          "text": "Tech Park",
+          "x": 55,
+          "y": 589,
+          "w": 154,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 616,
+          "y": 610,
+          "w": 56,
+          "h": 26
+        },
+        {
+          "text": "5.6 km",
+          "x": 54,
+          "y": 628,
+          "w": 88,
+          "h": 30
+        },
+        {
+          "text": "Old Town Gate",
+          "x": 53,
+          "y": 733,
+          "w": 226,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 616,
+          "y": 754,
+          "w": 56,
+          "h": 24
+        },
+        {
+          "text": "7.8 km",
+          "x": 54,
+          "y": 772,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Refresh",
+          "x": 279,
+          "y": 1235,
+          "w": 122,
+          "h": 38
+        },
+        {
+          "text": "Map",
+          "x": 399,
+          "y": 1233,
+          "w": 76,
+          "h": 45
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Explore",
+          "x": 0,
+          "y": 23,
+          "w": 200,
+          "h": 77
+        },
+        {
+          "text": "",
+          "x": 39,
+          "y": 161,
+          "w": 280,
+          "h": 38
+        },
+        {
+          "text": "Central Park",
+          "x": 265,
+          "y": 273,
+          "w": 192,
+          "h": 36
+        },
+        {
+          "text": "to select marker",
+          "x": 290,
+          "y": 322,
+          "w": 184,
+          "h": 28
+        },
+        {
+          "text": "Times Square",
+          "x": 256,
+          "y": 417,
+          "w": 211,
+          "h": 48
+        },
+        {
+          "text": "to select marker",
+          "x": 290,
+          "y": 468,
+          "w": 184,
+          "h": 26
+        },
+        {
+          "text": "Brooklyn Bridge",
+          "x": 236,
+          "y": 558,
+          "w": 252,
+          "h": 53
+        },
+        {
+          "text": "Tap to select marker",
+          "x": 246,
+          "y": 614,
+          "w": 228,
+          "h": 32
+        },
+        {
+          "text": "Empire State Building",
+          "x": 196,
+          "y": 703,
+          "w": 333,
+          "h": 54
+        },
+        {
+          "text": "to select marker",
+          "x": 290,
+          "y": 760,
+          "w": 184,
+          "h": 28
+        },
+        {
+          "text": "Statue of Liberty",
+          "x": 231,
+          "y": 855,
+          "w": 261,
+          "h": 44
+        },
+        {
+          "text": "Tap to select marker",
+          "x": 246,
+          "y": 906,
+          "w": 228,
+          "h": 32
+        },
+        {
+          "text": "Refresh",
+          "x": 265,
+          "y": 1037,
+          "w": 118,
+          "h": 38
+        },
+        {
+          "text": "Map",
+          "x": 193,
+          "y": 17,
+          "w": 138,
+          "h": 86
+        },
+        {
+          "text": "Tap",
+          "x": 241,
+          "y": 318,
+          "w": 53,
+          "h": 36
+        },
+        {
+          "text": "Tap",
+          "x": 241,
+          "y": 465,
+          "w": 53,
+          "h": 35
+        },
+        {
+          "text": "Tap",
+          "x": 241,
+          "y": 757,
+          "w": 53,
+          "h": 35
+        },
+        {
+          "text": "Map",
+          "x": 380,
+          "y": 1034,
+          "w": 79,
+          "h": 49
+        }
+      ]
+    }
+  }
+}

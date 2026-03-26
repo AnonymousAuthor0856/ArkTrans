@@ -1,0 +1,166 @@
+{
+  "image_id": "047",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.856202141823915,
+    "size": 0.9742135651610152,
+    "color": 0.7954440712928772
+  },
+  "text_scores": {
+    "ref_count": 9,
+    "gen_count": 8,
+    "matched": 6,
+    "similarity": 0.9761904761904762,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9761904761904762
+  },
+  "details": {
+    "image_id": "047",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\047.png",
+    "gen_path": "swift_post\\gpt\\047.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 16,
+      "matched_pairs": 16,
+      "position_score": 0.856202141823915,
+      "size_score": 0.9742135651610152,
+      "color_score": 0.7954440712928772
+    },
+    "text_evaluation": {
+      "ref_texts": 9,
+      "gen_texts": 8,
+      "matched_pairs": 6,
+      "text_score": 0.9761904761904762,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9761904761904762,
+      "ref_text_list": [
+        {
+          "text": "Retro Group",
+          "x": 26,
+          "y": 36,
+          "w": 331,
+          "h": 72
+        },
+        {
+          "text": "Live Deals Map",
+          "x": 60,
+          "y": 161,
+          "w": 260,
+          "h": 50
+        },
+        {
+          "text": "Add Group",
+          "x": 136,
+          "y": 808,
+          "w": 126,
+          "h": 30
+        },
+        {
+          "text": "Clear",
+          "x": 518,
+          "y": 810,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "Active Groups",
+          "x": 60,
+          "y": 934,
+          "w": 243,
+          "h": 49
+        },
+        {
+          "text": "Group A",
+          "x": 59,
+          "y": 989,
+          "w": 112,
+          "h": 38
+        },
+        {
+          "text": "Group B",
+          "x": 59,
+          "y": 1035,
+          "w": 112,
+          "h": 39
+        },
+        {
+          "text": "Group C",
+          "x": 59,
+          "y": 1081,
+          "w": 114,
+          "h": 39
+        },
+        {
+          "text": "Buy",
+          "x": 349,
+          "y": 33,
+          "w": 121,
+          "h": 78
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Group",
+          "x": 132,
+          "y": 31,
+          "w": 344,
+          "h": 78
+        },
+        {
+          "text": "Live Deals",
+          "x": 215,
+          "y": 163,
+          "w": 198,
+          "h": 44
+        },
+        {
+          "text": "Add Group",
+          "x": 117,
+          "y": 827,
+          "w": 151,
+          "h": 41
+        },
+        {
+          "text": "Clear",
+          "x": 494,
+          "y": 830,
+          "w": 74,
+          "h": 32
+        },
+        {
+          "text": "Active Groups",
+          "x": 226,
+          "y": 956,
+          "w": 273,
+          "h": 57
+        },
+        {
+          "text": "it.label",
+          "x": 59,
+          "y": 1017,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Buy",
+          "x": 467,
+          "y": 28,
+          "w": 128,
+          "h": 85
+        },
+        {
+          "text": "Map",
+          "x": 410,
+          "y": 157,
+          "w": 99,
+          "h": 60
+        }
+      ]
+    }
+  }
+}

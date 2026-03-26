@@ -1,0 +1,152 @@
+{
+  "image_id": "012",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9731484805765982,
+    "size": 0.14202792433916958,
+    "color": 0.7062833905220032
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 9,
+    "matched": 6,
+    "similarity": 0.9257822069357479,
+    "coverage": 1.0,
+    "overall": 0.9257822069357479
+  },
+  "details": {
+    "image_id": "012",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\012.png",
+    "gen_path": "swift_post\\glm\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 15,
+      "gen_blocks": 20,
+      "matched_pairs": 15,
+      "position_score": 0.9731484805765982,
+      "size_score": 0.14202792433916958,
+      "color_score": 0.7062833905220032
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 9,
+      "matched_pairs": 6,
+      "text_score": 0.9257822069357479,
+      "coverage": 1.0,
+      "overall_score": 0.9257822069357479,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 126,
+          "y": 20,
+          "w": 503,
+          "h": 77
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 153,
+          "y": 923,
+          "w": 444,
+          "h": 40
+        },
+        {
+          "text": "Save Marker",
+          "x": 271,
+          "y": 1021,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 27,
+          "y": 1137,
+          "w": 257,
+          "h": 42
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1206,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1256,
+          "w": 184,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Favorite Spots",
+          "x": 97,
+          "y": 17,
+          "w": 403,
+          "h": 84
+        },
+        {
+          "text": "Area",
+          "x": 360,
+          "y": 492,
+          "w": 62,
+          "h": 28
+        },
+        {
+          "text": "Spot Coordinates: 39.9042\" N, 116.4074*E",
+          "x": 43,
+          "y": 905,
+          "w": 636,
+          "h": 44
+        },
+        {
+          "text": "Save Marker",
+          "x": 253,
+          "y": 1003,
+          "w": 215,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 29,
+          "y": 1089,
+          "w": 262,
+          "h": 40
+        },
+        {
+          "text": "Saved Marker",
+          "x": 60,
+          "y": 1154,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 60,
+          "y": 1204,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Map",
+          "x": 491,
+          "y": 14,
+          "w": 140,
+          "h": 87
+        },
+        {
+          "text": "Map",
+          "x": 293,
+          "y": 487,
+          "w": 70,
+          "h": 43
+        }
+      ]
+    }
+  }
+}

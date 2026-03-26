@@ -1,0 +1,103 @@
+{
+  "image_id": "063",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6869243890578509,
+    "size": 0.74397780004286,
+    "color": 0.6293396353721619
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 0.9803921568627452,
+    "coverage": 0.75,
+    "overall": 0.9803921568627452
+  },
+  "details": {
+    "image_id": "063",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\063.png",
+    "gen_path": "swift_post\\deepseek\\063.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.6869243890578509,
+      "size_score": 0.74397780004286,
+      "color_score": 0.6293396353721619
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 0.9803921568627452,
+      "coverage": 0.75,
+      "overall_score": 0.9803921568627452,
+      "ref_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 172,
+          "y": 14,
+          "w": 434,
+          "h": 73
+        },
+        {
+          "text": "45%",
+          "x": 292,
+          "y": 366,
+          "w": 170,
+          "h": 72
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 263,
+          "y": 602,
+          "w": 228,
+          "h": 42
+        },
+        {
+          "text": "Charging._",
+          "x": 278,
+          "y": 710,
+          "w": 176,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 22,
+          "y": 30,
+          "w": 586,
+          "h": 92
+        },
+        {
+          "text": "30%",
+          "x": 273,
+          "y": 215,
+          "w": 182,
+          "h": 84
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 235,
+          "y": 412,
+          "w": 249,
+          "h": 44
+        },
+        {
+          "text": "Charging:",
+          "x": 233,
+          "y": 491,
+          "w": 233,
+          "h": 72
+        }
+      ]
+    }
+  }
+}

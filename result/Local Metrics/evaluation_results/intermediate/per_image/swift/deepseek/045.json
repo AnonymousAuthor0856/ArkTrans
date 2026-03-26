@@ -1,0 +1,124 @@
+{
+  "image_id": "045",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8891938644284546,
+    "size": 0.7842036626826283,
+    "color": 0.6914318799972534
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 7,
+    "matched": 4,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "045",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\045.png",
+    "gen_path": "swift_post\\deepseek\\045.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 18,
+      "matched_pairs": 11,
+      "position_score": 0.8891938644284546,
+      "size_score": 0.7842036626826283,
+      "color_score": 0.6914318799972534
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 7,
+      "matched_pairs": 4,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 31,
+          "y": 35,
+          "w": 490,
+          "h": 62
+        },
+        {
+          "text": "Order ID",
+          "x": 31,
+          "y": 131,
+          "w": 144,
+          "h": 42
+        },
+        {
+          "text": "Issue Description",
+          "x": 28,
+          "y": 331,
+          "w": 293,
+          "h": 48
+        },
+        {
+          "text": "Submit Request",
+          "x": 238,
+          "y": 701,
+          "w": 276,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 79,
+          "y": 33,
+          "w": 568,
+          "h": 68
+        },
+        {
+          "text": "Order ID",
+          "x": 276,
+          "y": 170,
+          "w": 167,
+          "h": 44
+        },
+        {
+          "text": "Enter order number",
+          "x": 95,
+          "y": 265,
+          "w": 296,
+          "h": 36
+        },
+        {
+          "text": "Issue Description",
+          "x": 196,
+          "y": 346,
+          "w": 328,
+          "h": 52
+        },
+        {
+          "text": "Describe your issue",
+          "x": 95,
+          "y": 515,
+          "w": 292,
+          "h": 42
+        },
+        {
+          "text": "Submit Request",
+          "x": 220,
+          "y": 749,
+          "w": 280,
+          "h": 54
+        },
+        {
+          "text": "Request Scomtted success",
+          "x": 124,
+          "y": 894,
+          "w": 475,
+          "h": 43
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "image_id": "056",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7320115577616654,
+    "size": 0.157640367946035,
+    "color": 0.5374111533164978
+  },
+  "text_scores": {
+    "ref_count": 9,
+    "gen_count": 15,
+    "matched": 6,
+    "similarity": 0.9375,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9375
+  },
+  "details": {
+    "image_id": "056",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\056.png",
+    "gen_path": "swift_post\\glm\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 29,
+      "matched_pairs": 13,
+      "position_score": 0.7320115577616654,
+      "size_score": 0.157640367946035,
+      "color_score": 0.5374111533164978
+    },
+    "text_evaluation": {
+      "ref_texts": 9,
+      "gen_texts": 15,
+      "matched_pairs": 6,
+      "text_score": 0.9375,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9375,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 263,
+          "y": 37,
+          "w": 120,
+          "h": 60
+        },
+        {
+          "text": "Meals",
+          "x": 86,
+          "y": 158,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Chat",
+          "x": 344,
+          "y": 158,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Stats",
+          "x": 590,
+          "y": 158,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Today's Meals",
+          "x": 27,
+          "y": 248,
+          "w": 271,
+          "h": 55
+        },
+        {
+          "text": "Meal 1",
+          "x": 334,
+          "y": 388,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Meal 2",
+          "x": 330,
+          "y": 568,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Meal 3",
+          "x": 330,
+          "y": 752,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Log",
+          "x": 373,
+          "y": 32,
+          "w": 121,
+          "h": 80
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Diet",
+          "x": 29,
+          "y": 35,
+          "w": 124,
+          "h": 60
+        },
+        {
+          "text": "Meals",
+          "x": 77,
+          "y": 161,
+          "w": 92,
+          "h": 36
+        },
+        {
+          "text": "Chat",
+          "x": 323,
+          "y": 161,
+          "w": 78,
+          "h": 36
+        },
+        {
+          "text": "Stats",
+          "x": 559,
+          "y": 161,
+          "w": 84,
+          "h": 36
+        },
+        {
+          "text": "Meals",
+          "x": 294,
+          "y": 264,
+          "w": 136,
+          "h": 52
+        },
+        {
+          "text": "Breakfast",
+          "x": 61,
+          "y": 375,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "320 cal",
+          "x": 562,
+          "y": 394,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "Oatmeal with berries",
+          "x": 62,
+          "y": 412,
+          "w": 274,
+          "h": 32
+        },
+        {
+          "text": "Lunch",
+          "x": 61,
+          "y": 525,
+          "w": 96,
+          "h": 38
+        },
+        {
+          "text": "450 cal",
+          "x": 562,
+          "y": 544,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "Grilled chicken salad",
+          "x": 61,
+          "y": 561,
+          "w": 268,
+          "h": 36
+        },
+        {
+          "text": "Dinner",
+          "x": 61,
+          "y": 677,
+          "w": 106,
+          "h": 36
+        },
+        {
+          "text": "580 cal",
+          "x": 562,
+          "y": 694,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "Salmon with vegetables",
+          "x": 58,
+          "y": 708,
+          "w": 319,
+          "h": 48
+        },
+        {
+          "text": "Log",
+          "x": 144,
+          "y": 27,
+          "w": 127,
+          "h": 86
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "image_id": "013",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8568093088435011,
+    "size": 0.9399124952214412,
+    "color": 0.9305610656738281
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 5,
+    "matched": 5,
+    "similarity": 0.9400000000000001,
+    "coverage": 1.0,
+    "overall": 0.9400000000000001
+  },
+  "details": {
+    "image_id": "013",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\013.png",
+    "gen_path": "kt_post\\kimi-turbo\\013.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 15,
+      "matched_pairs": 11,
+      "position_score": 0.8568093088435011,
+      "size_score": 0.9399124952214412,
+      "color_score": 0.9305610656738281
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 5,
+      "matched_pairs": 5,
+      "text_score": 0.9400000000000001,
+      "coverage": 1.0,
+      "overall_score": 0.9400000000000001,
+      "ref_text_list": [
+        {
+          "text": "Retro Music Player",
+          "x": 100,
+          "y": 28,
+          "w": 525,
+          "h": 81
+        },
+        {
+          "text": "Track: Summer Nights",
+          "x": 175,
+          "y": 794,
+          "w": 371,
+          "h": 48
+        },
+        {
+          "text": "Play",
+          "x": 169,
+          "y": 934,
+          "w": 85,
+          "h": 51
+        },
+        {
+          "text": "Pause",
+          "x": 457,
+          "y": 941,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Knob X300 Y:300",
+          "x": 262,
+          "y": 1082,
+          "w": 198,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Music Player",
+          "x": 71,
+          "y": 21,
+          "w": 586,
+          "h": 92
+        },
+        {
+          "text": "Track: Summer Nights",
+          "x": 195,
+          "y": 641,
+          "w": 334,
+          "h": 44
+        },
+        {
+          "text": "Play",
+          "x": 164,
+          "y": 754,
+          "w": 75,
+          "h": 44
+        },
+        {
+          "text": "Pause",
+          "x": 473,
+          "y": 757,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "Knob Xo Y:0",
+          "x": 276,
+          "y": 854,
+          "w": 172,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

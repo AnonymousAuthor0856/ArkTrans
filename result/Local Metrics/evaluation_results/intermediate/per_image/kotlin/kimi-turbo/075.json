@@ -1,0 +1,404 @@
+{
+  "image_id": "075",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7293795715242264,
+    "size": 0.8533445425130078,
+    "color": 0.5353459119796753
+  },
+  "text_scores": {
+    "ref_count": 32,
+    "gen_count": 19,
+    "matched": 10,
+    "similarity": 0.7592137267766559,
+    "coverage": 0.3125,
+    "overall": 0.7592137267766559
+  },
+  "details": {
+    "image_id": "075",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\075.png",
+    "gen_path": "kt_post\\kimi-turbo\\075.png",
+    "ui_evaluation": {
+      "ref_blocks": 46,
+      "gen_blocks": 33,
+      "matched_pairs": 33,
+      "position_score": 0.7293795715242264,
+      "size_score": 0.8533445425130078,
+      "color_score": 0.5353459119796753
+    },
+    "text_evaluation": {
+      "ref_texts": 32,
+      "gen_texts": 19,
+      "matched_pairs": 10,
+      "text_score": 0.7592137267766559,
+      "coverage": 0.3125,
+      "overall_score": 0.7592137267766559,
+      "ref_text_list": [
+        {
+          "text": "Back",
+          "x": 38,
+          "y": 50,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Study Focus Split",
+          "x": 214,
+          "y": 42,
+          "w": 294,
+          "h": 48
+        },
+        {
+          "text": "Share",
+          "x": 620,
+          "y": 50,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "Clay",
+          "x": 58,
+          "y": 169,
+          "w": 61,
+          "h": 37
+        },
+        {
+          "text": "Material",
+          "x": 226,
+          "y": 188,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "Morph",
+          "x": 392,
+          "y": 188,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Studio",
+          "x": 552,
+          "y": 188,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Resonan",
+          "x": 62,
+          "y": 204,
+          "w": 98,
+          "h": 26
+        },
+        {
+          "text": "Memory",
+          "x": 225,
+          "y": 218,
+          "w": 95,
+          "h": 32
+        },
+        {
+          "text": "Lab",
+          "x": 390,
+          "y": 222,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "Review",
+          "x": 554,
+          "y": 220,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "ce",
+          "x": 61,
+          "y": 241,
+          "w": 32,
+          "h": 20
+        },
+        {
+          "text": "Clay Resonance",
+          "x": 57,
+          "y": 371,
+          "w": 332,
+          "h": 62
+        },
+        {
+          "text": "Acoustic prototypes",
+          "x": 61,
+          "y": 441,
+          "w": 258,
+          "h": 38
+        },
+        {
+          "text": "Progress",
+          "x": 61,
+          "y": 507,
+          "w": 101,
+          "h": 32
+        },
+        {
+          "text": "72%",
+          "x": 585,
+          "y": 511,
+          "w": 76,
+          "h": 36
+        },
+        {
+          "text": "Review outline",
+          "x": 110,
+          "y": 640,
+          "w": 160,
+          "h": 26
+        },
+        {
+          "text": "Focus board",
+          "x": 55,
+          "y": 811,
+          "w": 204,
+          "h": 42
+        },
+        {
+          "text": "Reflection",
+          "x": 393,
+          "y": 811,
+          "w": 170,
+          "h": 42
+        },
+        {
+          "text": "Research layering",
+          "x": 69,
+          "y": 887,
+          "w": 226,
+          "h": 38
+        },
+        {
+          "text": "Focus on tone",
+          "x": 418,
+          "y": 896,
+          "w": 180,
+          "h": 30
+        },
+        {
+          "text": "45m",
+          "x": 70,
+          "y": 928,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "shifts across",
+          "x": 418,
+          "y": 934,
+          "w": 164,
+          "h": 32
+        },
+        {
+          "text": "gradients",
+          "x": 415,
+          "y": 970,
+          "w": 127,
+          "h": 43
+        },
+        {
+          "text": "Feedback sync",
+          "x": 69,
+          "y": 1003,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "30m",
+          "x": 68,
+          "y": 1044,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Shuffle note",
+          "x": 442,
+          "y": 1080,
+          "w": 134,
+          "h": 30
+        },
+        {
+          "text": "Practice recall",
+          "x": 69,
+          "y": 1121,
+          "w": 185,
+          "h": 31
+        },
+        {
+          "text": "Next checkpoint",
+          "x": 30,
+          "y": 1182,
+          "w": 182,
+          "h": 32
+        },
+        {
+          "text": "Launch session",
+          "x": 472,
+          "y": 1201,
+          "w": 171,
+          "h": 27
+        },
+        {
+          "text": "12.40 Studio",
+          "x": 30,
+          "y": 1220,
+          "w": 164,
+          "h": 30
+        },
+        {
+          "text": "clay",
+          "x": 579,
+          "y": 931,
+          "w": 64,
+          "h": 41
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Next checkpoint",
+          "x": 30,
+          "y": 30,
+          "w": 184,
+          "h": 30
+        },
+        {
+          "text": "Launch session",
+          "x": 492,
+          "y": 50,
+          "w": 198,
+          "h": 30
+        },
+        {
+          "text": "12.40 Studio",
+          "x": 38,
+          "y": 66,
+          "w": 170,
+          "h": 32
+        },
+        {
+          "text": "Module 1",
+          "x": 62,
+          "y": 200,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Module 2",
+          "x": 214,
+          "y": 200,
+          "w": 124,
+          "h": 32
+        },
+        {
+          "text": "Module 3",
+          "x": 366,
+          "y": 200,
+          "w": 124,
+          "h": 32
+        },
+        {
+          "text": "Module Name",
+          "x": 229,
+          "y": 329,
+          "w": 266,
+          "h": 44
+        },
+        {
+          "text": "Module Summary",
+          "x": 247,
+          "y": 390,
+          "w": 231,
+          "h": 42
+        },
+        {
+          "text": "Progress",
+          "x": 59,
+          "y": 462,
+          "w": 104,
+          "h": 37
+        },
+        {
+          "text": "50%",
+          "x": 592,
+          "y": 462,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Review outline",
+          "x": 264,
+          "y": 578,
+          "w": 194,
+          "h": 32
+        },
+        {
+          "text": "Focus board",
+          "x": 97,
+          "y": 728,
+          "w": 187,
+          "h": 36
+        },
+        {
+          "text": "Reflection",
+          "x": 452,
+          "y": 719,
+          "w": 157,
+          "h": 42
+        },
+        {
+          "text": "Task Title",
+          "x": 130,
+          "y": 798,
+          "w": 124,
+          "h": 32
+        },
+        {
+          "text": "Focus note",
+          "x": 446,
+          "y": 800,
+          "w": 146,
+          "h": 30
+        },
+        {
+          "text": "25 min",
+          "x": 150,
+          "y": 838,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "content here",
+          "x": 446,
+          "y": 834,
+          "w": 170,
+          "h": 30
+        },
+        {
+          "text": "Add checkpoint",
+          "x": 87,
+          "y": 917,
+          "w": 210,
+          "h": 42
+        },
+        {
+          "text": "Shuffle note",
+          "x": 449,
+          "y": 923,
+          "w": 164,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

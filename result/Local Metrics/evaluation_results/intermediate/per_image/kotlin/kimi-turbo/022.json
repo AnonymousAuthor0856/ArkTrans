@@ -1,0 +1,124 @@
+{
+  "image_id": "022",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.36038711253114775,
+    "size": 0.40454888220712554,
+    "color": 0.30640530586242676
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.25,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "022",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\022.png",
+    "gen_path": "kt_post\\kimi-turbo\\022.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.36038711253114775,
+      "size_score": 0.40454888220712554,
+      "color_score": 0.30640530586242676
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.25,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Project Timeline",
+          "x": 163,
+          "y": 35,
+          "w": 398,
+          "h": 66
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 187,
+          "w": 214,
+          "h": 42
+        },
+        {
+          "text": "Design Phase",
+          "x": 50,
+          "y": 307,
+          "w": 231,
+          "h": 54
+        },
+        {
+          "text": "Development",
+          "x": 52,
+          "y": 458,
+          "w": 222,
+          "h": 48
+        },
+        {
+          "text": "Testing",
+          "x": 50,
+          "y": 599,
+          "w": 131,
+          "h": 53
+        },
+        {
+          "text": "Documentation",
+          "x": 53,
+          "y": 750,
+          "w": 251,
+          "h": 40
+        },
+        {
+          "text": "Deployment",
+          "x": 52,
+          "y": 896,
+          "w": 203,
+          "h": 48
+        },
+        {
+          "text": "Add Task",
+          "x": 283,
+          "y": 1057,
+          "w": 158,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Project Timeline",
+          "x": 172,
+          "y": 28,
+          "w": 379,
+          "h": 64
+        },
+        {
+          "text": "taskname",
+          "x": 280,
+          "y": 160,
+          "w": 160,
+          "h": 32
+        },
+        {
+          "text": "Add Task",
+          "x": 291,
+          "y": 315,
+          "w": 140,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

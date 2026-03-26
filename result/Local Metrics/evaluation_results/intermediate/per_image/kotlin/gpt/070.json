@@ -1,0 +1,320 @@
+{
+  "image_id": "070",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8498376989402772,
+    "size": 0.9003802951164399,
+    "color": 0.6188653111457825
+  },
+  "text_scores": {
+    "ref_count": 22,
+    "gen_count": 17,
+    "matched": 9,
+    "similarity": 0.9603174603174602,
+    "coverage": 0.4090909090909091,
+    "overall": 0.9603174603174602
+  },
+  "details": {
+    "image_id": "070",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\070.png",
+    "gen_path": "kt_post\\gpt\\070.png",
+    "ui_evaluation": {
+      "ref_blocks": 38,
+      "gen_blocks": 31,
+      "matched_pairs": 31,
+      "position_score": 0.8498376989402772,
+      "size_score": 0.9003802951164399,
+      "color_score": 0.6188653111457825
+    },
+    "text_evaluation": {
+      "ref_texts": 22,
+      "gen_texts": 17,
+      "matched_pairs": 9,
+      "text_score": 0.9603174603174602,
+      "coverage": 0.4090909090909091,
+      "overall_score": 0.9603174603174602,
+      "ref_text_list": [
+        {
+          "text": "LeaseWizard",
+          "x": 272,
+          "y": 36,
+          "w": 178,
+          "h": 32
+        },
+        {
+          "text": "Guided handoff",
+          "x": 282,
+          "y": 68,
+          "w": 156,
+          "h": 26
+        },
+        {
+          "text": "Steps",
+          "x": 63,
+          "y": 190,
+          "w": 119,
+          "h": 56
+        },
+        {
+          "text": "Profile",
+          "x": 156,
+          "y": 290,
+          "w": 98,
+          "h": 36
+        },
+        {
+          "text": "Edit",
+          "x": 560,
+          "y": 310,
+          "w": 44,
+          "h": 26
+        },
+        {
+          "text": "Tenant basics",
+          "x": 158,
+          "y": 326,
+          "w": 168,
+          "h": 30
+        },
+        {
+          "text": "2",
+          "x": 95,
+          "y": 425,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "Income",
+          "x": 158,
+          "y": 438,
+          "w": 108,
+          "h": 32
+        },
+        {
+          "text": "Edit",
+          "x": 560,
+          "y": 454,
+          "w": 44,
+          "h": 26
+        },
+        {
+          "text": "Proof details",
+          "x": 158,
+          "y": 470,
+          "w": 154,
+          "h": 30
+        },
+        {
+          "text": "References",
+          "x": 157,
+          "y": 579,
+          "w": 160,
+          "h": 36
+        },
+        {
+          "text": "Go",
+          "x": 571,
+          "y": 601,
+          "w": 32,
+          "h": 20
+        },
+        {
+          "text": "Upload letters",
+          "x": 157,
+          "y": 613,
+          "w": 170,
+          "h": 36
+        },
+        {
+          "text": "Summary",
+          "x": 156,
+          "y": 709,
+          "w": 139,
+          "h": 42
+        },
+        {
+          "text": "Go",
+          "x": 571,
+          "y": 733,
+          "w": 30,
+          "h": 20
+        },
+        {
+          "text": "Confirm submission",
+          "x": 158,
+          "y": 746,
+          "w": 236,
+          "h": 30
+        },
+        {
+          "text": "Form",
+          "x": 69,
+          "y": 889,
+          "w": 100,
+          "h": 42
+        },
+        {
+          "text": "Full name",
+          "x": 102,
+          "y": 960,
+          "w": 114,
+          "h": 26
+        },
+        {
+          "text": "Avery Tenant",
+          "x": 101,
+          "y": 1011,
+          "w": 206,
+          "h": 43
+        },
+        {
+          "text": "Contact",
+          "x": 102,
+          "y": 1112,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "avery@example.com",
+          "x": 99,
+          "y": 1163,
+          "w": 323,
+          "h": 48
+        },
+        {
+          "text": "nritn",
+          "x": 104,
+          "y": 1270,
+          "w": 86,
+          "h": 8
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "LeaseWizard",
+          "x": 263,
+          "y": 21,
+          "w": 196,
+          "h": 38
+        },
+        {
+          "text": "Guided handoff",
+          "x": 272,
+          "y": 62,
+          "w": 178,
+          "h": 30
+        },
+        {
+          "text": "steptitle",
+          "x": 271,
+          "y": 162,
+          "w": 155,
+          "h": 49
+        },
+        {
+          "text": "Go",
+          "x": 588,
+          "y": 190,
+          "w": 38,
+          "h": 26
+        },
+        {
+          "text": "stepdescription",
+          "x": 239,
+          "y": 213,
+          "w": 215,
+          "h": 39
+        },
+        {
+          "text": "Form",
+          "x": 300,
+          "y": 362,
+          "w": 120,
+          "h": 50
+        },
+        {
+          "text": "Full name",
+          "x": 103,
+          "y": 467,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "Contact",
+          "x": 103,
+          "y": 579,
+          "w": 126,
+          "h": 36
+        },
+        {
+          "text": "Income",
+          "x": 101,
+          "y": 691,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "Back",
+          "x": 171,
+          "y": 797,
+          "w": 82,
+          "h": 36
+        },
+        {
+          "text": "Next",
+          "x": 473,
+          "y": 797,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "Summary",
+          "x": 247,
+          "y": 949,
+          "w": 225,
+          "h": 67
+        },
+        {
+          "text": "item label",
+          "x": 91,
+          "y": 1055,
+          "w": 154,
+          "h": 36
+        },
+        {
+          "text": "itemvalue",
+          "x": 492,
+          "y": 1058,
+          "w": 136,
+          "h": 32
+        },
+        {
+          "text": "Documents",
+          "x": 273,
+          "y": 1141,
+          "w": 176,
+          "h": 36
+        },
+        {
+          "text": "doc label",
+          "x": 94,
+          "y": 1210,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "docstatus",
+          "x": 504,
+          "y": 1212,
+          "w": 124,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "image_id": "021",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7232689062906525,
+    "size": 0.8138400429952642,
+    "color": 0.5301855802536011
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 18,
+    "matched": 6,
+    "similarity": 0.9153846153846154,
+    "coverage": 0.6,
+    "overall": 0.9153846153846154
+  },
+  "details": {
+    "image_id": "021",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\021.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\021.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 33,
+      "matched_pairs": 22,
+      "position_score": 0.7232689062906525,
+      "size_score": 0.8138400429952642,
+      "color_score": 0.5301855802536011
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 18,
+      "matched_pairs": 6,
+      "text_score": 0.9153846153846154,
+      "coverage": 0.6,
+      "overall_score": 0.9153846153846154,
+      "ref_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 190,
+          "y": 38,
+          "w": 374,
+          "h": 56
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 165,
+          "w": 216,
+          "h": 42
+        },
+        {
+          "text": "To Do",
+          "x": 119,
+          "y": 285,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "In",
+          "x": 550,
+          "y": 288,
+          "w": 36,
+          "h": 32
+        },
+        {
+          "text": "Progres",
+          "x": 585,
+          "y": 281,
+          "w": 141,
+          "h": 50
+        },
+        {
+          "text": "Write report",
+          "x": 151,
+          "y": 357,
+          "w": 162,
+          "h": 37
+        },
+        {
+          "text": "Implement",
+          "x": 580,
+          "y": 355,
+          "w": 145,
+          "h": 39
+        },
+        {
+          "text": "Design mockup",
+          "x": 150,
+          "y": 437,
+          "w": 208,
+          "h": 40
+        },
+        {
+          "text": "Fix layout",
+          "x": 583,
+          "y": 439,
+          "w": 130,
+          "h": 38
+        },
+        {
+          "text": "Task Completion",
+          "x": 28,
+          "y": 1208,
+          "w": 284,
+          "h": 51
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 167,
+          "y": 49,
+          "w": 390,
+          "h": 63
+        },
+        {
+          "text": "Notifications",
+          "x": 47,
+          "y": 207,
+          "w": 220,
+          "h": 40
+        },
+        {
+          "text": "On",
+          "x": 474,
+          "y": 212,
+          "w": 44,
+          "h": 30
+        },
+        {
+          "text": "Disable",
+          "x": 552,
+          "y": 212,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "To Do",
+          "x": 223,
+          "y": 335,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "In Pr",
+          "x": 645,
+          "y": 335,
+          "w": 75,
+          "h": 36
+        },
+        {
+          "text": "Create wireframes",
+          "x": 148,
+          "y": 436,
+          "w": 241,
+          "h": 37
+        },
+        {
+          "text": "Implem",
+          "x": 625,
+          "y": 437,
+          "w": 95,
+          "h": 38
+        },
+        {
+          "text": "High priority",
+          "x": 195,
+          "y": 479,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "In",
+          "x": 678,
+          "y": 484,
+          "w": 28,
+          "h": 24
+        },
+        {
+          "text": "Define API contract",
+          "x": 144,
+          "y": 574,
+          "w": 250,
+          "h": 32
+        },
+        {
+          "text": "Build k",
+          "x": 630,
+          "y": 574,
+          "w": 90,
+          "h": 32
+        },
+        {
+          "text": "Due this week",
+          "x": 188,
+          "y": 618,
+          "w": 160,
+          "h": 28
+        },
+        {
+          "text": "Desic",
+          "x": 664,
+          "y": 620,
+          "w": 56,
+          "h": 26
+        },
+        {
+          "text": "Set up Cl pipeline",
+          "x": 151,
+          "y": 711,
+          "w": 236,
+          "h": 40
+        },
+        {
+          "text": "Blocked",
+          "x": 222,
+          "y": 756,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Task Completion",
+          "x": 218,
+          "y": 874,
+          "w": 284,
+          "h": 50
+        },
+        {
+          "text": "65%",
+          "x": 46,
+          "y": 1026,
+          "w": 60,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

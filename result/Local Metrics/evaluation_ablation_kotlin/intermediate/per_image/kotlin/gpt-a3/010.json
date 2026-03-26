@@ -1,0 +1,201 @@
+{
+  "image_id": "010",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6888338368691482,
+    "size": 0.2647984497551727,
+    "color": 0.5797773599624634
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 10,
+    "matched": 6,
+    "similarity": 0.8192307692307693,
+    "coverage": 0.5,
+    "overall": 0.8192307692307693
+  },
+  "details": {
+    "image_id": "010",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\010.png",
+    "gen_path": "kt_ablation\\gpt-a3\\010.png",
+    "ui_evaluation": {
+      "ref_blocks": 23,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.6888338368691482,
+      "size_score": 0.2647984497551727,
+      "color_score": 0.5797773599624634
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 10,
+      "matched_pairs": 6,
+      "text_score": 0.8192307692307693,
+      "coverage": 0.5,
+      "overall_score": 0.8192307692307693,
+      "ref_text_list": [
+        {
+          "text": "Exit",
+          "x": 70,
+          "y": 50,
+          "w": 56,
+          "h": 28
+        },
+        {
+          "text": "Story Editor",
+          "x": 255,
+          "y": 40,
+          "w": 205,
+          "h": 51
+        },
+        {
+          "text": "Post",
+          "x": 586,
+          "y": 50,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Your Story Preview",
+          "x": 153,
+          "y": 380,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "text": "Upload Status",
+          "x": 29,
+          "y": 721,
+          "w": 170,
+          "h": 36
+        },
+        {
+          "text": "BG",
+          "x": 146,
+          "y": 944,
+          "w": 36,
+          "h": 24
+        },
+        {
+          "text": "IMG",
+          "x": 426,
+          "y": 944,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Gradient",
+          "x": 108,
+          "y": 988,
+          "w": 116,
+          "h": 32
+        },
+        {
+          "text": "User Photo",
+          "x": 378,
+          "y": 988,
+          "w": 148,
+          "h": 32
+        },
+        {
+          "text": "Helle",
+          "x": 662,
+          "y": 988,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "Layer Properties",
+          "x": 27,
+          "y": 1097,
+          "w": 200,
+          "h": 36
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 1184,
+          "w": 105,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Layer Properties",
+          "x": 265,
+          "y": 32,
+          "w": 187,
+          "h": 31
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 109,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Upload Status",
+          "x": 280,
+          "y": 224,
+          "w": 162,
+          "h": 32
+        },
+        {
+          "text": "Text",
+          "x": 138,
+          "y": 444,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "Sticker",
+          "x": 348,
+          "y": 446,
+          "w": 80,
+          "h": 26
+        },
+        {
+          "text": "Image",
+          "x": 572,
+          "y": 445,
+          "w": 77,
+          "h": 32
+        },
+        {
+          "text": "Hello",
+          "x": 124,
+          "y": 492,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Star",
+          "x": 358,
+          "y": 490,
+          "w": 62,
+          "h": 32
+        },
+        {
+          "text": "Cover",
+          "x": 572,
+          "y": 490,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "World",
+          "x": 124,
+          "y": 524,
+          "w": 82,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

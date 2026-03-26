@@ -1,0 +1,313 @@
+{
+  "image_id": "050",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6967728764268604,
+    "size": 0.45143911648576246,
+    "color": 0.4616997539997101
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 19,
+    "matched": 17,
+    "similarity": 1.0,
+    "coverage": 0.8947368421052632,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "050",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\050.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\050.png",
+    "ui_evaluation": {
+      "ref_blocks": 32,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.6967728764268604,
+      "size_score": 0.45143911648576246,
+      "color_score": 0.4616997539997101
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 19,
+      "matched_pairs": 17,
+      "text_score": 1.0,
+      "coverage": 0.8947368421052632,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Flight Check-in",
+          "x": 171,
+          "y": 29,
+          "w": 410,
+          "h": 66
+        },
+        {
+          "text": "Passenger",
+          "x": 83,
+          "y": 221,
+          "w": 205,
+          "h": 52
+        },
+        {
+          "text": "Full name",
+          "x": 114,
+          "y": 338,
+          "w": 130,
+          "h": 30
+        },
+        {
+          "text": "Booking Code",
+          "x": 84,
+          "y": 430,
+          "w": 268,
+          "h": 56
+        },
+        {
+          "text": "e.g. XYZZK2",
+          "x": 114,
+          "y": 550,
+          "w": 166,
+          "h": 32
+        },
+        {
+          "text": "Seat Class",
+          "x": 85,
+          "y": 649,
+          "w": 200,
+          "h": 42
+        },
+        {
+          "text": "Economy",
+          "x": 149,
+          "y": 756,
+          "w": 111,
+          "h": 32
+        },
+        {
+          "text": "Premium",
+          "x": 321,
+          "y": 757,
+          "w": 106,
+          "h": 26
+        },
+        {
+          "text": "Business",
+          "x": 512,
+          "y": 758,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Flight",
+          "x": 97,
+          "y": 963,
+          "w": 92,
+          "h": 40
+        },
+        {
+          "text": "BL 213",
+          "x": 100,
+          "y": 1016,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "text": "HND > CTS",
+          "x": 214,
+          "y": 1016,
+          "w": 162,
+          "h": 30
+        },
+        {
+          "text": "Boarding",
+          "x": 70,
+          "y": 1132,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "Gate",
+          "x": 366,
+          "y": 1132,
+          "w": 60,
+          "h": 26
+        },
+        {
+          "text": "Seat",
+          "x": 614,
+          "y": 1132,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "12.35",
+          "x": 72,
+          "y": 1164,
+          "w": 86,
+          "h": 32
+        },
+        {
+          "text": "A12",
+          "x": 370,
+          "y": 1164,
+          "w": 56,
+          "h": 32
+        },
+        {
+          "text": "23C",
+          "x": 613,
+          "y": 1161,
+          "w": 70,
+          "h": 36
+        },
+        {
+          "text": "Confirm Check-in",
+          "x": 241,
+          "y": 1289,
+          "w": 270,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Flight Check-in",
+          "x": 108,
+          "y": 10,
+          "w": 412,
+          "h": 76
+        },
+        {
+          "text": "Passenger",
+          "x": 258,
+          "y": 167,
+          "w": 204,
+          "h": 57
+        },
+        {
+          "text": "Full name",
+          "x": 87,
+          "y": 265,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "Booking Code",
+          "x": 221,
+          "y": 342,
+          "w": 276,
+          "h": 64
+        },
+        {
+          "text": "e.g. XYZZK2",
+          "x": 87,
+          "y": 449,
+          "w": 184,
+          "h": 42
+        },
+        {
+          "text": "Seat Class",
+          "x": 261,
+          "y": 535,
+          "w": 200,
+          "h": 44
+        },
+        {
+          "text": "Economy",
+          "x": 93,
+          "y": 627,
+          "w": 129,
+          "h": 43
+        },
+        {
+          "text": "Business",
+          "x": 302,
+          "y": 630,
+          "w": 118,
+          "h": 32
+        },
+        {
+          "text": "First",
+          "x": 529,
+          "y": 628,
+          "w": 69,
+          "h": 36
+        },
+        {
+          "text": "Flight",
+          "x": 82,
+          "y": 805,
+          "w": 96,
+          "h": 44
+        },
+        {
+          "text": "BL 213",
+          "x": 86,
+          "y": 852,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "HND - CTS",
+          "x": 216,
+          "y": 852,
+          "w": 164,
+          "h": 32
+        },
+        {
+          "text": "Boarding",
+          "x": 59,
+          "y": 975,
+          "w": 109,
+          "h": 40
+        },
+        {
+          "text": "Gate",
+          "x": 348,
+          "y": 982,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Seat",
+          "x": 594,
+          "y": 982,
+          "w": 56,
+          "h": 26
+        },
+        {
+          "text": "1235",
+          "x": 61,
+          "y": 1019,
+          "w": 92,
+          "h": 36
+        },
+        {
+          "text": "A12",
+          "x": 349,
+          "y": 1019,
+          "w": 66,
+          "h": 36
+        },
+        {
+          "text": "12A",
+          "x": 595,
+          "y": 1019,
+          "w": 64,
+          "h": 36
+        },
+        {
+          "text": "Confirm Check-in",
+          "x": 227,
+          "y": 1137,
+          "w": 268,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

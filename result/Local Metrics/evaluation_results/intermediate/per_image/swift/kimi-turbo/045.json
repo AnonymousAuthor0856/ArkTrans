@@ -1,0 +1,103 @@
+{
+  "image_id": "045",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.44867646762502844,
+    "size": 0.36978779505571197,
+    "color": 0.5160061120986938
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 4,
+    "similarity": 0.9078947368421053,
+    "coverage": 1.0,
+    "overall": 0.9078947368421053
+  },
+  "details": {
+    "image_id": "045",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\045.png",
+    "gen_path": "swift_post\\kimi-turbo\\045.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.44867646762502844,
+      "size_score": 0.36978779505571197,
+      "color_score": 0.5160061120986938
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 4,
+      "text_score": 0.9078947368421053,
+      "coverage": 1.0,
+      "overall_score": 0.9078947368421053,
+      "ref_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 31,
+          "y": 35,
+          "w": 490,
+          "h": 62
+        },
+        {
+          "text": "Order ID",
+          "x": 31,
+          "y": 131,
+          "w": 144,
+          "h": 42
+        },
+        {
+          "text": "Issue Description",
+          "x": 28,
+          "y": 331,
+          "w": 293,
+          "h": 48
+        },
+        {
+          "text": "Submit Request",
+          "x": 238,
+          "y": 701,
+          "w": 276,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 29,
+          "y": 35,
+          "w": 474,
+          "h": 60
+        },
+        {
+          "text": "Order ID",
+          "x": 286,
+          "y": 161,
+          "w": 147,
+          "h": 43
+        },
+        {
+          "text": "Issue Description",
+          "x": 215,
+          "y": 355,
+          "w": 290,
+          "h": 44
+        },
+        {
+          "text": "Submit",
+          "x": 303,
+          "y": 729,
+          "w": 116,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

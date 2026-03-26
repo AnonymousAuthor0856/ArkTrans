@@ -1,0 +1,690 @@
+{
+  "language": "swift",
+  "llm_name": "gpt",
+  "total_images": 75,
+  "compiled_count": 40,
+  "compile_rate": 0.5333333333333333,
+  "average_scores": {
+    "position": 0.23286032413389796,
+    "size": 0.2448345648569482,
+    "color": 0.23179182613889376,
+    "text": 0.47701963885215887
+  },
+  "individual_results": [
+    {
+      "image_id": "001",
+      "compiled": true,
+      "position": 0.13031410718030612,
+      "size": 0.1571391216421132,
+      "color": 0.11863483488559723,
+      "text": 0.7345238095238095,
+      "error": ""
+    },
+    {
+      "image_id": "002",
+      "compiled": true,
+      "position": 0.787806001317378,
+      "size": 0.6853669096034806,
+      "color": 0.7638660073280334,
+      "text": 0.9541501976284585,
+      "error": ""
+    },
+    {
+      "image_id": "003",
+      "compiled": true,
+      "position": 0.3494716775599186,
+      "size": 0.4037815701804414,
+      "color": 0.31678056716918945,
+      "text": 0.9334876543209877,
+      "error": ""
+    },
+    {
+      "image_id": "004",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "005",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "006",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "007",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "008",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "009",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "010",
+      "compiled": true,
+      "position": 0.20941476284830116,
+      "size": 0.43434033698515717,
+      "color": 0.43389397859573364,
+      "text": 0.823076923076923,
+      "error": ""
+    },
+    {
+      "image_id": "011",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "012",
+      "compiled": true,
+      "position": 0.13255750738621527,
+      "size": 0.20787413743252656,
+      "color": 0.18879178166389465,
+      "text": 0.9482758620689655,
+      "error": ""
+    },
+    {
+      "image_id": "013",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "014",
+      "compiled": true,
+      "position": 0.46838040657405466,
+      "size": 0.49706233751660994,
+      "color": 0.3351016640663147,
+      "text": 0.9090909090909091,
+      "error": ""
+    },
+    {
+      "image_id": "015",
+      "compiled": true,
+      "position": 0.3832211875687472,
+      "size": 0.48844670849631433,
+      "color": 0.4359146058559418,
+      "text": 0.9166666666666666,
+      "error": ""
+    },
+    {
+      "image_id": "016",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "017",
+      "compiled": true,
+      "position": 0.7534618352644932,
+      "size": 0.8699576914487653,
+      "color": 0.7638759613037109,
+      "text": 0.9761904761904763,
+      "error": ""
+    },
+    {
+      "image_id": "018",
+      "compiled": true,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": ""
+    },
+    {
+      "image_id": "019",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "020",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "021",
+      "compiled": true,
+      "position": 0.33707230095002627,
+      "size": 0.3583370139098953,
+      "color": 0.3469700813293457,
+      "text": 0.8181818181818181,
+      "error": ""
+    },
+    {
+      "image_id": "022",
+      "compiled": true,
+      "position": 0.6290363433349508,
+      "size": 0.6366944558613525,
+      "color": 0.571215033531189,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "023",
+      "compiled": true,
+      "position": 0.7290112447094967,
+      "size": 0.9241500351704371,
+      "color": 0.7803168296813965,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "024",
+      "compiled": true,
+      "position": 0.31053843292504,
+      "size": 0.7022969638575752,
+      "color": 0.7695692181587219,
+      "text": 0.9375,
+      "error": ""
+    },
+    {
+      "image_id": "025",
+      "compiled": true,
+      "position": 0.1469739092046218,
+      "size": 0.14005110107942897,
+      "color": 0.07112019509077072,
+      "text": 0.0,
+      "error": ""
+    },
+    {
+      "image_id": "026",
+      "compiled": true,
+      "position": 0.45979810010501077,
+      "size": 0.49036209236537226,
+      "color": 0.3597974479198456,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "027",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "028",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "029",
+      "compiled": true,
+      "position": 0.4114369915793998,
+      "size": 0.5255216459593535,
+      "color": 0.4965626299381256,
+      "text": 0.8157894736842105,
+      "error": ""
+    },
+    {
+      "image_id": "030",
+      "compiled": true,
+      "position": 0.22645519083340127,
+      "size": 0.23968492555656684,
+      "color": 0.20734886825084686,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "031",
+      "compiled": true,
+      "position": 0.5138878762967999,
+      "size": 0.6318036111453436,
+      "color": 0.6058660745620728,
+      "text": 0.8326799251168999,
+      "error": ""
+    },
+    {
+      "image_id": "032",
+      "compiled": true,
+      "position": 0.46603963561723827,
+      "size": 0.6873505992116113,
+      "color": 0.48131415247917175,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "033",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "034",
+      "compiled": true,
+      "position": 0.508384459496462,
+      "size": 0.4618557599623747,
+      "color": 0.6400169134140015,
+      "text": 0.918552036199095,
+      "error": ""
+    },
+    {
+      "image_id": "035",
+      "compiled": true,
+      "position": 0.8240293007625242,
+      "size": 0.7671808656138193,
+      "color": 0.4477591812610626,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "036",
+      "compiled": true,
+      "position": 0.16452950037637798,
+      "size": 0.21031811243699503,
+      "color": 0.13800519704818726,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "037",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "038",
+      "compiled": true,
+      "position": 0.21172723982315336,
+      "size": 0.25305451820454067,
+      "color": 0.2270854413509369,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "039",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "040",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "041",
+      "compiled": true,
+      "position": 0.6462416658852811,
+      "size": 0.8950524069580269,
+      "color": 0.8608676791191101,
+      "text": 0.9166666666666666,
+      "error": ""
+    },
+    {
+      "image_id": "042",
+      "compiled": true,
+      "position": 0.32197089236053567,
+      "size": 0.3613332546628289,
+      "color": 0.3047366142272949,
+      "text": 0.7436440349326011,
+      "error": ""
+    },
+    {
+      "image_id": "043",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "044",
+      "compiled": true,
+      "position": 0.6369465675788099,
+      "size": 0.8647440106036577,
+      "color": 0.8224684000015259,
+      "text": 0.9436507936507937,
+      "error": ""
+    },
+    {
+      "image_id": "045",
+      "compiled": true,
+      "position": 0.8544943583987161,
+      "size": 0.5199561871900735,
+      "color": 0.7633787393569946,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "046",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "047",
+      "compiled": true,
+      "position": 0.856202141823915,
+      "size": 0.9742135651610152,
+      "color": 0.7954440712928772,
+      "text": 0.9761904761904762,
+      "error": ""
+    },
+    {
+      "image_id": "048",
+      "compiled": true,
+      "position": 0.6573373255172279,
+      "size": 0.6555915325825314,
+      "color": 0.6520004272460938,
+      "text": 0.9624060150375939,
+      "error": ""
+    },
+    {
+      "image_id": "049",
+      "compiled": true,
+      "position": 0.1679095717522467,
+      "size": 0.19764228462829683,
+      "color": 0.16269025206565857,
+      "text": 0.8333333333333333,
+      "error": ""
+    },
+    {
+      "image_id": "050",
+      "compiled": true,
+      "position": 0.7380074671381255,
+      "size": 0.8625898212185975,
+      "color": 0.8501476049423218,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "051",
+      "compiled": true,
+      "position": 0.11482507285342394,
+      "size": 0.13341753609890594,
+      "color": 0.07877800613641739,
+      "text": 0.956140350877193,
+      "error": ""
+    },
+    {
+      "image_id": "052",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "053",
+      "compiled": true,
+      "position": 0.19806262153872486,
+      "size": 0.22261937219350408,
+      "color": 0.19212029874324799,
+      "text": 0.990990990990991,
+      "error": ""
+    },
+    {
+      "image_id": "054",
+      "compiled": true,
+      "position": 0.05160760571245717,
+      "size": 0.06324513300178708,
+      "color": 0.054041940718889236,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "055",
+      "compiled": true,
+      "position": 0.33711042966671684,
+      "size": 0.35390394318917806,
+      "color": 0.34789755940437317,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "056",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "057",
+      "compiled": true,
+      "position": 0.8275417539763961,
+      "size": 0.711690171598452,
+      "color": 0.5977895855903625,
+      "text": 0.9778481012658228,
+      "error": ""
+    },
+    {
+      "image_id": "058",
+      "compiled": true,
+      "position": 0.38780555441901815,
+      "size": 0.48228884897536917,
+      "color": 0.5126274824142456,
+      "text": 0.9642857142857143,
+      "error": ""
+    },
+    {
+      "image_id": "059",
+      "compiled": true,
+      "position": 0.4195123605093407,
+      "size": 0.20376600812872384,
+      "color": 0.18024609982967377,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "060",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "061",
+      "compiled": true,
+      "position": 0.9112310365559456,
+      "size": 0.03297593380300841,
+      "color": 0.5691743493080139,
+      "text": 0.9931506849315068,
+      "error": ""
+    },
+    {
+      "image_id": "062",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "063",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "064",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "065",
+      "compiled": true,
+      "position": 0.18416987264154563,
+      "size": 0.05493184063708481,
+      "color": 0.14017118513584137,
+      "text": 1.0,
+      "error": ""
+    },
+    {
+      "image_id": "066",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "067",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "068",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "069",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "070",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "071",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "072",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "073",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "074",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    },
+    {
+      "image_id": "075",
+      "compiled": false,
+      "position": 0.0,
+      "size": 0.0,
+      "color": 0.0,
+      "text": 0.0,
+      "error": "编译未通过：图片不存在"
+    }
+  ]
+}

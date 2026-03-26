@@ -1,0 +1,89 @@
+{
+  "image_id": "025",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1469739092046218,
+    "size": 0.14005110107942897,
+    "color": 0.07112019509077072
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 2,
+    "matched": 0,
+    "similarity": 0.0,
+    "coverage": 0.0,
+    "overall": 0.0
+  },
+  "details": {
+    "image_id": "025",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\025.png",
+    "gen_path": "swift_post\\gpt\\025.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 4,
+      "matched_pairs": 4,
+      "position_score": 0.1469739092046218,
+      "size_score": 0.14005110107942897,
+      "color_score": 0.07112019509077072
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 2,
+      "matched_pairs": 0,
+      "text_score": 0.0,
+      "coverage": 0.0,
+      "overall_score": 0.0,
+      "ref_text_list": [
+        {
+          "text": "Neon Mind Map",
+          "x": 170,
+          "y": 35,
+          "w": 418,
+          "h": 72
+        },
+        {
+          "text": "Cyan",
+          "x": 171,
+          "y": 1263,
+          "w": 72,
+          "h": 36
+        },
+        {
+          "text": "Green",
+          "x": 326,
+          "y": 1262,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Purple",
+          "x": 490,
+          "y": 1260,
+          "w": 91,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Neon",
+          "x": 142,
+          "y": 26,
+          "w": 151,
+          "h": 62
+        },
+        {
+          "text": "Map",
+          "x": 437,
+          "y": 18,
+          "w": 139,
+          "h": 85
+        }
+      ]
+    }
+  }
+}

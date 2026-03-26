@@ -1,0 +1,264 @@
+{
+  "image_id": "069",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.39434858349771956,
+    "size": 0.32286838399546963,
+    "color": 0.24657750129699707
+  },
+  "text_scores": {
+    "ref_count": 20,
+    "gen_count": 11,
+    "matched": 3,
+    "similarity": 0.6626445449974862,
+    "coverage": 0.15,
+    "overall": 0.6626445449974862
+  },
+  "details": {
+    "image_id": "069",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\069.png",
+    "gen_path": "swift_post\\deepseek\\069.png",
+    "ui_evaluation": {
+      "ref_blocks": 54,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.39434858349771956,
+      "size_score": 0.32286838399546963,
+      "color_score": 0.24657750129699707
+    },
+    "text_evaluation": {
+      "ref_texts": 20,
+      "gen_texts": 11,
+      "matched_pairs": 3,
+      "text_score": 0.6626445449974862,
+      "coverage": 0.15,
+      "overall_score": 0.6626445449974862,
+      "ref_text_list": [
+        {
+          "text": "SupplyHub",
+          "x": 288,
+          "y": 28,
+          "w": 175,
+          "h": 44
+        },
+        {
+          "text": "Logistics grid",
+          "x": 294,
+          "y": 72,
+          "w": 164,
+          "h": 32
+        },
+        {
+          "text": "AII",
+          "x": 80,
+          "y": 178,
+          "w": 32,
+          "h": 24
+        },
+        {
+          "text": "Atlantic",
+          "x": 184,
+          "y": 176,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Pacific",
+          "x": 348,
+          "y": 176,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Inland",
+          "x": 500,
+          "y": 176,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Cargo",
+          "x": 45,
+          "y": 269,
+          "w": 137,
+          "h": 60
+        },
+        {
+          "text": "Copper stack",
+          "x": 84,
+          "y": 620,
+          "w": 209,
+          "h": 42
+        },
+        {
+          "text": "Fiber reels",
+          "x": 421,
+          "y": 619,
+          "w": 166,
+          "h": 36
+        },
+        {
+          "text": "SH-014",
+          "x": 85,
+          "y": 669,
+          "w": 104,
+          "h": 32
+        },
+        {
+          "text": "SH-022",
+          "x": 421,
+          "y": 669,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "Fill 78%",
+          "x": 84,
+          "y": 716,
+          "w": 100,
+          "h": 28
+        },
+        {
+          "text": "Fill 64%",
+          "x": 422,
+          "y": 714,
+          "w": 102,
+          "h": 30
+        },
+        {
+          "text": "Agro crates",
+          "x": 87,
+          "y": 1055,
+          "w": 178,
+          "h": 38
+        },
+        {
+          "text": "Glass kits",
+          "x": 423,
+          "y": 1053,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "SH-031",
+          "x": 85,
+          "y": 1103,
+          "w": 106,
+          "h": 36
+        },
+        {
+          "text": "SH-045",
+          "x": 421,
+          "y": 1103,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Fill 92%",
+          "x": 86,
+          "y": 1150,
+          "w": 100,
+          "h": 30
+        },
+        {
+          "text": "Fill 51%",
+          "x": 422,
+          "y": 1150,
+          "w": 96,
+          "h": 28
+        },
+        {
+          "text": "grid",
+          "x": 174,
+          "y": 267,
+          "w": 92,
+          "h": 60
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Manifest filter",
+          "x": 96,
+          "y": 36,
+          "w": 158,
+          "h": 26
+        },
+        {
+          "text": "activeFiltervalue",
+          "x": 47,
+          "y": 68,
+          "w": 255,
+          "h": 36
+        },
+        {
+          "text": "Dispatch",
+          "x": 358,
+          "y": 53,
+          "w": 138,
+          "h": 42
+        },
+        {
+          "text": "card title",
+          "x": 133,
+          "y": 435,
+          "w": 140,
+          "h": 36
+        },
+        {
+          "text": "card.id",
+          "x": 156,
+          "y": 476,
+          "w": 94,
+          "h": 32
+        },
+        {
+          "text": "Fill S{thiscard fill}",
+          "x": 102,
+          "y": 510,
+          "w": 200,
+          "h": 32
+        },
+        {
+          "text": "",
+          "x": 51,
+          "y": 883,
+          "w": 288,
+          "h": 42
+        },
+        {
+          "text": "#{thisentryorigin} - > $",
+          "x": 83,
+          "y": 1003,
+          "w": 350,
+          "h": 44
+        },
+        {
+          "text": "{this entrydestination}",
+          "x": 82,
+          "y": 1038,
+          "w": 348,
+          "h": 49
+        },
+        {
+          "text": "Details",
+          "x": 450,
+          "y": 1046,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "entrystatus",
+          "x": 178,
+          "y": 1082,
+          "w": 161,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

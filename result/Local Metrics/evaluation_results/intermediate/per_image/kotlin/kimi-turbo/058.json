@@ -1,0 +1,201 @@
+{
+  "image_id": "058",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.602003987510354,
+    "size": 0.4207647212708366,
+    "color": 0.26043593883514404
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 16,
+    "matched": 3,
+    "similarity": 0.7517948717948718,
+    "coverage": 0.5,
+    "overall": 0.7517948717948718
+  },
+  "details": {
+    "image_id": "058",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\058.png",
+    "gen_path": "kt_post\\kimi-turbo\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 39,
+      "matched_pairs": 9,
+      "position_score": 0.602003987510354,
+      "size_score": 0.4207647212708366,
+      "color_score": 0.26043593883514404
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 16,
+      "matched_pairs": 3,
+      "text_score": 0.7517948717948718,
+      "coverage": 0.5,
+      "overall_score": 0.7517948717948718,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 161,
+          "y": 23,
+          "w": 401,
+          "h": 87
+        },
+        {
+          "text": "Overview",
+          "x": 60,
+          "y": 162,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Ranking",
+          "x": 303,
+          "y": 157,
+          "w": 115,
+          "h": 42
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 174,
+          "y": 258,
+          "w": 372,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 269,
+          "y": 415,
+          "w": 183,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 117,
+          "y": 30,
+          "w": 482,
+          "h": 89
+        },
+        {
+          "text": "Leaderboard",
+          "x": 67,
+          "y": 163,
+          "w": 198,
+          "h": 38
+        },
+        {
+          "text": "My Stats",
+          "x": 329,
+          "y": 163,
+          "w": 136,
+          "h": 44
+        },
+        {
+          "text": "Settings",
+          "x": 522,
+          "y": 158,
+          "w": 135,
+          "h": 52
+        },
+        {
+          "text": "User One",
+          "x": 225,
+          "y": 291,
+          "w": 144,
+          "h": 36
+        },
+        {
+          "text": "1",
+          "x": 67,
+          "y": 315,
+          "w": 16,
+          "h": 28
+        },
+        {
+          "text": "15,234",
+          "x": 538,
+          "y": 308,
+          "w": 122,
+          "h": 42
+        },
+        {
+          "text": "15,234 steps",
+          "x": 213,
+          "y": 337,
+          "w": 170,
+          "h": 37
+        },
+        {
+          "text": "User Two",
+          "x": 227,
+          "y": 451,
+          "w": 142,
+          "h": 36
+        },
+        {
+          "text": "2",
+          "x": 62,
+          "y": 470,
+          "w": 26,
+          "h": 36
+        },
+        {
+          "text": "14,892",
+          "x": 537,
+          "y": 467,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "text": "14,892 steps",
+          "x": 211,
+          "y": 495,
+          "w": 172,
+          "h": 39
+        },
+        {
+          "text": "User Three",
+          "x": 215,
+          "y": 611,
+          "w": 166,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 64,
+          "y": 630,
+          "w": 24,
+          "h": 36
+        },
+        {
+          "text": "13,567",
+          "x": 539,
+          "y": 629,
+          "w": 122,
+          "h": 42
+        },
+        {
+          "text": "13,567 steps",
+          "x": 211,
+          "y": 657,
+          "w": 172,
+          "h": 39
+        }
+      ]
+    }
+  }
+}

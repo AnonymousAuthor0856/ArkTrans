@@ -1,0 +1,117 @@
+{
+  "image_id": "041",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6718141559966901,
+    "size": 0.8948860856535454,
+    "color": 0.8615257740020752
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 6,
+    "matched": 4,
+    "similarity": 0.9357673727238944,
+    "coverage": 1.0,
+    "overall": 0.9357673727238944
+  },
+  "details": {
+    "image_id": "041",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\041.png",
+    "gen_path": "swift_post\\deepseek\\041.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 16,
+      "matched_pairs": 12,
+      "position_score": 0.6718141559966901,
+      "size_score": 0.8948860856535454,
+      "color_score": 0.8615257740020752
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 6,
+      "matched_pairs": 4,
+      "text_score": 0.9357673727238944,
+      "coverage": 1.0,
+      "overall_score": 0.9357673727238944,
+      "ref_text_list": [
+        {
+          "text": "Monochrome Bag",
+          "x": 60,
+          "y": 428,
+          "w": 302,
+          "h": 51
+        },
+        {
+          "text": "minimalist and timeless design piece.",
+          "x": 87,
+          "y": 497,
+          "w": 482,
+          "h": 38
+        },
+        {
+          "text": "S79.00",
+          "x": 61,
+          "y": 554,
+          "w": 123,
+          "h": 42
+        },
+        {
+          "text": "Add to Cart",
+          "x": 279,
+          "y": 647,
+          "w": 196,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Product Detail",
+          "x": 190,
+          "y": 34,
+          "w": 342,
+          "h": 50
+        },
+        {
+          "text": "Monochrome",
+          "x": 193,
+          "y": 497,
+          "w": 252,
+          "h": 44
+        },
+        {
+          "text": "A minimalist and timeless design piece.",
+          "x": 73,
+          "y": 567,
+          "w": 570,
+          "h": 45
+        },
+        {
+          "text": "$79.00",
+          "x": 290,
+          "y": 624,
+          "w": 138,
+          "h": 52
+        },
+        {
+          "text": "Add to Cart",
+          "x": 271,
+          "y": 729,
+          "w": 182,
+          "h": 38
+        },
+        {
+          "text": "Bag",
+          "x": 440,
+          "y": 491,
+          "w": 92,
+          "h": 62
+        }
+      ]
+    }
+  }
+}

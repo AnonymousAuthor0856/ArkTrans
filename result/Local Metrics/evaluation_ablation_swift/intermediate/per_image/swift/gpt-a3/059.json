@@ -1,0 +1,243 @@
+{
+  "image_id": "059",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.298072322844633,
+    "size": 0.309009561667079,
+    "color": 0.28682342171669006
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 16,
+    "matched": 8,
+    "similarity": 0.9177083333333333,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9177083333333333
+  },
+  "details": {
+    "image_id": "059",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\059.png",
+    "gen_path": "swift_ablation\\gpt-a3\\059.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.298072322844633,
+      "size_score": 0.309009561667079,
+      "color_score": 0.28682342171669006
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 16,
+      "matched_pairs": 8,
+      "text_score": 0.9177083333333333,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9177083333333333,
+      "ref_text_list": [
+        {
+          "text": "Medicine Reminder",
+          "x": 123,
+          "y": 37,
+          "w": 510,
+          "h": 60
+        },
+        {
+          "text": "Vitamin C",
+          "x": 55,
+          "y": 147,
+          "w": 146,
+          "h": 38
+        },
+        {
+          "text": "08:00 AM",
+          "x": 54,
+          "y": 196,
+          "w": 134,
+          "h": 32
+        },
+        {
+          "text": "Aspirin",
+          "x": 54,
+          "y": 300,
+          "w": 111,
+          "h": 42
+        },
+        {
+          "text": "12.30 PM",
+          "x": 54,
+          "y": 350,
+          "w": 126,
+          "h": 30
+        },
+        {
+          "text": "Insulin",
+          "x": 53,
+          "y": 455,
+          "w": 104,
+          "h": 36
+        },
+        {
+          "text": "06:00 PM",
+          "x": 54,
+          "y": 502,
+          "w": 132,
+          "h": 32
+        },
+        {
+          "text": "Melatonin",
+          "x": 55,
+          "y": 607,
+          "w": 152,
+          "h": 36
+        },
+        {
+          "text": "10:00 PM",
+          "x": 54,
+          "y": 656,
+          "w": 128,
+          "h": 30
+        },
+        {
+          "text": "Mark AlI Taken",
+          "x": 265,
+          "y": 1133,
+          "w": 224,
+          "h": 36
+        },
+        {
+          "text": "Today",
+          "x": 27,
+          "y": 1255,
+          "w": 102,
+          "h": 48
+        },
+        {
+          "text": "History",
+          "x": 315,
+          "y": 1258,
+          "w": 117,
+          "h": 44
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Medicine Reminder",
+          "x": 103,
+          "y": 49,
+          "w": 522,
+          "h": 64
+        },
+        {
+          "text": "Aspirin",
+          "x": 271,
+          "y": 173,
+          "w": 112,
+          "h": 42
+        },
+        {
+          "text": "Due",
+          "x": 622,
+          "y": 198,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "08*00",
+          "x": 230,
+          "y": 222,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "1 tablet",
+          "x": 332,
+          "y": 222,
+          "w": 88,
+          "h": 26
+        },
+        {
+          "text": "Vitamin D",
+          "x": 217,
+          "y": 326,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "Upcoming",
+          "x": 554,
+          "y": 348,
+          "w": 120,
+          "h": 36
+        },
+        {
+          "text": "1200",
+          "x": 188,
+          "y": 376,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "capsule",
+          "x": 303,
+          "y": 373,
+          "w": 95,
+          "h": 36
+        },
+        {
+          "text": "Metformin",
+          "x": 237,
+          "y": 481,
+          "w": 162,
+          "h": 36
+        },
+        {
+          "text": "Taken",
+          "x": 602,
+          "y": 504,
+          "w": 70,
+          "h": 28
+        },
+        {
+          "text": "20*00",
+          "x": 222,
+          "y": 530,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "1 tablet",
+          "x": 322,
+          "y": 530,
+          "w": 90,
+          "h": 26
+        },
+        {
+          "text": "Mark AIl Taken",
+          "x": 250,
+          "y": 1084,
+          "w": 221,
+          "h": 40
+        },
+        {
+          "text": "History",
+          "x": 299,
+          "y": 1200,
+          "w": 121,
+          "h": 51
+        },
+        {
+          "text": "Today",
+          "x": 17,
+          "y": 1199,
+          "w": 102,
+          "h": 51
+        }
+      ]
+    }
+  }
+}

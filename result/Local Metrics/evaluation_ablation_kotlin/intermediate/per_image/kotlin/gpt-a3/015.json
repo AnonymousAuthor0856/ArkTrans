@@ -1,0 +1,229 @@
+{
+  "image_id": "015",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3778662960944306,
+    "size": 0.4498312853375044,
+    "color": 0.410101056098938
+  },
+  "text_scores": {
+    "ref_count": 21,
+    "gen_count": 5,
+    "matched": 4,
+    "similarity": 0.8333333333333333,
+    "coverage": 0.19047619047619047,
+    "overall": 0.8333333333333333
+  },
+  "details": {
+    "image_id": "015",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\015.png",
+    "gen_path": "kt_ablation\\gpt-a3\\015.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 6,
+      "matched_pairs": 6,
+      "position_score": 0.3778662960944306,
+      "size_score": 0.4498312853375044,
+      "color_score": 0.410101056098938
+    },
+    "text_evaluation": {
+      "ref_texts": 21,
+      "gen_texts": 5,
+      "matched_pairs": 4,
+      "text_score": 0.8333333333333333,
+      "coverage": 0.19047619047619047,
+      "overall_score": 0.8333333333333333,
+      "ref_text_list": [
+        {
+          "text": "Video Library",
+          "x": 201,
+          "y": 30,
+          "w": 324,
+          "h": 73
+        },
+        {
+          "text": "Explore the latest videos",
+          "x": 29,
+          "y": 159,
+          "w": 359,
+          "h": 44
+        },
+        {
+          "text": "Thumbnail",
+          "x": 136,
+          "y": 352,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Thumbnail",
+          "x": 474,
+          "y": 352,
+          "w": 112,
+          "h": 26
+        },
+        {
+          "text": "Nature",
+          "x": 56,
+          "y": 506,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Al",
+          "x": 396,
+          "y": 506,
+          "w": 34,
+          "h": 30
+        },
+        {
+          "text": "Explained",
+          "x": 429,
+          "y": 497,
+          "w": 150,
+          "h": 50
+        },
+        {
+          "text": "Documentary",
+          "x": 53,
+          "y": 536,
+          "w": 201,
+          "h": 48
+        },
+        {
+          "text": "18.52",
+          "x": 394,
+          "y": 556,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "24.18",
+          "x": 54,
+          "y": 594,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Thumbnail",
+          "x": 136,
+          "y": 898,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Thumbnail",
+          "x": 474,
+          "y": 898,
+          "w": 112,
+          "h": 26
+        },
+        {
+          "text": "Space Travel",
+          "x": 53,
+          "y": 1051,
+          "w": 192,
+          "h": 40
+        },
+        {
+          "text": "Modern Art",
+          "x": 395,
+          "y": 1049,
+          "w": 168,
+          "h": 36
+        },
+        {
+          "text": "31.09",
+          "x": 54,
+          "y": 1102,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Review",
+          "x": 396,
+          "y": 1089,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "15.45",
+          "x": 394,
+          "y": 1140,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Play",
+          "x": 502,
+          "y": 626,
+          "w": 54,
+          "h": 33
+        },
+        {
+          "text": "Play",
+          "x": 162,
+          "y": 664,
+          "w": 54,
+          "h": 33
+        },
+        {
+          "text": "Play",
+          "x": 163,
+          "y": 1172,
+          "w": 52,
+          "h": 33
+        },
+        {
+          "text": "Play",
+          "x": 502,
+          "y": 1209,
+          "w": 54,
+          "h": 34
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Video Library",
+          "x": 199,
+          "y": 23,
+          "w": 327,
+          "h": 72
+        },
+        {
+          "text": "Thumbnail",
+          "x": 127,
+          "y": 232,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "itemtitle",
+          "x": 113,
+          "y": 383,
+          "w": 154,
+          "h": 40
+        },
+        {
+          "text": "item duration",
+          "x": 100,
+          "y": 442,
+          "w": 178,
+          "h": 32
+        },
+        {
+          "text": "Play",
+          "x": 159,
+          "y": 511,
+          "w": 62,
+          "h": 41
+        }
+      ]
+    }
+  }
+}

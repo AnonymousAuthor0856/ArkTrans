@@ -1,0 +1,208 @@
+{
+  "image_id": "053",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2385793094332209,
+    "size": 0.2488675724366932,
+    "color": 0.19499658048152924
+  },
+  "text_scores": {
+    "ref_count": 14,
+    "gen_count": 9,
+    "matched": 3,
+    "similarity": 0.9243243243243243,
+    "coverage": 0.21428571428571427,
+    "overall": 0.9243243243243243
+  },
+  "details": {
+    "image_id": "053",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\053.png",
+    "gen_path": "swift_post\\deepseek\\053.png",
+    "ui_evaluation": {
+      "ref_blocks": 39,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.2385793094332209,
+      "size_score": 0.2488675724366932,
+      "color_score": 0.19499658048152924
+    },
+    "text_evaluation": {
+      "ref_texts": 14,
+      "gen_texts": 9,
+      "matched_pairs": 3,
+      "text_score": 0.9243243243243243,
+      "coverage": 0.21428571428571427,
+      "overall_score": 0.9243243243243243,
+      "ref_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 155,
+          "y": 28,
+          "w": 441,
+          "h": 56
+        },
+        {
+          "text": "Project Files",
+          "x": 28,
+          "y": 144,
+          "w": 234,
+          "h": 50
+        },
+        {
+          "text": "Main.kt",
+          "x": 143,
+          "y": 249,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "Entry point for Compose app",
+          "x": 139,
+          "y": 285,
+          "w": 382,
+          "h": 41
+        },
+        {
+          "text": "Utils.kt",
+          "x": 143,
+          "y": 385,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "2",
+          "x": 81,
+          "y": 411,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Helper functions",
+          "x": 141,
+          "y": 425,
+          "w": 222,
+          "h": 36
+        },
+        {
+          "text": "Theme.kt",
+          "x": 141,
+          "y": 523,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 79,
+          "y": 545,
+          "w": 18,
+          "h": 24
+        },
+        {
+          "text": "Color & Typography setup",
+          "x": 141,
+          "y": 561,
+          "w": 346,
+          "h": 38
+        },
+        {
+          "text": "Data.kt",
+          "x": 143,
+          "y": 659,
+          "w": 114,
+          "h": 36
+        },
+        {
+          "text": "Repository and model classes",
+          "x": 141,
+          "y": 699,
+          "w": 394,
+          "h": 36
+        },
+        {
+          "text": "Live Terminal",
+          "x": 28,
+          "y": 834,
+          "w": 250,
+          "h": 48
+        },
+        {
+          "text": "println(\"Hello, Kotlin!\")",
+          "x": 76,
+          "y": 939,
+          "w": 301,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Codeibetelninal",
+          "x": 83,
+          "y": 33,
+          "w": 558,
+          "h": 90
+        },
+        {
+          "text": "mid",
+          "x": 56,
+          "y": 150,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "mname",
+          "x": 142,
+          "y": 152,
+          "w": 124,
+          "h": 28
+        },
+        {
+          "text": "toStr",
+          "x": 52,
+          "y": 182,
+          "w": 72,
+          "h": 32
+        },
+        {
+          "text": "mdesc",
+          "x": 156,
+          "y": 184,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "inal)",
+          "x": 52,
+          "y": 214,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Live Terminal",
+          "x": 206,
+          "y": 271,
+          "w": 311,
+          "h": 55
+        },
+        {
+          "text": "printIn(\"Hello, Kotlinl\")",
+          "x": 224,
+          "y": 580,
+          "w": 295,
+          "h": 41
+        },
+        {
+          "text": "Run Code",
+          "x": 285,
+          "y": 901,
+          "w": 152,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "image_id": "056",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1762950083208834,
+    "size": 0.2157413379053771,
+    "color": 0.14142504334449768
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 14,
+    "matched": 4,
+    "similarity": 0.90625,
+    "coverage": 0.4,
+    "overall": 0.90625
+  },
+  "details": {
+    "image_id": "056",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\056.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 21,
+      "matched_pairs": 12,
+      "position_score": 0.1762950083208834,
+      "size_score": 0.2157413379053771,
+      "color_score": 0.14142504334449768
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 14,
+      "matched_pairs": 4,
+      "text_score": 0.90625,
+      "coverage": 0.4,
+      "overall_score": 0.90625,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 254,
+          "y": 38,
+          "w": 110,
+          "h": 56
+        },
+        {
+          "text": "Meals",
+          "x": 82,
+          "y": 162,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Chat",
+          "x": 330,
+          "y": 162,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Meals",
+          "x": 28,
+          "y": 258,
+          "w": 264,
+          "h": 52
+        },
+        {
+          "text": "Meal",
+          "x": 310,
+          "y": 394,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "7",
+          "x": 393,
+          "y": 399,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "Meal 2",
+          "x": 310,
+          "y": 578,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Meal 3",
+          "x": 310,
+          "y": 762,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Log",
+          "x": 359,
+          "y": 31,
+          "w": 117,
+          "h": 81
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Diet",
+          "x": 241,
+          "y": 65,
+          "w": 129,
+          "h": 63
+        },
+        {
+          "text": "Overview",
+          "x": 85,
+          "y": 179,
+          "w": 126,
+          "h": 32
+        },
+        {
+          "text": "Meals",
+          "x": 272,
+          "y": 178,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Profile",
+          "x": 408,
+          "y": 178,
+          "w": 88,
+          "h": 32
+        },
+        {
+          "text": "Summary",
+          "x": 328,
+          "y": 273,
+          "w": 171,
+          "h": 52
+        },
+        {
+          "text": "Calories",
+          "x": 151,
+          "y": 365,
+          "w": 112,
+          "h": 32
+        },
+        {
+          "text": "Protein",
+          "x": 466,
+          "y": 366,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "1,250",
+          "x": 143,
+          "y": 409,
+          "w": 127,
+          "h": 57
+        },
+        {
+          "text": "Quick Add",
+          "x": 281,
+          "y": 537,
+          "w": 160,
+          "h": 38
+        },
+        {
+          "text": "Food name",
+          "x": 85,
+          "y": 625,
+          "w": 172,
+          "h": 36
+        },
+        {
+          "text": "Add",
+          "x": 561,
+          "y": 623,
+          "w": 68,
+          "h": 38
+        },
+        {
+          "text": "Log",
+          "x": 363,
+          "y": 63,
+          "w": 121,
+          "h": 80
+        },
+        {
+          "text": "Today",
+          "x": 216,
+          "y": 266,
+          "w": 119,
+          "h": 59
+        },
+        {
+          "text": "729",
+          "x": 462,
+          "y": 401,
+          "w": 104,
+          "h": 72
+        }
+      ]
+    }
+  }
+}

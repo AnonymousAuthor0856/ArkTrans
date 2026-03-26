@@ -1,0 +1,110 @@
+{
+  "image_id": "012",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.13116525872027995,
+    "size": 0.20767493098613823,
+    "color": 0.18837545812129974
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 0.9482758620689655,
+    "coverage": 0.3333333333333333,
+    "overall": 0.9482758620689655
+  },
+  "details": {
+    "image_id": "012",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\012.png",
+    "gen_path": "swift_ablation\\gpt-111\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 15,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.13116525872027995,
+      "size_score": 0.20767493098613823,
+      "color_score": 0.18837545812129974
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 0.9482758620689655,
+      "coverage": 0.3333333333333333,
+      "overall_score": 0.9482758620689655,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 126,
+          "y": 20,
+          "w": 503,
+          "h": 77
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 153,
+          "y": 923,
+          "w": 444,
+          "h": 40
+        },
+        {
+          "text": "Save Marker",
+          "x": 271,
+          "y": 1021,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 27,
+          "y": 1137,
+          "w": 257,
+          "h": 42
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1206,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1256,
+          "w": 184,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Favorite Spots",
+          "x": 150,
+          "y": 30,
+          "w": 317,
+          "h": 61
+        },
+        {
+          "text": "Save Marker",
+          "x": 261,
+          "y": 621,
+          "w": 196,
+          "h": 41
+        },
+        {
+          "text": "Map",
+          "x": 462,
+          "y": 26,
+          "w": 112,
+          "h": 67
+        }
+      ]
+    }
+  }
+}

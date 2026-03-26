@@ -1,0 +1,89 @@
+{
+  "image_id": "032",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9093471954626928,
+    "size": 0.9597894134717284,
+    "color": 0.6210520267486572
+  },
+  "text_scores": {
+    "ref_count": 2,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "032",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\032.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\032.png",
+    "ui_evaluation": {
+      "ref_blocks": 8,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.9093471954626928,
+      "size_score": 0.9597894134717284,
+      "color_score": 0.6210520267486572
+    },
+    "text_evaluation": {
+      "ref_texts": 2,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Transfer Wizard",
+          "x": 163,
+          "y": 27,
+          "w": 426,
+          "h": 60
+        },
+        {
+          "text": "Transfer Progress",
+          "x": 224,
+          "y": 1019,
+          "w": 304,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Transfer Wizard",
+          "x": 153,
+          "y": 37,
+          "w": 416,
+          "h": 62
+        },
+        {
+          "text": "Transfer Progress",
+          "x": 212,
+          "y": 1037,
+          "w": 300,
+          "h": 53
+        },
+        {
+          "text": "+10%",
+          "x": 248,
+          "y": 1164,
+          "w": 78,
+          "h": 32
+        },
+        {
+          "text": "10%",
+          "x": 412,
+          "y": 1164,
+          "w": 62,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

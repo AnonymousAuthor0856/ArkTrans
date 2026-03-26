@@ -1,0 +1,145 @@
+{
+  "image_id": "027",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6526490495767068,
+    "size": 0.9033852497912827,
+    "color": 0.8070445656776428
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 0.8362573099415204,
+    "coverage": 0.3,
+    "overall": 0.8362573099415204
+  },
+  "details": {
+    "image_id": "027",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\027.png",
+    "gen_path": "kt_post\\gpt\\027.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.6526490495767068,
+      "size_score": 0.9033852497912827,
+      "color_score": 0.8070445656776428
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 0.8362573099415204,
+      "coverage": 0.3,
+      "overall_score": 0.8362573099415204,
+      "ref_text_list": [
+        {
+          "text": "Document pdf",
+          "x": 241,
+          "y": 43,
+          "w": 241,
+          "h": 48
+        },
+        {
+          "text": "Share",
+          "x": 578,
+          "y": 50,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "P",
+          "x": 417,
+          "y": 547,
+          "w": 20,
+          "h": 24
+        },
+        {
+          "text": "H",
+          "x": 416,
+          "y": 642,
+          "w": 24,
+          "h": 26
+        },
+        {
+          "text": "Page 1",
+          "x": 442,
+          "y": 679,
+          "w": 155,
+          "h": 64
+        },
+        {
+          "text": "T",
+          "x": 416,
+          "y": 738,
+          "w": 24,
+          "h": 26
+        },
+        {
+          "text": "S",
+          "x": 416,
+          "y": 832,
+          "w": 24,
+          "h": 28
+        },
+        {
+          "text": "10",
+          "x": 228,
+          "y": 1030,
+          "w": 34,
+          "h": 24
+        },
+        {
+          "text": "11",
+          "x": 87,
+          "y": 1227,
+          "w": 28,
+          "h": 20
+        },
+        {
+          "text": "12",
+          "x": 228,
+          "y": 1226,
+          "w": 32,
+          "h": 24
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Document:=",
+          "x": 135,
+          "y": 39,
+          "w": 168,
+          "h": 36
+        },
+        {
+          "text": "Share",
+          "x": 555,
+          "y": 40,
+          "w": 71,
+          "h": 30
+        },
+        {
+          "text": "Pare",
+          "x": 453,
+          "y": 616,
+          "w": 105,
+          "h": 51
+        },
+        {
+          "text": "pdf",
+          "x": 289,
+          "y": 33,
+          "w": 69,
+          "h": 50
+        }
+      ]
+    }
+  }
+}

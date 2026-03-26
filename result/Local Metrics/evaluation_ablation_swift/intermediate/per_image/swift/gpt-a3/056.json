@@ -1,0 +1,109 @@
+{
+  "image_id": "056",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.0038410239142368974,
+    "size": 0.00663833911230721,
+    "color": 0.00025949132395908237
+  },
+  "text_scores": {
+    "ref_count": 9,
+    "gen_count": 0,
+    "matched": 0,
+    "similarity": 0.0,
+    "coverage": 0.0,
+    "overall": 0.0
+  },
+  "details": {
+    "image_id": "056",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\056.png",
+    "gen_path": "swift_ablation\\gpt-a3\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 1,
+      "matched_pairs": 1,
+      "position_score": 0.0038410239142368974,
+      "size_score": 0.00663833911230721,
+      "color_score": 0.00025949132395908237
+    },
+    "text_evaluation": {
+      "ref_texts": 9,
+      "gen_texts": 0,
+      "matched_pairs": 0,
+      "text_score": 0.0,
+      "coverage": 0.0,
+      "overall_score": 0.0,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 263,
+          "y": 37,
+          "w": 120,
+          "h": 60
+        },
+        {
+          "text": "Meals",
+          "x": 86,
+          "y": 158,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Chat",
+          "x": 344,
+          "y": 158,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Stats",
+          "x": 590,
+          "y": 158,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Today's Meals",
+          "x": 27,
+          "y": 248,
+          "w": 271,
+          "h": 55
+        },
+        {
+          "text": "Meal 1",
+          "x": 334,
+          "y": 388,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Meal 2",
+          "x": 330,
+          "y": 568,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Meal 3",
+          "x": 330,
+          "y": 752,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Log",
+          "x": 373,
+          "y": 32,
+          "w": 121,
+          "h": 80
+        }
+      ],
+      "gen_text_list": []
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "image_id": "063",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9047552458027086,
+    "size": 0.94947453851142,
+    "color": 0.8574296832084656
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 0.75,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "063",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\063.png",
+    "gen_path": "kt_post\\gpt\\063.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.9047552458027086,
+      "size_score": 0.94947453851142,
+      "color_score": 0.8574296832084656
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 0.75,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 152,
+          "y": 35,
+          "w": 417,
+          "h": 68
+        },
+        {
+          "text": "45%",
+          "x": 281,
+          "y": 347,
+          "w": 162,
+          "h": 76
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 251,
+          "y": 571,
+          "w": 220,
+          "h": 41
+        },
+        {
+          "text": "Charging-",
+          "x": 265,
+          "y": 669,
+          "w": 173,
+          "h": 62
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 84,
+          "y": 28,
+          "w": 390,
+          "h": 65
+        },
+        {
+          "text": "30%",
+          "x": 275,
+          "y": 367,
+          "w": 176,
+          "h": 84
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 232,
+          "y": 587,
+          "w": 257,
+          "h": 49
+        },
+        {
+          "text": "Charging:",
+          "x": 256,
+          "y": 692,
+          "w": 182,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "image_id": "051",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5247787567787278,
+    "size": 0.7860117918546996,
+    "color": 0.16045813262462616
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 7,
+    "matched": 7,
+    "similarity": 0.9523809523809524,
+    "coverage": 0.4666666666666667,
+    "overall": 0.9523809523809524
+  },
+  "details": {
+    "image_id": "051",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\051.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\051.png",
+    "ui_evaluation": {
+      "ref_blocks": 37,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.5247787567787278,
+      "size_score": 0.7860117918546996,
+      "color_score": 0.16045813262462616
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 7,
+      "matched_pairs": 7,
+      "text_score": 0.9523809523809524,
+      "coverage": 0.4666666666666667,
+      "overall_score": 0.9523809523809524,
+      "ref_text_list": [
+        {
+          "text": "Metro Planner",
+          "x": 30,
+          "y": 35,
+          "w": 369,
+          "h": 62
+        },
+        {
+          "text": "Next Departures",
+          "x": 60,
+          "y": 713,
+          "w": 272,
+          "h": 50
+        },
+        {
+          "text": "08.45",
+          "x": 62,
+          "y": 770,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Line 1",
+          "x": 154,
+          "y": 770,
+          "w": 78,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 768,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "09.10",
+          "x": 62,
+          "y": 814,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Line 2",
+          "x": 154,
+          "y": 816,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 812,
+          "w": 96,
+          "h": 28
+        },
+        {
+          "text": "09.30",
+          "x": 62,
+          "y": 860,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Line 3",
+          "x": 154,
+          "y": 860,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 858,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Routes",
+          "x": 36,
+          "y": 1187,
+          "w": 97,
+          "h": 36
+        },
+        {
+          "text": "Planner",
+          "x": 220,
+          "y": 1190,
+          "w": 102,
+          "h": 30
+        },
+        {
+          "text": "Tickets",
+          "x": 410,
+          "y": 1190,
+          "w": 98,
+          "h": 30
+        },
+        {
+          "text": "Profile",
+          "x": 596,
+          "y": 1188,
+          "w": 88,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Metro Planner",
+          "x": 143,
+          "y": 36,
+          "w": 442,
+          "h": 68
+        },
+        {
+          "text": "Next Departures",
+          "x": 204,
+          "y": 721,
+          "w": 315,
+          "h": 54
+        },
+        {
+          "text": "On Time",
+          "x": 543,
+          "y": 783,
+          "w": 119,
+          "h": 38
+        },
+        {
+          "text": "Routes",
+          "x": 29,
+          "y": 1207,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "Planner",
+          "x": 213,
+          "y": 1207,
+          "w": 122,
+          "h": 36
+        },
+        {
+          "text": "Tickets",
+          "x": 407,
+          "y": 1207,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "tile",
+          "x": 639,
+          "y": 1207,
+          "w": 54,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "image_id": "021",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6150297744544492,
+    "size": 0.810342391470781,
+    "color": 0.693647563457489
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 7,
+    "matched": 4,
+    "similarity": 0.9021739130434783,
+    "coverage": 0.5,
+    "overall": 0.9021739130434783
+  },
+  "details": {
+    "image_id": "021",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\021.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\021.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 17,
+      "matched_pairs": 17,
+      "position_score": 0.6150297744544492,
+      "size_score": 0.810342391470781,
+      "color_score": 0.693647563457489
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 7,
+      "matched_pairs": 4,
+      "text_score": 0.9021739130434783,
+      "coverage": 0.5,
+      "overall_score": 0.9021739130434783,
+      "ref_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 178,
+          "y": 33,
+          "w": 365,
+          "h": 60
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 187,
+          "w": 214,
+          "h": 42
+        },
+        {
+          "text": "To Do",
+          "x": 55,
+          "y": 313,
+          "w": 101,
+          "h": 41
+        },
+        {
+          "text": "In Progres:",
+          "x": 516,
+          "y": 311,
+          "w": 180,
+          "h": 50
+        },
+        {
+          "text": "Write report",
+          "x": 87,
+          "y": 401,
+          "w": 154,
+          "h": 39
+        },
+        {
+          "text": "Implement",
+          "x": 548,
+          "y": 403,
+          "w": 144,
+          "h": 36
+        },
+        {
+          "text": "Design mockup",
+          "x": 85,
+          "y": 512,
+          "w": 202,
+          "h": 39
+        },
+        {
+          "text": "Fix layout k",
+          "x": 549,
+          "y": 515,
+          "w": 144,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Notifications",
+          "x": 45,
+          "y": 57,
+          "w": 244,
+          "h": 44
+        },
+        {
+          "text": "On",
+          "x": 608,
+          "y": 66,
+          "w": 44,
+          "h": 30
+        },
+        {
+          "text": "To Do",
+          "x": 217,
+          "y": 179,
+          "w": 104,
+          "h": 38
+        },
+        {
+          "text": "In",
+          "x": 635,
+          "y": 181,
+          "w": 38,
+          "h": 36
+        },
+        {
+          "text": "task",
+          "x": 238,
+          "y": 248,
+          "w": 62,
+          "h": 32
+        },
+        {
+          "text": "Task Completion",
+          "x": 202,
+          "y": 456,
+          "w": 316,
+          "h": 52
+        },
+        {
+          "text": "Kanban Board",
+          "x": 194,
+          "y": 1165,
+          "w": 334,
+          "h": 51
+        }
+      ]
+    }
+  }
+}

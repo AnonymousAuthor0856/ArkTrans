@@ -1,0 +1,173 @@
+{
+  "image_id": "049",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7035901767475152,
+    "size": 0.2676760646838051,
+    "color": 0.2922747731208801
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 6,
+    "matched": 3,
+    "similarity": 0.9777777777777779,
+    "coverage": 0.25,
+    "overall": 0.9777777777777779
+  },
+  "details": {
+    "image_id": "049",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\049.png",
+    "gen_path": "kt_post\\kimi-turbo\\049.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 9,
+      "matched_pairs": 9,
+      "position_score": 0.7035901767475152,
+      "size_score": 0.2676760646838051,
+      "color_score": 0.2922747731208801
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 6,
+      "matched_pairs": 3,
+      "text_score": 0.9777777777777779,
+      "coverage": 0.25,
+      "overall_score": 0.9777777777777779,
+      "ref_text_list": [
+        {
+          "text": "Itinerary Planner",
+          "x": 22,
+          "y": 30,
+          "w": 438,
+          "h": 77
+        },
+        {
+          "text": "Kyoto Cherry Trail",
+          "x": 48,
+          "y": 346,
+          "w": 298,
+          "h": 52
+        },
+        {
+          "text": "days",
+          "x": 68,
+          "y": 403,
+          "w": 72,
+          "h": 40
+        },
+        {
+          "text": "S460",
+          "x": 47,
+          "y": 461,
+          "w": 90,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 542,
+          "y": 472,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "Tokyo",
+          "x": 46,
+          "y": 804,
+          "w": 108,
+          "h": 48
+        },
+        {
+          "text": "Break",
+          "x": 225,
+          "y": 805,
+          "w": 102,
+          "h": 40
+        },
+        {
+          "text": "3",
+          "x": 51,
+          "y": 861,
+          "w": 18,
+          "h": 26
+        },
+        {
+          "text": "days",
+          "x": 68,
+          "y": 857,
+          "w": 73,
+          "h": 42
+        },
+        {
+          "text": "S390",
+          "x": 47,
+          "y": 917,
+          "w": 90,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 542,
+          "y": 926,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "City",
+          "x": 147,
+          "y": 798,
+          "w": 82,
+          "h": 56
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Itinerary Planner",
+          "x": 90,
+          "y": 26,
+          "w": 536,
+          "h": 92
+        },
+        {
+          "text": "triptitle",
+          "x": 117,
+          "y": 361,
+          "w": 142,
+          "h": 44
+        },
+        {
+          "text": "0",
+          "x": 145,
+          "y": 415,
+          "w": 20,
+          "h": 26
+        },
+        {
+          "text": "days",
+          "x": 164,
+          "y": 411,
+          "w": 74,
+          "h": 42
+        },
+        {
+          "text": "trip price",
+          "x": 43,
+          "y": 470,
+          "w": 165,
+          "h": 53
+        },
+        {
+          "text": "DDetails",
+          "x": 248,
+          "y": 480,
+          "w": 78,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

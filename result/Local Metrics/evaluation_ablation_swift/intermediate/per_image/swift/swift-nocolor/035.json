@@ -1,0 +1,82 @@
+{
+  "image_id": "035",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.724728840624553,
+    "size": 0.08606610396199571,
+    "color": 0.5005123615264893
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 2,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.6666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "035",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\035.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\035.png",
+    "ui_evaluation": {
+      "ref_blocks": 7,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.724728840624553,
+      "size_score": 0.08606610396199571,
+      "color_score": 0.5005123615264893
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 2,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.6666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Stock K-Line",
+          "x": 203,
+          "y": 27,
+          "w": 346,
+          "h": 60
+        },
+        {
+          "text": "1",
+          "x": 584,
+          "y": 566,
+          "w": 74,
+          "h": 138
+        },
+        {
+          "text": "Market Trend",
+          "x": 265,
+          "y": 897,
+          "w": 224,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Stock K-Line",
+          "x": 189,
+          "y": 35,
+          "w": 344,
+          "h": 60
+        },
+        {
+          "text": "Market Trend",
+          "x": 247,
+          "y": 687,
+          "w": 228,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

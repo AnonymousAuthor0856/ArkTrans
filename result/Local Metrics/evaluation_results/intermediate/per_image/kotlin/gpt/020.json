@@ -1,0 +1,110 @@
+{
+  "image_id": "020",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8335627907951374,
+    "size": 0.9039565913610778,
+    "color": 0.8582395315170288
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 4,
+    "matched": 4,
+    "similarity": 0.9375,
+    "coverage": 0.8,
+    "overall": 0.9375
+  },
+  "details": {
+    "image_id": "020",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\020.png",
+    "gen_path": "kt_post\\gpt\\020.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.8335627907951374,
+      "size_score": 0.9039565913610778,
+      "color_score": 0.8582395315170288
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 4,
+      "matched_pairs": 4,
+      "text_score": 0.9375,
+      "coverage": 0.8,
+      "overall_score": 0.9375,
+      "ref_text_list": [
+        {
+          "text": "Retro Remote Control",
+          "x": 83,
+          "y": 35,
+          "w": 558,
+          "h": 60
+        },
+        {
+          "text": "Power: OFF",
+          "x": 265,
+          "y": 771,
+          "w": 192,
+          "h": 38
+        },
+        {
+          "text": "Res",
+          "x": 463,
+          "y": 899,
+          "w": 66,
+          "h": 36
+        },
+        {
+          "text": "On",
+          "x": 201,
+          "y": 921,
+          "w": 50,
+          "h": 36
+        },
+        {
+          "text": "et",
+          "x": 462,
+          "y": 944,
+          "w": 38,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Remote Control",
+          "x": 75,
+          "y": 33,
+          "w": 596,
+          "h": 66
+        },
+        {
+          "text": "Power: OFF",
+          "x": 250,
+          "y": 640,
+          "w": 222,
+          "h": 52
+        },
+        {
+          "text": "On",
+          "x": 197,
+          "y": 797,
+          "w": 56,
+          "h": 36
+        },
+        {
+          "text": "Reset",
+          "x": 447,
+          "y": 797,
+          "w": 102,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

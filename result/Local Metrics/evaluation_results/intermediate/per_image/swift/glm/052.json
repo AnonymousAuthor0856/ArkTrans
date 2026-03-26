@@ -1,0 +1,313 @@
+{
+  "image_id": "052",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.33765520765942403,
+    "size": 0.39162142277147477,
+    "color": 0.3597759008407593
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 15,
+    "matched": 11,
+    "similarity": 0.937449359909253,
+    "coverage": 0.4782608695652174,
+    "overall": 0.937449359909253
+  },
+  "details": {
+    "image_id": "052",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\052.png",
+    "gen_path": "swift_post\\glm\\052.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 52,
+      "matched_pairs": 41,
+      "position_score": 0.33765520765942403,
+      "size_score": 0.39162142277147477,
+      "color_score": 0.3597759008407593
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 15,
+      "matched_pairs": 11,
+      "text_score": 0.937449359909253,
+      "coverage": 0.4782608695652174,
+      "overall_score": 0.937449359909253,
+      "ref_text_list": [
+        {
+          "text": "Course Catalog",
+          "x": 25,
+          "y": 18,
+          "w": 422,
+          "h": 84
+        },
+        {
+          "text": "AII",
+          "x": 128,
+          "y": 144,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "Enrolled",
+          "x": 322,
+          "y": 146,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "Completed",
+          "x": 531,
+          "y": 145,
+          "w": 148,
+          "h": 36
+        },
+        {
+          "text": "All Courses",
+          "x": 33,
+          "y": 236,
+          "w": 194,
+          "h": 42
+        },
+        {
+          "text": "Course 1",
+          "x": 55,
+          "y": 329,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 358,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 5 hrs",
+          "x": 53,
+          "y": 383,
+          "w": 201,
+          "h": 37
+        },
+        {
+          "text": "Course 2",
+          "x": 55,
+          "y": 493,
+          "w": 152,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 524,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 6 hrs",
+          "x": 56,
+          "y": 552,
+          "w": 196,
+          "h": 30
+        },
+        {
+          "text": "Course 3",
+          "x": 55,
+          "y": 659,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 688,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 7 hrs",
+          "x": 54,
+          "y": 716,
+          "w": 196,
+          "h": 32
+        },
+        {
+          "text": "Course 4",
+          "x": 55,
+          "y": 823,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 603,
+          "y": 849,
+          "w": 71,
+          "h": 38
+        },
+        {
+          "text": "Duration: 8 hrs",
+          "x": 56,
+          "y": 882,
+          "w": 196,
+          "h": 30
+        },
+        {
+          "text": "Course 5",
+          "x": 55,
+          "y": 989,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 1018,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 9 hrs",
+          "x": 53,
+          "y": 1043,
+          "w": 201,
+          "h": 37
+        },
+        {
+          "text": "Course 6",
+          "x": 55,
+          "y": 1153,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 1182,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Duration: 10 hrs",
+          "x": 54,
+          "y": 1212,
+          "w": 210,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Course Catalog",
+          "x": 25,
+          "y": 15,
+          "w": 428,
+          "h": 87
+        },
+        {
+          "text": "AII Courses",
+          "x": 78,
+          "y": 146,
+          "w": 148,
+          "h": 30
+        },
+        {
+          "text": "Enrolled",
+          "x": 298,
+          "y": 144,
+          "w": 115,
+          "h": 38
+        },
+        {
+          "text": "Completed",
+          "x": 484,
+          "y": 144,
+          "w": 149,
+          "h": 40
+        },
+        {
+          "text": "All Courses",
+          "x": 39,
+          "y": 237,
+          "w": 192,
+          "h": 38
+        },
+        {
+          "text": "Course 1",
+          "x": 197,
+          "y": 341,
+          "w": 134,
+          "h": 36
+        },
+        {
+          "text": "Description for course 1",
+          "x": 198,
+          "y": 386,
+          "w": 264,
+          "h": 30
+        },
+        {
+          "text": "Course 2",
+          "x": 197,
+          "y": 525,
+          "w": 136,
+          "h": 36
+        },
+        {
+          "text": "Description for course 2",
+          "x": 198,
+          "y": 569,
+          "w": 266,
+          "h": 30
+        },
+        {
+          "text": "Course 3",
+          "x": 197,
+          "y": 709,
+          "w": 138,
+          "h": 36
+        },
+        {
+          "text": "Description for course 3",
+          "x": 198,
+          "y": 753,
+          "w": 266,
+          "h": 30
+        },
+        {
+          "text": "Course 4",
+          "x": 197,
+          "y": 893,
+          "w": 138,
+          "h": 36
+        },
+        {
+          "text": "Description for course 4",
+          "x": 198,
+          "y": 938,
+          "w": 266,
+          "h": 30
+        },
+        {
+          "text": "Course 5",
+          "x": 197,
+          "y": 1077,
+          "w": 138,
+          "h": 36
+        },
+        {
+          "text": "Description for course 5",
+          "x": 198,
+          "y": 1121,
+          "w": 268,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

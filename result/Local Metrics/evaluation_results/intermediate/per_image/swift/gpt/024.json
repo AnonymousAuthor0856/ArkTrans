@@ -1,0 +1,110 @@
+{
+  "image_id": "024",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.31053843292504,
+    "size": 0.7022969638575752,
+    "color": 0.7695692181587219
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 4,
+    "matched": 4,
+    "similarity": 0.9375,
+    "coverage": 0.8,
+    "overall": 0.9375
+  },
+  "details": {
+    "image_id": "024",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\024.png",
+    "gen_path": "swift_post\\gpt\\024.png",
+    "ui_evaluation": {
+      "ref_blocks": 8,
+      "gen_blocks": 10,
+      "matched_pairs": 8,
+      "position_score": 0.31053843292504,
+      "size_score": 0.7022969638575752,
+      "color_score": 0.7695692181587219
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 4,
+      "matched_pairs": 4,
+      "text_score": 0.9375,
+      "coverage": 0.8,
+      "overall_score": 0.9375,
+      "ref_text_list": [
+        {
+          "text": "Retro Whiteboard",
+          "x": 158,
+          "y": 30,
+          "w": 437,
+          "h": 53
+        },
+        {
+          "text": "Clear",
+          "x": 612,
+          "y": 1218,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "Red",
+          "x": 120,
+          "y": 1252,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Yellow",
+          "x": 332,
+          "y": 1252,
+          "w": 88,
+          "h": 30
+        },
+        {
+          "text": "Gre",
+          "x": 564,
+          "y": 1252,
+          "w": 48,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Whiteboard",
+          "x": 158,
+          "y": 26,
+          "w": 403,
+          "h": 50
+        },
+        {
+          "text": "Red",
+          "x": 97,
+          "y": 163,
+          "w": 64,
+          "h": 36
+        },
+        {
+          "text": "Yellow",
+          "x": 311,
+          "y": 163,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Green",
+          "x": 545,
+          "y": 163,
+          "w": 96,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

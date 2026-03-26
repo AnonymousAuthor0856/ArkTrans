@@ -1,0 +1,117 @@
+{
+  "image_id": "057",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.606341869129876,
+    "size": 0.6580560347514047,
+    "color": 0.6743413209915161
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 6,
+    "matched": 4,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "057",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\057.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\057.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 17,
+      "matched_pairs": 17,
+      "position_score": 0.606341869129876,
+      "size_score": 0.6580560347514047,
+      "color_score": 0.6743413209915161
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 6,
+      "matched_pairs": 4,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 212,
+          "y": 26,
+          "w": 326,
+          "h": 72
+        },
+        {
+          "text": "Welcome Back",
+          "x": 239,
+          "y": 769,
+          "w": 276,
+          "h": 42
+        },
+        {
+          "text": "Track your sleep patterns and improve rest quality:",
+          "x": 47,
+          "y": 861,
+          "w": 656,
+          "h": 40
+        },
+        {
+          "text": "Sign In",
+          "x": 319,
+          "y": 977,
+          "w": 112,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 200,
+          "y": 18,
+          "w": 316,
+          "h": 85
+        },
+        {
+          "text": "2?",
+          "x": 667,
+          "y": 45,
+          "w": 12,
+          "h": 22
+        },
+        {
+          "text": "272",
+          "x": 345,
+          "y": 473,
+          "w": 76,
+          "h": 40
+        },
+        {
+          "text": "Welcome Back",
+          "x": 224,
+          "y": 739,
+          "w": 276,
+          "h": 48
+        },
+        {
+          "text": "Track your sleep patterns and improve rest quality:",
+          "x": 35,
+          "y": 832,
+          "w": 649,
+          "h": 44
+        },
+        {
+          "text": "Sign In",
+          "x": 303,
+          "y": 949,
+          "w": 112,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

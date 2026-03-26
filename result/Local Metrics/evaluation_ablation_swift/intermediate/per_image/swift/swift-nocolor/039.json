@@ -1,0 +1,96 @@
+{
+  "image_id": "039",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6523216164382647,
+    "size": 0.21956267081111708,
+    "color": 0.6748112440109253
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "039",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\039.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\039.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 14,
+      "matched_pairs": 9,
+      "position_score": 0.6523216164382647,
+      "size_score": 0.21956267081111708,
+      "color_score": 0.6748112440109253
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 160,
+          "y": 38,
+          "w": 430,
+          "h": 56
+        },
+        {
+          "text": "Payment Progress",
+          "x": 221,
+          "y": 835,
+          "w": 310,
+          "h": 45
+        },
+        {
+          "text": "Reset Progress",
+          "x": 248,
+          "y": 1075,
+          "w": 258,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 27,
+          "y": 33,
+          "w": 426,
+          "h": 60
+        },
+        {
+          "text": "Payment Progress",
+          "x": 60,
+          "y": 193,
+          "w": 312,
+          "h": 50
+        },
+        {
+          "text": "45%",
+          "x": 600,
+          "y": 198,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "Reset Progress",
+          "x": 234,
+          "y": 469,
+          "w": 257,
+          "h": 52
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "image_id": "010",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.748954114761469,
+    "size": 0.37719041484025667,
+    "color": 0.6055487990379333
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 15,
+    "matched": 7,
+    "similarity": 0.9109062980030721,
+    "coverage": 0.5833333333333334,
+    "overall": 0.9109062980030721
+  },
+  "details": {
+    "image_id": "010",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\010.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\010.png",
+    "ui_evaluation": {
+      "ref_blocks": 23,
+      "gen_blocks": 29,
+      "matched_pairs": 23,
+      "position_score": 0.748954114761469,
+      "size_score": 0.37719041484025667,
+      "color_score": 0.6055487990379333
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 15,
+      "matched_pairs": 7,
+      "text_score": 0.9109062980030721,
+      "coverage": 0.5833333333333334,
+      "overall_score": 0.9109062980030721,
+      "ref_text_list": [
+        {
+          "text": "Exit",
+          "x": 70,
+          "y": 50,
+          "w": 56,
+          "h": 28
+        },
+        {
+          "text": "Story Editor",
+          "x": 255,
+          "y": 40,
+          "w": 205,
+          "h": 51
+        },
+        {
+          "text": "Post",
+          "x": 586,
+          "y": 50,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Your Story Preview",
+          "x": 153,
+          "y": 380,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "text": "Upload Status",
+          "x": 29,
+          "y": 721,
+          "w": 170,
+          "h": 36
+        },
+        {
+          "text": "BG",
+          "x": 146,
+          "y": 944,
+          "w": 36,
+          "h": 24
+        },
+        {
+          "text": "IMG",
+          "x": 426,
+          "y": 944,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Gradient",
+          "x": 108,
+          "y": 988,
+          "w": 116,
+          "h": 32
+        },
+        {
+          "text": "User Photo",
+          "x": 378,
+          "y": 988,
+          "w": 148,
+          "h": 32
+        },
+        {
+          "text": "Helle",
+          "x": 662,
+          "y": 988,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "Layer Properties",
+          "x": 27,
+          "y": 1097,
+          "w": 200,
+          "h": 36
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 1184,
+          "w": 105,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Exit",
+          "x": 46,
+          "y": 42,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Story Editor",
+          "x": 260,
+          "y": 37,
+          "w": 191,
+          "h": 45
+        },
+        {
+          "text": "Post",
+          "x": 612,
+          "y": 42,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Upload Status",
+          "x": 280,
+          "y": 208,
+          "w": 162,
+          "h": 32
+        },
+        {
+          "text": "layertype",
+          "x": 74,
+          "y": 402,
+          "w": 115,
+          "h": 38
+        },
+        {
+          "text": "layertype",
+          "x": 298,
+          "y": 402,
+          "w": 115,
+          "h": 38
+        },
+        {
+          "text": "layertype",
+          "x": 522,
+          "y": 402,
+          "w": 115,
+          "h": 38
+        },
+        {
+          "text": "layercont",
+          "x": 66,
+          "y": 448,
+          "w": 133,
+          "h": 40
+        },
+        {
+          "text": "layercont",
+          "x": 290,
+          "y": 448,
+          "w": 133,
+          "h": 40
+        },
+        {
+          "text": "layercont",
+          "x": 514,
+          "y": 448,
+          "w": 133,
+          "h": 40
+        },
+        {
+          "text": "ent",
+          "x": 70,
+          "y": 484,
+          "w": 50,
+          "h": 30
+        },
+        {
+          "text": "ent",
+          "x": 294,
+          "y": 484,
+          "w": 50,
+          "h": 30
+        },
+        {
+          "text": "ent",
+          "x": 518,
+          "y": 484,
+          "w": 50,
+          "h": 30
+        },
+        {
+          "text": "Layer Properties",
+          "x": 264,
+          "y": 1115,
+          "w": 188,
+          "h": 33
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 1193,
+          "w": 108,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

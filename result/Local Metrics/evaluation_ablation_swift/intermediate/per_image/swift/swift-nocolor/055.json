@@ -1,0 +1,138 @@
+{
+  "image_id": "055",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9321516307844103,
+    "size": 0.9495719298025005,
+    "color": 0.9402098655700684
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 6,
+    "matched": 6,
+    "similarity": 1.0,
+    "coverage": 0.8571428571428571,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "055",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\055.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\055.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.9321516307844103,
+      "size_score": 0.9495719298025005,
+      "color_score": 0.9402098655700684
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 6,
+      "matched_pairs": 6,
+      "text_score": 1.0,
+      "coverage": 0.8571428571428571,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Workout Plan",
+          "x": 202,
+          "y": 38,
+          "w": 352,
+          "h": 56
+        },
+        {
+          "text": "Sign In to Continue",
+          "x": 198,
+          "y": 162,
+          "w": 356,
+          "h": 50
+        },
+        {
+          "text": "Workout Preview",
+          "x": 266,
+          "y": 426,
+          "w": 222,
+          "h": 30
+        },
+        {
+          "text": "Authenticate",
+          "x": 279,
+          "y": 705,
+          "w": 198,
+          "h": 38
+        },
+        {
+          "text": "Home",
+          "x": 233,
+          "y": 1237,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "Plan",
+          "x": 539,
+          "y": 1237,
+          "w": 70,
+          "h": 36
+        },
+        {
+          "text": "Profile",
+          "x": 619,
+          "y": 1237,
+          "w": 104,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Sign In to Continue",
+          "x": 173,
+          "y": 150,
+          "w": 371,
+          "h": 57
+        },
+        {
+          "text": "Workout Preview",
+          "x": 248,
+          "y": 408,
+          "w": 223,
+          "h": 32
+        },
+        {
+          "text": "Workout Plan",
+          "x": 176,
+          "y": 608,
+          "w": 373,
+          "h": 66
+        },
+        {
+          "text": "Home",
+          "x": 87,
+          "y": 1189,
+          "w": 99,
+          "h": 41
+        },
+        {
+          "text": "Plan",
+          "x": 325,
+          "y": 1191,
+          "w": 72,
+          "h": 36
+        },
+        {
+          "text": "Profile",
+          "x": 535,
+          "y": 1189,
+          "w": 102,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

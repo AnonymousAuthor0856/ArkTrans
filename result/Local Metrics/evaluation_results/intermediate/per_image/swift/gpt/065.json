@@ -1,0 +1,159 @@
+{
+  "image_id": "065",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.18416987264154563,
+    "size": 0.05493184063708481,
+    "color": 0.14017118513584137
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 1,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.06666666666666667,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "065",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\065.png",
+    "gen_path": "swift_post\\gpt\\065.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 3,
+      "matched_pairs": 3,
+      "position_score": 0.18416987264154563,
+      "size_score": 0.05493184063708481,
+      "color_score": 0.14017118513584137
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 1,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.06666666666666667,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Asset Inventory",
+          "x": 174,
+          "y": 52,
+          "w": 407,
+          "h": 75
+        },
+        {
+          "text": "Warehouse",
+          "x": 55,
+          "y": 213,
+          "w": 174,
+          "h": 36
+        },
+        {
+          "text": "Device",
+          "x": 285,
+          "y": 213,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Office",
+          "x": 451,
+          "y": 213,
+          "w": 98,
+          "h": 36
+        },
+        {
+          "text": "Asset Name",
+          "x": 56,
+          "y": 320,
+          "w": 160,
+          "h": 30
+        },
+        {
+          "text": "Asset Code",
+          "x": 55,
+          "y": 411,
+          "w": 153,
+          "h": 33
+        },
+        {
+          "text": "Device",
+          "x": 56,
+          "y": 506,
+          "w": 92,
+          "h": 32
+        },
+        {
+          "text": "Warehouse",
+          "x": 502,
+          "y": 544,
+          "w": 132,
+          "h": 28
+        },
+        {
+          "text": "Selected",
+          "x": 62,
+          "y": 610,
+          "w": 108,
+          "h": 30
+        },
+        {
+          "text": "Device",
+          "x": 610,
+          "y": 630,
+          "w": 84,
+          "h": 28
+        },
+        {
+          "text": "None",
+          "x": 61,
+          "y": 659,
+          "w": 104,
+          "h": 40
+        },
+        {
+          "text": "Office",
+          "x": 686,
+          "y": 746,
+          "w": 64,
+          "h": 26
+        },
+        {
+          "text": "Warehouse",
+          "x": 549,
+          "y": 862,
+          "w": 132,
+          "h": 26
+        },
+        {
+          "text": "Reset",
+          "x": 153,
+          "y": 1245,
+          "w": 92,
+          "h": 36
+        },
+        {
+          "text": "Save Asset",
+          "x": 467,
+          "y": 1245,
+          "w": 174,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Asset Inventory",
+          "x": 28,
+          "y": 18,
+          "w": 418,
+          "h": 81
+        }
+      ]
+    }
+  }
+}

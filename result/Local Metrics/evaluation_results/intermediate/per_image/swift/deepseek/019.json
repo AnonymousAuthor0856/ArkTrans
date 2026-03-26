@@ -1,0 +1,131 @@
+{
+  "image_id": "019",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7345076295056864,
+    "size": 0.940793609477871,
+    "color": 0.852473258972168
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 6,
+    "matched": 5,
+    "similarity": 0.96,
+    "coverage": 0.8333333333333334,
+    "overall": 0.96
+  },
+  "details": {
+    "image_id": "019",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\019.png",
+    "gen_path": "swift_post\\deepseek\\019.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 15,
+      "matched_pairs": 14,
+      "position_score": 0.7345076295056864,
+      "size_score": 0.940793609477871,
+      "color_score": 0.852473258972168
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 6,
+      "matched_pairs": 5,
+      "text_score": 0.96,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.96,
+      "ref_text_list": [
+        {
+          "text": "Subtitle Editor",
+          "x": 259,
+          "y": 25,
+          "w": 236,
+          "h": 38
+        },
+        {
+          "text": "Sample Subtitle Line",
+          "x": 166,
+          "y": 396,
+          "w": 419,
+          "h": 61
+        },
+        {
+          "text": "Font Size: 23sp",
+          "x": 273,
+          "y": 670,
+          "w": 209,
+          "h": 38
+        },
+        {
+          "text": "Sync Progress",
+          "x": 279,
+          "y": 864,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "Sync +",
+          "x": 137,
+          "y": 1033,
+          "w": 120,
+          "h": 44
+        },
+        {
+          "text": "Sync",
+          "x": 495,
+          "y": 1033,
+          "w": 94,
+          "h": 44
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Subtitle Editor",
+          "x": 129,
+          "y": 49,
+          "w": 462,
+          "h": 68
+        },
+        {
+          "text": "Font Size:",
+          "x": 257,
+          "y": 465,
+          "w": 148,
+          "h": 36
+        },
+        {
+          "text": "Sync Progress",
+          "x": 253,
+          "y": 647,
+          "w": 216,
+          "h": 44
+        },
+        {
+          "text": "Sync +",
+          "x": 137,
+          "y": 791,
+          "w": 104,
+          "h": 42
+        },
+        {
+          "text": "Sync",
+          "x": 479,
+          "y": 791,
+          "w": 82,
+          "h": 42
+        },
+        {
+          "text": "Osp",
+          "x": 399,
+          "y": 461,
+          "w": 70,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

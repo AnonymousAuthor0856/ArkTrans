@@ -1,0 +1,152 @@
+{
+  "image_id": "064",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9091798549992952,
+    "size": 0.1072934638823626,
+    "color": 0.8039708137512207
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 7,
+    "matched": 5,
+    "similarity": 0.8539393939393939,
+    "coverage": 0.625,
+    "overall": 0.8539393939393939
+  },
+  "details": {
+    "image_id": "064",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\064.png",
+    "gen_path": "kt_post\\glm\\064.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 12,
+      "matched_pairs": 12,
+      "position_score": 0.9091798549992952,
+      "size_score": 0.1072934638823626,
+      "color_score": 0.8039708137512207
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 7,
+      "matched_pairs": 5,
+      "text_score": 0.8539393939393939,
+      "coverage": 0.625,
+      "overall_score": 0.8539393939393939,
+      "ref_text_list": [
+        {
+          "text": "Approval Flow",
+          "x": 178,
+          "y": 82,
+          "w": 368,
+          "h": 72
+        },
+        {
+          "text": "Pending",
+          "x": 60,
+          "y": 227,
+          "w": 126,
+          "h": 44
+        },
+        {
+          "text": "Approved",
+          "x": 259,
+          "y": 233,
+          "w": 126,
+          "h": 38
+        },
+        {
+          "text": "Purchase Order #1042",
+          "x": 200,
+          "y": 600,
+          "w": 246,
+          "h": 28
+        },
+        {
+          "text": "Contract ##Aj",
+          "x": 580,
+          "y": 770,
+          "w": 136,
+          "h": 28
+        },
+        {
+          "text": "Budget Change #09",
+          "x": 297,
+          "y": 868,
+          "w": 220,
+          "h": 38
+        },
+        {
+          "text": "Reject",
+          "x": 147,
+          "y": 1187,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "Approve",
+          "x": 462,
+          "y": 1185,
+          "w": 130,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Approval Flow",
+          "x": 164,
+          "y": 26,
+          "w": 396,
+          "h": 72
+        },
+        {
+          "text": "Filter",
+          "x": 64,
+          "y": 166,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Approval Request",
+          "x": 181,
+          "y": 636,
+          "w": 272,
+          "h": 43
+        },
+        {
+          "text": "Details",
+          "x": 574,
+          "y": 658,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "Pending Review",
+          "x": 221,
+          "y": 676,
+          "w": 184,
+          "h": 37
+        },
+        {
+          "text": "Reject",
+          "x": 147,
+          "y": 1185,
+          "w": 90,
+          "h": 36
+        },
+        {
+          "text": "Approve",
+          "x": 469,
+          "y": 1184,
+          "w": 122,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

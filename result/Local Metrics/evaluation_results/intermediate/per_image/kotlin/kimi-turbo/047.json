@@ -1,0 +1,152 @@
+{
+  "image_id": "047",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8604716572977726,
+    "size": 0.9545014858785624,
+    "color": 0.7940991520881653
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 7,
+    "matched": 5,
+    "similarity": 0.9714285714285713,
+    "coverage": 0.625,
+    "overall": 0.9714285714285713
+  },
+  "details": {
+    "image_id": "047",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\047.png",
+    "gen_path": "kt_post\\kimi-turbo\\047.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.8604716572977726,
+      "size_score": 0.9545014858785624,
+      "color_score": 0.7940991520881653
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 7,
+      "matched_pairs": 5,
+      "text_score": 0.9714285714285713,
+      "coverage": 0.625,
+      "overall_score": 0.9714285714285713,
+      "ref_text_list": [
+        {
+          "text": "Retro Group Buy",
+          "x": 28,
+          "y": 33,
+          "w": 426,
+          "h": 76
+        },
+        {
+          "text": "Live Deals Map",
+          "x": 58,
+          "y": 159,
+          "w": 258,
+          "h": 50
+        },
+        {
+          "text": "Add Group",
+          "x": 132,
+          "y": 804,
+          "w": 121,
+          "h": 32
+        },
+        {
+          "text": "Clear",
+          "x": 498,
+          "y": 806,
+          "w": 64,
+          "h": 26
+        },
+        {
+          "text": "Active Groups",
+          "x": 60,
+          "y": 930,
+          "w": 237,
+          "h": 51
+        },
+        {
+          "text": "Group A",
+          "x": 59,
+          "y": 985,
+          "w": 106,
+          "h": 40
+        },
+        {
+          "text": "Group B",
+          "x": 59,
+          "y": 1030,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Group C",
+          "x": 59,
+          "y": 1075,
+          "w": 108,
+          "h": 39
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Group Buy",
+          "x": 99,
+          "y": 30,
+          "w": 526,
+          "h": 88
+        },
+        {
+          "text": "Live Deals",
+          "x": 217,
+          "y": 171,
+          "w": 196,
+          "h": 44
+        },
+        {
+          "text": "Add Group",
+          "x": 115,
+          "y": 837,
+          "w": 151,
+          "h": 41
+        },
+        {
+          "text": "Clear",
+          "x": 496,
+          "y": 840,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Active Groups",
+          "x": 225,
+          "y": 963,
+          "w": 273,
+          "h": 60
+        },
+        {
+          "text": "it label",
+          "x": 59,
+          "y": 1025,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Map",
+          "x": 409,
+          "y": 167,
+          "w": 100,
+          "h": 59
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "image_id": "033",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6915973739723048,
+    "size": 0.7701212230499898,
+    "color": 0.7653018832206726
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 0.896551724137931,
+    "coverage": 0.6,
+    "overall": 0.896551724137931
+  },
+  "details": {
+    "image_id": "033",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\033.png",
+    "gen_path": "swift_post\\deepseek\\033.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.6915973739723048,
+      "size_score": 0.7701212230499898,
+      "color_score": 0.7653018832206726
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 0.896551724137931,
+      "coverage": 0.6,
+      "overall_score": 0.896551724137931,
+      "ref_text_list": [
+        {
+          "text": "Bill Calendar",
+          "x": 208,
+          "y": 30,
+          "w": 338,
+          "h": 56
+        },
+        {
+          "text": "Current Spending",
+          "x": 59,
+          "y": 175,
+          "w": 301,
+          "h": 49
+        },
+        {
+          "text": "S5o0 / S1,000",
+          "x": 60,
+          "y": 286,
+          "w": 389,
+          "h": 69
+        },
+        {
+          "text": "Adjust Spending",
+          "x": 236,
+          "y": 496,
+          "w": 280,
+          "h": 50
+        },
+        {
+          "text": "Reset",
+          "x": 327,
+          "y": 697,
+          "w": 102,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Bill Calendar",
+          "x": 164,
+          "y": 32,
+          "w": 400,
+          "h": 72
+        },
+        {
+          "text": "$0 / $2000",
+          "x": 188,
+          "y": 98,
+          "w": 344,
+          "h": 78
+        },
+        {
+          "text": "Adjust Spending",
+          "x": 234,
+          "y": 382,
+          "w": 254,
+          "h": 48
+        },
+        {
+          "text": "Reset",
+          "x": 315,
+          "y": 597,
+          "w": 92,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

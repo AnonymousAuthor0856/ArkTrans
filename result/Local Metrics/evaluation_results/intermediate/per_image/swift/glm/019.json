@@ -1,0 +1,138 @@
+{
+  "image_id": "019",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.666677354099745,
+    "size": 0.8001491134642154,
+    "color": 0.8827030658721924
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 7,
+    "matched": 5,
+    "similarity": 0.8627777777777779,
+    "coverage": 0.8333333333333334,
+    "overall": 0.8627777777777779
+  },
+  "details": {
+    "image_id": "019",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\019.png",
+    "gen_path": "swift_post\\glm\\019.png",
+    "ui_evaluation": {
+      "ref_blocks": 14,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.666677354099745,
+      "size_score": 0.8001491134642154,
+      "color_score": 0.8827030658721924
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 7,
+      "matched_pairs": 5,
+      "text_score": 0.8627777777777779,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.8627777777777779,
+      "ref_text_list": [
+        {
+          "text": "Subtitle Editor",
+          "x": 259,
+          "y": 25,
+          "w": 236,
+          "h": 38
+        },
+        {
+          "text": "Sample Subtitle Line",
+          "x": 166,
+          "y": 396,
+          "w": 419,
+          "h": 61
+        },
+        {
+          "text": "Font Size: 23sp",
+          "x": 273,
+          "y": 670,
+          "w": 209,
+          "h": 38
+        },
+        {
+          "text": "Sync Progress",
+          "x": 279,
+          "y": 864,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "Sync +",
+          "x": 137,
+          "y": 1033,
+          "w": 120,
+          "h": 44
+        },
+        {
+          "text": "Sync",
+          "x": 495,
+          "y": 1033,
+          "w": 94,
+          "h": 44
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Sample Subtitle Line",
+          "x": 128,
+          "y": 204,
+          "w": 463,
+          "h": 65
+        },
+        {
+          "text": "Font Size:",
+          "x": 262,
+          "y": 464,
+          "w": 130,
+          "h": 32
+        },
+        {
+          "text": "Sync Progress",
+          "x": 267,
+          "y": 640,
+          "w": 190,
+          "h": 42
+        },
+        {
+          "text": "Sync",
+          "x": 26,
+          "y": 776,
+          "w": 92,
+          "h": 50
+        },
+        {
+          "text": "+",
+          "x": 118,
+          "y": 786,
+          "w": 24,
+          "h": 24
+        },
+        {
+          "text": "ISync",
+          "x": 366,
+          "y": 776,
+          "w": 92,
+          "h": 50
+        },
+        {
+          "text": "24sp",
+          "x": 386,
+          "y": 459,
+          "w": 79,
+          "h": 46
+        }
+      ]
+    }
+  }
+}

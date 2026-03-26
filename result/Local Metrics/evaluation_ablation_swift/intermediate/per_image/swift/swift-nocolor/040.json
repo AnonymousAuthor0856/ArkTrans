@@ -1,0 +1,250 @@
+{
+  "image_id": "040",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5969336803438028,
+    "size": 0.5777316019244529,
+    "color": 0.3133745789527893
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 17,
+    "matched": 1,
+    "similarity": 0.6153846153846154,
+    "coverage": 0.08333333333333333,
+    "overall": 0.6153846153846154
+  },
+  "details": {
+    "image_id": "040",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\040.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\040.png",
+    "ui_evaluation": {
+      "ref_blocks": 21,
+      "gen_blocks": 36,
+      "matched_pairs": 21,
+      "position_score": 0.5969336803438028,
+      "size_score": 0.5777316019244529,
+      "color_score": 0.3133745789527893
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 17,
+      "matched_pairs": 1,
+      "text_score": 0.6153846153846154,
+      "coverage": 0.08333333333333333,
+      "overall_score": 0.6153846153846154,
+      "ref_text_list": [
+        {
+          "text": "Result",
+          "x": 137,
+          "y": 565,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "4",
+          "x": 179,
+          "y": 457,
+          "w": 178,
+          "h": 138
+        },
+        {
+          "text": "1",
+          "x": 241,
+          "y": 571,
+          "w": 14,
+          "h": 24
+        },
+        {
+          "text": "Result 2",
+          "x": 493,
+          "y": 565,
+          "w": 124,
+          "h": 36
+        },
+        {
+          "text": "Add",
+          "x": 170,
+          "y": 654,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "Add",
+          "x": 526,
+          "y": 652,
+          "w": 57,
+          "h": 32
+        },
+        {
+          "text": "Result",
+          "x": 133,
+          "y": 1025,
+          "w": 102,
+          "h": 36
+        },
+        {
+          "text": "\"9 |",
+          "x": 202,
+          "y": 871,
+          "w": 330,
+          "h": 206
+        },
+        {
+          "text": "3",
+          "x": 234,
+          "y": 1024,
+          "w": 26,
+          "h": 34
+        },
+        {
+          "text": "Result 4",
+          "x": 493,
+          "y": 1025,
+          "w": 124,
+          "h": 36
+        },
+        {
+          "text": "Add",
+          "x": 170,
+          "y": 1114,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "Add",
+          "x": 526,
+          "y": 1113,
+          "w": 57,
+          "h": 31
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Filter Search",
+          "x": 43,
+          "y": 50,
+          "w": 491,
+          "h": 63
+        },
+        {
+          "text": "Search products",
+          "x": 70,
+          "y": 179,
+          "w": 249,
+          "h": 49
+        },
+        {
+          "text": "Popular",
+          "x": 73,
+          "y": 311,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "New",
+          "x": 244,
+          "y": 312,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "Discount",
+          "x": 373,
+          "y": 309,
+          "w": 120,
+          "h": 32
+        },
+        {
+          "text": "Premium",
+          "x": 557,
+          "y": 309,
+          "w": 120,
+          "h": 32
+        },
+        {
+          "text": "Adjust filter area",
+          "x": 251,
+          "y": 419,
+          "w": 218,
+          "h": 38
+        },
+        {
+          "text": "(50,40)",
+          "x": 110,
+          "y": 644,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "Vintage Camera",
+          "x": 71,
+          "y": 809,
+          "w": 249,
+          "h": 49
+        },
+        {
+          "text": "Retro",
+          "x": 439,
+          "y": 813,
+          "w": 90,
+          "h": 36
+        },
+        {
+          "text": "Sunglasses",
+          "x": 437,
+          "y": 851,
+          "w": 174,
+          "h": 42
+        },
+        {
+          "text": "Classic Watch",
+          "x": 90,
+          "y": 1015,
+          "w": 213,
+          "h": 36
+        },
+        {
+          "text": "Leather",
+          "x": 431,
+          "y": 1015,
+          "w": 122,
+          "h": 36
+        },
+        {
+          "text": "Old School",
+          "x": 109,
+          "y": 1179,
+          "w": 168,
+          "h": 36
+        },
+        {
+          "text": "Vinyl Record",
+          "x": 427,
+          "y": 1177,
+          "w": 194,
+          "h": 45
+        },
+        {
+          "text": "Sneakers",
+          "x": 107,
+          "y": 1217,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "Bag",
+          "x": 548,
+          "y": 1013,
+          "w": 73,
+          "h": 47
+        }
+      ]
+    }
+  }
+}

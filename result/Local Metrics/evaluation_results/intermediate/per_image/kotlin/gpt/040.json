@@ -1,0 +1,180 @@
+{
+  "image_id": "040",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8469929496750616,
+    "size": 0.7584329321445927,
+    "color": 0.7812044024467468
+  },
+  "text_scores": {
+    "ref_count": 11,
+    "gen_count": 8,
+    "matched": 4,
+    "similarity": 1.0,
+    "coverage": 0.36363636363636365,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "040",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\040.png",
+    "gen_path": "kt_post\\gpt\\040.png",
+    "ui_evaluation": {
+      "ref_blocks": 24,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.8469929496750616,
+      "size_score": 0.7584329321445927,
+      "color_score": 0.7812044024467468
+    },
+    "text_evaluation": {
+      "ref_texts": 11,
+      "gen_texts": 8,
+      "matched_pairs": 4,
+      "text_score": 1.0,
+      "coverage": 0.36363636363636365,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Retro Filter Search",
+          "x": 29,
+          "y": 35,
+          "w": 482,
+          "h": 60
+        },
+        {
+          "text": "Search products",
+          "x": 61,
+          "y": 158,
+          "w": 254,
+          "h": 43
+        },
+        {
+          "text": "Popular",
+          "x": 78,
+          "y": 280,
+          "w": 90,
+          "h": 32
+        },
+        {
+          "text": "New",
+          "x": 272,
+          "y": 280,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Discount",
+          "x": 432,
+          "y": 279,
+          "w": 100,
+          "h": 26
+        },
+        {
+          "text": "Result",
+          "x": 130,
+          "y": 982,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "4L V,",
+          "x": 170,
+          "y": 864,
+          "w": 326,
+          "h": 146
+        },
+        {
+          "text": "1",
+          "x": 229,
+          "y": 985,
+          "w": 14,
+          "h": 24
+        },
+        {
+          "text": "Result 2",
+          "x": 473,
+          "y": 979,
+          "w": 120,
+          "h": 36
+        },
+        {
+          "text": "Add",
+          "x": 162,
+          "y": 1066,
+          "w": 54,
+          "h": 28
+        },
+        {
+          "text": "Add",
+          "x": 506,
+          "y": 1066,
+          "w": 54,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Filter Search",
+          "x": 105,
+          "y": 33,
+          "w": 512,
+          "h": 62
+        },
+        {
+          "text": "Search products",
+          "x": 51,
+          "y": 151,
+          "w": 252,
+          "h": 49
+        },
+        {
+          "text": "it",
+          "x": 346,
+          "y": 272,
+          "w": 28,
+          "h": 30
+        },
+        {
+          "text": "item_",
+          "x": 111,
+          "y": 973,
+          "w": 82,
+          "h": 38
+        },
+        {
+          "text": "item title",
+          "x": 453,
+          "y": 971,
+          "w": 156,
+          "h": 40
+        },
+        {
+          "text": "Add",
+          "x": 158,
+          "y": 1052,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Add",
+          "x": 502,
+          "y": 1052,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "a",
+          "x": 158,
+          "y": 808,
+          "w": 342,
+          "h": 230
+        }
+      ]
+    }
+  }
+}

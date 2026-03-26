@@ -1,0 +1,292 @@
+{
+  "image_id": "011",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2504051853864894,
+    "size": 0.29834276249960456,
+    "color": 0.22877486050128937
+  },
+  "text_scores": {
+    "ref_count": 27,
+    "gen_count": 8,
+    "matched": 7,
+    "similarity": 0.7669830355036139,
+    "coverage": 0.25925925925925924,
+    "overall": 0.7669830355036139
+  },
+  "details": {
+    "image_id": "011",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\011.png",
+    "gen_path": "swift_post\\glm\\011.png",
+    "ui_evaluation": {
+      "ref_blocks": 79,
+      "gen_blocks": 36,
+      "matched_pairs": 36,
+      "position_score": 0.2504051853864894,
+      "size_score": 0.29834276249960456,
+      "color_score": 0.22877486050128937
+    },
+    "text_evaluation": {
+      "ref_texts": 27,
+      "gen_texts": 8,
+      "matched_pairs": 7,
+      "text_score": 0.7669830355036139,
+      "coverage": 0.25925925925925924,
+      "overall_score": 0.7669830355036139,
+      "ref_text_list": [
+        {
+          "text": "rljetpackcompose",
+          "x": 206,
+          "y": 38,
+          "w": 336,
+          "h": 52
+        },
+        {
+          "text": "userl",
+          "x": 266,
+          "y": 164,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "8 hours ago",
+          "x": 526,
+          "y": 180,
+          "w": 160,
+          "h": 32
+        },
+        {
+          "text": "compose_master",
+          "x": 265,
+          "y": 197,
+          "w": 248,
+          "h": 36
+        },
+        {
+          "text": "1,337",
+          "x": 44,
+          "y": 238,
+          "w": 112,
+          "h": 48
+        },
+        {
+          "text": "The power of Jetpack",
+          "x": 185,
+          "y": 247,
+          "w": 448,
+          "h": 60
+        },
+        {
+          "text": "Compose for single-file",
+          "x": 187,
+          "y": 302,
+          "w": 479,
+          "h": 56
+        },
+        {
+          "text": "Uls",
+          "x": 189,
+          "y": 357,
+          "w": 72,
+          "h": 44
+        },
+        {
+          "text": "Creating fully functional,",
+          "x": 187,
+          "y": 422,
+          "w": 395,
+          "h": 50
+        },
+        {
+          "text": "beautiful Uls in a single Kotlin",
+          "x": 188,
+          "y": 468,
+          "w": 478,
+          "h": 48
+        },
+        {
+          "text": "file is not just possible; it's",
+          "x": 186,
+          "y": 510,
+          "w": 432,
+          "h": 48
+        },
+        {
+          "text": "becoming a new standard for",
+          "x": 186,
+          "y": 549,
+          "w": 480,
+          "h": 53
+        },
+        {
+          "text": "prototypes and minimalist apps.",
+          "x": 185,
+          "y": 596,
+          "w": 519,
+          "h": 51
+        },
+        {
+          "text": "What are your thoughts on this",
+          "x": 188,
+          "y": 640,
+          "w": 504,
+          "h": 48
+        },
+        {
+          "text": "approach?",
+          "x": 186,
+          "y": 682,
+          "w": 181,
+          "h": 53
+        },
+        {
+          "text": "42 Comments",
+          "x": 192,
+          "y": 770,
+          "w": 198,
+          "h": 30
+        },
+        {
+          "text": "Share",
+          "x": 440,
+          "y": 768,
+          "w": 86,
+          "h": 32
+        },
+        {
+          "text": "TOP COMMENTS",
+          "x": 38,
+          "y": 862,
+          "w": 234,
+          "h": 32
+        },
+        {
+          "text": "devlandroid_fan",
+          "x": 151,
+          "y": 945,
+          "w": 234,
+          "h": 38
+        },
+        {
+          "text": "Zh ago",
+          "x": 397,
+          "y": 947,
+          "w": 98,
+          "h": 36
+        },
+        {
+          "text": "Absolutely agreel It simplifies",
+          "x": 73,
+          "y": 996,
+          "w": 481,
+          "h": 55
+        },
+        {
+          "text": "dependency management and makes",
+          "x": 72,
+          "y": 1044,
+          "w": 614,
+          "h": 50
+        },
+        {
+          "text": "sharing snippets a breeze.",
+          "x": 72,
+          "y": 1088,
+          "w": 428,
+          "h": 50
+        },
+        {
+          "text": "25 untec",
+          "x": 78,
+          "y": 1144,
+          "w": 120,
+          "h": 26
+        },
+        {
+          "text": "Denlu",
+          "x": 226,
+          "y": 1146,
+          "w": 84,
+          "h": 24
+        },
+        {
+          "text": "Add a comment:",
+          "x": 77,
+          "y": 1229,
+          "w": 266,
+          "h": 44
+        },
+        {
+          "text": "POST",
+          "x": 581,
+          "y": 1233,
+          "w": 94,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "User123",
+          "x": 214,
+          "y": 512,
+          "w": 114,
+          "h": 32
+        },
+        {
+          "text": "Zh ago",
+          "x": 336,
+          "y": 514,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Sample Post Title",
+          "x": 145,
+          "y": 565,
+          "w": 299,
+          "h": 52
+        },
+        {
+          "text": "41",
+          "x": 65,
+          "y": 593,
+          "w": 52,
+          "h": 42
+        },
+        {
+          "text": "This is the post body content that can",
+          "x": 149,
+          "y": 625,
+          "w": 490,
+          "h": 40
+        },
+        {
+          "text": "span multiple lines:",
+          "x": 147,
+          "y": 659,
+          "w": 250,
+          "h": 40
+        },
+        {
+          "text": "15 Comments",
+          "x": 174,
+          "y": 735,
+          "w": 156,
+          "h": 30
+        },
+        {
+          "text": "Share",
+          "x": 404,
+          "y": 736,
+          "w": 70,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

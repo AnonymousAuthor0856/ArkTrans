@@ -1,0 +1,89 @@
+{
+  "image_id": "012",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.10987771702773624,
+    "size": 0.21301670237264858,
+    "color": 0.2017059326171875
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 0.9482758620689655,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9482758620689655
+  },
+  "details": {
+    "image_id": "012",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\012.png",
+    "gen_path": "kt_post\\gpt\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 10,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.10987771702773624,
+      "size_score": 0.21301670237264858,
+      "color_score": 0.2017059326171875
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 0.9482758620689655,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9482758620689655,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 110,
+          "y": 33,
+          "w": 503,
+          "h": 73
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 177,
+          "y": 1095,
+          "w": 368,
+          "h": 38
+        },
+        {
+          "text": "Save Marker",
+          "x": 257,
+          "y": 1179,
+          "w": 208,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Favorite Spots",
+          "x": 150,
+          "y": 30,
+          "w": 317,
+          "h": 61
+        },
+        {
+          "text": "Save Marker",
+          "x": 261,
+          "y": 621,
+          "w": 196,
+          "h": 41
+        },
+        {
+          "text": "Map",
+          "x": 462,
+          "y": 26,
+          "w": 112,
+          "h": 67
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "image_id": "038",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7698021344789857,
+    "size": 0.9794930726203996,
+    "color": 0.15449126064777374
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 5,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "038",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\038.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\038.png",
+    "ui_evaluation": {
+      "ref_blocks": 10,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.7698021344789857,
+      "size_score": 0.9794930726203996,
+      "color_score": 0.15449126064777374
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 5,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 155,
+          "y": 35,
+          "w": 414,
+          "h": 60
+        },
+        {
+          "text": "Scanning Active",
+          "x": 24,
+          "y": 1013,
+          "w": 274,
+          "h": 54
+        },
+        {
+          "text": "Add Marker",
+          "x": 265,
+          "y": 1147,
+          "w": 196,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 26,
+          "y": 30,
+          "w": 341,
+          "h": 50
+        },
+        {
+          "text": "Scanning Active",
+          "x": 24,
+          "y": 872,
+          "w": 280,
+          "h": 57
+        },
+        {
+          "text": "Off",
+          "x": 474,
+          "y": 884,
+          "w": 48,
+          "h": 32
+        },
+        {
+          "text": "Enable",
+          "x": 560,
+          "y": 883,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Add Marker",
+          "x": 259,
+          "y": 993,
+          "w": 204,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

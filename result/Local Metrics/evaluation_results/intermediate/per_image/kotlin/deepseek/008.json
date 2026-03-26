@@ -1,0 +1,327 @@
+{
+  "image_id": "008",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.4656717563167949,
+    "size": 0.5186916665954465,
+    "color": 0.5009438395500183
+  },
+  "text_scores": {
+    "ref_count": 28,
+    "gen_count": 12,
+    "matched": 9,
+    "similarity": 0.8789228964667561,
+    "coverage": 0.32142857142857145,
+    "overall": 0.8789228964667561
+  },
+  "details": {
+    "image_id": "008",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\008.png",
+    "gen_path": "kt_post\\deepseek\\008.png",
+    "ui_evaluation": {
+      "ref_blocks": 52,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.4656717563167949,
+      "size_score": 0.5186916665954465,
+      "color_score": 0.5009438395500183
+    },
+    "text_evaluation": {
+      "ref_texts": 28,
+      "gen_texts": 12,
+      "matched_pairs": 9,
+      "text_score": 0.8789228964667561,
+      "coverage": 0.32142857142857145,
+      "overall_score": 0.8789228964667561,
+      "ref_text_list": [
+        {
+          "text": "",
+          "x": 30,
+          "y": 10,
+          "w": 60,
+          "h": 28
+        },
+        {
+          "text": "Health Dashboard",
+          "x": 166,
+          "y": 85,
+          "w": 389,
+          "h": 52
+        },
+        {
+          "text": "Good Morningl",
+          "x": 45,
+          "y": 207,
+          "w": 220,
+          "h": 44
+        },
+        {
+          "text": "Ready for your workout?",
+          "x": 44,
+          "y": 254,
+          "w": 446,
+          "h": 52
+        },
+        {
+          "text": "Start Workout",
+          "x": 257,
+          "y": 335,
+          "w": 208,
+          "h": 36
+        },
+        {
+          "text": "Today's Metrics",
+          "x": 18,
+          "y": 454,
+          "w": 291,
+          "h": 50
+        },
+        {
+          "text": "72",
+          "x": 41,
+          "y": 619,
+          "w": 54,
+          "h": 40
+        },
+        {
+          "text": "842",
+          "x": 207,
+          "y": 617,
+          "w": 76,
+          "h": 42
+        },
+        {
+          "text": "7.",
+          "x": 389,
+          "y": 619,
+          "w": 64,
+          "h": 40
+        },
+        {
+          "text": "420",
+          "x": 567,
+          "y": 619,
+          "w": 76,
+          "h": 40
+        },
+        {
+          "text": "Heart",
+          "x": 36,
+          "y": 668,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Steps",
+          "x": 208,
+          "y": 666,
+          "w": 70,
+          "h": 31
+        },
+        {
+          "text": "Sleep",
+          "x": 385,
+          "y": 666,
+          "w": 69,
+          "h": 30
+        },
+        {
+          "text": "Calories",
+          "x": 557,
+          "y": 665,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Recent Workouts",
+          "x": 13,
+          "y": 763,
+          "w": 312,
+          "h": 42
+        },
+        {
+          "text": "View AII",
+          "x": 566,
+          "y": 768,
+          "w": 94,
+          "h": 28
+        },
+        {
+          "text": "Morning Run",
+          "x": 135,
+          "y": 879,
+          "w": 188,
+          "h": 42
+        },
+        {
+          "text": "Star",
+          "x": 592,
+          "y": 898,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "32 min",
+          "x": 134,
+          "y": 922,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "284 kcal",
+          "x": 244,
+          "y": 922,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Yoga Flow",
+          "x": 130,
+          "y": 1020,
+          "w": 160,
+          "h": 48
+        },
+        {
+          "text": "Star",
+          "x": 592,
+          "y": 1042,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "45 min",
+          "x": 134,
+          "y": 1066,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "156 kcal",
+          "x": 244,
+          "y": 1066,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Dashboard",
+          "x": 24,
+          "y": 1214,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "Workouts",
+          "x": 214,
+          "y": 1214,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Nutrition",
+          "x": 404,
+          "y": 1214,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Profile",
+          "x": 598,
+          "y": 1214,
+          "w": 76,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "HealthoDasingboard",
+          "x": 94,
+          "y": 28,
+          "w": 538,
+          "h": 74
+        },
+        {
+          "text": "Ready Tor your workout?",
+          "x": 84,
+          "y": 78,
+          "w": 552,
+          "h": 64
+        },
+        {
+          "text": "Start Workout",
+          "x": 255,
+          "y": 168,
+          "w": 213,
+          "h": 37
+        },
+        {
+          "text": "Today's Metrics",
+          "x": 17,
+          "y": 287,
+          "w": 348,
+          "h": 64
+        },
+        {
+          "text": "metric value",
+          "x": 226,
+          "y": 462,
+          "w": 270,
+          "h": 50
+        },
+        {
+          "text": "metric title",
+          "x": 300,
+          "y": 518,
+          "w": 122,
+          "h": 26
+        },
+        {
+          "text": "Recent Workouts",
+          "x": 11,
+          "y": 587,
+          "w": 384,
+          "h": 54
+        },
+        {
+          "text": "View AlI",
+          "x": 614,
+          "y": 600,
+          "w": 94,
+          "h": 26
+        },
+        {
+          "text": "workout name",
+          "x": 227,
+          "y": 691,
+          "w": 218,
+          "h": 36
+        },
+        {
+          "text": "Start",
+          "x": 586,
+          "y": 712,
+          "w": 62,
+          "h": 26
+        },
+        {
+          "text": "workoutduration",
+          "x": 134,
+          "y": 732,
+          "w": 226,
+          "h": 32
+        },
+        {
+          "text": "workout caloz",
+          "x": 378,
+          "y": 732,
+          "w": 170,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "image_id": "056",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.31324992610201186,
+    "size": 0.35725889575374864,
+    "color": 0.23402872681617737
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 17,
+    "matched": 4,
+    "similarity": 0.8229166666666666,
+    "coverage": 0.4,
+    "overall": 0.8229166666666666
+  },
+  "details": {
+    "image_id": "056",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\056.png",
+    "gen_path": "kt_post\\gpt\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 26,
+      "matched_pairs": 12,
+      "position_score": 0.31324992610201186,
+      "size_score": 0.35725889575374864,
+      "color_score": 0.23402872681617737
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 17,
+      "matched_pairs": 4,
+      "text_score": 0.8229166666666666,
+      "coverage": 0.4,
+      "overall_score": 0.8229166666666666,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 254,
+          "y": 38,
+          "w": 110,
+          "h": 56
+        },
+        {
+          "text": "Meals",
+          "x": 82,
+          "y": 162,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Chat",
+          "x": 330,
+          "y": 162,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Meals",
+          "x": 28,
+          "y": 258,
+          "w": 264,
+          "h": 52
+        },
+        {
+          "text": "Meal",
+          "x": 310,
+          "y": 394,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "7",
+          "x": 393,
+          "y": 399,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "Meal 2",
+          "x": 310,
+          "y": 578,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Meal 3",
+          "x": 310,
+          "y": 762,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Log",
+          "x": 359,
+          "y": 31,
+          "w": 117,
+          "h": 81
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Diet",
+          "x": 225,
+          "y": 63,
+          "w": 144,
+          "h": 73
+        },
+        {
+          "text": "Today",
+          "x": 106,
+          "y": 230,
+          "w": 92,
+          "h": 44
+        },
+        {
+          "text": "History",
+          "x": 309,
+          "y": 233,
+          "w": 103,
+          "h": 40
+        },
+        {
+          "text": "Insights",
+          "x": 513,
+          "y": 235,
+          "w": 110,
+          "h": 38
+        },
+        {
+          "text": "Quick Add",
+          "x": 281,
+          "y": 405,
+          "w": 160,
+          "h": 38
+        },
+        {
+          "text": "e.g , Breakfast: oatmeal +",
+          "x": 115,
+          "y": 485,
+          "w": 374,
+          "h": 42
+        },
+        {
+          "text": "Add",
+          "x": 194,
+          "y": 592,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Scan",
+          "x": 462,
+          "y": 592,
+          "w": 70,
+          "h": 32
+        },
+        {
+          "text": "Daily Goal",
+          "x": 95,
+          "y": 741,
+          "w": 156,
+          "h": 42
+        },
+        {
+          "text": "70%",
+          "x": 568,
+          "y": 742,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Protein",
+          "x": 135,
+          "y": 827,
+          "w": 85,
+          "h": 30
+        },
+        {
+          "text": "Carbs",
+          "x": 324,
+          "y": 828,
+          "w": 70,
+          "h": 28
+        },
+        {
+          "text": "Fat",
+          "x": 522,
+          "y": 828,
+          "w": 40,
+          "h": 28
+        },
+        {
+          "text": "82g",
+          "x": 149,
+          "y": 865,
+          "w": 60,
+          "h": 40
+        },
+        {
+          "text": "145g",
+          "x": 325,
+          "y": 865,
+          "w": 74,
+          "h": 40
+        },
+        {
+          "text": "52g",
+          "x": 513,
+          "y": 865,
+          "w": 58,
+          "h": 40
+        },
+        {
+          "text": "Log",
+          "x": 362,
+          "y": 60,
+          "w": 140,
+          "h": 94
+        }
+      ]
+    }
+  }
+}

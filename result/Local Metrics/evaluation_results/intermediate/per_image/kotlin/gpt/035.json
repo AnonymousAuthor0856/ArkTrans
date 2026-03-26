@@ -1,0 +1,89 @@
+{
+  "image_id": "035",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.12065658211996669,
+    "size": 0.1462480526137977,
+    "color": 0.12514013051986694
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.6666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "035",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\035.png",
+    "gen_path": "kt_post\\gpt\\035.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 9,
+      "matched_pairs": 9,
+      "position_score": 0.12065658211996669,
+      "size_score": 0.1462480526137977,
+      "color_score": 0.12514013051986694
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.6666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Stock K-Line",
+          "x": 197,
+          "y": 33,
+          "w": 331,
+          "h": 61
+        },
+        {
+          "text": "Market Trend",
+          "x": 251,
+          "y": 703,
+          "w": 220,
+          "h": 42
+        },
+        {
+          "text": "U",
+          "x": 85,
+          "y": 750,
+          "w": 199,
+          "h": 165
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Stock K-Line",
+          "x": 122,
+          "y": 30,
+          "w": 294,
+          "h": 52
+        },
+        {
+          "text": "Canvas",
+          "x": 310,
+          "y": 272,
+          "w": 98,
+          "h": 30
+        },
+        {
+          "text": "Market Trend",
+          "x": 247,
+          "y": 575,
+          "w": 228,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

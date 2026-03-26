@@ -1,0 +1,131 @@
+{
+  "image_id": "017",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7037352727932741,
+    "size": 0.7081898881011455,
+    "color": 0.7242329120635986
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 6,
+    "matched": 5,
+    "similarity": 0.8671428571428571,
+    "coverage": 0.8333333333333334,
+    "overall": 0.8671428571428571
+  },
+  "details": {
+    "image_id": "017",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\017.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\017.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 21,
+      "matched_pairs": 21,
+      "position_score": 0.7037352727932741,
+      "size_score": 0.7081898881011455,
+      "color_score": 0.7242329120635986
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 6,
+      "matched_pairs": 5,
+      "text_score": 0.8671428571428571,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.8671428571428571,
+      "ref_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 121,
+          "y": 35,
+          "w": 514,
+          "h": 60
+        },
+        {
+          "text": "Bass 40",
+          "x": 30,
+          "y": 348,
+          "w": 126,
+          "h": 28
+        },
+        {
+          "text": "Mid 50%",
+          "x": 30,
+          "y": 482,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Treble 60%",
+          "x": 30,
+          "y": 616,
+          "w": 144,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 70%",
+          "x": 31,
+          "y": 857,
+          "w": 304,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 262,
+          "y": 1044,
+          "w": 229,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 0,
+          "y": 37,
+          "w": 502,
+          "h": 64
+        },
+        {
+          "text": "Bass",
+          "x": 22,
+          "y": 156,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "Mid",
+          "x": 21,
+          "y": 307,
+          "w": 62,
+          "h": 36
+        },
+        {
+          "text": "Treble",
+          "x": 21,
+          "y": 461,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "Master Volume 50%",
+          "x": 21,
+          "y": 698,
+          "w": 296,
+          "h": 37
+        },
+        {
+          "text": "Apply",
+          "x": 315,
+          "y": 893,
+          "w": 92,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

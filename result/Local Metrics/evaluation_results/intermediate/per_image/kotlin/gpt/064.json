@@ -1,0 +1,117 @@
+{
+  "image_id": "064",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1664306305490893,
+    "size": 0.1574278682433275,
+    "color": 0.176632821559906
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 2,
+    "matched": 2,
+    "similarity": 0.8157894736842105,
+    "coverage": 0.25,
+    "overall": 0.8157894736842105
+  },
+  "details": {
+    "image_id": "064",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\064.png",
+    "gen_path": "kt_post\\gpt\\064.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 6,
+      "matched_pairs": 6,
+      "position_score": 0.1664306305490893,
+      "size_score": 0.1574278682433275,
+      "color_score": 0.176632821559906
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 2,
+      "matched_pairs": 2,
+      "text_score": 0.8157894736842105,
+      "coverage": 0.25,
+      "overall_score": 0.8157894736842105,
+      "ref_text_list": [
+        {
+          "text": "Approval Flow",
+          "x": 178,
+          "y": 82,
+          "w": 368,
+          "h": 72
+        },
+        {
+          "text": "Pending",
+          "x": 60,
+          "y": 227,
+          "w": 126,
+          "h": 44
+        },
+        {
+          "text": "Approved",
+          "x": 259,
+          "y": 233,
+          "w": 126,
+          "h": 38
+        },
+        {
+          "text": "Purchase Order #1042",
+          "x": 200,
+          "y": 600,
+          "w": 246,
+          "h": 28
+        },
+        {
+          "text": "Contract ##Aj",
+          "x": 580,
+          "y": 770,
+          "w": 136,
+          "h": 28
+        },
+        {
+          "text": "Budget Change #09",
+          "x": 297,
+          "y": 868,
+          "w": 220,
+          "h": 38
+        },
+        {
+          "text": "Reject",
+          "x": 147,
+          "y": 1187,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "Approve",
+          "x": 462,
+          "y": 1185,
+          "w": 130,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Reject",
+          "x": 133,
+          "y": 53,
+          "w": 114,
+          "h": 44
+        },
+        {
+          "text": "Approve",
+          "x": 456,
+          "y": 52,
+          "w": 155,
+          "h": 55
+        }
+      ]
+    }
+  }
+}

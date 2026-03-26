@@ -1,0 +1,82 @@
+{
+  "image_id": "061",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.916798551406737,
+    "size": 0.029308944936160788,
+    "color": 0.2411802113056183
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 2,
+    "matched": 2,
+    "similarity": 0.9931506849315068,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9931506849315068
+  },
+  "details": {
+    "image_id": "061",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\061.png",
+    "gen_path": "kt_post\\glm\\061.png",
+    "ui_evaluation": {
+      "ref_blocks": 7,
+      "gen_blocks": 9,
+      "matched_pairs": 7,
+      "position_score": 0.916798551406737,
+      "size_score": 0.029308944936160788,
+      "color_score": 0.2411802113056183
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 2,
+      "matched_pairs": 2,
+      "text_score": 0.9931506849315068,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9931506849315068,
+      "ref_text_list": [
+        {
+          "text": "Parcel Tracker",
+          "x": 188,
+          "y": 32,
+          "w": 349,
+          "h": 56
+        },
+        {
+          "text": "Drag to locate parcel",
+          "x": 244,
+          "y": 419,
+          "w": 230,
+          "h": 31
+        },
+        {
+          "text": "Visualize parcel movements and positions_",
+          "x": 130,
+          "y": 775,
+          "w": 456,
+          "h": 33
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Parcel Tracker",
+          "x": 116,
+          "y": 52,
+          "w": 492,
+          "h": 74
+        },
+        {
+          "text": "Visualize parcel movements and positions:",
+          "x": 50,
+          "y": 817,
+          "w": 624,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

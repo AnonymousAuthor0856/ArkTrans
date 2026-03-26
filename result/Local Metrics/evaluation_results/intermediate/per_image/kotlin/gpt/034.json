@@ -1,0 +1,208 @@
+{
+  "image_id": "034",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5024249983373337,
+    "size": 0.39672206494753587,
+    "color": 0.6196713447570801
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 7,
+    "matched": 5,
+    "similarity": 0.9128540305010894,
+    "coverage": 0.3125,
+    "overall": 0.9128540305010894
+  },
+  "details": {
+    "image_id": "034",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\034.png",
+    "gen_path": "kt_post\\gpt\\034.png",
+    "ui_evaluation": {
+      "ref_blocks": 28,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.5024249983373337,
+      "size_score": 0.39672206494753587,
+      "color_score": 0.6196713447570801
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 7,
+      "matched_pairs": 5,
+      "text_score": 0.9128540305010894,
+      "coverage": 0.3125,
+      "overall_score": 0.9128540305010894,
+      "ref_text_list": [
+        {
+          "text": "Explore",
+          "x": 196,
+          "y": 34,
+          "w": 206,
+          "h": 72
+        },
+        {
+          "text": "Search destination",
+          "x": 61,
+          "y": 213,
+          "w": 290,
+          "h": 38
+        },
+        {
+          "text": "Central Plaza",
+          "x": 53,
+          "y": 359,
+          "w": 196,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 566,
+          "y": 380,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "1.2km",
+          "x": 54,
+          "y": 398,
+          "w": 86,
+          "h": 28
+        },
+        {
+          "text": "Museum District",
+          "x": 55,
+          "y": 527,
+          "w": 244,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 566,
+          "y": 548,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "3.4 km",
+          "x": 54,
+          "y": 564,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Tech Park",
+          "x": 53,
+          "y": 695,
+          "w": 152,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 566,
+          "y": 716,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "5.6 km",
+          "x": 54,
+          "y": 732,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Old Town Gate",
+          "x": 53,
+          "y": 863,
+          "w": 218,
+          "h": 36
+        },
+        {
+          "text": "View",
+          "x": 566,
+          "y": 884,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "7.8 km",
+          "x": 54,
+          "y": 900,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Refresh Map",
+          "x": 267,
+          "y": 1127,
+          "w": 188,
+          "h": 40
+        },
+        {
+          "text": "Map",
+          "x": 399,
+          "y": 30,
+          "w": 128,
+          "h": 79
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Explore",
+          "x": 188,
+          "y": 22,
+          "w": 216,
+          "h": 72
+        },
+        {
+          "text": "it name",
+          "x": 237,
+          "y": 181,
+          "w": 134,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 572,
+          "y": 204,
+          "w": 70,
+          "h": 32
+        },
+        {
+          "text": "it distance",
+          "x": 234,
+          "y": 230,
+          "w": 140,
+          "h": 30
+        },
+        {
+          "text": "Refresh",
+          "x": 251,
+          "y": 441,
+          "w": 134,
+          "h": 42
+        },
+        {
+          "text": "Map",
+          "x": 400,
+          "y": 16,
+          "w": 138,
+          "h": 83
+        },
+        {
+          "text": "Map",
+          "x": 383,
+          "y": 438,
+          "w": 89,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

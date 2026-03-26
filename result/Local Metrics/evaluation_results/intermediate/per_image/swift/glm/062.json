@@ -1,0 +1,145 @@
+{
+  "image_id": "062",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7760909951533063,
+    "size": 0.9682983123127822,
+    "color": 0.4526192545890808
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 7,
+    "matched": 7,
+    "similarity": 0.9795918367346939,
+    "coverage": 1.0,
+    "overall": 0.9795918367346939
+  },
+  "details": {
+    "image_id": "062",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\062.png",
+    "gen_path": "swift_post\\glm\\062.png",
+    "ui_evaluation": {
+      "ref_blocks": 18,
+      "gen_blocks": 17,
+      "matched_pairs": 17,
+      "position_score": 0.7760909951533063,
+      "size_score": 0.9682983123127822,
+      "color_score": 0.4526192545890808
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 7,
+      "matched_pairs": 7,
+      "text_score": 0.9795918367346939,
+      "coverage": 1.0,
+      "overall_score": 0.9795918367346939,
+      "ref_text_list": [
+        {
+          "text": "ThermoCurve",
+          "x": 204,
+          "y": 32,
+          "w": 341,
+          "h": 51
+        },
+        {
+          "text": "Target Temperature",
+          "x": 206,
+          "y": 292,
+          "w": 340,
+          "h": 48
+        },
+        {
+          "text": "228C",
+          "x": 257,
+          "y": 399,
+          "w": 240,
+          "h": 92
+        },
+        {
+          "text": "Mode",
+          "x": 329,
+          "y": 783,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Cool",
+          "x": 228,
+          "y": 1000,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Heat",
+          "x": 464,
+          "y": 1000,
+          "w": 60,
+          "h": 26
+        },
+        {
+          "text": "Current Mode: Cool",
+          "x": 262,
+          "y": 1128,
+          "w": 226,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "ThermoCurve",
+          "x": 171,
+          "y": 30,
+          "w": 346,
+          "h": 51
+        },
+        {
+          "text": "Target Temperature",
+          "x": 191,
+          "y": 157,
+          "w": 337,
+          "h": 52
+        },
+        {
+          "text": "22'C",
+          "x": 248,
+          "y": 248,
+          "w": 232,
+          "h": 104
+        },
+        {
+          "text": "Mode",
+          "x": 313,
+          "y": 573,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Cool",
+          "x": 212,
+          "y": 758,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Heat",
+          "x": 444,
+          "y": 758,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Current Mode: Cool",
+          "x": 212,
+          "y": 868,
+          "w": 297,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "image_id": "051",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.20179461887888198,
+    "size": 0.21448108783006847,
+    "color": 0.19824540615081787
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 0.2,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "051",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\051.png",
+    "gen_path": "kt_post\\deepseek\\051.png",
+    "ui_evaluation": {
+      "ref_blocks": 37,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.20179461887888198,
+      "size_score": 0.21448108783006847,
+      "color_score": 0.19824540615081787
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 0.2,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Metro Planner",
+          "x": 30,
+          "y": 35,
+          "w": 369,
+          "h": 62
+        },
+        {
+          "text": "Next Departures",
+          "x": 60,
+          "y": 713,
+          "w": 272,
+          "h": 50
+        },
+        {
+          "text": "08.45",
+          "x": 62,
+          "y": 770,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Line 1",
+          "x": 154,
+          "y": 770,
+          "w": 78,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 768,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "09.10",
+          "x": 62,
+          "y": 814,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Line 2",
+          "x": 154,
+          "y": 816,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 812,
+          "w": 96,
+          "h": 28
+        },
+        {
+          "text": "09.30",
+          "x": 62,
+          "y": 860,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Line 3",
+          "x": 154,
+          "y": 860,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "On Time",
+          "x": 562,
+          "y": 858,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Routes",
+          "x": 36,
+          "y": 1187,
+          "w": 97,
+          "h": 36
+        },
+        {
+          "text": "Planner",
+          "x": 220,
+          "y": 1190,
+          "w": 102,
+          "h": 30
+        },
+        {
+          "text": "Tickets",
+          "x": 410,
+          "y": 1190,
+          "w": 98,
+          "h": 30
+        },
+        {
+          "text": "Profile",
+          "x": 596,
+          "y": 1188,
+          "w": 88,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Metro Planner",
+          "x": 143,
+          "y": 36,
+          "w": 442,
+          "h": 68
+        },
+        {
+          "text": "Next Departures",
+          "x": 202,
+          "y": 721,
+          "w": 318,
+          "h": 57
+        },
+        {
+          "text": "it",
+          "x": 60,
+          "y": 786,
+          "w": 30,
+          "h": 32
+        },
+        {
+          "text": "On Time",
+          "x": 545,
+          "y": 783,
+          "w": 117,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

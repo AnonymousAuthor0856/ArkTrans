@@ -1,0 +1,215 @@
+{
+  "image_id": "043",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6784174077669805,
+    "size": 0.8649098139770314,
+    "color": 0.6569682359695435
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 9,
+    "matched": 7,
+    "similarity": 0.8538738149722132,
+    "coverage": 0.4666666666666667,
+    "overall": 0.8538738149722132
+  },
+  "details": {
+    "image_id": "043",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\043.png",
+    "gen_path": "kt_post\\kimi-turbo\\043.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.6784174077669805,
+      "size_score": 0.8649098139770314,
+      "color_score": 0.6569682359695435
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 9,
+      "matched_pairs": 7,
+      "text_score": 0.8538738149722132,
+      "coverage": 0.4666666666666667,
+      "overall_score": 0.8538738149722132,
+      "ref_text_list": [
+        {
+          "text": "Your Cart",
+          "x": 25,
+          "y": 31,
+          "w": 254,
+          "h": 60
+        },
+        {
+          "text": "Neon Keyboard",
+          "x": 44,
+          "y": 139,
+          "w": 255,
+          "h": 54
+        },
+        {
+          "text": "Remove",
+          "x": 534,
+          "y": 170,
+          "w": 92,
+          "h": 24
+        },
+        {
+          "text": "S89.99",
+          "x": 45,
+          "y": 187,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "Wireless Mouse",
+          "x": 45,
+          "y": 299,
+          "w": 266,
+          "h": 42
+        },
+        {
+          "text": "Remove",
+          "x": 534,
+          "y": 326,
+          "w": 92,
+          "h": 24
+        },
+        {
+          "text": "S49.99",
+          "x": 45,
+          "y": 341,
+          "w": 94,
+          "h": 38
+        },
+        {
+          "text": "Gaming Headset",
+          "x": 41,
+          "y": 452,
+          "w": 281,
+          "h": 52
+        },
+        {
+          "text": "Remove",
+          "x": 534,
+          "y": 482,
+          "w": 92,
+          "h": 24
+        },
+        {
+          "text": "S109.99",
+          "x": 46,
+          "y": 500,
+          "w": 108,
+          "h": 32
+        },
+        {
+          "text": "Promo Code",
+          "x": 57,
+          "y": 661,
+          "w": 194,
+          "h": 36
+        },
+        {
+          "text": "Items:",
+          "x": 52,
+          "y": 824,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Total:",
+          "x": 51,
+          "y": 867,
+          "w": 100,
+          "h": 40
+        },
+        {
+          "text": "S249.97",
+          "x": 529,
+          "y": 865,
+          "w": 138,
+          "h": 44
+        },
+        {
+          "text": "Checkout",
+          "x": 281,
+          "y": 991,
+          "w": 162,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Your Cart",
+          "x": 213,
+          "y": 31,
+          "w": 302,
+          "h": 66
+        },
+        {
+          "text": "it.name",
+          "x": 187,
+          "y": 145,
+          "w": 136,
+          "h": 38
+        },
+        {
+          "text": "Remove",
+          "x": 462,
+          "y": 166,
+          "w": 108,
+          "h": 32
+        },
+        {
+          "text": "$S{String format(\"%.2f\", it price)}",
+          "x": 42,
+          "y": 182,
+          "w": 428,
+          "h": 44
+        },
+        {
+          "text": "Prole Codle",
+          "x": 57,
+          "y": 341,
+          "w": 190,
+          "h": 36
+        },
+        {
+          "text": "Items:",
+          "x": 52,
+          "y": 508,
+          "w": 84,
+          "h": 28
+        },
+        {
+          "text": "S{items size}",
+          "x": 499,
+          "y": 505,
+          "w": 170,
+          "h": 36
+        },
+        {
+          "text": "Total: $${String format(\"%.2f\" , total)}",
+          "x": 52,
+          "y": 546,
+          "w": 618,
+          "h": 54
+        },
+        {
+          "text": "Checkout",
+          "x": 277,
+          "y": 675,
+          "w": 168,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

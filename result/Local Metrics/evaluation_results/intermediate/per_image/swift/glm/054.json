@@ -1,0 +1,250 @@
+{
+  "image_id": "054",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7795507072553471,
+    "size": 0.7732510458177577,
+    "color": 0.8365263342857361
+  },
+  "text_scores": {
+    "ref_count": 14,
+    "gen_count": 15,
+    "matched": 8,
+    "similarity": 0.8519230769230769,
+    "coverage": 0.5714285714285714,
+    "overall": 0.8519230769230769
+  },
+  "details": {
+    "image_id": "054",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\054.png",
+    "gen_path": "swift_post\\glm\\054.png",
+    "ui_evaluation": {
+      "ref_blocks": 31,
+      "gen_blocks": 21,
+      "matched_pairs": 21,
+      "position_score": 0.7795507072553471,
+      "size_score": 0.7732510458177577,
+      "color_score": 0.8365263342857361
+    },
+    "text_evaluation": {
+      "ref_texts": 14,
+      "gen_texts": 15,
+      "matched_pairs": 8,
+      "text_score": 0.8519230769230769,
+      "coverage": 0.5714285714285714,
+      "overall_score": 0.8519230769230769,
+      "ref_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 148,
+          "y": 34,
+          "w": 460,
+          "h": 53
+        },
+        {
+          "text": "Assignments",
+          "x": 26,
+          "y": 148,
+          "w": 226,
+          "h": 48
+        },
+        {
+          "text": "Linear Algebra HW1",
+          "x": 63,
+          "y": 461,
+          "w": 268,
+          "h": 41
+        },
+        {
+          "text": "Data Structures HW2",
+          "x": 412,
+          "y": 464,
+          "w": 286,
+          "h": 32
+        },
+        {
+          "text": "Submitted",
+          "x": 138,
+          "y": 508,
+          "w": 116,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 507,
+          "y": 506,
+          "w": 93,
+          "h": 30
+        },
+        {
+          "text": "Algorithm HW3",
+          "x": 93,
+          "y": 821,
+          "w": 208,
+          "h": 36
+        },
+        {
+          "text": "Probability HW4",
+          "x": 442,
+          "y": 816,
+          "w": 223,
+          "h": 41
+        },
+        {
+          "text": "Graded",
+          "x": 154,
+          "y": 864,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 507,
+          "y": 861,
+          "w": 93,
+          "h": 33
+        },
+        {
+          "text": "Progress Chart",
+          "x": 23,
+          "y": 968,
+          "w": 265,
+          "h": 49
+        },
+        {
+          "text": "Week 1: 70%",
+          "x": 28,
+          "y": 1088,
+          "w": 148,
+          "h": 28
+        },
+        {
+          "text": "Week 2: 90%",
+          "x": 28,
+          "y": 1178,
+          "w": 152,
+          "h": 26
+        },
+        {
+          "text": "Week 3: 50%",
+          "x": 28,
+          "y": 1266,
+          "w": 152,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 0,
+          "y": 34,
+          "w": 469,
+          "h": 56
+        },
+        {
+          "text": "Assignments",
+          "x": 31,
+          "y": 349,
+          "w": 220,
+          "h": 44
+        },
+        {
+          "text": "Assignment",
+          "x": 100,
+          "y": 442,
+          "w": 159,
+          "h": 42
+        },
+        {
+          "text": "Assignment 2",
+          "x": 441,
+          "y": 443,
+          "w": 178,
+          "h": 40
+        },
+        {
+          "text": "Due Date",
+          "x": 136,
+          "y": 478,
+          "w": 110,
+          "h": 26
+        },
+        {
+          "text": "Due Date",
+          "x": 476,
+          "y": 476,
+          "w": 110,
+          "h": 30
+        },
+        {
+          "text": "Assignment 3",
+          "x": 101,
+          "y": 577,
+          "w": 178,
+          "h": 38
+        },
+        {
+          "text": "Assignment 4",
+          "x": 439,
+          "y": 577,
+          "w": 182,
+          "h": 38
+        },
+        {
+          "text": "Due Date",
+          "x": 134,
+          "y": 609,
+          "w": 112,
+          "h": 29
+        },
+        {
+          "text": "Due Date",
+          "x": 474,
+          "y": 609,
+          "w": 110,
+          "h": 29
+        },
+        {
+          "text": "Progress Chart",
+          "x": 27,
+          "y": 725,
+          "w": 259,
+          "h": 51
+        },
+        {
+          "text": "Week 1",
+          "x": 30,
+          "y": 800,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "Week 2",
+          "x": 30,
+          "y": 844,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "Week 3",
+          "x": 30,
+          "y": 888,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "Submit New HW",
+          "x": 103,
+          "y": 1001,
+          "w": 252,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

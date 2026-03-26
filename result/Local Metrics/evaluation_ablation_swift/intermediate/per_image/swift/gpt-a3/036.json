@@ -1,0 +1,201 @@
+{
+  "image_id": "036",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6766497030584868,
+    "size": 0.11679932867108933,
+    "color": 0.7322640419006348
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 15,
+    "matched": 7,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "036",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\036.png",
+    "gen_path": "swift_ablation\\gpt-a3\\036.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 28,
+      "matched_pairs": 13,
+      "position_score": 0.6766497030584868,
+      "size_score": 0.11679932867108933,
+      "color_score": 0.7322640419006348
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 15,
+      "matched_pairs": 7,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 180,
+          "y": 38,
+          "w": 390,
+          "h": 68
+        },
+        {
+          "text": "BTC",
+          "x": 166,
+          "y": 334,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "ETH",
+          "x": 286,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "SOL",
+          "x": 408,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "ADA",
+          "x": 530,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Price Variation",
+          "x": 251,
+          "y": 963,
+          "w": 248,
+          "h": 42
+        },
+        {
+          "text": "Auto Update",
+          "x": 31,
+          "y": 1101,
+          "w": 168,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 0,
+          "y": 24,
+          "w": 378,
+          "h": 80
+        },
+        {
+          "text": "BTC",
+          "x": 46,
+          "y": 158,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "ETH",
+          "x": 162,
+          "y": 160,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "SOL",
+          "x": 278,
+          "y": 158,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "ADA",
+          "x": 398,
+          "y": 160,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "Selected",
+          "x": 266,
+          "y": 258,
+          "w": 100,
+          "h": 26
+        },
+        {
+          "text": "24h",
+          "x": 614,
+          "y": 258,
+          "w": 46,
+          "h": 26
+        },
+        {
+          "text": "BTC",
+          "x": 281,
+          "y": 293,
+          "w": 74,
+          "h": 40
+        },
+        {
+          "text": "42%",
+          "x": 599,
+          "y": 293,
+          "w": 78,
+          "h": 42
+        },
+        {
+          "text": "Market Activity",
+          "x": 261,
+          "y": 368,
+          "w": 200,
+          "h": 41
+        },
+        {
+          "text": "Trend",
+          "x": 44,
+          "y": 444,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Live",
+          "x": 616,
+          "y": 444,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Price Variation",
+          "x": 239,
+          "y": 778,
+          "w": 244,
+          "h": 43
+        },
+        {
+          "text": "Auto Update",
+          "x": 21,
+          "y": 899,
+          "w": 172,
+          "h": 40
+        },
+        {
+          "text": "On",
+          "x": 630,
+          "y": 902,
+          "w": 46,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

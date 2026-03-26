@@ -1,0 +1,243 @@
+{
+  "image_id": "049",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.09923070822825474,
+    "size": 0.12059802847544164,
+    "color": 0.11346485465765
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 5,
+    "matched": 3,
+    "similarity": 0.7407407407407408,
+    "coverage": 0.13043478260869565,
+    "overall": 0.7407407407407408
+  },
+  "details": {
+    "image_id": "049",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\049.png",
+    "gen_path": "swift_ablation\\gpt-a3\\049.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 6,
+      "matched_pairs": 6,
+      "position_score": 0.09923070822825474,
+      "size_score": 0.12059802847544164,
+      "color_score": 0.11346485465765
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 5,
+      "matched_pairs": 3,
+      "text_score": 0.7407407407407408,
+      "coverage": 0.13043478260869565,
+      "overall_score": 0.7407407407407408,
+      "ref_text_list": [
+        {
+          "text": "Itinerary Planner",
+          "x": 23,
+          "y": 2,
+          "w": 450,
+          "h": 69
+        },
+        {
+          "text": "Kyoto Cherry",
+          "x": 48,
+          "y": 316,
+          "w": 227,
+          "h": 50
+        },
+        {
+          "text": "Tokyo",
+          "x": 407,
+          "y": 343,
+          "w": 106,
+          "h": 44
+        },
+        {
+          "text": "Break",
+          "x": 591,
+          "y": 345,
+          "w": 102,
+          "h": 38
+        },
+        {
+          "text": "Trail",
+          "x": 51,
+          "y": 365,
+          "w": 76,
+          "h": 38
+        },
+        {
+          "text": "3 days",
+          "x": 409,
+          "y": 395,
+          "w": 93,
+          "h": 39
+        },
+        {
+          "text": "4",
+          "x": 51,
+          "y": 421,
+          "w": 20,
+          "h": 24
+        },
+        {
+          "text": "days",
+          "x": 70,
+          "y": 417,
+          "w": 74,
+          "h": 40
+        },
+        {
+          "text": "s390",
+          "x": 407,
+          "y": 457,
+          "w": 98,
+          "h": 40
+        },
+        {
+          "text": "Details",
+          "x": 596,
+          "y": 464,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "S460",
+          "x": 47,
+          "y": 477,
+          "w": 100,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 236,
+          "y": 486,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "Osaka Gourmet",
+          "x": 49,
+          "y": 821,
+          "w": 266,
+          "h": 40
+        },
+        {
+          "text": "Mount Fuji",
+          "x": 409,
+          "y": 821,
+          "w": 180,
+          "h": 42
+        },
+        {
+          "text": "Tour",
+          "x": 51,
+          "y": 865,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "text": "Escape",
+          "x": 408,
+          "y": 864,
+          "w": 127,
+          "h": 45
+        },
+        {
+          "text": "5 days",
+          "x": 49,
+          "y": 917,
+          "w": 95,
+          "h": 40
+        },
+        {
+          "text": "2 days",
+          "x": 409,
+          "y": 917,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "text": "S520",
+          "x": 47,
+          "y": 979,
+          "w": 97,
+          "h": 40
+        },
+        {
+          "text": "Details",
+          "x": 236,
+          "y": 986,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "S280",
+          "x": 407,
+          "y": 977,
+          "w": 98,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 596,
+          "y": 986,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "City",
+          "x": 508,
+          "y": 335,
+          "w": 82,
+          "h": 54
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Desert Escape",
+          "x": 61,
+          "y": 654,
+          "w": 274,
+          "h": 56
+        },
+        {
+          "text": "5",
+          "x": 63,
+          "y": 721,
+          "w": 20,
+          "h": 26
+        },
+        {
+          "text": "days",
+          "x": 80,
+          "y": 717,
+          "w": 75,
+          "h": 42
+        },
+        {
+          "text": "$799",
+          "x": 56,
+          "y": 776,
+          "w": 106,
+          "h": 54
+        },
+        {
+          "text": "Details",
+          "x": 542,
+          "y": 790,
+          "w": 94,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

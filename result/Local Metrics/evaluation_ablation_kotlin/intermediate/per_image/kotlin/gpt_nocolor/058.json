@@ -1,0 +1,173 @@
+{
+  "image_id": "058",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7180062222023672,
+    "size": 0.7079888988901502,
+    "color": 0.4065537452697754
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 12,
+    "matched": 3,
+    "similarity": 0.9047619047619048,
+    "coverage": 0.5,
+    "overall": 0.9047619047619048
+  },
+  "details": {
+    "image_id": "058",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\058.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 19,
+      "matched_pairs": 9,
+      "position_score": 0.7180062222023672,
+      "size_score": 0.7079888988901502,
+      "color_score": 0.4065537452697754
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 12,
+      "matched_pairs": 3,
+      "text_score": 0.9047619047619048,
+      "coverage": 0.5,
+      "overall_score": 0.9047619047619048,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 161,
+          "y": 23,
+          "w": 401,
+          "h": 87
+        },
+        {
+          "text": "Overview",
+          "x": 60,
+          "y": 162,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Ranking",
+          "x": 303,
+          "y": 157,
+          "w": 115,
+          "h": 42
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 174,
+          "y": 258,
+          "w": 372,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 269,
+          "y": 415,
+          "w": 183,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 145,
+          "y": 55,
+          "w": 428,
+          "h": 88
+        },
+        {
+          "text": "Home",
+          "x": 122,
+          "y": 192,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Stats",
+          "x": 324,
+          "y": 190,
+          "w": 74,
+          "h": 32
+        },
+        {
+          "text": "Profile",
+          "x": 514,
+          "y": 190,
+          "w": 88,
+          "h": 32
+        },
+        {
+          "text": "Home",
+          "x": 307,
+          "y": 285,
+          "w": 109,
+          "h": 43
+        },
+        {
+          "text": "Welcome to your step challenge dashboard:",
+          "x": 78,
+          "y": 346,
+          "w": 563,
+          "h": 45
+        },
+        {
+          "text": "Goal",
+          "x": 486,
+          "y": 408,
+          "w": 56,
+          "h": 26
+        },
+        {
+          "text": "6,420 steps",
+          "x": 89,
+          "y": 443,
+          "w": 235,
+          "h": 60
+        },
+        {
+          "text": "10,000",
+          "x": 444,
+          "y": 448,
+          "w": 140,
+          "h": 50
+        },
+        {
+          "text": "Start",
+          "x": 270,
+          "y": 584,
+          "w": 72,
+          "h": 30
+        },
+        {
+          "text": "Walking",
+          "x": 339,
+          "y": 577,
+          "w": 113,
+          "h": 45
+        },
+        {
+          "text": "Today",
+          "x": 166,
+          "y": 402,
+          "w": 77,
+          "h": 37
+        }
+      ]
+    }
+  }
+}

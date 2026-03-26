@@ -1,0 +1,229 @@
+{
+  "image_id": "014",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.46838040657405466,
+    "size": 0.49706233751660994,
+    "color": 0.3351016640663147
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 7,
+    "matched": 4,
+    "similarity": 0.9090909090909091,
+    "coverage": 0.21052631578947367,
+    "overall": 0.9090909090909091
+  },
+  "details": {
+    "image_id": "014",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\014.png",
+    "gen_path": "swift_post\\gpt\\014.png",
+    "ui_evaluation": {
+      "ref_blocks": 36,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.46838040657405466,
+      "size_score": 0.49706233751660994,
+      "color_score": 0.3351016640663147
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 7,
+      "matched_pairs": 4,
+      "text_score": 0.9090909090909091,
+      "coverage": 0.21052631578947367,
+      "overall_score": 0.9090909090909091,
+      "ref_text_list": [
+        {
+          "text": "Podcasts",
+          "x": 263,
+          "y": 87,
+          "w": 254,
+          "h": 56
+        },
+        {
+          "text": "Trending",
+          "x": 99,
+          "y": 231,
+          "w": 128,
+          "h": 38
+        },
+        {
+          "text": "Following",
+          "x": 322,
+          "y": 231,
+          "w": 138,
+          "h": 38
+        },
+        {
+          "text": "Recent",
+          "x": 586,
+          "y": 232,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Al Insights",
+          "x": 82,
+          "y": 380,
+          "w": 200,
+          "h": 54
+        },
+        {
+          "text": "Play",
+          "x": 576,
+          "y": 408,
+          "w": 70,
+          "h": 40
+        },
+        {
+          "text": "30 min episode",
+          "x": 81,
+          "y": 439,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Mindful Moments",
+          "x": 80,
+          "y": 572,
+          "w": 334,
+          "h": 48
+        },
+        {
+          "text": "Play",
+          "x": 577,
+          "y": 602,
+          "w": 67,
+          "h": 37
+        },
+        {
+          "text": "30 min episode",
+          "x": 81,
+          "y": 633,
+          "w": 212,
+          "h": 38
+        },
+        {
+          "text": "History Flash",
+          "x": 76,
+          "y": 762,
+          "w": 254,
+          "h": 57
+        },
+        {
+          "text": "Play",
+          "x": 576,
+          "y": 794,
+          "w": 70,
+          "h": 40
+        },
+        {
+          "text": "30 min episode",
+          "x": 79,
+          "y": 825,
+          "w": 214,
+          "h": 38
+        },
+        {
+          "text": "Tech Hour",
+          "x": 79,
+          "y": 961,
+          "w": 200,
+          "h": 44
+        },
+        {
+          "text": "Play",
+          "x": 576,
+          "y": 988,
+          "w": 70,
+          "h": 40
+        },
+        {
+          "text": "30 min episode",
+          "x": 79,
+          "y": 1019,
+          "w": 214,
+          "h": 38
+        },
+        {
+          "text": "Design Flow",
+          "x": 78,
+          "y": 1154,
+          "w": 236,
+          "h": 52
+        },
+        {
+          "text": "Play",
+          "x": 577,
+          "y": 1182,
+          "w": 69,
+          "h": 37
+        },
+        {
+          "text": "30 min episode",
+          "x": 79,
+          "y": 1213,
+          "w": 214,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Podcasts",
+          "x": 256,
+          "y": 30,
+          "w": 212,
+          "h": 52
+        },
+        {
+          "text": "it",
+          "x": 286,
+          "y": 172,
+          "w": 32,
+          "h": 34
+        },
+        {
+          "text": "30 min episode",
+          "x": 201,
+          "y": 217,
+          "w": 204,
+          "h": 40
+        },
+        {
+          "text": "Playing Podcast",
+          "x": 222,
+          "y": 541,
+          "w": 276,
+          "h": 50
+        },
+        {
+          "text": "Streaming audio.",
+          "x": 238,
+          "y": 602,
+          "w": 224,
+          "h": 48
+        },
+        {
+          "text": "OK",
+          "x": 560,
+          "y": 686,
+          "w": 48,
+          "h": 32
+        },
+        {
+          "text": "Play",
+          "x": 562,
+          "y": 189,
+          "w": 70,
+          "h": 46
+        }
+      ]
+    }
+  }
+}

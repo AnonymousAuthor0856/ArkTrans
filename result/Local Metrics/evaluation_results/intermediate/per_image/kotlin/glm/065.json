@@ -1,0 +1,208 @@
+{
+  "image_id": "065",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.600251888938485,
+    "size": 0.7046177343463677,
+    "color": 0.6988454461097717
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 7,
+    "matched": 7,
+    "similarity": 0.9089026915113871,
+    "coverage": 0.4375,
+    "overall": 0.9089026915113871
+  },
+  "details": {
+    "image_id": "065",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\065.png",
+    "gen_path": "kt_post\\glm\\065.png",
+    "ui_evaluation": {
+      "ref_blocks": 28,
+      "gen_blocks": 20,
+      "matched_pairs": 20,
+      "position_score": 0.600251888938485,
+      "size_score": 0.7046177343463677,
+      "color_score": 0.6988454461097717
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 7,
+      "matched_pairs": 7,
+      "text_score": 0.9089026915113871,
+      "coverage": 0.4375,
+      "overall_score": 0.9089026915113871,
+      "ref_text_list": [
+        {
+          "text": "Asset Inventory",
+          "x": 162,
+          "y": 78,
+          "w": 401,
+          "h": 75
+        },
+        {
+          "text": "Warehouse",
+          "x": 63,
+          "y": 231,
+          "w": 166,
+          "h": 36
+        },
+        {
+          "text": "Device",
+          "x": 301,
+          "y": 231,
+          "w": 106,
+          "h": 36
+        },
+        {
+          "text": "Office",
+          "x": 477,
+          "y": 229,
+          "w": 94,
+          "h": 38
+        },
+        {
+          "text": "Asset Name",
+          "x": 62,
+          "y": 367,
+          "w": 191,
+          "h": 36
+        },
+        {
+          "text": "Asset Code",
+          "x": 62,
+          "y": 502,
+          "w": 181,
+          "h": 38
+        },
+        {
+          "text": "Asset Type",
+          "x": 62,
+          "y": 618,
+          "w": 130,
+          "h": 32
+        },
+        {
+          "text": "Device",
+          "x": 62,
+          "y": 654,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Warehouse",
+          "x": 482,
+          "y": 658,
+          "w": 124,
+          "h": 26
+        },
+        {
+          "text": "Device",
+          "x": 588,
+          "y": 700,
+          "w": 78,
+          "h": 26
+        },
+        {
+          "text": "Offic",
+          "x": 658,
+          "y": 754,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Selected",
+          "x": 60,
+          "y": 768,
+          "w": 102,
+          "h": 26
+        },
+        {
+          "text": "None",
+          "x": 61,
+          "y": 815,
+          "w": 102,
+          "h": 40
+        },
+        {
+          "text": "Warehouse",
+          "x": 529,
+          "y": 810,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "Reset",
+          "x": 147,
+          "y": 1191,
+          "w": 90,
+          "h": 36
+        },
+        {
+          "text": "Save Asset",
+          "x": 447,
+          "y": 1191,
+          "w": 168,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Asset Name",
+          "x": 61,
+          "y": 181,
+          "w": 185,
+          "h": 42
+        },
+        {
+          "text": "Asset Code",
+          "x": 61,
+          "y": 303,
+          "w": 174,
+          "h": 36
+        },
+        {
+          "text": "Asset Type",
+          "x": 61,
+          "y": 423,
+          "w": 164,
+          "h": 42
+        },
+        {
+          "text": "Selected",
+          "x": 136,
+          "y": 546,
+          "w": 102,
+          "h": 26
+        },
+        {
+          "text": "None",
+          "x": 126,
+          "y": 592,
+          "w": 128,
+          "h": 50
+        },
+        {
+          "text": "Reset",
+          "x": 142,
+          "y": 1190,
+          "w": 93,
+          "h": 37
+        },
+        {
+          "text": "Save Asset",
+          "x": 446,
+          "y": 1187,
+          "w": 170,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

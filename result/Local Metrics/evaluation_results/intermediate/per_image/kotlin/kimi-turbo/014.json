@@ -1,0 +1,222 @@
+{
+  "image_id": "014",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5771245233488208,
+    "size": 0.5997706574130862,
+    "color": 0.4724400043487549
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 6,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.05263157894736842,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "014",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\014.png",
+    "gen_path": "kt_post\\kimi-turbo\\014.png",
+    "ui_evaluation": {
+      "ref_blocks": 35,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.5771245233488208,
+      "size_score": 0.5997706574130862,
+      "color_score": 0.4724400043487549
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 6,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.05263157894736842,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Podcasts",
+          "x": 239,
+          "y": 35,
+          "w": 246,
+          "h": 60
+        },
+        {
+          "text": "Trending",
+          "x": 107,
+          "y": 187,
+          "w": 123,
+          "h": 42
+        },
+        {
+          "text": "Following",
+          "x": 294,
+          "y": 188,
+          "w": 131,
+          "h": 41
+        },
+        {
+          "text": "Recent",
+          "x": 532,
+          "y": 194,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Al Insights",
+          "x": 64,
+          "y": 329,
+          "w": 177,
+          "h": 48
+        },
+        {
+          "text": "30 min episode",
+          "x": 61,
+          "y": 371,
+          "w": 200,
+          "h": 41
+        },
+        {
+          "text": "Mindful Moments",
+          "x": 61,
+          "y": 515,
+          "w": 290,
+          "h": 40
+        },
+        {
+          "text": "Play",
+          "x": 547,
+          "y": 535,
+          "w": 65,
+          "h": 37
+        },
+        {
+          "text": "30 min episode",
+          "x": 61,
+          "y": 553,
+          "w": 201,
+          "h": 43
+        },
+        {
+          "text": "History Flash",
+          "x": 58,
+          "y": 694,
+          "w": 224,
+          "h": 52
+        },
+        {
+          "text": "Play",
+          "x": 547,
+          "y": 719,
+          "w": 65,
+          "h": 37
+        },
+        {
+          "text": "30 min episode",
+          "x": 61,
+          "y": 739,
+          "w": 200,
+          "h": 41
+        },
+        {
+          "text": "Tech Hour",
+          "x": 61,
+          "y": 883,
+          "w": 174,
+          "h": 40
+        },
+        {
+          "text": "Play",
+          "x": 547,
+          "y": 903,
+          "w": 65,
+          "h": 37
+        },
+        {
+          "text": "30 min episode",
+          "x": 61,
+          "y": 925,
+          "w": 200,
+          "h": 38
+        },
+        {
+          "text": "Design Flow",
+          "x": 59,
+          "y": 1064,
+          "w": 207,
+          "h": 51
+        },
+        {
+          "text": "30 min episode",
+          "x": 61,
+          "y": 1107,
+          "w": 200,
+          "h": 41
+        },
+        {
+          "text": "Play",
+          "x": 545,
+          "y": 348,
+          "w": 68,
+          "h": 42
+        },
+        {
+          "text": "Play",
+          "x": 545,
+          "y": 1084,
+          "w": 68,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Podcasts",
+          "x": 28,
+          "y": 38,
+          "w": 214,
+          "h": 52
+        },
+        {
+          "text": "Laaa",
+          "x": 386,
+          "y": 126,
+          "w": 82,
+          "h": 8
+        },
+        {
+          "text": "OK",
+          "x": 336,
+          "y": 174,
+          "w": 52,
+          "h": 32
+        },
+        {
+          "text": "30",
+          "x": 62,
+          "y": 240,
+          "w": 40,
+          "h": 30
+        },
+        {
+          "text": "W",
+          "x": 103,
+          "y": 255,
+          "w": 50,
+          "h": 12
+        },
+        {
+          "text": "cpijuul",
+          "x": 157,
+          "y": 250,
+          "w": 103,
+          "h": 24
+        }
+      ]
+    }
+  }
+}

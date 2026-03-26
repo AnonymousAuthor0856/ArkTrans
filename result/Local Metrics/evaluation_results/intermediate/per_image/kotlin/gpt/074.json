@@ -1,0 +1,369 @@
+{
+  "image_id": "074",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7145699429949018,
+    "size": 0.7068650454535574,
+    "color": 0.4897308945655823
+  },
+  "text_scores": {
+    "ref_count": 21,
+    "gen_count": 25,
+    "matched": 12,
+    "similarity": 0.9089209401709403,
+    "coverage": 0.5714285714285714,
+    "overall": 0.9089209401709403
+  },
+  "details": {
+    "image_id": "074",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\074.png",
+    "gen_path": "kt_post\\gpt\\074.png",
+    "ui_evaluation": {
+      "ref_blocks": 40,
+      "gen_blocks": 49,
+      "matched_pairs": 40,
+      "position_score": 0.7145699429949018,
+      "size_score": 0.7068650454535574,
+      "color_score": 0.4897308945655823
+    },
+    "text_evaluation": {
+      "ref_texts": 21,
+      "gen_texts": 25,
+      "matched_pairs": 12,
+      "text_score": 0.9089209401709403,
+      "coverage": 0.5714285714285714,
+      "overall_score": 0.9089209401709403,
+      "ref_text_list": [
+        {
+          "text": "Dock",
+          "x": 40,
+          "y": 52,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "Smart Orbit Panel",
+          "x": 229,
+          "y": 47,
+          "w": 264,
+          "h": 36
+        },
+        {
+          "text": "Alerts",
+          "x": 622,
+          "y": 52,
+          "w": 66,
+          "h": 24
+        },
+        {
+          "text": "Orbit",
+          "x": 62,
+          "y": 180,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "Eclipse",
+          "x": 190,
+          "y": 180,
+          "w": 74,
+          "h": 28
+        },
+        {
+          "text": "Manual",
+          "x": 340,
+          "y": 180,
+          "w": 78,
+          "h": 26
+        },
+        {
+          "text": "Solar wash",
+          "x": 59,
+          "y": 297,
+          "w": 206,
+          "h": 44
+        },
+        {
+          "text": "Adjust orbital window glow",
+          "x": 61,
+          "y": 359,
+          "w": 320,
+          "h": 36
+        },
+        {
+          "text": "0%",
+          "x": 65,
+          "y": 519,
+          "w": 30,
+          "h": 20
+        },
+        {
+          "text": "60%",
+          "x": 594,
+          "y": 520,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Ambient glow",
+          "x": 62,
+          "y": 570,
+          "w": 254,
+          "h": 52
+        },
+        {
+          "text": "Orbit health",
+          "x": 61,
+          "y": 843,
+          "w": 216,
+          "h": 44
+        },
+        {
+          "text": "Atmos mix",
+          "x": 61,
+          "y": 905,
+          "w": 131,
+          "h": 31
+        },
+        {
+          "text": "74%",
+          "x": 611,
+          "y": 907,
+          "w": 48,
+          "h": 20
+        },
+        {
+          "text": "Hull temp",
+          "x": 62,
+          "y": 968,
+          "w": 118,
+          "h": 32
+        },
+        {
+          "text": "42%",
+          "x": 610,
+          "y": 966,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "Shield sync",
+          "x": 62,
+          "y": 1030,
+          "w": 134,
+          "h": 32
+        },
+        {
+          "text": "88%",
+          "x": 610,
+          "y": 1028,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "Grid draw",
+          "x": 30,
+          "y": 1180,
+          "w": 100,
+          "h": 28
+        },
+        {
+          "text": "Engage eco hold",
+          "x": 476,
+          "y": 1203,
+          "w": 168,
+          "h": 32
+        },
+        {
+          "text": "18.4 kWh",
+          "x": 31,
+          "y": 1215,
+          "w": 140,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Dock",
+          "x": 54,
+          "y": 42,
+          "w": 62,
+          "h": 26
+        },
+        {
+          "text": "Smart Orbit Panel",
+          "x": 156,
+          "y": 36,
+          "w": 305,
+          "h": 39
+        },
+        {
+          "text": "Alerts",
+          "x": 598,
+          "y": 42,
+          "w": 70,
+          "h": 26
+        },
+        {
+          "text": "Solar wash",
+          "x": 267,
+          "y": 115,
+          "w": 188,
+          "h": 38
+        },
+        {
+          "text": "Adjust orbital window glow",
+          "x": 183,
+          "y": 171,
+          "w": 356,
+          "h": 40
+        },
+        {
+          "text": "0%",
+          "x": 60,
+          "y": 320,
+          "w": 40,
+          "h": 26
+        },
+        {
+          "text": "30%",
+          "x": 589,
+          "y": 317,
+          "w": 74,
+          "h": 36
+        },
+        {
+          "text": "Ambient glow",
+          "x": 240,
+          "y": 367,
+          "w": 242,
+          "h": 51
+        },
+        {
+          "text": "Orbit health",
+          "x": 255,
+          "y": 624,
+          "w": 210,
+          "h": 42
+        },
+        {
+          "text": "Thermal",
+          "x": 60,
+          "y": 682,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "OK",
+          "x": 620,
+          "y": 682,
+          "w": 38,
+          "h": 26
+        },
+        {
+          "text": "Gyro",
+          "x": 60,
+          "y": 746,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "Stable",
+          "x": 582,
+          "y": 746,
+          "w": 78,
+          "h": 28
+        },
+        {
+          "text": "Comms",
+          "x": 60,
+          "y": 810,
+          "w": 90,
+          "h": 26
+        },
+        {
+          "text": "Warn",
+          "x": 595,
+          "y": 809,
+          "w": 63,
+          "h": 29
+        },
+        {
+          "text": "Deck zones",
+          "x": 265,
+          "y": 949,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "Zone A",
+          "x": 76,
+          "y": 1020,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "Active",
+          "x": 570,
+          "y": 1020,
+          "w": 74,
+          "h": 26
+        },
+        {
+          "text": "Zone B",
+          "x": 78,
+          "y": 1066,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "Standby",
+          "x": 545,
+          "y": 1065,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Zone C",
+          "x": 76,
+          "y": 1110,
+          "w": 84,
+          "h": 28
+        },
+        {
+          "text": "Locked",
+          "x": 558,
+          "y": 1112,
+          "w": 86,
+          "h": 28
+        },
+        {
+          "text": "Grid draw",
+          "x": 44,
+          "y": 1219,
+          "w": 114,
+          "h": 29
+        },
+        {
+          "text": "10 K VNK",
+          "x": 33,
+          "y": 1259,
+          "w": 140,
+          "h": 20
+        },
+        {
+          "text": "Engage eco hold",
+          "x": 476,
+          "y": 1241,
+          "w": 193,
+          "h": 37
+        }
+      ]
+    }
+  }
+}

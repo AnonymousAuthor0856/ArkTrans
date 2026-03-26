@@ -1,0 +1,180 @@
+{
+  "image_id": "021",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8057339622798472,
+    "size": 0.7383551460694604,
+    "color": 0.680084228515625
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 9,
+    "matched": 4,
+    "similarity": 0.8397435897435898,
+    "coverage": 0.4,
+    "overall": 0.8397435897435898
+  },
+  "details": {
+    "image_id": "021",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\021.png",
+    "gen_path": "swift_post\\deepseek\\021.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 19,
+      "matched_pairs": 19,
+      "position_score": 0.8057339622798472,
+      "size_score": 0.7383551460694604,
+      "color_score": 0.680084228515625
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 9,
+      "matched_pairs": 4,
+      "text_score": 0.8397435897435898,
+      "coverage": 0.4,
+      "overall_score": 0.8397435897435898,
+      "ref_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 190,
+          "y": 38,
+          "w": 374,
+          "h": 56
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 165,
+          "w": 216,
+          "h": 42
+        },
+        {
+          "text": "To Do",
+          "x": 119,
+          "y": 285,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "In",
+          "x": 550,
+          "y": 288,
+          "w": 36,
+          "h": 32
+        },
+        {
+          "text": "Progres",
+          "x": 585,
+          "y": 281,
+          "w": 141,
+          "h": 50
+        },
+        {
+          "text": "Write report",
+          "x": 151,
+          "y": 357,
+          "w": 162,
+          "h": 37
+        },
+        {
+          "text": "Implement",
+          "x": 580,
+          "y": 355,
+          "w": 145,
+          "h": 39
+        },
+        {
+          "text": "Design mockup",
+          "x": 150,
+          "y": 437,
+          "w": 208,
+          "h": 40
+        },
+        {
+          "text": "Fix layout",
+          "x": 583,
+          "y": 439,
+          "w": 130,
+          "h": 38
+        },
+        {
+          "text": "Task Completion",
+          "x": 28,
+          "y": 1208,
+          "w": 284,
+          "h": 51
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Kanban Board",
+          "x": 137,
+          "y": 26,
+          "w": 449,
+          "h": 72
+        },
+        {
+          "text": "Notifications",
+          "x": 31,
+          "y": 203,
+          "w": 196,
+          "h": 38
+        },
+        {
+          "text": "ON",
+          "x": 602,
+          "y": 206,
+          "w": 54,
+          "h": 32
+        },
+        {
+          "text": "Design Review",
+          "x": 140,
+          "y": 308,
+          "w": 225,
+          "h": 44
+        },
+        {
+          "text": "Code Imple",
+          "x": 553,
+          "y": 309,
+          "w": 167,
+          "h": 42
+        },
+        {
+          "text": "task",
+          "x": 222,
+          "y": 380,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "ta",
+          "x": 686,
+          "y": 380,
+          "w": 32,
+          "h": 28
+        },
+        {
+          "text": "Task Completion",
+          "x": 29,
+          "y": 485,
+          "w": 252,
+          "h": 42
+        },
+        {
+          "text": "65%",
+          "x": 632,
+          "y": 486,
+          "w": 60,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

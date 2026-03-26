@@ -1,0 +1,208 @@
+{
+  "image_id": "053",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.24055242066335558,
+    "size": 0.2531794345586978,
+    "color": 0.1793721467256546
+  },
+  "text_scores": {
+    "ref_count": 14,
+    "gen_count": 9,
+    "matched": 3,
+    "similarity": 0.8364288041707396,
+    "coverage": 0.21428571428571427,
+    "overall": 0.8364288041707396
+  },
+  "details": {
+    "image_id": "053",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\053.png",
+    "gen_path": "kt_post\\kimi-turbo\\053.png",
+    "ui_evaluation": {
+      "ref_blocks": 38,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.24055242066335558,
+      "size_score": 0.2531794345586978,
+      "color_score": 0.1793721467256546
+    },
+    "text_evaluation": {
+      "ref_texts": 14,
+      "gen_texts": 9,
+      "matched_pairs": 3,
+      "text_score": 0.8364288041707396,
+      "coverage": 0.21428571428571427,
+      "overall_score": 0.8364288041707396,
+      "ref_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 145,
+          "y": 36,
+          "w": 431,
+          "h": 56
+        },
+        {
+          "text": "Project Files",
+          "x": 26,
+          "y": 160,
+          "w": 234,
+          "h": 52
+        },
+        {
+          "text": "Main.kt",
+          "x": 143,
+          "y": 265,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "Entry point for Compose app",
+          "x": 139,
+          "y": 299,
+          "w": 366,
+          "h": 42
+        },
+        {
+          "text": "Utils kt",
+          "x": 141,
+          "y": 399,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "2",
+          "x": 81,
+          "y": 423,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Helper functions",
+          "x": 141,
+          "y": 434,
+          "w": 214,
+          "h": 39
+        },
+        {
+          "text": "Theme.kt",
+          "x": 140,
+          "y": 534,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 81,
+          "y": 557,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Color & Typography setup",
+          "x": 141,
+          "y": 570,
+          "w": 325,
+          "h": 42
+        },
+        {
+          "text": "Data.kt",
+          "x": 142,
+          "y": 672,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "Repository and model classes",
+          "x": 141,
+          "y": 707,
+          "w": 382,
+          "h": 38
+        },
+        {
+          "text": "Live Terminal",
+          "x": 27,
+          "y": 843,
+          "w": 252,
+          "h": 44
+        },
+        {
+          "text": "printIn(\"Hello, Kotlin!\")",
+          "x": 72,
+          "y": 944,
+          "w": 283,
+          "h": 41
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "CodetDEteilminal",
+          "x": 84,
+          "y": 34,
+          "w": 554,
+          "h": 72
+        },
+        {
+          "text": "midt",
+          "x": 56,
+          "y": 158,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "mname",
+          "x": 141,
+          "y": 161,
+          "w": 124,
+          "h": 28
+        },
+        {
+          "text": "oStri",
+          "x": 56,
+          "y": 186,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "mdesc",
+          "x": 156,
+          "y": 194,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Live Terminal",
+          "x": 187,
+          "y": 544,
+          "w": 349,
+          "h": 61
+        },
+        {
+          "text": "printIn(\"Hello; Kotlin!\")",
+          "x": 223,
+          "y": 861,
+          "w": 296,
+          "h": 42
+        },
+        {
+          "text": "Run Code",
+          "x": 283,
+          "y": 1183,
+          "w": 154,
+          "h": 36
+        },
+        {
+          "text": "ngu",
+          "x": 52,
+          "y": 211,
+          "w": 55,
+          "h": 37
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "image_id": "022",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3101209794550794,
+    "size": 0.7040798543225961,
+    "color": 0.68973708152771
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 3,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.25,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "022",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\022.png",
+    "gen_path": "swift_post\\deepseek\\022.png",
+    "ui_evaluation": {
+      "ref_blocks": 20,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.3101209794550794,
+      "size_score": 0.7040798543225961,
+      "color_score": 0.68973708152771
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 3,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.25,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Project Timeline",
+          "x": 175,
+          "y": 51,
+          "w": 403,
+          "h": 66
+        },
+        {
+          "text": "Notifications",
+          "x": 29,
+          "y": 185,
+          "w": 216,
+          "h": 42
+        },
+        {
+          "text": "Design Phase",
+          "x": 52,
+          "y": 291,
+          "w": 233,
+          "h": 49
+        },
+        {
+          "text": "Development",
+          "x": 51,
+          "y": 438,
+          "w": 231,
+          "h": 51
+        },
+        {
+          "text": "Testing",
+          "x": 50,
+          "y": 583,
+          "w": 133,
+          "h": 51
+        },
+        {
+          "text": "Documentation",
+          "x": 53,
+          "y": 735,
+          "w": 260,
+          "h": 42
+        },
+        {
+          "text": "Deployment",
+          "x": 52,
+          "y": 882,
+          "w": 210,
+          "h": 48
+        },
+        {
+          "text": "Add Task",
+          "x": 299,
+          "y": 1231,
+          "w": 156,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Project Timeline",
+          "x": 110,
+          "y": 50,
+          "w": 504,
+          "h": 80
+        },
+        {
+          "text": "task name",
+          "x": 280,
+          "y": 160,
+          "w": 160,
+          "h": 32
+        },
+        {
+          "text": "Add Task",
+          "x": 291,
+          "y": 315,
+          "w": 140,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

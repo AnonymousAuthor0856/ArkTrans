@@ -1,0 +1,285 @@
+{
+  "image_id": "052",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.44635185781997694,
+    "size": 0.4269700865648012,
+    "color": 0.4911891520023346
+  },
+  "text_scores": {
+    "ref_count": 24,
+    "gen_count": 10,
+    "matched": 8,
+    "similarity": 0.7642187309706492,
+    "coverage": 0.3333333333333333,
+    "overall": 0.7642187309706492
+  },
+  "details": {
+    "image_id": "052",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\052.png",
+    "gen_path": "kt_post\\kimi-turbo\\052.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 18,
+      "matched_pairs": 18,
+      "position_score": 0.44635185781997694,
+      "size_score": 0.4269700865648012,
+      "color_score": 0.4911891520023346
+    },
+    "text_evaluation": {
+      "ref_texts": 24,
+      "gen_texts": 10,
+      "matched_pairs": 8,
+      "text_score": 0.7642187309706492,
+      "coverage": 0.3333333333333333,
+      "overall_score": 0.7642187309706492,
+      "ref_text_list": [
+        {
+          "text": "Course",
+          "x": 28,
+          "y": 30,
+          "w": 192,
+          "h": 56
+        },
+        {
+          "text": "Catalog",
+          "x": 216,
+          "y": 16,
+          "w": 215,
+          "h": 86
+        },
+        {
+          "text": "AlI",
+          "x": 122,
+          "y": 146,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "Enrolled",
+          "x": 307,
+          "y": 145,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "Completed",
+          "x": 505,
+          "y": 145,
+          "w": 146,
+          "h": 38
+        },
+        {
+          "text": "AIl Courses",
+          "x": 33,
+          "y": 236,
+          "w": 188,
+          "h": 42
+        },
+        {
+          "text": "Course 1",
+          "x": 53,
+          "y": 327,
+          "w": 146,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 356,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Duration: 5 hrs",
+          "x": 54,
+          "y": 384,
+          "w": 184,
+          "h": 30
+        },
+        {
+          "text": "Course 2",
+          "x": 53,
+          "y": 489,
+          "w": 150,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 518,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Duration: 6 hrs",
+          "x": 53,
+          "y": 543,
+          "w": 189,
+          "h": 37
+        },
+        {
+          "text": "Course 3",
+          "x": 55,
+          "y": 653,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 682,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Duration: 7 hrs",
+          "x": 54,
+          "y": 710,
+          "w": 184,
+          "h": 30
+        },
+        {
+          "text": "Course 4",
+          "x": 55,
+          "y": 815,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 844,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Duration: 8 hrs",
+          "x": 54,
+          "y": 872,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Course 5",
+          "x": 55,
+          "y": 979,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 1008,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Duration: 9 hrs",
+          "x": 54,
+          "y": 1036,
+          "w": 184,
+          "h": 30
+        },
+        {
+          "text": "Course 6",
+          "x": 55,
+          "y": 1141,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 576,
+          "y": 1172,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Duration: 10 hrs",
+          "x": 53,
+          "y": 1195,
+          "w": 205,
+          "h": 37
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Course",
+          "x": 121,
+          "y": 29,
+          "w": 225,
+          "h": 63
+        },
+        {
+          "text": "Catalog",
+          "x": 344,
+          "y": 10,
+          "w": 263,
+          "h": 102
+        },
+        {
+          "text": "AIl Courses My Learning Completed",
+          "x": 62,
+          "y": 150,
+          "w": 548,
+          "h": 51
+        },
+        {
+          "text": "Course 1",
+          "x": 280,
+          "y": 552,
+          "w": 152,
+          "h": 49
+        },
+        {
+          "text": "Description",
+          "x": 285,
+          "y": 613,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "Course 2",
+          "x": 283,
+          "y": 733,
+          "w": 152,
+          "h": 40
+        },
+        {
+          "text": "Description",
+          "x": 285,
+          "y": 791,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "All",
+          "x": 126,
+          "y": 1176,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "Learning",
+          "x": 290,
+          "y": 1168,
+          "w": 141,
+          "h": 51
+        },
+        {
+          "text": "Done",
+          "x": 529,
+          "y": 1173,
+          "w": 89,
+          "h": 41
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "image_id": "053",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.193615685867386,
+    "size": 0.2213442620498105,
+    "color": 0.20492710173130035
+  },
+  "text_scores": {
+    "ref_count": 14,
+    "gen_count": 15,
+    "matched": 7,
+    "similarity": 0.8796554796554796,
+    "coverage": 0.5,
+    "overall": 0.8796554796554796
+  },
+  "details": {
+    "image_id": "053",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\053.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\053.png",
+    "ui_evaluation": {
+      "ref_blocks": 39,
+      "gen_blocks": 18,
+      "matched_pairs": 18,
+      "position_score": 0.193615685867386,
+      "size_score": 0.2213442620498105,
+      "color_score": 0.20492710173130035
+    },
+    "text_evaluation": {
+      "ref_texts": 14,
+      "gen_texts": 15,
+      "matched_pairs": 7,
+      "text_score": 0.8796554796554796,
+      "coverage": 0.5,
+      "overall_score": 0.8796554796554796,
+      "ref_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 155,
+          "y": 28,
+          "w": 441,
+          "h": 56
+        },
+        {
+          "text": "Project Files",
+          "x": 28,
+          "y": 144,
+          "w": 234,
+          "h": 50
+        },
+        {
+          "text": "Main.kt",
+          "x": 143,
+          "y": 249,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "Entry point for Compose app",
+          "x": 139,
+          "y": 285,
+          "w": 382,
+          "h": 41
+        },
+        {
+          "text": "Utils.kt",
+          "x": 143,
+          "y": 385,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "2",
+          "x": 81,
+          "y": 411,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Helper functions",
+          "x": 141,
+          "y": 425,
+          "w": 222,
+          "h": 36
+        },
+        {
+          "text": "Theme.kt",
+          "x": 141,
+          "y": 523,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 79,
+          "y": 545,
+          "w": 18,
+          "h": 24
+        },
+        {
+          "text": "Color & Typography setup",
+          "x": 141,
+          "y": 561,
+          "w": 346,
+          "h": 38
+        },
+        {
+          "text": "Data.kt",
+          "x": 143,
+          "y": 659,
+          "w": 114,
+          "h": 36
+        },
+        {
+          "text": "Repository and model classes",
+          "x": 141,
+          "y": 699,
+          "w": 394,
+          "h": 36
+        },
+        {
+          "text": "Live Terminal",
+          "x": 28,
+          "y": 834,
+          "w": 250,
+          "h": 48
+        },
+        {
+          "text": "println(\"Hello, Kotlin!\")",
+          "x": 76,
+          "y": 939,
+          "w": 301,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 27,
+          "y": 33,
+          "w": 338,
+          "h": 44
+        },
+        {
+          "text": "Project Files",
+          "x": 242,
+          "y": 144,
+          "w": 238,
+          "h": 52
+        },
+        {
+          "text": "Main.ets",
+          "x": 57,
+          "y": 249,
+          "w": 132,
+          "h": 36
+        },
+        {
+          "text": "to open",
+          "x": 96,
+          "y": 294,
+          "w": 94,
+          "h": 31
+        },
+        {
+          "text": "Terminal.ets",
+          "x": 52,
+          "y": 384,
+          "w": 187,
+          "h": 41
+        },
+        {
+          "text": "Tap to open",
+          "x": 76,
+          "y": 430,
+          "w": 136,
+          "h": 32
+        },
+        {
+          "text": "Utilsets",
+          "x": 59,
+          "y": 524,
+          "w": 127,
+          "h": 36
+        },
+        {
+          "text": "to open",
+          "x": 96,
+          "y": 570,
+          "w": 94,
+          "h": 31
+        },
+        {
+          "text": "READMEmd",
+          "x": 53,
+          "y": 661,
+          "w": 196,
+          "h": 38
+        },
+        {
+          "text": "to open",
+          "x": 126,
+          "y": 708,
+          "w": 92,
+          "h": 30
+        },
+        {
+          "text": "Live Terminal",
+          "x": 235,
+          "y": 791,
+          "w": 250,
+          "h": 44
+        },
+        {
+          "text": "println(\"Hello, Kotlinl\")",
+          "x": 223,
+          "y": 1090,
+          "w": 296,
+          "h": 43
+        },
+        {
+          "text": "Tap",
+          "x": 47,
+          "y": 288,
+          "w": 56,
+          "h": 40
+        },
+        {
+          "text": "Tap -",
+          "x": 48,
+          "y": 564,
+          "w": 52,
+          "h": 36
+        },
+        {
+          "text": "Tap",
+          "x": 77,
+          "y": 702,
+          "w": 54,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

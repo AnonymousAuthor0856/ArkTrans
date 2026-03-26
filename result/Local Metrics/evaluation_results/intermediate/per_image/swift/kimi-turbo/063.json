@@ -1,0 +1,110 @@
+{
+  "image_id": "063",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9021234440098804,
+    "size": 0.9086966873645286,
+    "color": 0.6353140473365784
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 5,
+    "matched": 3,
+    "similarity": 0.677979797979798,
+    "coverage": 0.75,
+    "overall": 0.677979797979798
+  },
+  "details": {
+    "image_id": "063",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\063.png",
+    "gen_path": "swift_post\\kimi-turbo\\063.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.9021234440098804,
+      "size_score": 0.9086966873645286,
+      "color_score": 0.6353140473365784
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 5,
+      "matched_pairs": 3,
+      "text_score": 0.677979797979798,
+      "coverage": 0.75,
+      "overall_score": 0.677979797979798,
+      "ref_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 172,
+          "y": 14,
+          "w": 434,
+          "h": 73
+        },
+        {
+          "text": "45%",
+          "x": 292,
+          "y": 366,
+          "w": 170,
+          "h": 72
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 263,
+          "y": 602,
+          "w": 228,
+          "h": 42
+        },
+        {
+          "text": "Charging._",
+          "x": 278,
+          "y": 710,
+          "w": 176,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Battery Monitor",
+          "x": 25,
+          "y": 30,
+          "w": 309,
+          "h": 57
+        },
+        {
+          "text": "50%",
+          "x": 283,
+          "y": 371,
+          "w": 160,
+          "h": 74
+        },
+        {
+          "text": "Simulate",
+          "x": 252,
+          "y": 563,
+          "w": 118,
+          "h": 32
+        },
+        {
+          "text": "Charging_.",
+          "x": 266,
+          "y": 652,
+          "w": 190,
+          "h": 50
+        },
+        {
+          "text": "Charge",
+          "x": 365,
+          "y": 558,
+          "w": 107,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "image_id": "012",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.0,
+    "size": 0.0,
+    "color": 0.0
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 8,
+    "matched": 1,
+    "similarity": 0.7142857142857143,
+    "coverage": 0.16666666666666666,
+    "overall": 0.7142857142857143
+  },
+  "details": {
+    "image_id": "012",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\012.png",
+    "gen_path": "swift_post\\kimi-turbo\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 15,
+      "gen_blocks": 0,
+      "matched_pairs": 0,
+      "position_score": 0.0,
+      "size_score": 0.0,
+      "color_score": 0.0
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 8,
+      "matched_pairs": 1,
+      "text_score": 0.7142857142857143,
+      "coverage": 0.16666666666666666,
+      "overall_score": 0.7142857142857143,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 126,
+          "y": 20,
+          "w": 503,
+          "h": 77
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 153,
+          "y": 923,
+          "w": 444,
+          "h": 40
+        },
+        {
+          "text": "Save Marker",
+          "x": 271,
+          "y": 1021,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 27,
+          "y": 1137,
+          "w": 257,
+          "h": 42
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1206,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1256,
+          "w": 184,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Pevorte Soots",
+          "x": 103,
+          "y": 21,
+          "w": 389,
+          "h": 77
+        },
+        {
+          "text": "",
+          "x": 165,
+          "y": 961,
+          "w": 328,
+          "h": 36
+        },
+        {
+          "text": "",
+          "x": 502,
+          "y": 962,
+          "w": 52,
+          "h": 32
+        },
+        {
+          "text": "",
+          "x": 29,
+          "y": 1025,
+          "w": 216,
+          "h": 38
+        },
+        {
+          "text": "",
+          "x": 29,
+          "y": 1108,
+          "w": 254,
+          "h": 44
+        },
+        {
+          "text": "",
+          "x": 44,
+          "y": 1150,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "",
+          "x": 44,
+          "y": 1200,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "",
+          "x": 485,
+          "y": 14,
+          "w": 138,
+          "h": 86
+        }
+      ]
+    }
+  }
+}

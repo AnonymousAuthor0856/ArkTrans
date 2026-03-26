@@ -1,0 +1,257 @@
+{
+  "image_id": "071",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.4628690070060841,
+    "size": 0.5433101292742364,
+    "color": 0.4292163550853729
+  },
+  "text_scores": {
+    "ref_count": 21,
+    "gen_count": 9,
+    "matched": 7,
+    "similarity": 0.8071895424836601,
+    "coverage": 0.3333333333333333,
+    "overall": 0.8071895424836601
+  },
+  "details": {
+    "image_id": "071",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\071.png",
+    "gen_path": "kt_post\\gpt\\071.png",
+    "ui_evaluation": {
+      "ref_blocks": 44,
+      "gen_blocks": 13,
+      "matched_pairs": 13,
+      "position_score": 0.4628690070060841,
+      "size_score": 0.5433101292742364,
+      "color_score": 0.4292163550853729
+    },
+    "text_evaluation": {
+      "ref_texts": 21,
+      "gen_texts": 9,
+      "matched_pairs": 7,
+      "text_score": 0.8071895424836601,
+      "coverage": 0.3333333333333333,
+      "overall_score": 0.8071895424836601,
+      "ref_text_list": [
+        {
+          "text": "QuizForge",
+          "x": 282,
+          "y": 30,
+          "w": 155,
+          "h": 44
+        },
+        {
+          "text": "Aroma sprint",
+          "x": 287,
+          "y": 68,
+          "w": 147,
+          "h": 31
+        },
+        {
+          "text": "Citrus crafts",
+          "x": 68,
+          "y": 184,
+          "w": 185,
+          "h": 37
+        },
+        {
+          "text": "45%",
+          "x": 592,
+          "y": 188,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Which zest carrier gives the",
+          "x": 69,
+          "y": 277,
+          "w": 557,
+          "h": 57
+        },
+        {
+          "text": "brightest aroma when",
+          "x": 66,
+          "y": 332,
+          "w": 445,
+          "h": 63
+        },
+        {
+          "text": "infused cold?",
+          "x": 66,
+          "y": 390,
+          "w": 276,
+          "h": 50
+        },
+        {
+          "text": "Dried peel sachet",
+          "x": 95,
+          "y": 491,
+          "w": 254,
+          "h": 42
+        },
+        {
+          "text": "Twist garnish",
+          "x": 95,
+          "y": 591,
+          "w": 199,
+          "h": 45
+        },
+        {
+          "text": "Zester microplane",
+          "x": 95,
+          "y": 693,
+          "w": 264,
+          "h": 45
+        },
+        {
+          "text": "Candied strip",
+          "x": 92,
+          "y": 797,
+          "w": 197,
+          "h": 40
+        },
+        {
+          "text": "Hint: Think surface area",
+          "x": 94,
+          "y": 898,
+          "w": 260,
+          "h": 26
+        },
+        {
+          "text": "Trackers",
+          "x": 68,
+          "y": 1040,
+          "w": 182,
+          "h": 48
+        },
+        {
+          "text": "Current",
+          "x": 94,
+          "y": 1130,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "Accuracy",
+          "x": 307,
+          "y": 1129,
+          "w": 107,
+          "h": 31
+        },
+        {
+          "text": "Rank",
+          "x": 532,
+          "y": 1130,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "streak",
+          "x": 92,
+          "y": 1162,
+          "w": 74,
+          "h": 26
+        },
+        {
+          "text": "84%",
+          "x": 328,
+          "y": 1170,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "12%",
+          "x": 560,
+          "y": 1170,
+          "w": 64,
+          "h": 32
+        },
+        {
+          "text": "5 days",
+          "x": 111,
+          "y": 1201,
+          "w": 102,
+          "h": 38
+        },
+        {
+          "text": "Top",
+          "x": 493,
+          "y": 1165,
+          "w": 68,
+          "h": 44
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "QuizForge",
+          "x": 278,
+          "y": 19,
+          "w": 165,
+          "h": 50
+        },
+        {
+          "text": "Aroma sprint",
+          "x": 283,
+          "y": 58,
+          "w": 153,
+          "h": 36
+        },
+        {
+          "text": "question prompt",
+          "x": 169,
+          "y": 157,
+          "w": 384,
+          "h": 60
+        },
+        {
+          "text": "Hint: ${question hint}",
+          "x": 239,
+          "y": 353,
+          "w": 244,
+          "h": 36
+        },
+        {
+          "text": "Trackers",
+          "x": 264,
+          "y": 498,
+          "w": 194,
+          "h": 52
+        },
+        {
+          "text": "streak label",
+          "x": 294,
+          "y": 592,
+          "w": 132,
+          "h": 26
+        },
+        {
+          "text": "streakvalue",
+          "x": 267,
+          "y": 629,
+          "w": 186,
+          "h": 36
+        },
+        {
+          "text": "Submit answer",
+          "x": 245,
+          "y": 731,
+          "w": 232,
+          "h": 38
+        },
+        {
+          "text": "option",
+          "x": 307,
+          "y": 257,
+          "w": 106,
+          "h": 47
+        }
+      ]
+    }
+  }
+}

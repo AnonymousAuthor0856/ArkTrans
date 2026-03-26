@@ -1,0 +1,299 @@
+{
+  "image_id": "011",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6342630702970187,
+    "size": 0.6092486310297726,
+    "color": 0.47764962911605835
+  },
+  "text_scores": {
+    "ref_count": 27,
+    "gen_count": 9,
+    "matched": 7,
+    "similarity": 0.8216469086649243,
+    "coverage": 0.25925925925925924,
+    "overall": 0.8216469086649243
+  },
+  "details": {
+    "image_id": "011",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\011.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\011.png",
+    "ui_evaluation": {
+      "ref_blocks": 78,
+      "gen_blocks": 23,
+      "matched_pairs": 23,
+      "position_score": 0.6342630702970187,
+      "size_score": 0.6092486310297726,
+      "color_score": 0.47764962911605835
+    },
+    "text_evaluation": {
+      "ref_texts": 27,
+      "gen_texts": 9,
+      "matched_pairs": 7,
+      "text_score": 0.8216469086649243,
+      "coverage": 0.25925925925925924,
+      "overall_score": 0.8216469086649243,
+      "ref_text_list": [
+        {
+          "text": "rljetpackcompose",
+          "x": 206,
+          "y": 42,
+          "w": 308,
+          "h": 50
+        },
+        {
+          "text": "8 hours",
+          "x": 530,
+          "y": 194,
+          "w": 108,
+          "h": 30
+        },
+        {
+          "text": "user/compose_master",
+          "x": 211,
+          "y": 211,
+          "w": 310,
+          "h": 38
+        },
+        {
+          "text": "ago",
+          "x": 528,
+          "y": 230,
+          "w": 56,
+          "h": 32
+        },
+        {
+          "text": "The power of Jetpack",
+          "x": 147,
+          "y": 272,
+          "w": 448,
+          "h": 62
+        },
+        {
+          "text": "1337",
+          "x": 33,
+          "y": 303,
+          "w": 92,
+          "h": 42
+        },
+        {
+          "text": "Compose for single-file",
+          "x": 146,
+          "y": 322,
+          "w": 480,
+          "h": 67
+        },
+        {
+          "text": "Uls",
+          "x": 149,
+          "y": 381,
+          "w": 72,
+          "h": 44
+        },
+        {
+          "text": "Creating fully functional; beautiful Uls",
+          "x": 147,
+          "y": 445,
+          "w": 542,
+          "h": 44
+        },
+        {
+          "text": "in a single Kotlin file is not just",
+          "x": 147,
+          "y": 493,
+          "w": 446,
+          "h": 44
+        },
+        {
+          "text": "possible; it's becoming a new",
+          "x": 147,
+          "y": 540,
+          "w": 426,
+          "h": 45
+        },
+        {
+          "text": "standard for prototypes and",
+          "x": 149,
+          "y": 591,
+          "w": 402,
+          "h": 42
+        },
+        {
+          "text": "minimalist apps. What are your",
+          "x": 149,
+          "y": 639,
+          "w": 448,
+          "h": 44
+        },
+        {
+          "text": "thoughts on this approach?",
+          "x": 144,
+          "y": 684,
+          "w": 405,
+          "h": 48
+        },
+        {
+          "text": "42 Comments",
+          "x": 150,
+          "y": 774,
+          "w": 192,
+          "h": 30
+        },
+        {
+          "text": "Share",
+          "x": 384,
+          "y": 774,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "TOP COMMENTS",
+          "x": 30,
+          "y": 854,
+          "w": 232,
+          "h": 32
+        },
+        {
+          "text": "devlandroid_fan",
+          "x": 121,
+          "y": 925,
+          "w": 224,
+          "h": 36
+        },
+        {
+          "text": "7h ago",
+          "x": 357,
+          "y": 927,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "Absolutely agreel It simplifies dependency",
+          "x": 56,
+          "y": 972,
+          "w": 612,
+          "h": 48
+        },
+        {
+          "text": "management and makes sharing snippets a",
+          "x": 56,
+          "y": 1017,
+          "w": 630,
+          "h": 51
+        },
+        {
+          "text": "breeze.",
+          "x": 55,
+          "y": 1070,
+          "w": 109,
+          "h": 43
+        },
+        {
+          "text": "25",
+          "x": 58,
+          "y": 1116,
+          "w": 38,
+          "h": 24
+        },
+        {
+          "text": "atac",
+          "x": 101,
+          "y": 1121,
+          "w": 76,
+          "h": 18
+        },
+        {
+          "text": "Danli",
+          "x": 199,
+          "y": 1121,
+          "w": 78,
+          "h": 18
+        },
+        {
+          "text": "Add a comment:",
+          "x": 63,
+          "y": 1191,
+          "w": 236,
+          "h": 36
+        },
+        {
+          "text": "POST",
+          "x": 578,
+          "y": 1192,
+          "w": 82,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "rljetpackcompose",
+          "x": 146,
+          "y": 37,
+          "w": 308,
+          "h": 45
+        },
+        {
+          "text": "TOP COMMENTS",
+          "x": 28,
+          "y": 224,
+          "w": 198,
+          "h": 28
+        },
+        {
+          "text": "uluser",
+          "x": 360,
+          "y": 286,
+          "w": 90,
+          "h": 28
+        },
+        {
+          "text": "This is a placeholder comment:",
+          "x": 203,
+          "y": 324,
+          "w": 398,
+          "h": 38
+        },
+        {
+          "text": "ulanother_user",
+          "x": 304,
+          "y": 388,
+          "w": 201,
+          "h": 41
+        },
+        {
+          "text": "Another placeholder comment for the list.",
+          "x": 135,
+          "y": 433,
+          "w": 540,
+          "h": 38
+        },
+        {
+          "text": "Add;",
+          "x": 59,
+          "y": 1180,
+          "w": 71,
+          "h": 39
+        },
+        {
+          "text": "comment:",
+          "x": 156,
+          "y": 1186,
+          "w": 146,
+          "h": 32
+        },
+        {
+          "text": "POST",
+          "x": 590,
+          "y": 1186,
+          "w": 70,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

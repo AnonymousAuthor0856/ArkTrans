@@ -1,0 +1,369 @@
+{
+  "image_id": "048",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7555089470763576,
+    "size": 0.28329009614473044,
+    "color": 0.5877516269683838
+  },
+  "text_scores": {
+    "ref_count": 11,
+    "gen_count": 35,
+    "matched": 6,
+    "similarity": 0.9666666666666667,
+    "coverage": 0.5454545454545454,
+    "overall": 0.9666666666666667
+  },
+  "details": {
+    "image_id": "048",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\048.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\048.png",
+    "ui_evaluation": {
+      "ref_blocks": 20,
+      "gen_blocks": 48,
+      "matched_pairs": 20,
+      "position_score": 0.7555089470763576,
+      "size_score": 0.28329009614473044,
+      "color_score": 0.5877516269683838
+    },
+    "text_evaluation": {
+      "ref_texts": 11,
+      "gen_texts": 35,
+      "matched_pairs": 6,
+      "text_score": 0.9666666666666667,
+      "coverage": 0.5454545454545454,
+      "overall_score": 0.9666666666666667,
+      "ref_text_list": [
+        {
+          "text": "Live Shop Events",
+          "x": 26,
+          "y": 33,
+          "w": 458,
+          "h": 74
+        },
+        {
+          "text": "Smartphone Flash Deal",
+          "x": 58,
+          "y": 484,
+          "w": 394,
+          "h": 48
+        },
+        {
+          "text": "1,234 viewers",
+          "x": 61,
+          "y": 538,
+          "w": 185,
+          "h": 37
+        },
+        {
+          "text": "S699",
+          "x": 59,
+          "y": 592,
+          "w": 99,
+          "h": 42
+        },
+        {
+          "text": "Join Live",
+          "x": 550,
+          "y": 600,
+          "w": 106,
+          "h": 30
+        },
+        {
+          "text": "Gaming Chair Special",
+          "x": 59,
+          "y": 1058,
+          "w": 365,
+          "h": 50
+        },
+        {
+          "text": "880 viewers",
+          "x": 62,
+          "y": 1118,
+          "w": 164,
+          "h": 32
+        },
+        {
+          "text": "Home",
+          "x": 94,
+          "y": 1240,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Live",
+          "x": 266,
+          "y": 1240,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "Cart",
+          "x": 416,
+          "y": 1240,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "Profile",
+          "x": 570,
+          "y": 1238,
+          "w": 88,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Live Shop Events",
+          "x": 131,
+          "y": 24,
+          "w": 460,
+          "h": 87
+        },
+        {
+          "text": "Event 1",
+          "x": 239,
+          "y": 169,
+          "w": 126,
+          "h": 38
+        },
+        {
+          "text": "LIVE",
+          "x": 592,
+          "y": 164,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Live now",
+          "x": 128,
+          "y": 218,
+          "w": 104,
+          "h": 26
+        },
+        {
+          "text": "Deals",
+          "x": 252,
+          "y": 218,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Limited time",
+          "x": 336,
+          "y": 216,
+          "w": 142,
+          "h": 28
+        },
+        {
+          "text": "Shop",
+          "x": 582,
+          "y": 216,
+          "w": 70,
+          "h": 38
+        },
+        {
+          "text": "Watchers",
+          "x": 56,
+          "y": 290,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "1.2k",
+          "x": 612,
+          "y": 290,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Event 2",
+          "x": 239,
+          "y": 431,
+          "w": 130,
+          "h": 38
+        },
+        {
+          "text": "LIVE",
+          "x": 592,
+          "y": 426,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Live now",
+          "x": 128,
+          "y": 480,
+          "w": 104,
+          "h": 26
+        },
+        {
+          "text": "Deals",
+          "x": 252,
+          "y": 480,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Limited time",
+          "x": 335,
+          "y": 480,
+          "w": 143,
+          "h": 26
+        },
+        {
+          "text": "Shop",
+          "x": 582,
+          "y": 478,
+          "w": 71,
+          "h": 38
+        },
+        {
+          "text": "Watchers",
+          "x": 56,
+          "y": 552,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "1.2k",
+          "x": 612,
+          "y": 552,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Event 3",
+          "x": 239,
+          "y": 693,
+          "w": 132,
+          "h": 38
+        },
+        {
+          "text": "LIVE",
+          "x": 592,
+          "y": 688,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Live now",
+          "x": 126,
+          "y": 739,
+          "w": 106,
+          "h": 29
+        },
+        {
+          "text": "Deals",
+          "x": 252,
+          "y": 742,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Limited time",
+          "x": 336,
+          "y": 740,
+          "w": 142,
+          "h": 28
+        },
+        {
+          "text": "Shop",
+          "x": 582,
+          "y": 740,
+          "w": 70,
+          "h": 38
+        },
+        {
+          "text": "Watchers",
+          "x": 56,
+          "y": 814,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "1.2k",
+          "x": 612,
+          "y": 814,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Event 4",
+          "x": 239,
+          "y": 955,
+          "w": 130,
+          "h": 38
+        },
+        {
+          "text": "LIVE",
+          "x": 592,
+          "y": 950,
+          "w": 58,
+          "h": 28
+        },
+        {
+          "text": "Live now",
+          "x": 128,
+          "y": 1002,
+          "w": 104,
+          "h": 28
+        },
+        {
+          "text": "Deals",
+          "x": 252,
+          "y": 1004,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Limited time",
+          "x": 336,
+          "y": 1004,
+          "w": 142,
+          "h": 26
+        },
+        {
+          "text": "Watchers",
+          "x": 56,
+          "y": 1076,
+          "w": 108,
+          "h": 26
+        },
+        {
+          "text": "Home",
+          "x": 70,
+          "y": 1210,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "Live",
+          "x": 250,
+          "y": 1210,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "Cart",
+          "x": 418,
+          "y": 1210,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Profile",
+          "x": 576,
+          "y": 1210,
+          "w": 76,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

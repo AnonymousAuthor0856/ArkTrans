@@ -1,0 +1,131 @@
+{
+  "image_id": "016",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7117519990867083,
+    "size": 0.5622530110260014,
+    "color": 0.6583393216133118
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 6,
+    "matched": 5,
+    "similarity": 0.9105263157894736,
+    "coverage": 0.8333333333333334,
+    "overall": 0.9105263157894736
+  },
+  "details": {
+    "image_id": "016",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\016.png",
+    "gen_path": "kt_post\\kimi-turbo\\016.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 22,
+      "matched_pairs": 19,
+      "position_score": 0.7117519990867083,
+      "size_score": 0.5622530110260014,
+      "color_score": 0.6583393216133118
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 6,
+      "matched_pairs": 5,
+      "text_score": 0.9105263157894736,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.9105263157894736,
+      "ref_text_list": [
+        {
+          "text": "Neon Recorder",
+          "x": 169,
+          "y": 35,
+          "w": 387,
+          "h": 63
+        },
+        {
+          "text": "Recording name",
+          "x": 61,
+          "y": 215,
+          "w": 254,
+          "h": 40
+        },
+        {
+          "text": "Press Record",
+          "x": 249,
+          "y": 499,
+          "w": 224,
+          "h": 40
+        },
+        {
+          "text": "Record",
+          "x": 163,
+          "y": 783,
+          "w": 122,
+          "h": 40
+        },
+        {
+          "text": "Reset",
+          "x": 487,
+          "y": 783,
+          "w": 102,
+          "h": 40
+        },
+        {
+          "text": "Output Path: /storage/recordings/untitled.mp3",
+          "x": 66,
+          "y": 980,
+          "w": 589,
+          "h": 43
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Neon Recorder",
+          "x": 139,
+          "y": 21,
+          "w": 449,
+          "h": 68
+        },
+        {
+          "text": "Press Record",
+          "x": 261,
+          "y": 333,
+          "w": 198,
+          "h": 40
+        },
+        {
+          "text": "Record",
+          "x": 171,
+          "y": 617,
+          "w": 110,
+          "h": 38
+        },
+        {
+          "text": "Reset",
+          "x": 493,
+          "y": 619,
+          "w": 90,
+          "h": 36
+        },
+        {
+          "text": "Output Path: Istoragelrecordingsluntitled:",
+          "x": 60,
+          "y": 816,
+          "w": 541,
+          "h": 39
+        },
+        {
+          "text": "mp3",
+          "x": 594,
+          "y": 813,
+          "w": 69,
+          "h": 45
+        }
+      ]
+    }
+  }
+}

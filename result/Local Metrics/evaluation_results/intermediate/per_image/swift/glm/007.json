@@ -1,0 +1,257 @@
+{
+  "image_id": "007",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5874176923646722,
+    "size": 0.5901623544656961,
+    "color": 0.5554068684577942
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 7,
+    "matched": 2,
+    "similarity": 0.8200000000000001,
+    "coverage": 0.08695652173913043,
+    "overall": 0.8200000000000001
+  },
+  "details": {
+    "image_id": "007",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\007.png",
+    "gen_path": "swift_post\\glm\\007.png",
+    "ui_evaluation": {
+      "ref_blocks": 32,
+      "gen_blocks": 13,
+      "matched_pairs": 13,
+      "position_score": 0.5874176923646722,
+      "size_score": 0.5901623544656961,
+      "color_score": 0.5554068684577942
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 7,
+      "matched_pairs": 2,
+      "text_score": 0.8200000000000001,
+      "coverage": 0.08695652173913043,
+      "overall_score": 0.8200000000000001,
+      "ref_text_list": [
+        {
+          "text": "Shopping Cart",
+          "x": 248,
+          "y": 92,
+          "w": 303,
+          "h": 64
+        },
+        {
+          "text": "Wireless",
+          "x": 168,
+          "y": 228,
+          "w": 118,
+          "h": 30
+        },
+        {
+          "text": "Headphones",
+          "x": 165,
+          "y": 261,
+          "w": 176,
+          "h": 36
+        },
+        {
+          "text": "S129.99",
+          "x": 163,
+          "y": 295,
+          "w": 148,
+          "h": 42
+        },
+        {
+          "text": "Remove",
+          "x": 592,
+          "y": 300,
+          "w": 82,
+          "h": 24
+        },
+        {
+          "text": "Smartphone Case",
+          "x": 165,
+          "y": 463,
+          "w": 244,
+          "h": 36
+        },
+        {
+          "text": "S24.99",
+          "x": 162,
+          "y": 497,
+          "w": 130,
+          "h": 44
+        },
+        {
+          "text": "Remove",
+          "x": 591,
+          "y": 519,
+          "w": 83,
+          "h": 26
+        },
+        {
+          "text": "USB-C Cable",
+          "x": 166,
+          "y": 678,
+          "w": 180,
+          "h": 32
+        },
+        {
+          "text": "S19.99",
+          "x": 163,
+          "y": 715,
+          "w": 126,
+          "h": 42
+        },
+        {
+          "text": "Remove",
+          "x": 591,
+          "y": 735,
+          "w": 83,
+          "h": 26
+        },
+        {
+          "text": "Portable Charger",
+          "x": 164,
+          "y": 893,
+          "w": 235,
+          "h": 39
+        },
+        {
+          "text": "S49.99",
+          "x": 163,
+          "y": 931,
+          "w": 132,
+          "h": 42
+        },
+        {
+          "text": "Remove",
+          "x": 591,
+          "y": 951,
+          "w": 83,
+          "h": 26
+        },
+        {
+          "text": "Subtotal",
+          "x": 30,
+          "y": 1030,
+          "w": 100,
+          "h": 26
+        },
+        {
+          "text": "S224.96",
+          "x": 602,
+          "y": 1026,
+          "w": 120,
+          "h": 32
+        },
+        {
+          "text": "Shipping",
+          "x": 30,
+          "y": 1076,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "$5.99",
+          "x": 637,
+          "y": 1071,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Tax",
+          "x": 30,
+          "y": 1122,
+          "w": 44,
+          "h": 26
+        },
+        {
+          "text": "S18.50",
+          "x": 623,
+          "y": 1117,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "Total",
+          "x": 31,
+          "y": 1167,
+          "w": 88,
+          "h": 38
+        },
+        {
+          "text": "S249.45",
+          "x": 569,
+          "y": 1163,
+          "w": 152,
+          "h": 42
+        },
+        {
+          "text": "Proceed to Checkout",
+          "x": 234,
+          "y": 1248,
+          "w": 286,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Shopping Cart",
+          "x": 46,
+          "y": 46,
+          "w": 323,
+          "h": 66
+        },
+        {
+          "text": "Item 1",
+          "x": 51,
+          "y": 453,
+          "w": 98,
+          "h": 36
+        },
+        {
+          "text": "Item 2",
+          "x": 51,
+          "y": 571,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Item 3",
+          "x": 51,
+          "y": 689,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Chip 1",
+          "x": 55,
+          "y": 795,
+          "w": 86,
+          "h": 38
+        },
+        {
+          "text": "Chip 2",
+          "x": 205,
+          "y": 795,
+          "w": 88,
+          "h": 38
+        },
+        {
+          "text": "Checkout",
+          "x": 286,
+          "y": 1185,
+          "w": 151,
+          "h": 39
+        }
+      ]
+    }
+  }
+}

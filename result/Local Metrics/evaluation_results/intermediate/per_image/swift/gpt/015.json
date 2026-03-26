@@ -1,0 +1,222 @@
+{
+  "image_id": "015",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3832211875687472,
+    "size": 0.48844670849631433,
+    "color": 0.4359146058559418
+  },
+  "text_scores": {
+    "ref_count": 20,
+    "gen_count": 5,
+    "matched": 4,
+    "similarity": 0.9166666666666666,
+    "coverage": 0.2,
+    "overall": 0.9166666666666666
+  },
+  "details": {
+    "image_id": "015",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\015.png",
+    "gen_path": "swift_post\\gpt\\015.png",
+    "ui_evaluation": {
+      "ref_blocks": 28,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.3832211875687472,
+      "size_score": 0.48844670849631433,
+      "color_score": 0.4359146058559418
+    },
+    "text_evaluation": {
+      "ref_texts": 20,
+      "gen_texts": 5,
+      "matched_pairs": 4,
+      "text_score": 0.9166666666666666,
+      "coverage": 0.2,
+      "overall_score": 0.9166666666666666,
+      "ref_text_list": [
+        {
+          "text": "Video Library",
+          "x": 209,
+          "y": 105,
+          "w": 337,
+          "h": 69
+        },
+        {
+          "text": "Explore the latest videos",
+          "x": 29,
+          "y": 235,
+          "w": 386,
+          "h": 42
+        },
+        {
+          "text": "Thumbnail",
+          "x": 138,
+          "y": 460,
+          "w": 120,
+          "h": 26
+        },
+        {
+          "text": "Thumbnail",
+          "x": 492,
+          "y": 460,
+          "w": 122,
+          "h": 26
+        },
+        {
+          "text": "Nature",
+          "x": 57,
+          "y": 619,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "AI",
+          "x": 414,
+          "y": 620,
+          "w": 34,
+          "h": 32
+        },
+        {
+          "text": "Explained",
+          "x": 447,
+          "y": 611,
+          "w": 159,
+          "h": 50
+        },
+        {
+          "text": "Documentary",
+          "x": 56,
+          "y": 655,
+          "w": 215,
+          "h": 44
+        },
+        {
+          "text": "18.52",
+          "x": 410,
+          "y": 674,
+          "w": 76,
+          "h": 30
+        },
+        {
+          "text": "24:18",
+          "x": 56,
+          "y": 712,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "Thumbnail",
+          "x": 138,
+          "y": 1014,
+          "w": 120,
+          "h": 28
+        },
+        {
+          "text": "Thumbnail",
+          "x": 492,
+          "y": 1014,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "Space Travel",
+          "x": 55,
+          "y": 1173,
+          "w": 206,
+          "h": 40
+        },
+        {
+          "text": "Modern Art",
+          "x": 411,
+          "y": 1170,
+          "w": 182,
+          "h": 38
+        },
+        {
+          "text": "31:09",
+          "x": 56,
+          "y": 1228,
+          "w": 76,
+          "h": 30
+        },
+        {
+          "text": "Review",
+          "x": 411,
+          "y": 1211,
+          "w": 116,
+          "h": 38
+        },
+        {
+          "text": "15.45",
+          "x": 410,
+          "y": 1268,
+          "w": 76,
+          "h": 30
+        },
+        {
+          "text": "Play",
+          "x": 170,
+          "y": 1294,
+          "w": 53,
+          "h": 30
+        },
+        {
+          "text": "Play",
+          "x": 523,
+          "y": 738,
+          "w": 56,
+          "h": 33
+        },
+        {
+          "text": "Play",
+          "x": 169,
+          "y": 779,
+          "w": 54,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Video Library",
+          "x": 199,
+          "y": 23,
+          "w": 327,
+          "h": 72
+        },
+        {
+          "text": "Thumbnail",
+          "x": 127,
+          "y": 232,
+          "w": 122,
+          "h": 28
+        },
+        {
+          "text": "item title",
+          "x": 113,
+          "y": 383,
+          "w": 154,
+          "h": 40
+        },
+        {
+          "text": "item duration",
+          "x": 100,
+          "y": 442,
+          "w": 178,
+          "h": 32
+        },
+        {
+          "text": "Play",
+          "x": 159,
+          "y": 511,
+          "w": 62,
+          "h": 41
+        }
+      ]
+    }
+  }
+}

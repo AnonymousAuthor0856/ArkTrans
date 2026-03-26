@@ -1,0 +1,110 @@
+{
+  "image_id": "038",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9120781423906587,
+    "size": 0.9867507810049723,
+    "color": 0.8899067044258118
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 6,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "038",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\038.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\038.png",
+    "ui_evaluation": {
+      "ref_blocks": 7,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.9120781423906587,
+      "size_score": 0.9867507810049723,
+      "color_score": 0.8899067044258118
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 6,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 162,
+          "y": 38,
+          "w": 428,
+          "h": 56
+        },
+        {
+          "text": "Scanning Active",
+          "x": 24,
+          "y": 1058,
+          "w": 278,
+          "h": 54
+        },
+        {
+          "text": "Add Marker",
+          "x": 277,
+          "y": 1173,
+          "w": 200,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 27,
+          "y": 27,
+          "w": 422,
+          "h": 60
+        },
+        {
+          "text": "Ca",
+          "x": 238,
+          "y": 530,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "SCANNING",
+          "x": 293,
+          "y": 531,
+          "w": 132,
+          "h": 28
+        },
+        {
+          "text": "ew",
+          "x": 438,
+          "y": 534,
+          "w": 44,
+          "h": 30
+        },
+        {
+          "text": "Scanning Active",
+          "x": 31,
+          "y": 974,
+          "w": 282,
+          "h": 60
+        },
+        {
+          "text": "Add Marker",
+          "x": 271,
+          "y": 1091,
+          "w": 182,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

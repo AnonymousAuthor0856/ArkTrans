@@ -1,0 +1,103 @@
+{
+  "image_id": "012",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.04498879839491566,
+    "size": 0.04820172167708512,
+    "color": 0.03717329353094101
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 2,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.16666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "012",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\012.png",
+    "gen_path": "swift_post\\deepseek\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 15,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.04498879839491566,
+      "size_score": 0.04820172167708512,
+      "color_score": 0.03717329353094101
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 2,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.16666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 126,
+          "y": 20,
+          "w": 503,
+          "h": 77
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 153,
+          "y": 923,
+          "w": 444,
+          "h": 40
+        },
+        {
+          "text": "Save Marker",
+          "x": 271,
+          "y": 1021,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 27,
+          "y": 1137,
+          "w": 257,
+          "h": 42
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1206,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1256,
+          "w": 184,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 59,
+          "y": 27,
+          "w": 609,
+          "h": 92
+        },
+        {
+          "text": "Spc: Sbbis (3,0)",
+          "x": 206,
+          "y": 1248,
+          "w": 310,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

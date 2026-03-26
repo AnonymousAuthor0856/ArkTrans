@@ -1,0 +1,75 @@
+{
+  "image_id": "032",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.4993683407154203,
+    "size": 0.8290161821102848,
+    "color": 0.6611090898513794
+  },
+  "text_scores": {
+    "ref_count": 2,
+    "gen_count": 2,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "032",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\032.png",
+    "gen_path": "kt_ablation\\gpt-a3\\032.png",
+    "ui_evaluation": {
+      "ref_blocks": 10,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.4993683407154203,
+      "size_score": 0.8290161821102848,
+      "color_score": 0.6611090898513794
+    },
+    "text_evaluation": {
+      "ref_texts": 2,
+      "gen_texts": 2,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Transfer Wizard",
+          "x": 153,
+          "y": 33,
+          "w": 416,
+          "h": 62
+        },
+        {
+          "text": "Transfer Progress",
+          "x": 210,
+          "y": 996,
+          "w": 300,
+          "h": 51
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Transfer Progress",
+          "x": 194,
+          "y": 496,
+          "w": 333,
+          "h": 57
+        },
+        {
+          "text": "Transfer Wizard",
+          "x": 144,
+          "y": 607,
+          "w": 433,
+          "h": 65
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "image_id": "056",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.3367313444060494,
+    "size": 0.40267473238738727,
+    "color": 0.3215281367301941
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 8,
+    "matched": 3,
+    "similarity": 0.875,
+    "coverage": 0.3,
+    "overall": 0.875
+  },
+  "details": {
+    "image_id": "056",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\056.png",
+    "gen_path": "kt_post\\glm\\056.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 14,
+      "matched_pairs": 12,
+      "position_score": 0.3367313444060494,
+      "size_score": 0.40267473238738727,
+      "color_score": 0.3215281367301941
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 8,
+      "matched_pairs": 3,
+      "text_score": 0.875,
+      "coverage": 0.3,
+      "overall_score": 0.875,
+      "ref_text_list": [
+        {
+          "text": "Diet",
+          "x": 254,
+          "y": 38,
+          "w": 110,
+          "h": 56
+        },
+        {
+          "text": "Meals",
+          "x": 82,
+          "y": 162,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Chat",
+          "x": 330,
+          "y": 162,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Meals",
+          "x": 28,
+          "y": 258,
+          "w": 264,
+          "h": 52
+        },
+        {
+          "text": "Meal",
+          "x": 310,
+          "y": 394,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "7",
+          "x": 393,
+          "y": 399,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "Meal 2",
+          "x": 310,
+          "y": 578,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Meal 3",
+          "x": 310,
+          "y": 762,
+          "w": 102,
+          "h": 32
+        },
+        {
+          "text": "Log",
+          "x": 359,
+          "y": 31,
+          "w": 117,
+          "h": 81
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Diet",
+          "x": 210,
+          "y": 68,
+          "w": 156,
+          "h": 74
+        },
+        {
+          "text": "Breakfast",
+          "x": 83,
+          "y": 204,
+          "w": 130,
+          "h": 32
+        },
+        {
+          "text": "Lunch",
+          "x": 318,
+          "y": 206,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Dinner",
+          "x": 527,
+          "y": 206,
+          "w": 94,
+          "h": 30
+        },
+        {
+          "text": "Breakfast",
+          "x": 229,
+          "y": 293,
+          "w": 184,
+          "h": 44
+        },
+        {
+          "text": "Add your breakfast items",
+          "x": 197,
+          "y": 389,
+          "w": 328,
+          "h": 40
+        },
+        {
+          "text": "Log",
+          "x": 363,
+          "y": 62,
+          "w": 158,
+          "h": 104
+        },
+        {
+          "text": "Log",
+          "x": 408,
+          "y": 290,
+          "w": 89,
+          "h": 58
+        }
+      ]
+    }
+  }
+}

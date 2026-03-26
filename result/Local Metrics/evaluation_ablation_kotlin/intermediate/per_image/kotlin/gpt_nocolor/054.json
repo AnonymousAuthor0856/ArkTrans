@@ -1,0 +1,222 @@
+{
+  "image_id": "054",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8288493021188036,
+    "size": 0.8738226946636478,
+    "color": 0.5023795366287231
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 10,
+    "matched": 5,
+    "similarity": 0.9279999999999999,
+    "coverage": 0.3333333333333333,
+    "overall": 0.9279999999999999
+  },
+  "details": {
+    "image_id": "054",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\054.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\054.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 22,
+      "matched_pairs": 22,
+      "position_score": 0.8288493021188036,
+      "size_score": 0.8738226946636478,
+      "color_score": 0.5023795366287231
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 10,
+      "matched_pairs": 5,
+      "text_score": 0.9279999999999999,
+      "coverage": 0.3333333333333333,
+      "overall_score": 0.9279999999999999,
+      "ref_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 138,
+          "y": 33,
+          "w": 449,
+          "h": 61
+        },
+        {
+          "text": "Assignments",
+          "x": 24,
+          "y": 156,
+          "w": 222,
+          "h": 48
+        },
+        {
+          "text": "Linear Algebra HW1",
+          "x": 61,
+          "y": 405,
+          "w": 256,
+          "h": 36
+        },
+        {
+          "text": "Data Structures HW2",
+          "x": 398,
+          "y": 406,
+          "w": 268,
+          "h": 30
+        },
+        {
+          "text": "Submitted",
+          "x": 136,
+          "y": 436,
+          "w": 106,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 485,
+          "y": 431,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Algorithm HW3",
+          "x": 91,
+          "y": 747,
+          "w": 198,
+          "h": 36
+        },
+        {
+          "text": "Probability HW4",
+          "x": 426,
+          "y": 741,
+          "w": 213,
+          "h": 42
+        },
+        {
+          "text": "Graded",
+          "x": 152,
+          "y": 778,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Pending",
+          "x": 485,
+          "y": 773,
+          "w": 91,
+          "h": 36
+        },
+        {
+          "text": "Progress Chart",
+          "x": 23,
+          "y": 945,
+          "w": 255,
+          "h": 51
+        },
+        {
+          "text": "Week 1: 70%",
+          "x": 26,
+          "y": 1064,
+          "w": 138,
+          "h": 26
+        },
+        {
+          "text": "Week 2: 90%",
+          "x": 26,
+          "y": 1152,
+          "w": 138,
+          "h": 28
+        },
+        {
+          "text": "I^~.",
+          "x": 27,
+          "y": 1243,
+          "w": 62,
+          "h": 14
+        },
+        {
+          "text": "cnoi",
+          "x": 119,
+          "y": 1243,
+          "w": 42,
+          "h": 14
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Homework Submit",
+          "x": 27,
+          "y": 29,
+          "w": 438,
+          "h": 54
+        },
+        {
+          "text": "Assignments",
+          "x": 224,
+          "y": 171,
+          "w": 273,
+          "h": 62
+        },
+        {
+          "text": "Math Worksheet",
+          "x": 67,
+          "y": 407,
+          "w": 252,
+          "h": 36
+        },
+        {
+          "text": "Science Lab",
+          "x": 437,
+          "y": 407,
+          "w": 186,
+          "h": 36
+        },
+        {
+          "text": "Pending",
+          "x": 141,
+          "y": 454,
+          "w": 99,
+          "h": 40
+        },
+        {
+          "text": "In Review",
+          "x": 474,
+          "y": 460,
+          "w": 112,
+          "h": 26
+        },
+        {
+          "text": "English Essay",
+          "x": 90,
+          "y": 687,
+          "w": 208,
+          "h": 45
+        },
+        {
+          "text": "History Notes",
+          "x": 422,
+          "y": 685,
+          "w": 216,
+          "h": 48
+        },
+        {
+          "text": "Submitted",
+          "x": 130,
+          "y": 740,
+          "w": 122,
+          "h": 30
+        },
+        {
+          "text": "Overdue",
+          "x": 478,
+          "y": 742,
+          "w": 100,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

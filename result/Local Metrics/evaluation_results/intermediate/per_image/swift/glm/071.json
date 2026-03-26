@@ -1,0 +1,250 @@
+{
+  "image_id": "071",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.49186414028417613,
+    "size": 0.3970136167738097,
+    "color": 0.3642922043800354
+  },
+  "text_scores": {
+    "ref_count": 18,
+    "gen_count": 11,
+    "matched": 11,
+    "similarity": 0.8884492700282174,
+    "coverage": 0.6111111111111112,
+    "overall": 0.8884492700282174
+  },
+  "details": {
+    "image_id": "071",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\071.png",
+    "gen_path": "swift_post\\glm\\071.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 35,
+      "matched_pairs": 35,
+      "position_score": 0.49186414028417613,
+      "size_score": 0.3970136167738097,
+      "color_score": 0.3642922043800354
+    },
+    "text_evaluation": {
+      "ref_texts": 18,
+      "gen_texts": 11,
+      "matched_pairs": 11,
+      "text_score": 0.8884492700282174,
+      "coverage": 0.6111111111111112,
+      "overall_score": 0.8884492700282174,
+      "ref_text_list": [
+        {
+          "text": "QuizForge",
+          "x": 273,
+          "y": 25,
+          "w": 205,
+          "h": 53
+        },
+        {
+          "text": "Aroma",
+          "x": 290,
+          "y": 80,
+          "w": 88,
+          "h": 28
+        },
+        {
+          "text": "sprint",
+          "x": 377,
+          "y": 75,
+          "w": 88,
+          "h": 42
+        },
+        {
+          "text": "Citrus crafts",
+          "x": 78,
+          "y": 186,
+          "w": 214,
+          "h": 38
+        },
+        {
+          "text": "450/0",
+          "x": 594,
+          "y": 190,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Which zest carrier gives",
+          "x": 79,
+          "y": 280,
+          "w": 523,
+          "h": 64
+        },
+        {
+          "text": "the brightest aroma when",
+          "x": 73,
+          "y": 347,
+          "w": 562,
+          "h": 60
+        },
+        {
+          "text": "infused cold?",
+          "x": 74,
+          "y": 410,
+          "w": 296,
+          "h": 50
+        },
+        {
+          "text": "Dried peel sachet",
+          "x": 114,
+          "y": 538,
+          "w": 178,
+          "h": 26
+        },
+        {
+          "text": "Twist garnish",
+          "x": 114,
+          "y": 640,
+          "w": 136,
+          "h": 28
+        },
+        {
+          "text": "Zester microplane",
+          "x": 114,
+          "y": 746,
+          "w": 184,
+          "h": 26
+        },
+        {
+          "text": "Candied strip",
+          "x": 114,
+          "y": 850,
+          "w": 136,
+          "h": 26
+        },
+        {
+          "text": "Hint: Think surface area",
+          "x": 110,
+          "y": 972,
+          "w": 322,
+          "h": 32
+        },
+        {
+          "text": "Trackers",
+          "x": 36,
+          "y": 1138,
+          "w": 202,
+          "h": 48
+        },
+        {
+          "text": "Current",
+          "x": 62,
+          "y": 1264,
+          "w": 98,
+          "h": 28
+        },
+        {
+          "text": "Accuracy",
+          "x": 299,
+          "y": 1263,
+          "w": 117,
+          "h": 32
+        },
+        {
+          "text": "Rank",
+          "x": 536,
+          "y": 1264,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "streak",
+          "x": 62,
+          "y": 1296,
+          "w": 80,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Quiz",
+          "x": 28,
+          "y": 54,
+          "w": 96,
+          "h": 48
+        },
+        {
+          "text": "Citrus crafts",
+          "x": 77,
+          "y": 201,
+          "w": 220,
+          "h": 40
+        },
+        {
+          "text": "4590",
+          "x": 571,
+          "y": 203,
+          "w": 74,
+          "h": 36
+        },
+        {
+          "text": "Which zest carrier gives",
+          "x": 89,
+          "y": 301,
+          "w": 534,
+          "h": 60
+        },
+        {
+          "text": "the brightest aroma",
+          "x": 83,
+          "y": 361,
+          "w": 454,
+          "h": 62
+        },
+        {
+          "text": "when infused cold?",
+          "x": 88,
+          "y": 422,
+          "w": 430,
+          "h": 50
+        },
+        {
+          "text": "Dried peel sachet",
+          "x": 119,
+          "y": 561,
+          "w": 267,
+          "h": 45
+        },
+        {
+          "text": "Twist garnish",
+          "x": 118,
+          "y": 695,
+          "w": 205,
+          "h": 48
+        },
+        {
+          "text": "Zester microplane",
+          "x": 119,
+          "y": 835,
+          "w": 274,
+          "h": 42
+        },
+        {
+          "text": "Candied strip",
+          "x": 119,
+          "y": 969,
+          "w": 206,
+          "h": 44
+        },
+        {
+          "text": "Hint: Think surface area",
+          "x": 62,
+          "y": 1111,
+          "w": 310,
+          "h": 33
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "image_id": "029",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.4914552420082884,
+    "size": 0.6006601955025642,
+    "color": 0.5771987438201904
+  },
+  "text_scores": {
+    "ref_count": 17,
+    "gen_count": 7,
+    "matched": 3,
+    "similarity": 0.7489878542510121,
+    "coverage": 0.17647058823529413,
+    "overall": 0.7489878542510121
+  },
+  "details": {
+    "image_id": "029",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\029.png",
+    "gen_path": "kt_post\\deepseek\\029.png",
+    "ui_evaluation": {
+      "ref_blocks": 20,
+      "gen_blocks": 12,
+      "matched_pairs": 12,
+      "position_score": 0.4914552420082884,
+      "size_score": 0.6006601955025642,
+      "color_score": 0.5771987438201904
+    },
+    "text_evaluation": {
+      "ref_texts": 17,
+      "gen_texts": 7,
+      "matched_pairs": 3,
+      "text_score": 0.7489878542510121,
+      "coverage": 0.17647058823529413,
+      "overall_score": 0.7489878542510121,
+      "ref_text_list": [
+        {
+          "text": "File Manager",
+          "x": 202,
+          "y": 33,
+          "w": 323,
+          "h": 73
+        },
+        {
+          "text": "Recent Files",
+          "x": 29,
+          "y": 161,
+          "w": 204,
+          "h": 40
+        },
+        {
+          "text": "PDF",
+          "x": 164,
+          "y": 304,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Spreadsheet",
+          "x": 448,
+          "y": 298,
+          "w": 167,
+          "h": 41
+        },
+        {
+          "text": "Report pdf",
+          "x": 51,
+          "y": 377,
+          "w": 183,
+          "h": 52
+        },
+        {
+          "text": "Budget xlsx",
+          "x": 392,
+          "y": 380,
+          "w": 198,
+          "h": 48
+        },
+        {
+          "text": "2.1 MB",
+          "x": 54,
+          "y": 422,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "1.2 MB",
+          "x": 394,
+          "y": 422,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "Image",
+          "x": 146,
+          "y": 567,
+          "w": 89,
+          "h": 37
+        },
+        {
+          "text": "Slides",
+          "x": 490,
+          "y": 568,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Design psd",
+          "x": 51,
+          "y": 641,
+          "w": 191,
+          "h": 52
+        },
+        {
+          "text": "Presentation:ppt",
+          "x": 391,
+          "y": 637,
+          "w": 279,
+          "h": 54
+        },
+        {
+          "text": "4.7 MB",
+          "x": 54,
+          "y": 686,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "X",
+          "x": 395,
+          "y": 695,
+          "w": 20,
+          "h": 22
+        },
+        {
+          "text": "Text",
+          "x": 162,
+          "y": 832,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "MeetingNotes tx",
+          "x": 52,
+          "y": 906,
+          "w": 276,
+          "h": 48
+        },
+        {
+          "text": "t",
+          "x": 55,
+          "y": 957,
+          "w": 14,
+          "h": 22
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "File Manager",
+          "x": 207,
+          "y": 33,
+          "w": 309,
+          "h": 64
+        },
+        {
+          "text": "filetype",
+          "x": 133,
+          "y": 167,
+          "w": 113,
+          "h": 45
+        },
+        {
+          "text": "filetype",
+          "x": 475,
+          "y": 169,
+          "w": 110,
+          "h": 40
+        },
+        {
+          "text": "file name",
+          "x": 117,
+          "y": 247,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "file name",
+          "x": 457,
+          "y": 247,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "file size",
+          "x": 146,
+          "y": 284,
+          "w": 88,
+          "h": 26
+        },
+        {
+          "text": "file size",
+          "x": 486,
+          "y": 284,
+          "w": 88,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

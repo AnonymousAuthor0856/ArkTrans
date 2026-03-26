@@ -1,0 +1,152 @@
+{
+  "image_id": "044",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6679144444949594,
+    "size": 0.9502114673443275,
+    "color": 0.9058347344398499
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 8,
+    "matched": 6,
+    "similarity": 0.9603174603174603,
+    "coverage": 0.8571428571428571,
+    "overall": 0.9603174603174603
+  },
+  "details": {
+    "image_id": "044",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\044.png",
+    "gen_path": "swift_post\\glm\\044.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 14,
+      "matched_pairs": 13,
+      "position_score": 0.6679144444949594,
+      "size_score": 0.9502114673443275,
+      "color_score": 0.9058347344398499
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 8,
+      "matched_pairs": 6,
+      "text_score": 0.9603174603174603,
+      "coverage": 0.8571428571428571,
+      "overall_score": 0.9603174603174603,
+      "ref_text_list": [
+        {
+          "text": "Order Tracking",
+          "x": 27,
+          "y": 355,
+          "w": 400,
+          "h": 68
+        },
+        {
+          "text": "Order #25491",
+          "x": 61,
+          "y": 481,
+          "w": 237,
+          "h": 40
+        },
+        {
+          "text": "Estimated Delivery: 2 days",
+          "x": 60,
+          "y": 542,
+          "w": 352,
+          "h": 41
+        },
+        {
+          "text": "Processing",
+          "x": 61,
+          "y": 635,
+          "w": 133,
+          "h": 33
+        },
+        {
+          "text": "42%/",
+          "x": 630,
+          "y": 638,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Adjust Progress",
+          "x": 242,
+          "y": 761,
+          "w": 270,
+          "h": 52
+        },
+        {
+          "text": "Mark as Delivered",
+          "x": 270,
+          "y": 906,
+          "w": 210,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Order",
+          "x": 27,
+          "y": 35,
+          "w": 170,
+          "h": 60
+        },
+        {
+          "text": "Tracking",
+          "x": 190,
+          "y": 20,
+          "w": 250,
+          "h": 90
+        },
+        {
+          "text": "Order #25491",
+          "x": 60,
+          "y": 161,
+          "w": 241,
+          "h": 43
+        },
+        {
+          "text": "Estimated Delivery: 2 days",
+          "x": 60,
+          "y": 225,
+          "w": 348,
+          "h": 44
+        },
+        {
+          "text": "Processing",
+          "x": 58,
+          "y": 325,
+          "w": 127,
+          "h": 36
+        },
+        {
+          "text": "60%",
+          "x": 606,
+          "y": 328,
+          "w": 56,
+          "h": 30
+        },
+        {
+          "text": "Adjust Progress",
+          "x": 224,
+          "y": 450,
+          "w": 275,
+          "h": 55
+        },
+        {
+          "text": "Mark as Delivered",
+          "x": 244,
+          "y": 652,
+          "w": 234,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

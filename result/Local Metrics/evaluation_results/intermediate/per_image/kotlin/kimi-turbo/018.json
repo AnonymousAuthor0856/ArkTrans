@@ -1,0 +1,208 @@
+{
+  "image_id": "018",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.10089814482015697,
+    "size": 0.1225336827616745,
+    "color": 0.09684362262487411
+  },
+  "text_scores": {
+    "ref_count": 17,
+    "gen_count": 6,
+    "matched": 2,
+    "similarity": 0.6086956521739131,
+    "coverage": 0.11764705882352941,
+    "overall": 0.6086956521739131
+  },
+  "details": {
+    "image_id": "018",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\018.png",
+    "gen_path": "kt_post\\kimi-turbo\\018.png",
+    "ui_evaluation": {
+      "ref_blocks": 32,
+      "gen_blocks": 16,
+      "matched_pairs": 16,
+      "position_score": 0.10089814482015697,
+      "size_score": 0.1225336827616745,
+      "color_score": 0.09684362262487411
+    },
+    "text_evaluation": {
+      "ref_texts": 17,
+      "gen_texts": 6,
+      "matched_pairs": 2,
+      "text_score": 0.6086956521739131,
+      "coverage": 0.11764705882352941,
+      "overall_score": 0.6086956521739131,
+      "ref_text_list": [
+        {
+          "text": "Filter Shop",
+          "x": 28,
+          "y": 21,
+          "w": 289,
+          "h": 79
+        },
+        {
+          "text": "Vintage",
+          "x": 51,
+          "y": 125,
+          "w": 101,
+          "h": 39
+        },
+        {
+          "text": "Grain",
+          "x": 208,
+          "y": 130,
+          "w": 64,
+          "h": 26
+        },
+        {
+          "text": "B&W",
+          "x": 332,
+          "y": 130,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Neon",
+          "x": 452,
+          "y": 130,
+          "w": 64,
+          "h": 26
+        },
+        {
+          "text": "Redscale",
+          "x": 63,
+          "y": 547,
+          "w": 138,
+          "h": 36
+        },
+        {
+          "text": "Sepia Tone",
+          "x": 399,
+          "y": 545,
+          "w": 168,
+          "h": 42
+        },
+        {
+          "text": "by UserA",
+          "x": 60,
+          "y": 584,
+          "w": 108,
+          "h": 32
+        },
+        {
+          "text": "by UserB",
+          "x": 402,
+          "y": 584,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "S4.99",
+          "x": 61,
+          "y": 627,
+          "w": 90,
+          "h": 40
+        },
+        {
+          "text": "S2.99",
+          "x": 401,
+          "y": 627,
+          "w": 90,
+          "h": 40
+        },
+        {
+          "text": "Aqua",
+          "x": 63,
+          "y": 1041,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "text": "Forest",
+          "x": 402,
+          "y": 1042,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "by Userc",
+          "x": 62,
+          "y": 1076,
+          "w": 108,
+          "h": 32
+        },
+        {
+          "text": "by UserD",
+          "x": 402,
+          "y": 1076,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "3 items in cart",
+          "x": 30,
+          "y": 1194,
+          "w": 184,
+          "h": 30
+        },
+        {
+          "text": "Checkout",
+          "x": 501,
+          "y": 1191,
+          "w": 146,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Card Content",
+          "x": 89,
+          "y": 65,
+          "w": 206,
+          "h": 36
+        },
+        {
+          "text": "Card Content",
+          "x": 429,
+          "y": 65,
+          "w": 206,
+          "h": 36
+        },
+        {
+          "text": "Card Content",
+          "x": 89,
+          "y": 329,
+          "w": 204,
+          "h": 36
+        },
+        {
+          "text": "Card Content",
+          "x": 429,
+          "y": 329,
+          "w": 204,
+          "h": 36
+        },
+        {
+          "text": "Header Content",
+          "x": 223,
+          "y": 1112,
+          "w": 276,
+          "h": 42
+        },
+        {
+          "text": "Surface Content",
+          "x": 237,
+          "y": 1211,
+          "w": 246,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

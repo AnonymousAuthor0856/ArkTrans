@@ -1,0 +1,173 @@
+{
+  "image_id": "017",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7358050051766342,
+    "size": 0.8725170572013391,
+    "color": 0.7817140817642212
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 12,
+    "matched": 3,
+    "similarity": 0.9761904761904763,
+    "coverage": 0.5,
+    "overall": 0.9761904761904763
+  },
+  "details": {
+    "image_id": "017",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\017.png",
+    "gen_path": "swift_ablation\\gpt-111\\017.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 44,
+      "matched_pairs": 27,
+      "position_score": 0.7358050051766342,
+      "size_score": 0.8725170572013391,
+      "color_score": 0.7817140817642212
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 12,
+      "matched_pairs": 3,
+      "text_score": 0.9761904761904763,
+      "coverage": 0.5,
+      "overall_score": 0.9761904761904763,
+      "ref_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 121,
+          "y": 35,
+          "w": 514,
+          "h": 60
+        },
+        {
+          "text": "Bass 40",
+          "x": 30,
+          "y": 348,
+          "w": 126,
+          "h": 28
+        },
+        {
+          "text": "Mid 50%",
+          "x": 30,
+          "y": 482,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Treble 60%",
+          "x": 30,
+          "y": 616,
+          "w": 144,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 70%",
+          "x": 31,
+          "y": 857,
+          "w": 304,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 262,
+          "y": 1044,
+          "w": 229,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 125,
+          "y": 28,
+          "w": 491,
+          "h": 56
+        },
+        {
+          "text": "CH2",
+          "x": 30,
+          "y": 120,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "~6 dB",
+          "x": 128,
+          "y": 120,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Output Bus",
+          "x": 28,
+          "y": 184,
+          "w": 181,
+          "h": 44
+        },
+        {
+          "text": "Main LIR",
+          "x": 30,
+          "y": 232,
+          "w": 122,
+          "h": 30
+        },
+        {
+          "text": "~3 dB",
+          "x": 188,
+          "y": 230,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Monitor",
+          "x": 30,
+          "y": 272,
+          "w": 108,
+          "h": 30
+        },
+        {
+          "text": "~9 dB",
+          "x": 174,
+          "y": 272,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Sync Status",
+          "x": 29,
+          "y": 337,
+          "w": 182,
+          "h": 42
+        },
+        {
+          "text": "Sync 30%",
+          "x": 27,
+          "y": 383,
+          "w": 134,
+          "h": 38
+        },
+        {
+          "text": "Master Volume 30%",
+          "x": 193,
+          "y": 573,
+          "w": 336,
+          "h": 42
+        },
+        {
+          "text": "Apply Settings",
+          "x": 233,
+          "y": 782,
+          "w": 258,
+          "h": 57
+        }
+      ]
+    }
+  }
+}

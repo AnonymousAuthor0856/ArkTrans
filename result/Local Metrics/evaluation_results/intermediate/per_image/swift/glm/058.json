@@ -1,0 +1,138 @@
+{
+  "image_id": "058",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7301408609126965,
+    "size": 0.6680609186621199,
+    "color": 0.45389190316200256
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 7,
+    "matched": 4,
+    "similarity": 1.0,
+    "coverage": 0.6666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "058",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\058.png",
+    "gen_path": "swift_post\\glm\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 11,
+      "matched_pairs": 9,
+      "position_score": 0.7301408609126965,
+      "size_score": 0.6680609186621199,
+      "color_score": 0.45389190316200256
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 7,
+      "matched_pairs": 4,
+      "text_score": 1.0,
+      "coverage": 0.6666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 168,
+          "y": 30,
+          "w": 417,
+          "h": 79
+        },
+        {
+          "text": "Overview",
+          "x": 53,
+          "y": 156,
+          "w": 145,
+          "h": 36
+        },
+        {
+          "text": "Ranking",
+          "x": 312,
+          "y": 153,
+          "w": 128,
+          "h": 44
+        },
+        {
+          "text": "Stats",
+          "x": 583,
+          "y": 157,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 182,
+          "y": 254,
+          "w": 388,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 281,
+          "y": 413,
+          "w": 191,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 146,
+          "y": 20,
+          "w": 425,
+          "h": 81
+        },
+        {
+          "text": "Overview",
+          "x": 148,
+          "y": 140,
+          "w": 128,
+          "h": 30
+        },
+        {
+          "text": "Ranking",
+          "x": 333,
+          "y": 139,
+          "w": 112,
+          "h": 38
+        },
+        {
+          "text": "Stats",
+          "x": 502,
+          "y": 138,
+          "w": 74,
+          "h": 32
+        },
+        {
+          "text": "Overview",
+          "x": 271,
+          "y": 427,
+          "w": 178,
+          "h": 44
+        },
+        {
+          "text": "Your step progress",
+          "x": 237,
+          "y": 489,
+          "w": 247,
+          "h": 41
+        },
+        {
+          "text": "7,500 / 10,000 steps",
+          "x": 246,
+          "y": 602,
+          "w": 228,
+          "h": 33
+        }
+      ]
+    }
+  }
+}

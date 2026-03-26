@@ -1,0 +1,117 @@
+{
+  "image_id": "063",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8950813246412525,
+    "size": 0.9496725378451452,
+    "color": 0.6277231574058533
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 6,
+    "matched": 3,
+    "similarity": 0.677979797979798,
+    "coverage": 0.75,
+    "overall": 0.677979797979798
+  },
+  "details": {
+    "image_id": "063",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\063.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\063.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.8950813246412525,
+      "size_score": 0.9496725378451452,
+      "color_score": 0.6277231574058533
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 6,
+      "matched_pairs": 3,
+      "text_score": 0.677979797979798,
+      "coverage": 0.75,
+      "overall_score": 0.677979797979798,
+      "ref_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 172,
+          "y": 14,
+          "w": 434,
+          "h": 73
+        },
+        {
+          "text": "45%",
+          "x": 292,
+          "y": 366,
+          "w": 170,
+          "h": 72
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 263,
+          "y": 602,
+          "w": 228,
+          "h": 42
+        },
+        {
+          "text": "Charging._",
+          "x": 278,
+          "y": 710,
+          "w": 176,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Battery Charge",
+          "x": 24,
+          "y": 29,
+          "w": 310,
+          "h": 61
+        },
+        {
+          "text": "3",
+          "x": 318,
+          "y": 244,
+          "w": 86,
+          "h": 72
+        },
+        {
+          "text": "35%",
+          "x": 280,
+          "y": 412,
+          "w": 164,
+          "h": 74
+        },
+        {
+          "text": "Simulate",
+          "x": 250,
+          "y": 636,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Charging_.",
+          "x": 266,
+          "y": 764,
+          "w": 190,
+          "h": 50
+        },
+        {
+          "text": "Charge",
+          "x": 367,
+          "y": 630,
+          "w": 107,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "image_id": "052",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6327546448287239,
+    "size": 0.786341072788397,
+    "color": 0.7900010347366333
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 11,
+    "matched": 6,
+    "similarity": 0.9002557544757033,
+    "coverage": 0.2608695652173913,
+    "overall": 0.9002557544757033
+  },
+  "details": {
+    "image_id": "052",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\052.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\052.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 26,
+      "matched_pairs": 26,
+      "position_score": 0.6327546448287239,
+      "size_score": 0.786341072788397,
+      "color_score": 0.7900010347366333
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 11,
+      "matched_pairs": 6,
+      "text_score": 0.9002557544757033,
+      "coverage": 0.2608695652173913,
+      "overall_score": 0.9002557544757033,
+      "ref_text_list": [
+        {
+          "text": "Course Catalog",
+          "x": 25,
+          "y": 18,
+          "w": 422,
+          "h": 84
+        },
+        {
+          "text": "AII",
+          "x": 128,
+          "y": 144,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "Enrolled",
+          "x": 322,
+          "y": 146,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "Completed",
+          "x": 531,
+          "y": 145,
+          "w": 148,
+          "h": 36
+        },
+        {
+          "text": "All Courses",
+          "x": 33,
+          "y": 236,
+          "w": 194,
+          "h": 42
+        },
+        {
+          "text": "Course 1",
+          "x": 55,
+          "y": 329,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 358,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 5 hrs",
+          "x": 53,
+          "y": 383,
+          "w": 201,
+          "h": 37
+        },
+        {
+          "text": "Course 2",
+          "x": 55,
+          "y": 493,
+          "w": 152,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 524,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 6 hrs",
+          "x": 56,
+          "y": 552,
+          "w": 196,
+          "h": 30
+        },
+        {
+          "text": "Course 3",
+          "x": 55,
+          "y": 659,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 688,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 7 hrs",
+          "x": 54,
+          "y": 716,
+          "w": 196,
+          "h": 32
+        },
+        {
+          "text": "Course 4",
+          "x": 55,
+          "y": 823,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 603,
+          "y": 849,
+          "w": 71,
+          "h": 38
+        },
+        {
+          "text": "Duration: 8 hrs",
+          "x": 56,
+          "y": 882,
+          "w": 196,
+          "h": 30
+        },
+        {
+          "text": "Course 5",
+          "x": 55,
+          "y": 989,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 1018,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Duration: 9 hrs",
+          "x": 53,
+          "y": 1043,
+          "w": 201,
+          "h": 37
+        },
+        {
+          "text": "Course 6",
+          "x": 55,
+          "y": 1153,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "View",
+          "x": 606,
+          "y": 1182,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "Duration: 10 hrs",
+          "x": 54,
+          "y": 1212,
+          "w": 210,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Course Catalog",
+          "x": 39,
+          "y": 23,
+          "w": 418,
+          "h": 87
+        },
+        {
+          "text": "All Courses",
+          "x": 84,
+          "y": 162,
+          "w": 150,
+          "h": 32
+        },
+        {
+          "text": "Enrolled",
+          "x": 305,
+          "y": 161,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Completed",
+          "x": 489,
+          "y": 161,
+          "w": 148,
+          "h": 40
+        },
+        {
+          "text": "AII Courses",
+          "x": 70,
+          "y": 280,
+          "w": 195,
+          "h": 50
+        },
+        {
+          "text": "Introduction",
+          "x": 321,
+          "y": 383,
+          "w": 190,
+          "h": 36
+        },
+        {
+          "text": "Basics and overview",
+          "x": 304,
+          "y": 428,
+          "w": 226,
+          "h": 26
+        },
+        {
+          "text": "Foundations",
+          "x": 321,
+          "y": 541,
+          "w": 192,
+          "h": 36
+        },
+        {
+          "text": "Core concepts",
+          "x": 334,
+          "y": 586,
+          "w": 164,
+          "h": 33
+        },
+        {
+          "text": "Practice",
+          "x": 355,
+          "y": 699,
+          "w": 124,
+          "h": 36
+        },
+        {
+          "text": "Hands-on tasks",
+          "x": 328,
+          "y": 744,
+          "w": 178,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

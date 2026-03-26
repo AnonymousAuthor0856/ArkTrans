@@ -1,0 +1,257 @@
+{
+  "image_id": "043",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7396616116465403,
+    "size": 0.8798457743473739,
+    "color": 0.8242744207382202
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 15,
+    "matched": 8,
+    "similarity": 0.9722222222222222,
+    "coverage": 0.5333333333333333,
+    "overall": 0.9722222222222222
+  },
+  "details": {
+    "image_id": "043",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\043.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\043.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.7396616116465403,
+      "size_score": 0.8798457743473739,
+      "color_score": 0.8242744207382202
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 15,
+      "matched_pairs": 8,
+      "text_score": 0.9722222222222222,
+      "coverage": 0.5333333333333333,
+      "overall_score": 0.9722222222222222,
+      "ref_text_list": [
+        {
+          "text": "Your Cart",
+          "x": 27,
+          "y": 33,
+          "w": 256,
+          "h": 60
+        },
+        {
+          "text": "Neon Keyboard",
+          "x": 44,
+          "y": 131,
+          "w": 263,
+          "h": 52
+        },
+        {
+          "text": "Remove",
+          "x": 588,
+          "y": 164,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "$89.99",
+          "x": 46,
+          "y": 188,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "Wireless Mouse",
+          "x": 45,
+          "y": 281,
+          "w": 268,
+          "h": 40
+        },
+        {
+          "text": "Remove",
+          "x": 588,
+          "y": 310,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "$49.99",
+          "x": 46,
+          "y": 334,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "Gaming Headset",
+          "x": 41,
+          "y": 420,
+          "w": 289,
+          "h": 52
+        },
+        {
+          "text": "Remove",
+          "x": 587,
+          "y": 453,
+          "w": 97,
+          "h": 31
+        },
+        {
+          "text": "$109.99",
+          "x": 46,
+          "y": 478,
+          "w": 112,
+          "h": 32
+        },
+        {
+          "text": "Promo Code",
+          "x": 46,
+          "y": 616,
+          "w": 166,
+          "h": 30
+        },
+        {
+          "text": "Items:",
+          "x": 52,
+          "y": 758,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Total:",
+          "x": 55,
+          "y": 805,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "S249.97",
+          "x": 553,
+          "y": 801,
+          "w": 144,
+          "h": 42
+        },
+        {
+          "text": "Checkout",
+          "x": 293,
+          "y": 927,
+          "w": 168,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Your Cart",
+          "x": 45,
+          "y": 51,
+          "w": 252,
+          "h": 60
+        },
+        {
+          "text": "Item 1",
+          "x": 230,
+          "y": 174,
+          "w": 96,
+          "h": 32
+        },
+        {
+          "text": "Remove",
+          "x": 534,
+          "y": 198,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "$39.50",
+          "x": 233,
+          "y": 219,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "Item 2",
+          "x": 229,
+          "y": 327,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Remove",
+          "x": 533,
+          "y": 353,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "$49.00",
+          "x": 233,
+          "y": 373,
+          "w": 96,
+          "h": 38
+        },
+        {
+          "text": "Item 3",
+          "x": 229,
+          "y": 481,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "Remove",
+          "x": 534,
+          "y": 508,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "$40.00",
+          "x": 233,
+          "y": 529,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "Prolo Coce",
+          "x": 71,
+          "y": 693,
+          "w": 190,
+          "h": 36
+        },
+        {
+          "text": "Items",
+          "x": 73,
+          "y": 866,
+          "w": 83,
+          "h": 36
+        },
+        {
+          "text": "Total",
+          "x": 77,
+          "y": 943,
+          "w": 88,
+          "h": 40
+        },
+        {
+          "text": "$128.50",
+          "x": 500,
+          "y": 938,
+          "w": 146,
+          "h": 48
+        },
+        {
+          "text": "Checkout",
+          "x": 287,
+          "y": 1079,
+          "w": 148,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

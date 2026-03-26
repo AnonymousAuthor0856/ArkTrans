@@ -1,0 +1,236 @@
+{
+  "image_id": "029",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8593806883097868,
+    "size": 0.7872192386175217,
+    "color": 0.8288753628730774
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 8,
+    "matched": 5,
+    "similarity": 0.9217391304347826,
+    "coverage": 0.2631578947368421,
+    "overall": 0.9217391304347826
+  },
+  "details": {
+    "image_id": "029",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\029.png",
+    "gen_path": "swift_ablation\\gpt-a3\\029.png",
+    "ui_evaluation": {
+      "ref_blocks": 30,
+      "gen_blocks": 19,
+      "matched_pairs": 19,
+      "position_score": 0.8593806883097868,
+      "size_score": 0.7872192386175217,
+      "color_score": 0.8288753628730774
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 8,
+      "matched_pairs": 5,
+      "text_score": 0.9217391304347826,
+      "coverage": 0.2631578947368421,
+      "overall_score": 0.9217391304347826,
+      "ref_text_list": [
+        {
+          "text": "File Manager",
+          "x": 215,
+          "y": 73,
+          "w": 324,
+          "h": 68
+        },
+        {
+          "text": "Recent Files",
+          "x": 29,
+          "y": 233,
+          "w": 208,
+          "h": 40
+        },
+        {
+          "text": "PDF",
+          "x": 170,
+          "y": 334,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "Spreadsheet",
+          "x": 469,
+          "y": 333,
+          "w": 172,
+          "h": 36
+        },
+        {
+          "text": "Report pdf",
+          "x": 51,
+          "y": 445,
+          "w": 189,
+          "h": 50
+        },
+        {
+          "text": "Budget xlsx",
+          "x": 407,
+          "y": 444,
+          "w": 203,
+          "h": 52
+        },
+        {
+          "text": "2.1 MB",
+          "x": 54,
+          "y": 496,
+          "w": 82,
+          "h": 28
+        },
+        {
+          "text": "1.2 MB",
+          "x": 408,
+          "y": 496,
+          "w": 84,
+          "h": 28
+        },
+        {
+          "text": "Image",
+          "x": 153,
+          "y": 596,
+          "w": 90,
+          "h": 38
+        },
+        {
+          "text": "Slides",
+          "x": 512,
+          "y": 598,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Presentation ppt",
+          "x": 405,
+          "y": 663,
+          "w": 287,
+          "h": 54
+        },
+        {
+          "text": "Design psd",
+          "x": 51,
+          "y": 709,
+          "w": 197,
+          "h": 52
+        },
+        {
+          "text": "X",
+          "x": 408,
+          "y": 722,
+          "w": 26,
+          "h": 26
+        },
+        {
+          "text": "4.7 MB",
+          "x": 54,
+          "y": 760,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "5.4 MB",
+          "x": 410,
+          "y": 760,
+          "w": 86,
+          "h": 28
+        },
+        {
+          "text": "Text",
+          "x": 168,
+          "y": 862,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "MeetingNotes.tx",
+          "x": 52,
+          "y": 932,
+          "w": 282,
+          "h": 48
+        },
+        {
+          "text": "t",
+          "x": 57,
+          "y": 985,
+          "w": 14,
+          "h": 26
+        },
+        {
+          "text": "64 KB",
+          "x": 54,
+          "y": 1024,
+          "w": 74,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "File Manager",
+          "x": 200,
+          "y": 24,
+          "w": 327,
+          "h": 75
+        },
+        {
+          "text": "Recent Files",
+          "x": 28,
+          "y": 144,
+          "w": 207,
+          "h": 42
+        },
+        {
+          "text": "Budget xlsx",
+          "x": 113,
+          "y": 347,
+          "w": 158,
+          "h": 40
+        },
+        {
+          "text": "Notestxt",
+          "x": 470,
+          "y": 349,
+          "w": 122,
+          "h": 30
+        },
+        {
+          "text": "Photojpg",
+          "x": 126,
+          "y": 560,
+          "w": 131,
+          "h": 42
+        },
+        {
+          "text": "Report pdf",
+          "x": 459,
+          "y": 561,
+          "w": 148,
+          "h": 38
+        },
+        {
+          "text": "Invoicedocx",
+          "x": 108,
+          "y": 776,
+          "w": 166,
+          "h": 30
+        },
+        {
+          "text": "Archive zip",
+          "x": 457,
+          "y": 773,
+          "w": 148,
+          "h": 38
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "image_id": "048",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.741211047492375,
+    "size": 0.5890397692244731,
+    "color": 0.9207475781440735
+  },
+  "text_scores": {
+    "ref_count": 9,
+    "gen_count": 9,
+    "matched": 6,
+    "similarity": 0.9901960784313726,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9901960784313726
+  },
+  "details": {
+    "image_id": "048",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\048.png",
+    "gen_path": "kt_post\\glm\\048.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 18,
+      "matched_pairs": 16,
+      "position_score": 0.741211047492375,
+      "size_score": 0.5890397692244731,
+      "color_score": 0.9207475781440735
+    },
+    "text_evaluation": {
+      "ref_texts": 9,
+      "gen_texts": 9,
+      "matched_pairs": 6,
+      "text_score": 0.9901960784313726,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9901960784313726,
+      "ref_text_list": [
+        {
+          "text": "Live Shop Events",
+          "x": 26,
+          "y": 34,
+          "w": 444,
+          "h": 72
+        },
+        {
+          "text": "Smartphone Flash Deal",
+          "x": 58,
+          "y": 482,
+          "w": 386,
+          "h": 48
+        },
+        {
+          "text": "1234 viewers",
+          "x": 62,
+          "y": 538,
+          "w": 172,
+          "h": 30
+        },
+        {
+          "text": "S699",
+          "x": 58,
+          "y": 604,
+          "w": 92,
+          "h": 48
+        },
+        {
+          "text": "Join Live",
+          "x": 510,
+          "y": 616,
+          "w": 102,
+          "h": 26
+        },
+        {
+          "text": "Home",
+          "x": 38,
+          "y": 1190,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "Live",
+          "x": 240,
+          "y": 1190,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "Cart",
+          "x": 418,
+          "y": 1190,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "Profile",
+          "x": 598,
+          "y": 1190,
+          "w": 86,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Live Shop Events",
+          "x": 125,
+          "y": 25,
+          "w": 472,
+          "h": 86
+        },
+        {
+          "text": "item.title",
+          "x": 281,
+          "y": 482,
+          "w": 156,
+          "h": 41
+        },
+        {
+          "text": "S{item viewers} viewers",
+          "x": 207,
+          "y": 534,
+          "w": 308,
+          "h": 37
+        },
+        {
+          "text": "item price",
+          "x": 56,
+          "y": 596,
+          "w": 180,
+          "h": 48
+        },
+        {
+          "text": "Join Livet",
+          "x": 542,
+          "y": 602,
+          "w": 118,
+          "h": 32
+        },
+        {
+          "text": "Home",
+          "x": 71,
+          "y": 1222,
+          "w": 88,
+          "h": 36
+        },
+        {
+          "text": "Live",
+          "x": 248,
+          "y": 1224,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Cart",
+          "x": 412,
+          "y": 1224,
+          "w": 62,
+          "h": 32
+        },
+        {
+          "text": "Profile",
+          "x": 564,
+          "y": 1224,
+          "w": 88,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "image_id": "037",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.09378011260795606,
+    "size": 0.13528236376702618,
+    "color": 0.10799147933721542
+  },
+  "text_scores": {
+    "ref_count": 13,
+    "gen_count": 1,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.07692307692307693,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "037",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\037.png",
+    "gen_path": "swift_post\\deepseek\\037.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 4,
+      "matched_pairs": 4,
+      "position_score": 0.09378011260795606,
+      "size_score": 0.13528236376702618,
+      "color_score": 0.10799147933721542
+    },
+    "text_evaluation": {
+      "ref_texts": 13,
+      "gen_texts": 1,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.07692307692307693,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 197,
+          "y": 29,
+          "w": 360,
+          "h": 69
+        },
+        {
+          "text": "Total Spent",
+          "x": 297,
+          "y": 365,
+          "w": 160,
+          "h": 36
+        },
+        {
+          "text": "S2,411.25",
+          "x": 260,
+          "y": 398,
+          "w": 231,
+          "h": 63
+        },
+        {
+          "text": "Housing",
+          "x": 146,
+          "y": 758,
+          "w": 133,
+          "h": 51
+        },
+        {
+          "text": "S1,250.00",
+          "x": 501,
+          "y": 765,
+          "w": 174,
+          "h": 42
+        },
+        {
+          "text": "Food",
+          "x": 149,
+          "y": 905,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "S480.50",
+          "x": 522,
+          "y": 900,
+          "w": 151,
+          "h": 44
+        },
+        {
+          "text": "Transport",
+          "x": 149,
+          "y": 1045,
+          "w": 150,
+          "h": 40
+        },
+        {
+          "text": "S210.75",
+          "x": 533,
+          "y": 1041,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "text": "Home",
+          "x": 46,
+          "y": 1268,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Reports",
+          "x": 167,
+          "y": 1267,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Goals",
+          "x": 472,
+          "y": 1268,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Settings",
+          "x": 587,
+          "y": 1267,
+          "w": 120,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 174,
+          "y": 104,
+          "w": 377,
+          "h": 75
+        }
+      ]
+    }
+  }
+}

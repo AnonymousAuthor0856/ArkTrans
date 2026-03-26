@@ -1,0 +1,138 @@
+{
+  "image_id": "045",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.45845220291532357,
+    "size": 0.5025793519603658,
+    "color": 0.33811187744140625
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 7,
+    "matched": 6,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "045",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\045.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\045.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 25,
+      "matched_pairs": 16,
+      "position_score": 0.45845220291532357,
+      "size_score": 0.5025793519603658,
+      "color_score": 0.33811187744140625
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 7,
+      "matched_pairs": 6,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 31,
+          "y": 35,
+          "w": 470,
+          "h": 60
+        },
+        {
+          "text": "Order ID",
+          "x": 61,
+          "y": 161,
+          "w": 140,
+          "h": 42
+        },
+        {
+          "text": "Enter order number",
+          "x": 95,
+          "y": 263,
+          "w": 298,
+          "h": 36
+        },
+        {
+          "text": "Issue Description",
+          "x": 60,
+          "y": 356,
+          "w": 290,
+          "h": 48
+        },
+        {
+          "text": "Describe your issue",
+          "x": 95,
+          "y": 457,
+          "w": 306,
+          "h": 42
+        },
+        {
+          "text": "Submit Request",
+          "x": 228,
+          "y": 755,
+          "w": 268,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "After-Sale Service",
+          "x": 113,
+          "y": 35,
+          "w": 500,
+          "h": 60
+        },
+        {
+          "text": "Order ID",
+          "x": 287,
+          "y": 163,
+          "w": 148,
+          "h": 40
+        },
+        {
+          "text": "Enter order number",
+          "x": 95,
+          "y": 251,
+          "w": 296,
+          "h": 36
+        },
+        {
+          "text": "Issue Description",
+          "x": 212,
+          "y": 329,
+          "w": 296,
+          "h": 52
+        },
+        {
+          "text": "Describe your issue",
+          "x": 95,
+          "y": 497,
+          "w": 292,
+          "h": 42
+        },
+        {
+          "text": "Submit Request",
+          "x": 220,
+          "y": 730,
+          "w": 280,
+          "h": 51
+        },
+        {
+          "text": "Request submitted successfullyl",
+          "x": 124,
+          "y": 874,
+          "w": 475,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

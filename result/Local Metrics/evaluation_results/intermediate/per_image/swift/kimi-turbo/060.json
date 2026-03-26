@@ -1,0 +1,250 @@
+{
+  "image_id": "060",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6412896700414785,
+    "size": 0.11412173915278455,
+    "color": 0.4295777976512909
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 13,
+    "matched": 5,
+    "similarity": 0.8857142857142858,
+    "coverage": 0.3125,
+    "overall": 0.8857142857142858
+  },
+  "details": {
+    "image_id": "060",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\060.png",
+    "gen_path": "swift_post\\kimi-turbo\\060.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 27,
+      "matched_pairs": 27,
+      "position_score": 0.6412896700414785,
+      "size_score": 0.11412173915278455,
+      "color_score": 0.4295777976512909
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 13,
+      "matched_pairs": 5,
+      "text_score": 0.8857142857142858,
+      "coverage": 0.3125,
+      "overall_score": 0.8857142857142858,
+      "ref_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 208,
+          "y": 32,
+          "w": 336,
+          "h": 50
+        },
+        {
+          "text": "Unit Map Visualization",
+          "x": 182,
+          "y": 198,
+          "w": 384,
+          "h": 51
+        },
+        {
+          "text": "Active Unit: Length",
+          "x": 266,
+          "y": 264,
+          "w": 220,
+          "h": 32
+        },
+        {
+          "text": "Length",
+          "x": 44,
+          "y": 453,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 494,
+          "w": 170,
+          "h": 30
+        },
+        {
+          "text": "Weight",
+          "x": 46,
+          "y": 638,
+          "w": 126,
+          "h": 48
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 682,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Temperature",
+          "x": 45,
+          "y": 829,
+          "w": 224,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 870,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Speed",
+          "x": 41,
+          "y": 1013,
+          "w": 119,
+          "h": 50
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 1058,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Length",
+          "x": 61,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Weight",
+          "x": 239,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Temper",
+          "x": 413,
+          "y": 1222,
+          "w": 110,
+          "h": 41
+        },
+        {
+          "text": "Speed",
+          "x": 596,
+          "y": 1240,
+          "w": 93,
+          "h": 38
+        },
+        {
+          "text": "ature",
+          "x": 414,
+          "y": 1260,
+          "w": 76,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 196,
+          "y": 33,
+          "w": 332,
+          "h": 57
+        },
+        {
+          "text": "MapArea placeholder",
+          "x": 202,
+          "y": 115,
+          "w": 320,
+          "h": 49
+        },
+        {
+          "text": "to convert",
+          "x": 312,
+          "y": 580,
+          "w": 158,
+          "h": 32
+        },
+        {
+          "text": "to convert",
+          "x": 312,
+          "y": 698,
+          "w": 158,
+          "h": 32
+        },
+        {
+          "text": "to convert",
+          "x": 312,
+          "y": 816,
+          "w": 158,
+          "h": 32
+        },
+        {
+          "text": "to convert",
+          "x": 312,
+          "y": 934,
+          "w": 158,
+          "h": 32
+        },
+        {
+          "text": "m",
+          "x": 268,
+          "y": 1080,
+          "w": 32,
+          "h": 28
+        },
+        {
+          "text": "km ft",
+          "x": 311,
+          "y": 1073,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "mi",
+          "x": 414,
+          "y": 1076,
+          "w": 40,
+          "h": 32
+        },
+        {
+          "text": "Tap `",
+          "x": 247,
+          "y": 573,
+          "w": 69,
+          "h": 48
+        },
+        {
+          "text": "Tap `",
+          "x": 247,
+          "y": 691,
+          "w": 69,
+          "h": 48
+        },
+        {
+          "text": "Tap `",
+          "x": 247,
+          "y": 809,
+          "w": 69,
+          "h": 49
+        },
+        {
+          "text": "Tap `",
+          "x": 247,
+          "y": 927,
+          "w": 69,
+          "h": 49
+        }
+      ]
+    }
+  }
+}

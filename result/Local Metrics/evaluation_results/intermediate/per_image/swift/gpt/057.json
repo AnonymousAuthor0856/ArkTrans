@@ -1,0 +1,117 @@
+{
+  "image_id": "057",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8275417539763961,
+    "size": 0.711690171598452,
+    "color": 0.5977895855903625
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 6,
+    "matched": 4,
+    "similarity": 0.9778481012658228,
+    "coverage": 1.0,
+    "overall": 0.9778481012658228
+  },
+  "details": {
+    "image_id": "057",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\057.png",
+    "gen_path": "swift_post\\gpt\\057.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 24,
+      "matched_pairs": 17,
+      "position_score": 0.8275417539763961,
+      "size_score": 0.711690171598452,
+      "color_score": 0.5977895855903625
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 6,
+      "matched_pairs": 4,
+      "text_score": 0.9778481012658228,
+      "coverage": 1.0,
+      "overall_score": 0.9778481012658228,
+      "ref_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 212,
+          "y": 26,
+          "w": 326,
+          "h": 72
+        },
+        {
+          "text": "Welcome Back",
+          "x": 239,
+          "y": 769,
+          "w": 276,
+          "h": 42
+        },
+        {
+          "text": "Track your sleep patterns and improve rest quality:",
+          "x": 47,
+          "y": 861,
+          "w": 656,
+          "h": 40
+        },
+        {
+          "text": "Sign In",
+          "x": 319,
+          "y": 977,
+          "w": 112,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 219,
+          "y": 24,
+          "w": 281,
+          "h": 72
+        },
+        {
+          "text": "222",
+          "x": 344,
+          "y": 133,
+          "w": 76,
+          "h": 40
+        },
+        {
+          "text": "Welcome Back",
+          "x": 170,
+          "y": 403,
+          "w": 387,
+          "h": 60
+        },
+        {
+          "text": "Track your sleep patterns and improve rest",
+          "x": 42,
+          "y": 511,
+          "w": 630,
+          "h": 51
+        },
+        {
+          "text": "quality:",
+          "x": 43,
+          "y": 555,
+          "w": 110,
+          "h": 40
+        },
+        {
+          "text": "Sign In",
+          "x": 296,
+          "y": 668,
+          "w": 126,
+          "h": 50
+        }
+      ]
+    }
+  }
+}

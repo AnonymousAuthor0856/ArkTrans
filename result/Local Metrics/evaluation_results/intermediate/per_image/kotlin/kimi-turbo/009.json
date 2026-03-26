@@ -1,0 +1,166 @@
+{
+  "image_id": "009",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8464159869356231,
+    "size": 0.8887568075815196,
+    "color": 0.5052711367607117
+  },
+  "text_scores": {
+    "ref_count": 8,
+    "gen_count": 9,
+    "matched": 6,
+    "similarity": 0.8888888888888888,
+    "coverage": 0.75,
+    "overall": 0.8888888888888888
+  },
+  "details": {
+    "image_id": "009",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\009.png",
+    "gen_path": "kt_post\\kimi-turbo\\009.png",
+    "ui_evaluation": {
+      "ref_blocks": 19,
+      "gen_blocks": 24,
+      "matched_pairs": 19,
+      "position_score": 0.8464159869356231,
+      "size_score": 0.8887568075815196,
+      "color_score": 0.5052711367607117
+    },
+    "text_evaluation": {
+      "ref_texts": 8,
+      "gen_texts": 9,
+      "matched_pairs": 6,
+      "text_score": 0.8888888888888888,
+      "coverage": 0.75,
+      "overall_score": 0.8888888888888888,
+      "ref_text_list": [
+        {
+          "text": "Video Player",
+          "x": 267,
+          "y": 45,
+          "w": 189,
+          "h": 43
+        },
+        {
+          "text": "Video Surface",
+          "x": 257,
+          "y": 389,
+          "w": 208,
+          "h": 38
+        },
+        {
+          "text": "Journey through the Skies",
+          "x": 42,
+          "y": 731,
+          "w": 388,
+          "h": 48
+        },
+        {
+          "text": "1.35",
+          "x": 46,
+          "y": 916,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "4.00",
+          "x": 622,
+          "y": 916,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "-1Os",
+          "x": 130,
+          "y": 1020,
+          "w": 80,
+          "h": 39
+        },
+        {
+          "text": "+30s",
+          "x": 513,
+          "y": 1023,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "Fullscreen",
+          "x": 292,
+          "y": 1168,
+          "w": 138,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Video Player",
+          "x": 252,
+          "y": 31,
+          "w": 221,
+          "h": 53
+        },
+        {
+          "text": "Video Surface",
+          "x": 257,
+          "y": 411,
+          "w": 210,
+          "h": 36
+        },
+        {
+          "text": "Sample Video Title",
+          "x": 219,
+          "y": 797,
+          "w": 284,
+          "h": 48
+        },
+        {
+          "text": "0.30",
+          "x": 44,
+          "y": 966,
+          "w": 64,
+          "h": 32
+        },
+        {
+          "text": "200",
+          "x": 612,
+          "y": 966,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "~10s",
+          "x": 79,
+          "y": 1061,
+          "w": 76,
+          "h": 36
+        },
+        {
+          "text": "0",
+          "x": 310,
+          "y": 1012,
+          "w": 100,
+          "h": 122
+        },
+        {
+          "text": "+30s",
+          "x": 567,
+          "y": 1061,
+          "w": 78,
+          "h": 36
+        },
+        {
+          "text": "Fullscreen",
+          "x": 283,
+          "y": 1177,
+          "w": 156,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

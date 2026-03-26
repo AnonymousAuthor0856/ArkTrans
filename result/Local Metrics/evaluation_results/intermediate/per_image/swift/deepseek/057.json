@@ -1,0 +1,110 @@
+{
+  "image_id": "057",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6752774224253868,
+    "size": 0.8880227794055476,
+    "color": 0.8111987113952637
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 5,
+    "matched": 4,
+    "similarity": 0.9778481012658228,
+    "coverage": 1.0,
+    "overall": 0.9778481012658228
+  },
+  "details": {
+    "image_id": "057",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\057.png",
+    "gen_path": "swift_post\\deepseek\\057.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 20,
+      "matched_pairs": 17,
+      "position_score": 0.6752774224253868,
+      "size_score": 0.8880227794055476,
+      "color_score": 0.8111987113952637
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 5,
+      "matched_pairs": 4,
+      "text_score": 0.9778481012658228,
+      "coverage": 1.0,
+      "overall_score": 0.9778481012658228,
+      "ref_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 212,
+          "y": 26,
+          "w": 326,
+          "h": 72
+        },
+        {
+          "text": "Welcome Back",
+          "x": 239,
+          "y": 769,
+          "w": 276,
+          "h": 42
+        },
+        {
+          "text": "Track your sleep patterns and improve rest quality:",
+          "x": 47,
+          "y": 861,
+          "w": 656,
+          "h": 40
+        },
+        {
+          "text": "Sign In",
+          "x": 319,
+          "y": 977,
+          "w": 112,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Sleep Cycle",
+          "x": 171,
+          "y": 12,
+          "w": 375,
+          "h": 97
+        },
+        {
+          "text": "Welcome Back",
+          "x": 195,
+          "y": 401,
+          "w": 333,
+          "h": 54
+        },
+        {
+          "text": "Track your sleep patterns and improve rest",
+          "x": 42,
+          "y": 500,
+          "w": 632,
+          "h": 51
+        },
+        {
+          "text": "quality:",
+          "x": 305,
+          "y": 545,
+          "w": 112,
+          "h": 40
+        },
+        {
+          "text": "Sign In",
+          "x": 296,
+          "y": 658,
+          "w": 126,
+          "h": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "image_id": "059",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.37960355638330157,
+    "size": 0.13610300934900382,
+    "color": 0.14763903617858887
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 9,
+    "matched": 5,
+    "similarity": 1.0,
+    "coverage": 0.4166666666666667,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "059",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\059.png",
+    "gen_path": "kt_post\\gpt\\059.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 17,
+      "matched_pairs": 17,
+      "position_score": 0.37960355638330157,
+      "size_score": 0.13610300934900382,
+      "color_score": 0.14763903617858887
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 9,
+      "matched_pairs": 5,
+      "text_score": 1.0,
+      "coverage": 0.4166666666666667,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Medicine Reminder",
+          "x": 115,
+          "y": 35,
+          "w": 498,
+          "h": 60
+        },
+        {
+          "text": "Vitamin C",
+          "x": 55,
+          "y": 147,
+          "w": 144,
+          "h": 36
+        },
+        {
+          "text": "08.00 AM",
+          "x": 54,
+          "y": 194,
+          "w": 126,
+          "h": 30
+        },
+        {
+          "text": "Aspirin",
+          "x": 55,
+          "y": 299,
+          "w": 106,
+          "h": 40
+        },
+        {
+          "text": "12.30 PM",
+          "x": 54,
+          "y": 344,
+          "w": 126,
+          "h": 32
+        },
+        {
+          "text": "Insulin",
+          "x": 54,
+          "y": 452,
+          "w": 99,
+          "h": 32
+        },
+        {
+          "text": "06.00 PM",
+          "x": 54,
+          "y": 496,
+          "w": 126,
+          "h": 30
+        },
+        {
+          "text": "Melatonin",
+          "x": 55,
+          "y": 600,
+          "w": 147,
+          "h": 36
+        },
+        {
+          "text": "10.00 PM",
+          "x": 54,
+          "y": 646,
+          "w": 126,
+          "h": 32
+        },
+        {
+          "text": "Today",
+          "x": 35,
+          "y": 1183,
+          "w": 99,
+          "h": 45
+        },
+        {
+          "text": "History",
+          "x": 301,
+          "y": 1185,
+          "w": 115,
+          "h": 42
+        },
+        {
+          "text": "Profile",
+          "x": 585,
+          "y": 1187,
+          "w": 100,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Medicine Reminder",
+          "x": 103,
+          "y": 33,
+          "w": 522,
+          "h": 62
+        },
+        {
+          "text": "08:00 AM",
+          "x": 285,
+          "y": 123,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "No reminders",
+          "x": 158,
+          "y": 172,
+          "w": 180,
+          "h": 32
+        },
+        {
+          "text": "to add:",
+          "x": 464,
+          "y": 174,
+          "w": 96,
+          "h": 30
+        },
+        {
+          "text": "Today",
+          "x": 25,
+          "y": 1209,
+          "w": 103,
+          "h": 50
+        },
+        {
+          "text": "History",
+          "x": 298,
+          "y": 1211,
+          "w": 121,
+          "h": 48
+        },
+        {
+          "text": "Profile",
+          "x": 589,
+          "y": 1215,
+          "w": 104,
+          "h": 36
+        },
+        {
+          "text": "yet:",
+          "x": 331,
+          "y": 170,
+          "w": 61,
+          "h": 41
+        },
+        {
+          "text": "Tap -",
+          "x": 384,
+          "y": 169,
+          "w": 63,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

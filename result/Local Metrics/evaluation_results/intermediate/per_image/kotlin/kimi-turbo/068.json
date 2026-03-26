@@ -1,0 +1,341 @@
+{
+  "image_id": "068",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6049041941506093,
+    "size": 0.6245453782885364,
+    "color": 0.5034921765327454
+  },
+  "text_scores": {
+    "ref_count": 24,
+    "gen_count": 18,
+    "matched": 10,
+    "similarity": 0.8308982683982684,
+    "coverage": 0.4166666666666667,
+    "overall": 0.8308982683982684
+  },
+  "details": {
+    "image_id": "068",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\068.png",
+    "gen_path": "kt_post\\kimi-turbo\\068.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.6049041941506093,
+      "size_score": 0.6245453782885364,
+      "color_score": 0.5034921765327454
+    },
+    "text_evaluation": {
+      "ref_texts": 24,
+      "gen_texts": 18,
+      "matched_pairs": 10,
+      "text_score": 0.8308982683982684,
+      "coverage": 0.4166666666666667,
+      "overall_score": 0.8308982683982684,
+      "ref_text_list": [
+        {
+          "text": "Macro Trainer",
+          "x": 258,
+          "y": 32,
+          "w": 204,
+          "h": 36
+        },
+        {
+          "text": "Neon workout stack",
+          "x": 244,
+          "y": 70,
+          "w": 232,
+          "h": 26
+        },
+        {
+          "text": "Load",
+          "x": 460,
+          "y": 184,
+          "w": 62,
+          "h": 26
+        },
+        {
+          "text": "72%",
+          "x": 460,
+          "y": 222,
+          "w": 92,
+          "h": 48
+        },
+        {
+          "text": "+4%",
+          "x": 462,
+          "y": 282,
+          "w": 60,
+          "h": 30
+        },
+        {
+          "text": "02.34",
+          "x": 138,
+          "y": 302,
+          "w": 178,
+          "h": 68
+        },
+        {
+          "text": "Timer",
+          "x": 192,
+          "y": 376,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "V02",
+          "x": 462,
+          "y": 384,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "41",
+          "x": 461,
+          "y": 425,
+          "w": 52,
+          "h": 42
+        },
+        {
+          "text": "+1",
+          "x": 462,
+          "y": 484,
+          "w": 34,
+          "h": 26
+        },
+        {
+          "text": "Macro",
+          "x": 86,
+          "y": 544,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Tempo",
+          "x": 196,
+          "y": 542,
+          "w": 85,
+          "h": 33
+        },
+        {
+          "text": "Bre",
+          "x": 316,
+          "y": 544,
+          "w": 44,
+          "h": 26
+        },
+        {
+          "text": "ath",
+          "x": 316,
+          "y": 576,
+          "w": 42,
+          "h": 26
+        },
+        {
+          "text": "Focus",
+          "x": 462,
+          "y": 586,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "88%",
+          "x": 461,
+          "y": 625,
+          "w": 90,
+          "h": 44
+        },
+        {
+          "text": "stable",
+          "x": 462,
+          "y": 684,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "3 sets",
+          "x": 523,
+          "y": 817,
+          "w": 126,
+          "h": 42
+        },
+        {
+          "text": "Warm circuit",
+          "x": 71,
+          "y": 851,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "Energy",
+          "x": 67,
+          "y": 894,
+          "w": 97,
+          "h": 42
+        },
+        {
+          "text": "Start",
+          "x": 558,
+          "y": 906,
+          "w": 64,
+          "h": 26
+        },
+        {
+          "text": "Next macro",
+          "x": 38,
+          "y": 1164,
+          "w": 134,
+          "h": 26
+        },
+        {
+          "text": "Prime",
+          "x": 535,
+          "y": 1183,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "Macro tempo",
+          "x": 38,
+          "y": 1198,
+          "w": 205,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "MacroTrainer",
+          "x": 255,
+          "y": 3,
+          "w": 218,
+          "h": 38
+        },
+        {
+          "text": "Neon workout stack",
+          "x": 230,
+          "y": 44,
+          "w": 264,
+          "h": 30
+        },
+        {
+          "text": "timerValu",
+          "x": 89,
+          "y": 136,
+          "w": 277,
+          "h": 66
+        },
+        {
+          "text": "metric label",
+          "x": 484,
+          "y": 142,
+          "w": 156,
+          "h": 32
+        },
+        {
+          "text": "metricV",
+          "x": 472,
+          "y": 186,
+          "w": 180,
+          "h": 50
+        },
+        {
+          "text": "e.value",
+          "x": 85,
+          "y": 213,
+          "w": 210,
+          "h": 66
+        },
+        {
+          "text": "alue",
+          "x": 470,
+          "y": 242,
+          "w": 104,
+          "h": 52
+        },
+        {
+          "text": "Timer",
+          "x": 190,
+          "y": 284,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "metric chang",
+          "x": 461,
+          "y": 299,
+          "w": 200,
+          "h": 49
+        },
+        {
+          "text": "e",
+          "x": 465,
+          "y": 351,
+          "w": 18,
+          "h": 22
+        },
+        {
+          "text": "tag",
+          "x": 199,
+          "y": 417,
+          "w": 57,
+          "h": 39
+        },
+        {
+          "text": "set title set reps",
+          "x": 76,
+          "y": 560,
+          "w": 314,
+          "h": 54
+        },
+        {
+          "text": "set",
+          "x": 68,
+          "y": 622,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "phase",
+          "x": 115,
+          "y": 610,
+          "w": 104,
+          "h": 51
+        },
+        {
+          "text": "Start",
+          "x": 302,
+          "y": 626,
+          "w": 72,
+          "h": 32
+        },
+        {
+          "text": "Next macro",
+          "x": 108,
+          "y": 1166,
+          "w": 152,
+          "h": 32
+        },
+        {
+          "text": "Prime",
+          "x": 377,
+          "y": 1187,
+          "w": 100,
+          "h": 40
+        },
+        {
+          "text": "targetPhasevaluee",
+          "x": 33,
+          "y": 1202,
+          "w": 303,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "image_id": "037",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9677131643516949,
+    "size": 0.26378098690292334,
+    "color": 0.47372159361839294
+  },
+  "text_scores": {
+    "ref_count": 13,
+    "gen_count": 13,
+    "matched": 10,
+    "similarity": 0.8880781499202552,
+    "coverage": 0.7692307692307693,
+    "overall": 0.8880781499202552
+  },
+  "details": {
+    "image_id": "037",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\037.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\037.png",
+    "ui_evaluation": {
+      "ref_blocks": 22,
+      "gen_blocks": 22,
+      "matched_pairs": 22,
+      "position_score": 0.9677131643516949,
+      "size_score": 0.26378098690292334,
+      "color_score": 0.47372159361839294
+    },
+    "text_evaluation": {
+      "ref_texts": 13,
+      "gen_texts": 13,
+      "matched_pairs": 10,
+      "text_score": 0.8880781499202552,
+      "coverage": 0.7692307692307693,
+      "overall_score": 0.8880781499202552,
+      "ref_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 197,
+          "y": 29,
+          "w": 360,
+          "h": 69
+        },
+        {
+          "text": "Total Spent",
+          "x": 297,
+          "y": 365,
+          "w": 160,
+          "h": 36
+        },
+        {
+          "text": "S2,411.25",
+          "x": 260,
+          "y": 398,
+          "w": 231,
+          "h": 63
+        },
+        {
+          "text": "Housing",
+          "x": 146,
+          "y": 758,
+          "w": 133,
+          "h": 51
+        },
+        {
+          "text": "S1,250.00",
+          "x": 501,
+          "y": 765,
+          "w": 174,
+          "h": 42
+        },
+        {
+          "text": "Food",
+          "x": 149,
+          "y": 905,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "S480.50",
+          "x": 522,
+          "y": 900,
+          "w": 151,
+          "h": 44
+        },
+        {
+          "text": "Transport",
+          "x": 149,
+          "y": 1045,
+          "w": 150,
+          "h": 40
+        },
+        {
+          "text": "S210.75",
+          "x": 533,
+          "y": 1041,
+          "w": 140,
+          "h": 40
+        },
+        {
+          "text": "Home",
+          "x": 46,
+          "y": 1268,
+          "w": 84,
+          "h": 30
+        },
+        {
+          "text": "Reports",
+          "x": 167,
+          "y": 1267,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Goals",
+          "x": 472,
+          "y": 1268,
+          "w": 80,
+          "h": 30
+        },
+        {
+          "text": "Settings",
+          "x": 587,
+          "y": 1267,
+          "w": 120,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Monthly Budget",
+          "x": 173,
+          "y": 7,
+          "w": 378,
+          "h": 78
+        },
+        {
+          "text": "Pie Chart",
+          "x": 289,
+          "y": 335,
+          "w": 146,
+          "h": 38
+        },
+        {
+          "text": "Placeholder",
+          "x": 294,
+          "y": 388,
+          "w": 134,
+          "h": 28
+        },
+        {
+          "text": "Housing",
+          "x": 60,
+          "y": 716,
+          "w": 136,
+          "h": 53
+        },
+        {
+          "text": "$1,200",
+          "x": 561,
+          "y": 723,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "Food",
+          "x": 63,
+          "y": 873,
+          "w": 82,
+          "h": 36
+        },
+        {
+          "text": "$450",
+          "x": 585,
+          "y": 873,
+          "w": 74,
+          "h": 36
+        },
+        {
+          "text": "Transport",
+          "x": 62,
+          "y": 1022,
+          "w": 151,
+          "h": 44
+        },
+        {
+          "text": "$180",
+          "x": 585,
+          "y": 1023,
+          "w": 74,
+          "h": 38
+        },
+        {
+          "text": "Home",
+          "x": 60,
+          "y": 1214,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "Reports",
+          "x": 185,
+          "y": 1213,
+          "w": 93,
+          "h": 32
+        },
+        {
+          "text": "Goals",
+          "x": 456,
+          "y": 1214,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Settings",
+          "x": 573,
+          "y": 1208,
+          "w": 101,
+          "h": 41
+        }
+      ]
+    }
+  }
+}

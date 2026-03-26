@@ -1,0 +1,117 @@
+{
+  "image_id": "013",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8853228973383163,
+    "size": 0.9425915242519106,
+    "color": 0.35797086358070374
+  },
+  "text_scores": {
+    "ref_count": 5,
+    "gen_count": 5,
+    "matched": 5,
+    "similarity": 0.9400000000000001,
+    "coverage": 1.0,
+    "overall": 0.9400000000000001
+  },
+  "details": {
+    "image_id": "013",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\013.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\013.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 11,
+      "matched_pairs": 11,
+      "position_score": 0.8853228973383163,
+      "size_score": 0.9425915242519106,
+      "color_score": 0.35797086358070374
+    },
+    "text_evaluation": {
+      "ref_texts": 5,
+      "gen_texts": 5,
+      "matched_pairs": 5,
+      "text_score": 0.9400000000000001,
+      "coverage": 1.0,
+      "overall_score": 0.9400000000000001,
+      "ref_text_list": [
+        {
+          "text": "Retro Music Player",
+          "x": 100,
+          "y": 28,
+          "w": 525,
+          "h": 81
+        },
+        {
+          "text": "Track: Summer Nights",
+          "x": 175,
+          "y": 794,
+          "w": 371,
+          "h": 48
+        },
+        {
+          "text": "Play",
+          "x": 169,
+          "y": 934,
+          "w": 85,
+          "h": 51
+        },
+        {
+          "text": "Pause",
+          "x": 457,
+          "y": 941,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Knob X300 Y:300",
+          "x": 262,
+          "y": 1082,
+          "w": 198,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Retro Music Player",
+          "x": 122,
+          "y": 24,
+          "w": 481,
+          "h": 78
+        },
+        {
+          "text": "Track: Summer Nights",
+          "x": 174,
+          "y": 714,
+          "w": 374,
+          "h": 50
+        },
+        {
+          "text": "Pause",
+          "x": 461,
+          "y": 909,
+          "w": 98,
+          "h": 36
+        },
+        {
+          "text": "Knob X:O Y:0",
+          "x": 286,
+          "y": 1098,
+          "w": 150,
+          "h": 28
+        },
+        {
+          "text": "Play",
+          "x": 172,
+          "y": 903,
+          "w": 78,
+          "h": 50
+        }
+      ]
+    }
+  }
+}

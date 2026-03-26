@@ -1,0 +1,103 @@
+{
+  "image_id": "061",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9112310365559456,
+    "size": 0.03297593380300841,
+    "color": 0.5691743493080139
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 0.9931506849315068,
+    "coverage": 0.5,
+    "overall": 0.9931506849315068
+  },
+  "details": {
+    "image_id": "061",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\061.png",
+    "gen_path": "swift_post\\gpt\\061.png",
+    "ui_evaluation": {
+      "ref_blocks": 12,
+      "gen_blocks": 12,
+      "matched_pairs": 12,
+      "position_score": 0.9112310365559456,
+      "size_score": 0.03297593380300841,
+      "color_score": 0.5691743493080139
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 0.9931506849315068,
+      "coverage": 0.5,
+      "overall_score": 0.9931506849315068,
+      "ref_text_list": [
+        {
+          "text": "Parcel Tracker",
+          "x": 200,
+          "y": 34,
+          "w": 354,
+          "h": 54
+        },
+        {
+          "text": "to locate parcel",
+          "x": 314,
+          "y": 422,
+          "w": 183,
+          "h": 30
+        },
+        {
+          "text": "Visualize parcel movements and positions_",
+          "x": 134,
+          "y": 1276,
+          "w": 478,
+          "h": 30
+        },
+        {
+          "text": "Drag",
+          "x": 251,
+          "y": 419,
+          "w": 64,
+          "h": 34
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Parcel Tracker",
+          "x": 144,
+          "y": 49,
+          "w": 437,
+          "h": 68
+        },
+        {
+          "text": "/ Movement Preview",
+          "x": 245,
+          "y": 449,
+          "w": 304,
+          "h": 36
+        },
+        {
+          "text": "Visualize parcel movements and positions.",
+          "x": 50,
+          "y": 807,
+          "w": 618,
+          "h": 50
+        },
+        {
+          "text": "Map",
+          "x": 168,
+          "y": 444,
+          "w": 80,
+          "h": 49
+        }
+      ]
+    }
+  }
+}

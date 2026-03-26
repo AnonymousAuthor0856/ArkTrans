@@ -1,0 +1,187 @@
+{
+  "image_id": "026",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8358172805545282,
+    "size": 0.9380163635200973,
+    "color": 0.6923815608024597
+  },
+  "text_scores": {
+    "ref_count": 10,
+    "gen_count": 10,
+    "matched": 10,
+    "similarity": 0.992,
+    "coverage": 1.0,
+    "overall": 0.992
+  },
+  "details": {
+    "image_id": "026",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\026.png",
+    "gen_path": "swift_post\\glm\\026.png",
+    "ui_evaluation": {
+      "ref_blocks": 74,
+      "gen_blocks": 82,
+      "matched_pairs": 74,
+      "position_score": 0.8358172805545282,
+      "size_score": 0.9380163635200973,
+      "color_score": 0.6923815608024597
+    },
+    "text_evaluation": {
+      "ref_texts": 10,
+      "gen_texts": 10,
+      "matched_pairs": 10,
+      "text_score": 0.992,
+      "coverage": 1.0,
+      "overall_score": 0.992,
+      "ref_text_list": [
+        {
+          "text": "Glass Doc Reader",
+          "x": 141,
+          "y": 77,
+          "w": 472,
+          "h": 60
+        },
+        {
+          "text": "Document Reader",
+          "x": 76,
+          "y": 387,
+          "w": 305,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 1.",
+          "x": 77,
+          "y": 453,
+          "w": 590,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 2_",
+          "x": 77,
+          "y": 511,
+          "w": 592,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 3_",
+          "x": 77,
+          "y": 569,
+          "w": 592,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 4.",
+          "x": 77,
+          "y": 627,
+          "w": 594,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 5.",
+          "x": 77,
+          "y": 683,
+          "w": 594,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 6.",
+          "x": 77,
+          "y": 743,
+          "w": 594,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 7.",
+          "x": 77,
+          "y": 801,
+          "w": 590,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 8.",
+          "x": 77,
+          "y": 859,
+          "w": 594,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Glass Doc Reader",
+          "x": 129,
+          "y": 41,
+          "w": 464,
+          "h": 64
+        },
+        {
+          "text": "Document Reader",
+          "x": 209,
+          "y": 483,
+          "w": 308,
+          "h": 42
+        },
+        {
+          "text": "This is a sample line of text content number 1_",
+          "x": 63,
+          "y": 549,
+          "w": 588,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 2_",
+          "x": 63,
+          "y": 599,
+          "w": 588,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 3_",
+          "x": 63,
+          "y": 647,
+          "w": 588,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 4_",
+          "x": 63,
+          "y": 695,
+          "w": 588,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 5_",
+          "x": 63,
+          "y": 745,
+          "w": 588,
+          "h": 40
+        },
+        {
+          "text": "This is a sample line of text content number 6_",
+          "x": 63,
+          "y": 795,
+          "w": 588,
+          "h": 38
+        },
+        {
+          "text": "This is a sample line of text content number 7_",
+          "x": 63,
+          "y": 843,
+          "w": 588,
+          "h": 36
+        },
+        {
+          "text": "This is a sample line of text content number 8_",
+          "x": 63,
+          "y": 891,
+          "w": 588,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

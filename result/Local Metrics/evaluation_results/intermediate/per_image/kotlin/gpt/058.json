@@ -1,0 +1,152 @@
+{
+  "image_id": "058",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.37786100754869667,
+    "size": 0.488815241597048,
+    "color": 0.49002984166145325
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 9,
+    "matched": 4,
+    "similarity": 0.9642857142857143,
+    "coverage": 0.6666666666666666,
+    "overall": 0.9642857142857143
+  },
+  "details": {
+    "image_id": "058",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\058.png",
+    "gen_path": "kt_post\\gpt\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 17,
+      "matched_pairs": 9,
+      "position_score": 0.37786100754869667,
+      "size_score": 0.488815241597048,
+      "color_score": 0.49002984166145325
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 9,
+      "matched_pairs": 4,
+      "text_score": 0.9642857142857143,
+      "coverage": 0.6666666666666666,
+      "overall_score": 0.9642857142857143,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 161,
+          "y": 23,
+          "w": 401,
+          "h": 87
+        },
+        {
+          "text": "Overview",
+          "x": 60,
+          "y": 162,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Ranking",
+          "x": 303,
+          "y": 157,
+          "w": 115,
+          "h": 42
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 174,
+          "y": 258,
+          "w": 372,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 269,
+          "y": 415,
+          "w": 183,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 147,
+          "y": 23,
+          "w": 426,
+          "h": 88
+        },
+        {
+          "text": "Overview",
+          "x": 69,
+          "y": 155,
+          "w": 146,
+          "h": 38
+        },
+        {
+          "text": "Stats",
+          "x": 319,
+          "y": 155,
+          "w": 84,
+          "h": 38
+        },
+        {
+          "text": "Profile",
+          "x": 529,
+          "y": 155,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Overview",
+          "x": 278,
+          "y": 274,
+          "w": 165,
+          "h": 43
+        },
+        {
+          "text": "Daily goal progress",
+          "x": 235,
+          "y": 377,
+          "w": 254,
+          "h": 38
+        },
+        {
+          "text": "Success",
+          "x": 79,
+          "y": 564,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Warning",
+          "x": 302,
+          "y": 557,
+          "w": 120,
+          "h": 50
+        },
+        {
+          "text": "Error",
+          "x": 550,
+          "y": 566,
+          "w": 68,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

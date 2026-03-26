@@ -1,0 +1,89 @@
+{
+  "image_id": "032",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7884190090833476,
+    "size": 0.846381596641302,
+    "color": 0.5653478503227234
+  },
+  "text_scores": {
+    "ref_count": 2,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "032",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\032.png",
+    "gen_path": "swift_post\\kimi-turbo\\032.png",
+    "ui_evaluation": {
+      "ref_blocks": 8,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.7884190090833476,
+      "size_score": 0.846381596641302,
+      "color_score": 0.5653478503227234
+    },
+    "text_evaluation": {
+      "ref_texts": 2,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Transfer Wizard",
+          "x": 163,
+          "y": 27,
+          "w": 426,
+          "h": 60
+        },
+        {
+          "text": "Transfer Progress",
+          "x": 224,
+          "y": 1019,
+          "w": 304,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Transfer Wizard",
+          "x": 157,
+          "y": 1,
+          "w": 408,
+          "h": 62
+        },
+        {
+          "text": "Transfer Progress",
+          "x": 214,
+          "y": 1072,
+          "w": 294,
+          "h": 50
+        },
+        {
+          "text": "+0",
+          "x": 294,
+          "y": 1182,
+          "w": 36,
+          "h": 30
+        },
+        {
+          "text": "0",
+          "x": 382,
+          "y": 1182,
+          "w": 24,
+          "h": 30
+        }
+      ]
+    }
+  }
+}

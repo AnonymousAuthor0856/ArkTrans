@@ -1,0 +1,138 @@
+{
+  "image_id": "062",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.81408443784579,
+    "size": 0.8576314308212267,
+    "color": 0.7468398213386536
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 6,
+    "matched": 5,
+    "similarity": 0.962962962962963,
+    "coverage": 0.7142857142857143,
+    "overall": 0.962962962962963
+  },
+  "details": {
+    "image_id": "062",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\062.png",
+    "gen_path": "kt_post\\deepseek\\062.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.81408443784579,
+      "size_score": 0.8576314308212267,
+      "color_score": 0.7468398213386536
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 6,
+      "matched_pairs": 5,
+      "text_score": 0.962962962962963,
+      "coverage": 0.7142857142857143,
+      "overall_score": 0.962962962962963,
+      "ref_text_list": [
+        {
+          "text": "ThermoCurve",
+          "x": 194,
+          "y": 34,
+          "w": 333,
+          "h": 61
+        },
+        {
+          "text": "Target Temperature",
+          "x": 198,
+          "y": 164,
+          "w": 326,
+          "h": 48
+        },
+        {
+          "text": "22'C",
+          "x": 251,
+          "y": 269,
+          "w": 224,
+          "h": 90
+        },
+        {
+          "text": "Mode",
+          "x": 315,
+          "y": 627,
+          "w": 96,
+          "h": 38
+        },
+        {
+          "text": "Cool",
+          "x": 212,
+          "y": 836,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "Heat",
+          "x": 446,
+          "y": 836,
+          "w": 68,
+          "h": 30
+        },
+        {
+          "text": "Current Mode: Cool",
+          "x": 254,
+          "y": 970,
+          "w": 214,
+          "h": 26
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "ThermoCurve",
+          "x": 29,
+          "y": 31,
+          "w": 426,
+          "h": 66
+        },
+        {
+          "text": "0PC",
+          "x": 279,
+          "y": 141,
+          "w": 168,
+          "h": 102
+        },
+        {
+          "text": "Mode",
+          "x": 296,
+          "y": 530,
+          "w": 134,
+          "h": 50
+        },
+        {
+          "text": "Cool",
+          "x": 208,
+          "y": 720,
+          "w": 72,
+          "h": 32
+        },
+        {
+          "text": "Heat",
+          "x": 442,
+          "y": 720,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "Current Mode: 0",
+          "x": 237,
+          "y": 889,
+          "w": 244,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

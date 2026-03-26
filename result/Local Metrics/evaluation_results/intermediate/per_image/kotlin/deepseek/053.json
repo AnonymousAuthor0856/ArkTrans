@@ -1,0 +1,215 @@
+{
+  "image_id": "053",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.34741750587837394,
+    "size": 0.3487985377662469,
+    "color": 0.3385046422481537
+  },
+  "text_scores": {
+    "ref_count": 14,
+    "gen_count": 10,
+    "matched": 4,
+    "similarity": 0.8515151515151516,
+    "coverage": 0.2857142857142857,
+    "overall": 0.8515151515151516
+  },
+  "details": {
+    "image_id": "053",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\053.png",
+    "gen_path": "kt_post\\deepseek\\053.png",
+    "ui_evaluation": {
+      "ref_blocks": 38,
+      "gen_blocks": 19,
+      "matched_pairs": 19,
+      "position_score": 0.34741750587837394,
+      "size_score": 0.3487985377662469,
+      "color_score": 0.3385046422481537
+    },
+    "text_evaluation": {
+      "ref_texts": 14,
+      "gen_texts": 10,
+      "matched_pairs": 4,
+      "text_score": 0.8515151515151516,
+      "coverage": 0.2857142857142857,
+      "overall_score": 0.8515151515151516,
+      "ref_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 145,
+          "y": 36,
+          "w": 431,
+          "h": 56
+        },
+        {
+          "text": "Project Files",
+          "x": 26,
+          "y": 160,
+          "w": 234,
+          "h": 52
+        },
+        {
+          "text": "Main.kt",
+          "x": 143,
+          "y": 265,
+          "w": 116,
+          "h": 36
+        },
+        {
+          "text": "Entry point for Compose app",
+          "x": 139,
+          "y": 299,
+          "w": 366,
+          "h": 42
+        },
+        {
+          "text": "Utils kt",
+          "x": 141,
+          "y": 399,
+          "w": 110,
+          "h": 36
+        },
+        {
+          "text": "2",
+          "x": 81,
+          "y": 423,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Helper functions",
+          "x": 141,
+          "y": 434,
+          "w": 214,
+          "h": 39
+        },
+        {
+          "text": "Theme.kt",
+          "x": 140,
+          "y": 534,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 81,
+          "y": 557,
+          "w": 16,
+          "h": 22
+        },
+        {
+          "text": "Color & Typography setup",
+          "x": 141,
+          "y": 570,
+          "w": 325,
+          "h": 42
+        },
+        {
+          "text": "Data.kt",
+          "x": 142,
+          "y": 672,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "Repository and model classes",
+          "x": 141,
+          "y": 707,
+          "w": 382,
+          "h": 38
+        },
+        {
+          "text": "Live Terminal",
+          "x": 27,
+          "y": 843,
+          "w": 252,
+          "h": 44
+        },
+        {
+          "text": "printIn(\"Hello, Kotlin!\")",
+          "x": 72,
+          "y": 944,
+          "w": 283,
+          "h": 41
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "CodelDE Terminal",
+          "x": 84,
+          "y": 48,
+          "w": 553,
+          "h": 72
+        },
+        {
+          "text": "1",
+          "x": 81,
+          "y": 173,
+          "w": 14,
+          "h": 22
+        },
+        {
+          "text": "MainActivitykt",
+          "x": 224,
+          "y": 147,
+          "w": 257,
+          "h": 44
+        },
+        {
+          "text": "Main",
+          "x": 141,
+          "y": 187,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "application",
+          "x": 218,
+          "y": 179,
+          "w": 175,
+          "h": 55
+        },
+        {
+          "text": "Live Terminal",
+          "x": 209,
+          "y": 281,
+          "w": 301,
+          "h": 53
+        },
+        {
+          "text": "printIn(\"Hello, Kotlin!\")",
+          "x": 204,
+          "y": 584,
+          "w": 338,
+          "h": 51
+        },
+        {
+          "text": "Run Code",
+          "x": 275,
+          "y": 907,
+          "w": 171,
+          "h": 40
+        },
+        {
+          "text": "point",
+          "x": 473,
+          "y": 183,
+          "w": 88,
+          "h": 45
+        },
+        {
+          "text": "entry",
+          "x": 387,
+          "y": 183,
+          "w": 90,
+          "h": 47
+        }
+      ]
+    }
+  }
+}

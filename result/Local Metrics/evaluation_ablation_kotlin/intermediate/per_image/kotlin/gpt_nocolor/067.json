@@ -1,0 +1,138 @@
+{
+  "image_id": "067",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5325138039660415,
+    "size": 0.6010530704850985,
+    "color": 0.08087211102247238
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 6,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 0.42857142857142855,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "067",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\067.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\067.png",
+    "ui_evaluation": {
+      "ref_blocks": 41,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.5325138039660415,
+      "size_score": 0.6010530704850985,
+      "color_score": 0.08087211102247238
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 6,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 0.42857142857142855,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Client Detail",
+          "x": 203,
+          "y": 81,
+          "w": 318,
+          "h": 62
+        },
+        {
+          "text": "Regional Client",
+          "x": 175,
+          "y": 374,
+          "w": 283,
+          "h": 57
+        },
+        {
+          "text": "Sunrise Tech",
+          "x": 216,
+          "y": 820,
+          "w": 146,
+          "h": 28
+        },
+        {
+          "text": "Delta Logistics",
+          "x": 414,
+          "y": 930,
+          "w": 168,
+          "h": 32
+        },
+        {
+          "text": "Oceanic Foods",
+          "x": 557,
+          "y": 1037,
+          "w": 163,
+          "h": 29
+        },
+        {
+          "text": "Horizon Ltd.",
+          "x": 302,
+          "y": 1150,
+          "w": 132,
+          "h": 26
+        },
+        {
+          "text": "Map",
+          "x": 451,
+          "y": 373,
+          "w": 96,
+          "h": 59
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Client Detail",
+          "x": 241,
+          "y": 33,
+          "w": 238,
+          "h": 44
+        },
+        {
+          "text": "Regional Client",
+          "x": 132,
+          "y": 196,
+          "w": 348,
+          "h": 66
+        },
+        {
+          "text": "Client pin",
+          "x": 96,
+          "y": 509,
+          "w": 131,
+          "h": 42
+        },
+        {
+          "text": "Select",
+          "x": 250,
+          "y": 512,
+          "w": 74,
+          "h": 28
+        },
+        {
+          "text": "C.name",
+          "x": 62,
+          "y": 1234,
+          "w": 112,
+          "h": 26
+        },
+        {
+          "text": "Map",
+          "x": 476,
+          "y": 193,
+          "w": 118,
+          "h": 70
+        }
+      ]
+    }
+  }
+}

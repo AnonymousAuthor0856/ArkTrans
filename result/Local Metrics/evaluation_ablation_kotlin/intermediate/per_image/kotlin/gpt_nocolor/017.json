@@ -1,0 +1,166 @@
+{
+  "image_id": "017",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6244161284583959,
+    "size": 0.7101227862272836,
+    "color": 0.6569765210151672
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 10,
+    "matched": 4,
+    "similarity": 0.9821428571428572,
+    "coverage": 0.5714285714285714,
+    "overall": 0.9821428571428572
+  },
+  "details": {
+    "image_id": "017",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\017.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\017.png",
+    "ui_evaluation": {
+      "ref_blocks": 34,
+      "gen_blocks": 19,
+      "matched_pairs": 19,
+      "position_score": 0.6244161284583959,
+      "size_score": 0.7101227862272836,
+      "color_score": 0.6569765210151672
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 10,
+      "matched_pairs": 4,
+      "text_score": 0.9821428571428572,
+      "coverage": 0.5714285714285714,
+      "overall_score": 0.9821428571428572,
+      "ref_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 109,
+          "y": 33,
+          "w": 510,
+          "h": 60
+        },
+        {
+          "text": "Bass 40%",
+          "x": 30,
+          "y": 160,
+          "w": 118,
+          "h": 30
+        },
+        {
+          "text": "Mid 50%",
+          "x": 30,
+          "y": 326,
+          "w": 106,
+          "h": 30
+        },
+        {
+          "text": "",
+          "x": 143,
+          "y": 351,
+          "w": 132,
+          "h": 114
+        },
+        {
+          "text": "Treble 60%",
+          "x": 30,
+          "y": 492,
+          "w": 134,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 70%",
+          "x": 30,
+          "y": 767,
+          "w": 291,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 252,
+          "y": 990,
+          "w": 219,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 94,
+          "y": 30,
+          "w": 450,
+          "h": 52
+        },
+        {
+          "text": "2",
+          "x": 52,
+          "y": 108,
+          "w": 135,
+          "h": 24
+        },
+        {
+          "text": "Routing",
+          "x": 27,
+          "y": 188,
+          "w": 111,
+          "h": 44
+        },
+        {
+          "text": "",
+          "x": 51,
+          "y": 260,
+          "w": 86,
+          "h": 37
+        },
+        {
+          "text": "3",
+          "x": 143,
+          "y": 267,
+          "w": 36,
+          "h": 20
+        },
+        {
+          "text": "Selln",
+          "x": 185,
+          "y": 259,
+          "w": 80,
+          "h": 36
+        },
+        {
+          "text": "Output",
+          "x": 29,
+          "y": 355,
+          "w": 102,
+          "h": 38
+        },
+        {
+          "text": "Sl",
+          "x": 53,
+          "y": 421,
+          "w": 146,
+          "h": 36
+        },
+        {
+          "text": "Master Volume 50%",
+          "x": 197,
+          "y": 623,
+          "w": 330,
+          "h": 40
+        },
+        {
+          "text": "Apply Settings",
+          "x": 234,
+          "y": 833,
+          "w": 252,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

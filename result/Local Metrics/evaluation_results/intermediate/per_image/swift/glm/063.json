@@ -1,0 +1,103 @@
+{
+  "image_id": "063",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.9007078524755139,
+    "size": 0.8843519418528012,
+    "color": 0.493568480014801
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 2,
+    "similarity": 0.8200000000000001,
+    "coverage": 0.5,
+    "overall": 0.8200000000000001
+  },
+  "details": {
+    "image_id": "063",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\063.png",
+    "gen_path": "swift_post\\glm\\063.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 9,
+      "matched_pairs": 9,
+      "position_score": 0.9007078524755139,
+      "size_score": 0.8843519418528012,
+      "color_score": 0.493568480014801
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 2,
+      "text_score": 0.8200000000000001,
+      "coverage": 0.5,
+      "overall_score": 0.8200000000000001,
+      "ref_text_list": [
+        {
+          "text": "Charging Progress",
+          "x": 172,
+          "y": 14,
+          "w": 434,
+          "h": 73
+        },
+        {
+          "text": "45%",
+          "x": 292,
+          "y": 366,
+          "w": 170,
+          "h": 72
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 263,
+          "y": 602,
+          "w": 228,
+          "h": 42
+        },
+        {
+          "text": "Charging._",
+          "x": 278,
+          "y": 710,
+          "w": 176,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Battery Status",
+          "x": 27,
+          "y": 32,
+          "w": 251,
+          "h": 53
+        },
+        {
+          "text": "50%",
+          "x": 284,
+          "y": 396,
+          "w": 160,
+          "h": 74
+        },
+        {
+          "text": "Simulate Charge",
+          "x": 253,
+          "y": 601,
+          "w": 216,
+          "h": 38
+        },
+        {
+          "text": "Charging _",
+          "x": 276,
+          "y": 694,
+          "w": 168,
+          "h": 42
+        }
+      ]
+    }
+  }
+}

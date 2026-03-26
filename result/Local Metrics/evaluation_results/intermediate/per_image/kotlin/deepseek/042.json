@@ -1,0 +1,243 @@
+{
+  "image_id": "042",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5812189099318645,
+    "size": 0.6999304284591976,
+    "color": 0.6202429533004761
+  },
+  "text_scores": {
+    "ref_count": 19,
+    "gen_count": 9,
+    "matched": 6,
+    "similarity": 0.7963310402334792,
+    "coverage": 0.3157894736842105,
+    "overall": 0.7963310402334792
+  },
+  "details": {
+    "image_id": "042",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\042.png",
+    "gen_path": "kt_post\\deepseek\\042.png",
+    "ui_evaluation": {
+      "ref_blocks": 26,
+      "gen_blocks": 15,
+      "matched_pairs": 15,
+      "position_score": 0.5812189099318645,
+      "size_score": 0.6999304284591976,
+      "color_score": 0.6202429533004761
+    },
+    "text_evaluation": {
+      "ref_texts": 19,
+      "gen_texts": 9,
+      "matched_pairs": 6,
+      "text_score": 0.7963310402334792,
+      "coverage": 0.3157894736842105,
+      "overall_score": 0.7963310402334792,
+      "ref_text_list": [
+        {
+          "text": "Cold Gradient Price",
+          "x": 24,
+          "y": 28,
+          "w": 467,
+          "h": 62
+        },
+        {
+          "text": "Compare",
+          "x": 22,
+          "y": 89,
+          "w": 229,
+          "h": 73
+        },
+        {
+          "text": "Wireless Earbuds",
+          "x": 47,
+          "y": 409,
+          "w": 286,
+          "h": 42
+        },
+        {
+          "text": "Smart Watch",
+          "x": 423,
+          "y": 411,
+          "w": 216,
+          "h": 40
+        },
+        {
+          "text": "S59.99",
+          "x": 143,
+          "y": 463,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "S129.99",
+          "x": 475,
+          "y": 463,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "ShopA",
+          "x": 152,
+          "y": 508,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "ShopB",
+          "x": 489,
+          "y": 505,
+          "w": 83,
+          "h": 39
+        },
+        {
+          "text": "Compare",
+          "x": 137,
+          "y": 581,
+          "w": 105,
+          "h": 33
+        },
+        {
+          "text": "Compare",
+          "x": 479,
+          "y": 583,
+          "w": 105,
+          "h": 30
+        },
+        {
+          "text": "Laptop Stand",
+          "x": 78,
+          "y": 916,
+          "w": 222,
+          "h": 50
+        },
+        {
+          "text": "Mechanical",
+          "x": 389,
+          "y": 915,
+          "w": 190,
+          "h": 44
+        },
+        {
+          "text": "S39.99",
+          "x": 143,
+          "y": 972,
+          "w": 92,
+          "h": 32
+        },
+        {
+          "text": "Keyboard",
+          "x": 386,
+          "y": 958,
+          "w": 160,
+          "h": 48
+        },
+        {
+          "text": "ShopC",
+          "x": 152,
+          "y": 1016,
+          "w": 78,
+          "h": 32
+        },
+        {
+          "text": "S89.99",
+          "x": 483,
+          "y": 1011,
+          "w": 96,
+          "h": 36
+        },
+        {
+          "text": "ShopA",
+          "x": 494,
+          "y": 1058,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "Compare",
+          "x": 135,
+          "y": 1087,
+          "w": 108,
+          "h": 36
+        },
+        {
+          "text": "Compare",
+          "x": 478,
+          "y": 1131,
+          "w": 104,
+          "h": 33
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Cold Gradient Price Compare",
+          "x": 23,
+          "y": 28,
+          "w": 679,
+          "h": 68
+        },
+        {
+          "text": "p.name",
+          "x": 122,
+          "y": 344,
+          "w": 142,
+          "h": 49
+        },
+        {
+          "text": "p.name",
+          "x": 464,
+          "y": 344,
+          "w": 135,
+          "h": 49
+        },
+        {
+          "text": "p.store",
+          "x": 139,
+          "y": 444,
+          "w": 99,
+          "h": 42
+        },
+        {
+          "text": "p.store",
+          "x": 480,
+          "y": 444,
+          "w": 102,
+          "h": 44
+        },
+        {
+          "text": "Compare",
+          "x": 126,
+          "y": 492,
+          "w": 127,
+          "h": 39
+        },
+        {
+          "text": "Compare",
+          "x": 468,
+          "y": 492,
+          "w": 127,
+          "h": 39
+        },
+        {
+          "text": "pprice",
+          "x": 477,
+          "y": 394,
+          "w": 108,
+          "h": 52
+        },
+        {
+          "text": "pprice",
+          "x": 135,
+          "y": 396,
+          "w": 110,
+          "h": 49
+        }
+      ]
+    }
+  }
+}

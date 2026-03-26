@@ -1,0 +1,243 @@
+{
+  "image_id": "049",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1679095717522467,
+    "size": 0.19764228462829683,
+    "color": 0.16269025206565857
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 5,
+    "matched": 2,
+    "similarity": 0.8333333333333333,
+    "coverage": 0.08695652173913043,
+    "overall": 0.8333333333333333
+  },
+  "details": {
+    "image_id": "049",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\049.png",
+    "gen_path": "swift_post\\gpt\\049.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 8,
+      "matched_pairs": 8,
+      "position_score": 0.1679095717522467,
+      "size_score": 0.19764228462829683,
+      "color_score": 0.16269025206565857
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 5,
+      "matched_pairs": 2,
+      "text_score": 0.8333333333333333,
+      "coverage": 0.08695652173913043,
+      "overall_score": 0.8333333333333333,
+      "ref_text_list": [
+        {
+          "text": "Itinerary Planner",
+          "x": 23,
+          "y": 2,
+          "w": 450,
+          "h": 69
+        },
+        {
+          "text": "Kyoto Cherry",
+          "x": 48,
+          "y": 316,
+          "w": 227,
+          "h": 50
+        },
+        {
+          "text": "Tokyo",
+          "x": 407,
+          "y": 343,
+          "w": 106,
+          "h": 44
+        },
+        {
+          "text": "Break",
+          "x": 591,
+          "y": 345,
+          "w": 102,
+          "h": 38
+        },
+        {
+          "text": "Trail",
+          "x": 51,
+          "y": 365,
+          "w": 76,
+          "h": 38
+        },
+        {
+          "text": "3 days",
+          "x": 409,
+          "y": 395,
+          "w": 93,
+          "h": 39
+        },
+        {
+          "text": "4",
+          "x": 51,
+          "y": 421,
+          "w": 20,
+          "h": 24
+        },
+        {
+          "text": "days",
+          "x": 70,
+          "y": 417,
+          "w": 74,
+          "h": 40
+        },
+        {
+          "text": "s390",
+          "x": 407,
+          "y": 457,
+          "w": 98,
+          "h": 40
+        },
+        {
+          "text": "Details",
+          "x": 596,
+          "y": 464,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "S460",
+          "x": 47,
+          "y": 477,
+          "w": 100,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 236,
+          "y": 486,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "Osaka Gourmet",
+          "x": 49,
+          "y": 821,
+          "w": 266,
+          "h": 40
+        },
+        {
+          "text": "Mount Fuji",
+          "x": 409,
+          "y": 821,
+          "w": 180,
+          "h": 42
+        },
+        {
+          "text": "Tour",
+          "x": 51,
+          "y": 865,
+          "w": 80,
+          "h": 38
+        },
+        {
+          "text": "Escape",
+          "x": 408,
+          "y": 864,
+          "w": 127,
+          "h": 45
+        },
+        {
+          "text": "5 days",
+          "x": 49,
+          "y": 917,
+          "w": 95,
+          "h": 40
+        },
+        {
+          "text": "2 days",
+          "x": 409,
+          "y": 917,
+          "w": 93,
+          "h": 40
+        },
+        {
+          "text": "S520",
+          "x": 47,
+          "y": 979,
+          "w": 97,
+          "h": 40
+        },
+        {
+          "text": "Details",
+          "x": 236,
+          "y": 986,
+          "w": 86,
+          "h": 26
+        },
+        {
+          "text": "S280",
+          "x": 407,
+          "y": 977,
+          "w": 98,
+          "h": 44
+        },
+        {
+          "text": "Details",
+          "x": 596,
+          "y": 986,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "City",
+          "x": 508,
+          "y": 335,
+          "w": 82,
+          "h": 54
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Itinerary Planner",
+          "x": 125,
+          "y": 29,
+          "w": 469,
+          "h": 78
+        },
+        {
+          "text": "triptitle",
+          "x": 119,
+          "y": 353,
+          "w": 140,
+          "h": 44
+        },
+        {
+          "text": "S{thistrip} days",
+          "x": 82,
+          "y": 400,
+          "w": 213,
+          "h": 45
+        },
+        {
+          "text": "trip price",
+          "x": 44,
+          "y": 464,
+          "w": 164,
+          "h": 50
+        },
+        {
+          "text": "Details",
+          "x": 232,
+          "y": 470,
+          "w": 96,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

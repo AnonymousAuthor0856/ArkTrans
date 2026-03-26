@@ -1,0 +1,103 @@
+{
+  "image_id": "012",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.03401168474347861,
+    "size": 0.03421672849693846,
+    "color": 0.026117246598005295
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 2,
+    "matched": 1,
+    "similarity": 0.896551724137931,
+    "coverage": 0.16666666666666666,
+    "overall": 0.896551724137931
+  },
+  "details": {
+    "image_id": "012",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\012.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\012.png",
+    "ui_evaluation": {
+      "ref_blocks": 15,
+      "gen_blocks": 3,
+      "matched_pairs": 3,
+      "position_score": 0.03401168474347861,
+      "size_score": 0.03421672849693846,
+      "color_score": 0.026117246598005295
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 2,
+      "matched_pairs": 1,
+      "text_score": 0.896551724137931,
+      "coverage": 0.16666666666666666,
+      "overall_score": 0.896551724137931,
+      "ref_text_list": [
+        {
+          "text": "Favorite Spots Map",
+          "x": 126,
+          "y": 20,
+          "w": 503,
+          "h": 77
+        },
+        {
+          "text": "Spot Coordinates: (200, 400)",
+          "x": 153,
+          "y": 923,
+          "w": 444,
+          "h": 40
+        },
+        {
+          "text": "Save Marker",
+          "x": 271,
+          "y": 1021,
+          "w": 212,
+          "h": 40
+        },
+        {
+          "text": "Saved Markers",
+          "x": 27,
+          "y": 1137,
+          "w": 257,
+          "h": 42
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1206,
+          "w": 184,
+          "h": 32
+        },
+        {
+          "text": "Saved Marker",
+          "x": 62,
+          "y": 1256,
+          "w": 184,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Favorite Spots",
+          "x": 103,
+          "y": 17,
+          "w": 391,
+          "h": 84
+        },
+        {
+          "text": "Map",
+          "x": 484,
+          "y": 14,
+          "w": 139,
+          "h": 86
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "image_id": "010",
+  "language": "kotlin",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.636363296997387,
+    "size": 0.6956408092408716,
+    "color": 0.8292530179023743
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 5,
+    "matched": 5,
+    "similarity": 0.8564102564102564,
+    "coverage": 0.4166666666666667,
+    "overall": 0.8564102564102564
+  },
+  "details": {
+    "image_id": "010",
+    "language": "kotlin",
+    "llm_name": "glm",
+    "ref_path": "suc\\kotlin_img\\010.png",
+    "gen_path": "kt_post\\glm\\010.png",
+    "ui_evaluation": {
+      "ref_blocks": 23,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.636363296997387,
+      "size_score": 0.6956408092408716,
+      "color_score": 0.8292530179023743
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 5,
+      "matched_pairs": 5,
+      "text_score": 0.8564102564102564,
+      "coverage": 0.4166666666666667,
+      "overall_score": 0.8564102564102564,
+      "ref_text_list": [
+        {
+          "text": "Exit",
+          "x": 70,
+          "y": 50,
+          "w": 56,
+          "h": 28
+        },
+        {
+          "text": "Story Editor",
+          "x": 255,
+          "y": 40,
+          "w": 205,
+          "h": 51
+        },
+        {
+          "text": "Post",
+          "x": 586,
+          "y": 50,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Your Story Preview",
+          "x": 153,
+          "y": 380,
+          "w": 420,
+          "h": 64
+        },
+        {
+          "text": "Upload Status",
+          "x": 29,
+          "y": 721,
+          "w": 170,
+          "h": 36
+        },
+        {
+          "text": "BG",
+          "x": 146,
+          "y": 944,
+          "w": 36,
+          "h": 24
+        },
+        {
+          "text": "IMG",
+          "x": 426,
+          "y": 944,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Gradient",
+          "x": 108,
+          "y": 988,
+          "w": 116,
+          "h": 32
+        },
+        {
+          "text": "User Photo",
+          "x": 378,
+          "y": 988,
+          "w": 148,
+          "h": 32
+        },
+        {
+          "text": "Helle",
+          "x": 662,
+          "y": 988,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "Layer Properties",
+          "x": 27,
+          "y": 1097,
+          "w": 200,
+          "h": 36
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 1184,
+          "w": 105,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Layer Properties",
+          "x": 265,
+          "y": 32,
+          "w": 187,
+          "h": 31
+        },
+        {
+          "text": "Opacity",
+          "x": 29,
+          "y": 141,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "Your Story Preview",
+          "x": 143,
+          "y": 454,
+          "w": 434,
+          "h": 65
+        },
+        {
+          "text": "Upload Status",
+          "x": 280,
+          "y": 964,
+          "w": 162,
+          "h": 32
+        },
+        {
+          "text": "layertype",
+          "x": 121,
+          "y": 1176,
+          "w": 116,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

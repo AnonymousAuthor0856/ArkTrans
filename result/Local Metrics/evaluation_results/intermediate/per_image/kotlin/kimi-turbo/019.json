@@ -1,0 +1,138 @@
+{
+  "image_id": "019",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7673064979433205,
+    "size": 0.9193923320718351,
+    "color": 0.796347975730896
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 7,
+    "matched": 6,
+    "similarity": 0.9666666666666667,
+    "coverage": 1.0,
+    "overall": 0.9666666666666667
+  },
+  "details": {
+    "image_id": "019",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\019.png",
+    "gen_path": "kt_post\\kimi-turbo\\019.png",
+    "ui_evaluation": {
+      "ref_blocks": 17,
+      "gen_blocks": 20,
+      "matched_pairs": 17,
+      "position_score": 0.7673064979433205,
+      "size_score": 0.9193923320718351,
+      "color_score": 0.796347975730896
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 7,
+      "matched_pairs": 6,
+      "text_score": 0.9666666666666667,
+      "coverage": 1.0,
+      "overall_score": 0.9666666666666667,
+      "ref_text_list": [
+        {
+          "text": "Subtitle Editor",
+          "x": 175,
+          "y": 33,
+          "w": 372,
+          "h": 60
+        },
+        {
+          "text": "Sample Subtitle Line",
+          "x": 125,
+          "y": 331,
+          "w": 470,
+          "h": 64
+        },
+        {
+          "text": "Font Size: 24sp",
+          "x": 263,
+          "y": 590,
+          "w": 199,
+          "h": 40
+        },
+        {
+          "text": "Sync Progress",
+          "x": 267,
+          "y": 786,
+          "w": 186,
+          "h": 38
+        },
+        {
+          "text": "Sync +",
+          "x": 131,
+          "y": 923,
+          "w": 116,
+          "h": 44
+        },
+        {
+          "text": "Sync",
+          "x": 474,
+          "y": 920,
+          "w": 92,
+          "h": 48
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Subtitle Editor",
+          "x": 192,
+          "y": 25,
+          "w": 337,
+          "h": 60
+        },
+        {
+          "text": "Sample Subtitle Line",
+          "x": 50,
+          "y": 193,
+          "w": 619,
+          "h": 86
+        },
+        {
+          "text": "Font Size:",
+          "x": 262,
+          "y": 464,
+          "w": 130,
+          "h": 32
+        },
+        {
+          "text": "Sync Progress",
+          "x": 267,
+          "y": 640,
+          "w": 190,
+          "h": 42
+        },
+        {
+          "text": "Sync",
+          "x": 139,
+          "y": 781,
+          "w": 80,
+          "h": 42
+        },
+        {
+          "text": "Sync",
+          "x": 479,
+          "y": 781,
+          "w": 80,
+          "h": 40
+        },
+        {
+          "text": "32sp",
+          "x": 387,
+          "y": 459,
+          "w": 78,
+          "h": 46
+        }
+      ]
+    }
+  }
+}

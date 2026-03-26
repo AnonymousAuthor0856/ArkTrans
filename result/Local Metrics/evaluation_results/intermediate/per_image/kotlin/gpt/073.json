@@ -1,0 +1,306 @@
+{
+  "image_id": "073",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2766319855524908,
+    "size": 0.24967247978351717,
+    "color": 0.199484184384346
+  },
+  "text_scores": {
+    "ref_count": 28,
+    "gen_count": 9,
+    "matched": 4,
+    "similarity": 0.833076923076923,
+    "coverage": 0.14285714285714285,
+    "overall": 0.833076923076923
+  },
+  "details": {
+    "image_id": "073",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\073.png",
+    "gen_path": "kt_post\\gpt\\073.png",
+    "ui_evaluation": {
+      "ref_blocks": 53,
+      "gen_blocks": 14,
+      "matched_pairs": 14,
+      "position_score": 0.2766319855524908,
+      "size_score": 0.24967247978351717,
+      "color_score": 0.199484184384346
+    },
+    "text_evaluation": {
+      "ref_texts": 28,
+      "gen_texts": 9,
+      "matched_pairs": 4,
+      "text_score": 0.833076923076923,
+      "coverage": 0.14285714285714285,
+      "overall_score": 0.833076923076923,
+      "ref_text_list": [
+        {
+          "text": "Hub",
+          "x": 42,
+          "y": 50,
+          "w": 50,
+          "h": 26
+        },
+        {
+          "text": "HoloChat Dock",
+          "x": 128,
+          "y": 32,
+          "w": 225,
+          "h": 37
+        },
+        {
+          "text": "Status",
+          "x": 616,
+          "y": 50,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Dark neon bridge",
+          "x": 127,
+          "y": 67,
+          "w": 194,
+          "h": 36
+        },
+        {
+          "text": "Live",
+          "x": 62,
+          "y": 186,
+          "w": 48,
+          "h": 26
+        },
+        {
+          "text": "Pinned",
+          "x": 184,
+          "y": 186,
+          "w": 80,
+          "h": 26
+        },
+        {
+          "text": "Escalated",
+          "x": 338,
+          "y": 186,
+          "w": 114,
+          "h": 28
+        },
+        {
+          "text": "Silent",
+          "x": 524,
+          "y": 186,
+          "w": 72,
+          "h": 28
+        },
+        {
+          "text": "LIVE DOCKS",
+          "x": 52,
+          "y": 328,
+          "w": 144,
+          "h": 28
+        },
+        {
+          "text": "ESCALATIONS",
+          "x": 278,
+          "y": 328,
+          "w": 166,
+          "h": 28
+        },
+        {
+          "text": "QUEUED",
+          "x": 502,
+          "y": 328,
+          "w": 100,
+          "h": 30
+        },
+        {
+          "text": "12",
+          "x": 56,
+          "y": 370,
+          "w": 70,
+          "h": 56
+        },
+        {
+          "text": "3",
+          "x": 280,
+          "y": 378,
+          "w": 32,
+          "h": 40
+        },
+        {
+          "text": "5",
+          "x": 506,
+          "y": 376,
+          "w": 30,
+          "h": 44
+        },
+        {
+          "text": "Orbital Finance",
+          "x": 51,
+          "y": 501,
+          "w": 309,
+          "h": 52
+        },
+        {
+          "text": "+5",
+          "x": 618,
+          "y": 532,
+          "w": 32,
+          "h": 26
+        },
+        {
+          "text": "Rolling sync",
+          "x": 51,
+          "y": 557,
+          "w": 138,
+          "h": 39
+        },
+        {
+          "text": "Need rates for Q4",
+          "x": 53,
+          "y": 605,
+          "w": 226,
+          "h": 36
+        },
+        {
+          "text": "Priority",
+          "x": 66,
+          "y": 659,
+          "w": 89,
+          "h": 36
+        },
+        {
+          "text": "Open",
+          "x": 208,
+          "y": 690,
+          "w": 62,
+          "h": 28
+        },
+        {
+          "text": "Beacon Ops",
+          "x": 50,
+          "y": 822,
+          "w": 252,
+          "h": 62
+        },
+        {
+          "text": "Docked",
+          "x": 54,
+          "y": 882,
+          "w": 90,
+          "h": 30
+        },
+        {
+          "text": "Switching to holo feed",
+          "x": 52,
+          "y": 923,
+          "w": 285,
+          "h": 42
+        },
+        {
+          "text": "Standard",
+          "x": 67,
+          "y": 984,
+          "w": 106,
+          "h": 26
+        },
+        {
+          "text": "Open",
+          "x": 230,
+          "y": 1012,
+          "w": 62,
+          "h": 28
+        },
+        {
+          "text": "New",
+          "x": 606,
+          "y": 1050,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Message dock:_",
+          "x": 53,
+          "y": 1199,
+          "w": 171,
+          "h": 32
+        },
+        {
+          "text": "Send",
+          "x": 582,
+          "y": 1202,
+          "w": 62,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Messerge clorck",
+          "x": 52,
+          "y": 37,
+          "w": 221,
+          "h": 45
+        },
+        {
+          "text": "Send",
+          "x": 584,
+          "y": 42,
+          "w": 64,
+          "h": 28
+        },
+        {
+          "text": "Card",
+          "x": 266,
+          "y": 166,
+          "w": 70,
+          "h": 32
+        },
+        {
+          "text": "Surface",
+          "x": 350,
+          "y": 166,
+          "w": 106,
+          "h": 32
+        },
+        {
+          "text": "Content placeholder",
+          "x": 243,
+          "y": 236,
+          "w": 234,
+          "h": 37
+        },
+        {
+          "text": "Card",
+          "x": 220,
+          "y": 360,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "SurfaceVariant",
+          "x": 304,
+          "y": 360,
+          "w": 200,
+          "h": 32
+        },
+        {
+          "text": "Content placeholder",
+          "x": 243,
+          "y": 406,
+          "w": 234,
+          "h": 37
+        },
+        {
+          "text": "New",
+          "x": 596,
+          "y": 1046,
+          "w": 56,
+          "h": 26
+        }
+      ]
+    }
+  }
+}

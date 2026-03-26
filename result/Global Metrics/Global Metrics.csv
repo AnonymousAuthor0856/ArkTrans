@@ -1,0 +1,15 @@
+方向,LLM,图片总数,编译通过数,编译通过率(%),颜色直方图-平均分,CLIP-平均分
+KOTLIN,deepseek (post),75,49,65.33,0.3371,0.563
+KOTLIN,glm (post),75,60,80,0.5268,0.7057
+KOTLIN,gpt (post),75,68,90.67,0.5601,0.7889
+KOTLIN,kimi-turbo (post),75,52,69.33,0.3923,0.599
+KOTLIN,gpt (a3),75,38,50.67,0.2794,0.4353
+KOTLIN,gpt (a2),75,10,13.33,0.0852,0.1141
+KOTLIN,gpt(nocolor),75,46,61.33,0.3369,0.5343
+SWIFT,deepseek (post),75,41,54.67,0.2877,0.4766
+SWIFT,glm (post),75,33,44,0.2851,0.3987
+SWIFT,gpt (post),75,40,53.33,0.3023,0.4559
+SWIFT,kimi-turbo (post),75,18,24,0.1333,0.21
+SWIFT,gpt (a3),75,16,21.33,0.1442,0.1886
+SWIFT,gpt (a2),75,6,8,0.0458,0.0683
+SWIFT,gpt(nocolor),75,32,42.67,0.2104,0.3872

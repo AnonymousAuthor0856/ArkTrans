@@ -1,0 +1,159 @@
+{
+  "image_id": "058",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5029502624583189,
+    "size": 0.3667883503626596,
+    "color": 0.3717646896839142
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 10,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.16666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "058",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\058.png",
+    "gen_path": "swift_post\\deepseek\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 20,
+      "matched_pairs": 9,
+      "position_score": 0.5029502624583189,
+      "size_score": 0.3667883503626596,
+      "color_score": 0.3717646896839142
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 10,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.16666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 168,
+          "y": 30,
+          "w": 417,
+          "h": 79
+        },
+        {
+          "text": "Overview",
+          "x": 53,
+          "y": 156,
+          "w": 145,
+          "h": 36
+        },
+        {
+          "text": "Ranking",
+          "x": 312,
+          "y": 153,
+          "w": 128,
+          "h": 44
+        },
+        {
+          "text": "Stats",
+          "x": 583,
+          "y": 157,
+          "w": 86,
+          "h": 36
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 182,
+          "y": 254,
+          "w": 388,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 281,
+          "y": 413,
+          "w": 191,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 114,
+          "y": 21,
+          "w": 488,
+          "h": 99
+        },
+        {
+          "text": "Week",
+          "x": 319,
+          "y": 171,
+          "w": 88,
+          "h": 36
+        },
+        {
+          "text": "Month",
+          "x": 547,
+          "y": 171,
+          "w": 100,
+          "h": 36
+        },
+        {
+          "text": "10,245",
+          "x": 199,
+          "y": 337,
+          "w": 328,
+          "h": 114
+        },
+        {
+          "text": "Steps",
+          "x": 311,
+          "y": 444,
+          "w": 99,
+          "h": 49
+        },
+        {
+          "text": "Goal",
+          "x": 158,
+          "y": 606,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "Time",
+          "x": 496,
+          "y": 604,
+          "w": 70,
+          "h": 32
+        },
+        {
+          "text": "12,000",
+          "x": 124,
+          "y": 636,
+          "w": 136,
+          "h": 50
+        },
+        {
+          "text": "2h 1Sm",
+          "x": 457,
+          "y": 639,
+          "w": 146,
+          "h": 42
+        },
+        {
+          "text": "Todayl",
+          "x": 73,
+          "y": 163,
+          "w": 102,
+          "h": 51
+        }
+      ]
+    }
+  }
+}

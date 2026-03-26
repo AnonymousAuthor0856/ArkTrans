@@ -1,0 +1,152 @@
+{
+  "image_id": "036",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7902760689519035,
+    "size": 0.2790188921122876,
+    "color": 0.5712853670120239
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 8,
+    "matched": 7,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "036",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\036.png",
+    "gen_path": "swift_post\\glm\\036.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 15,
+      "matched_pairs": 13,
+      "position_score": 0.7902760689519035,
+      "size_score": 0.2790188921122876,
+      "color_score": 0.5712853670120239
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 8,
+      "matched_pairs": 7,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 180,
+          "y": 38,
+          "w": 390,
+          "h": 68
+        },
+        {
+          "text": "BTC",
+          "x": 166,
+          "y": 334,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "ETH",
+          "x": 286,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "SOL",
+          "x": 408,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "ADA",
+          "x": 530,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Price Variation",
+          "x": 251,
+          "y": 963,
+          "w": 248,
+          "h": 42
+        },
+        {
+          "text": "Auto Update",
+          "x": 31,
+          "y": 1101,
+          "w": 168,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 0,
+          "y": 31,
+          "w": 402,
+          "h": 80
+        },
+        {
+          "text": "BTC",
+          "x": 62,
+          "y": 178,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "ETH",
+          "x": 194,
+          "y": 178,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "SOL",
+          "x": 328,
+          "y": 178,
+          "w": 62,
+          "h": 32
+        },
+        {
+          "text": "ADA",
+          "x": 464,
+          "y": 180,
+          "w": 62,
+          "h": 30
+        },
+        {
+          "text": "Chart Area",
+          "x": 279,
+          "y": 491,
+          "w": 165,
+          "h": 39
+        },
+        {
+          "text": "Price Variation",
+          "x": 28,
+          "y": 793,
+          "w": 249,
+          "h": 43
+        },
+        {
+          "text": "Auto Update",
+          "x": 29,
+          "y": 914,
+          "w": 173,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

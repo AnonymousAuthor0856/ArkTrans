@@ -1,0 +1,257 @@
+{
+  "image_id": "072",
+  "language": "kotlin",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7308851722286024,
+    "size": 0.6161652383413044,
+    "color": 0.4482758939266205
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 18,
+    "matched": 9,
+    "similarity": 0.9677419354838709,
+    "coverage": 0.75,
+    "overall": 0.9677419354838709
+  },
+  "details": {
+    "image_id": "072",
+    "language": "kotlin",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\kotlin_img\\072.png",
+    "gen_path": "kt_post\\kimi-turbo\\072.png",
+    "ui_evaluation": {
+      "ref_blocks": 23,
+      "gen_blocks": 27,
+      "matched_pairs": 23,
+      "position_score": 0.7308851722286024,
+      "size_score": 0.6161652383413044,
+      "color_score": 0.4482758939266205
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 18,
+      "matched_pairs": 9,
+      "text_score": 0.9677419354838709,
+      "coverage": 0.75,
+      "overall_score": 0.9677419354838709,
+      "ref_text_list": [
+        {
+          "text": "ReliefFund",
+          "x": 285,
+          "y": 33,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "Civic support intake",
+          "x": 260,
+          "y": 68,
+          "w": 198,
+          "h": 31
+        },
+        {
+          "text": "Applicant details",
+          "x": 69,
+          "y": 176,
+          "w": 309,
+          "h": 57
+        },
+        {
+          "text": "Full name",
+          "x": 101,
+          "y": 305,
+          "w": 156,
+          "h": 36
+        },
+        {
+          "text": "Organization",
+          "x": 101,
+          "y": 457,
+          "w": 199,
+          "h": 40
+        },
+        {
+          "text": "Contact",
+          "x": 101,
+          "y": 608,
+          "w": 126,
+          "h": 36
+        },
+        {
+          "text": "Relief narrative",
+          "x": 103,
+          "y": 759,
+          "w": 234,
+          "h": 38
+        },
+        {
+          "text": "Back",
+          "x": 176,
+          "y": 988,
+          "w": 72,
+          "h": 32
+        },
+        {
+          "text": "Next",
+          "x": 478,
+          "y": 988,
+          "w": 68,
+          "h": 32
+        },
+        {
+          "text": "Summary",
+          "x": 64,
+          "y": 1144,
+          "w": 187,
+          "h": 54
+        },
+        {
+          "text": "Requested",
+          "x": 92,
+          "y": 1232,
+          "w": 151,
+          "h": 41
+        },
+        {
+          "text": "S4,500",
+          "x": 541,
+          "y": 1233,
+          "w": 88,
+          "h": 36
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "ReliefFund",
+          "x": 268,
+          "y": 25,
+          "w": 184,
+          "h": 39
+        },
+        {
+          "text": "CiviStepstake",
+          "x": 242,
+          "y": 57,
+          "w": 235,
+          "h": 61
+        },
+        {
+          "text": "$",
+          "x": 69,
+          "y": 129,
+          "w": 20,
+          "h": 24
+        },
+        {
+          "text": "{this",
+          "x": 68,
+          "y": 154,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "steptitle",
+          "x": 293,
+          "y": 144,
+          "w": 155,
+          "h": 49
+        },
+        {
+          "text": "ind",
+          "x": 72,
+          "y": 184,
+          "w": 42,
+          "h": 26
+        },
+        {
+          "text": "step.description",
+          "x": 265,
+          "y": 187,
+          "w": 212,
+          "h": 38
+        },
+        {
+          "text": "ex",
+          "x": 71,
+          "y": 217,
+          "w": 28,
+          "h": 20
+        },
+        {
+          "text": "1}",
+          "x": 70,
+          "y": 238,
+          "w": 28,
+          "h": 28
+        },
+        {
+          "text": "Focus",
+          "x": 292,
+          "y": 334,
+          "w": 138,
+          "h": 50
+        },
+        {
+          "text": "chiplabel",
+          "x": 276,
+          "y": 420,
+          "w": 168,
+          "h": 50
+        },
+        {
+          "text": "Applicant details",
+          "x": 170,
+          "y": 578,
+          "w": 383,
+          "h": 66
+        },
+        {
+          "text": "Full name",
+          "x": 103,
+          "y": 677,
+          "w": 150,
+          "h": 36
+        },
+        {
+          "text": "Organization",
+          "x": 103,
+          "y": 781,
+          "w": 194,
+          "h": 42
+        },
+        {
+          "text": "Contact",
+          "x": 102,
+          "y": 884,
+          "w": 127,
+          "h": 38
+        },
+        {
+          "text": "Relief narrative",
+          "x": 103,
+          "y": 1031,
+          "w": 228,
+          "h": 38
+        },
+        {
+          "text": "Back",
+          "x": 171,
+          "y": 1157,
+          "w": 86,
+          "h": 38
+        },
+        {
+          "text": "Next",
+          "x": 466,
+          "y": 1156,
+          "w": 87,
+          "h": 40
+        }
+      ]
+    }
+  }
+}

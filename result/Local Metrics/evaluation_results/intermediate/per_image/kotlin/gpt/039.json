@@ -1,0 +1,89 @@
+{
+  "image_id": "039",
+  "language": "kotlin",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.1818665806079794,
+    "size": 0.19987613405375132,
+    "color": 0.157788947224617
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 3,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "039",
+    "language": "kotlin",
+    "llm_name": "gpt",
+    "ref_path": "suc\\kotlin_img\\039.png",
+    "gen_path": "kt_post\\gpt\\039.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 12,
+      "matched_pairs": 12,
+      "position_score": 0.1818665806079794,
+      "size_score": 0.19987613405375132,
+      "color_score": 0.157788947224617
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 3,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 151,
+          "y": 35,
+          "w": 422,
+          "h": 60
+        },
+        {
+          "text": "Payment Progress",
+          "x": 205,
+          "y": 671,
+          "w": 309,
+          "h": 50
+        },
+        {
+          "text": "Reset Progress",
+          "x": 232,
+          "y": 948,
+          "w": 256,
+          "h": 49
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 185,
+          "y": 30,
+          "w": 349,
+          "h": 50
+        },
+        {
+          "text": "Payment Progress",
+          "x": 204,
+          "y": 544,
+          "w": 314,
+          "h": 50
+        },
+        {
+          "text": "Reset Progress",
+          "x": 247,
+          "y": 808,
+          "w": 230,
+          "h": 45
+        }
+      ]
+    }
+  }
+}

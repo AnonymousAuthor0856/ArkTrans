@@ -1,0 +1,151 @@
+{
+  "image_id": "043",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.0,
+    "size": 0.0,
+    "color": 0.0
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 0,
+    "matched": 0,
+    "similarity": 0.0,
+    "coverage": 0.0,
+    "overall": 0.0
+  },
+  "details": {
+    "image_id": "043",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\043.png",
+    "gen_path": "swift_ablation\\gpt-a3\\043.png",
+    "ui_evaluation": {
+      "ref_blocks": 25,
+      "gen_blocks": 0,
+      "matched_pairs": 0,
+      "position_score": 0.0,
+      "size_score": 0.0,
+      "color_score": 0.0
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 0,
+      "matched_pairs": 0,
+      "text_score": 0.0,
+      "coverage": 0.0,
+      "overall_score": 0.0,
+      "ref_text_list": [
+        {
+          "text": "Your Cart",
+          "x": 27,
+          "y": 33,
+          "w": 256,
+          "h": 60
+        },
+        {
+          "text": "Neon Keyboard",
+          "x": 44,
+          "y": 131,
+          "w": 263,
+          "h": 52
+        },
+        {
+          "text": "Remove",
+          "x": 588,
+          "y": 164,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "$89.99",
+          "x": 46,
+          "y": 188,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "Wireless Mouse",
+          "x": 45,
+          "y": 281,
+          "w": 268,
+          "h": 40
+        },
+        {
+          "text": "Remove",
+          "x": 588,
+          "y": 310,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "$49.99",
+          "x": 46,
+          "y": 334,
+          "w": 98,
+          "h": 32
+        },
+        {
+          "text": "Gaming Headset",
+          "x": 41,
+          "y": 420,
+          "w": 289,
+          "h": 52
+        },
+        {
+          "text": "Remove",
+          "x": 587,
+          "y": 453,
+          "w": 97,
+          "h": 31
+        },
+        {
+          "text": "$109.99",
+          "x": 46,
+          "y": 478,
+          "w": 112,
+          "h": 32
+        },
+        {
+          "text": "Promo Code",
+          "x": 46,
+          "y": 616,
+          "w": 166,
+          "h": 30
+        },
+        {
+          "text": "Items:",
+          "x": 52,
+          "y": 758,
+          "w": 86,
+          "h": 30
+        },
+        {
+          "text": "Total:",
+          "x": 55,
+          "y": 805,
+          "w": 98,
+          "h": 38
+        },
+        {
+          "text": "S249.97",
+          "x": 553,
+          "y": 801,
+          "w": 144,
+          "h": 42
+        },
+        {
+          "text": "Checkout",
+          "x": 293,
+          "y": 927,
+          "w": 168,
+          "h": 42
+        }
+      ],
+      "gen_text_list": []
+    }
+  }
+}

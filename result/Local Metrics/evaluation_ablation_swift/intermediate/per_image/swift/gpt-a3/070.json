@@ -1,0 +1,355 @@
+{
+  "image_id": "070",
+  "language": "swift",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8813190449570542,
+    "size": 0.8902423738948141,
+    "color": 0.7031490206718445
+  },
+  "text_scores": {
+    "ref_count": 23,
+    "gen_count": 21,
+    "matched": 20,
+    "similarity": 1.0,
+    "coverage": 0.8695652173913043,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "070",
+    "language": "swift",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\swift_img\\070.png",
+    "gen_path": "swift_ablation\\gpt-a3\\070.png",
+    "ui_evaluation": {
+      "ref_blocks": 40,
+      "gen_blocks": 40,
+      "matched_pairs": 40,
+      "position_score": 0.8813190449570542,
+      "size_score": 0.8902423738948141,
+      "color_score": 0.7031490206718445
+    },
+    "text_evaluation": {
+      "ref_texts": 23,
+      "gen_texts": 21,
+      "matched_pairs": 20,
+      "text_score": 1.0,
+      "coverage": 0.8695652173913043,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "LeaseWizard",
+          "x": 261,
+          "y": 25,
+          "w": 228,
+          "h": 42
+        },
+        {
+          "text": "Guided handoff",
+          "x": 277,
+          "y": 70,
+          "w": 198,
+          "h": 36
+        },
+        {
+          "text": "Steps",
+          "x": 72,
+          "y": 175,
+          "w": 134,
+          "h": 62
+        },
+        {
+          "text": "Profile",
+          "x": 172,
+          "y": 276,
+          "w": 110,
+          "h": 40
+        },
+        {
+          "text": "Edit",
+          "x": 582,
+          "y": 294,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "Tenant basics",
+          "x": 173,
+          "y": 322,
+          "w": 197,
+          "h": 37
+        },
+        {
+          "text": "2",
+          "x": 103,
+          "y": 431,
+          "w": 18,
+          "h": 26
+        },
+        {
+          "text": "Income",
+          "x": 172,
+          "y": 425,
+          "w": 124,
+          "h": 36
+        },
+        {
+          "text": "Edit",
+          "x": 582,
+          "y": 438,
+          "w": 58,
+          "h": 32
+        },
+        {
+          "text": "Proof details",
+          "x": 173,
+          "y": 467,
+          "w": 180,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 103,
+          "y": 575,
+          "w": 18,
+          "h": 26
+        },
+        {
+          "text": "References",
+          "x": 173,
+          "y": 565,
+          "w": 188,
+          "h": 40
+        },
+        {
+          "text": "Go",
+          "x": 590,
+          "y": 584,
+          "w": 42,
+          "h": 30
+        },
+        {
+          "text": "Upload letters",
+          "x": 172,
+          "y": 610,
+          "w": 203,
+          "h": 41
+        },
+        {
+          "text": "4",
+          "x": 103,
+          "y": 721,
+          "w": 18,
+          "h": 22
+        },
+        {
+          "text": "Summary",
+          "x": 172,
+          "y": 709,
+          "w": 161,
+          "h": 44
+        },
+        {
+          "text": "Go",
+          "x": 590,
+          "y": 728,
+          "w": 42,
+          "h": 30
+        },
+        {
+          "text": "Confirm submission",
+          "x": 173,
+          "y": 755,
+          "w": 280,
+          "h": 36
+        },
+        {
+          "text": "Form",
+          "x": 79,
+          "y": 991,
+          "w": 110,
+          "h": 44
+        },
+        {
+          "text": "Full name",
+          "x": 110,
+          "y": 1072,
+          "w": 128,
+          "h": 30
+        },
+        {
+          "text": "Avery Tenant",
+          "x": 111,
+          "y": 1123,
+          "w": 214,
+          "h": 45
+        },
+        {
+          "text": "Contact",
+          "x": 110,
+          "y": 1228,
+          "w": 110,
+          "h": 32
+        },
+        {
+          "text": "avery@example.com",
+          "x": 107,
+          "y": 1281,
+          "w": 340,
+          "h": 44
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Lease Wizard",
+          "x": 246,
+          "y": 22,
+          "w": 262,
+          "h": 48
+        },
+        {
+          "text": "Complete your application",
+          "x": 202,
+          "y": 66,
+          "w": 350,
+          "h": 50
+        },
+        {
+          "text": "Steps",
+          "x": 291,
+          "y": 175,
+          "w": 136,
+          "h": 63
+        },
+        {
+          "text": "Profile",
+          "x": 289,
+          "y": 297,
+          "w": 102,
+          "h": 36
+        },
+        {
+          "text": "Edit",
+          "x": 562,
+          "y": 316,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Tenant basics",
+          "x": 256,
+          "y": 338,
+          "w": 166,
+          "h": 28
+        },
+        {
+          "text": "Income",
+          "x": 282,
+          "y": 430,
+          "w": 114,
+          "h": 32
+        },
+        {
+          "text": "2",
+          "x": 99,
+          "y": 449,
+          "w": 20,
+          "h": 26
+        },
+        {
+          "text": "Edit",
+          "x": 562,
+          "y": 446,
+          "w": 60,
+          "h": 32
+        },
+        {
+          "text": "Proof details",
+          "x": 262,
+          "y": 468,
+          "w": 156,
+          "h": 30
+        },
+        {
+          "text": "References",
+          "x": 261,
+          "y": 557,
+          "w": 172,
+          "h": 36
+        },
+        {
+          "text": "3",
+          "x": 99,
+          "y": 579,
+          "w": 20,
+          "h": 26
+        },
+        {
+          "text": "Go",
+          "x": 576,
+          "y": 578,
+          "w": 44,
+          "h": 30
+        },
+        {
+          "text": "Upload letters",
+          "x": 256,
+          "y": 596,
+          "w": 177,
+          "h": 36
+        },
+        {
+          "text": "Summary",
+          "x": 270,
+          "y": 686,
+          "w": 152,
+          "h": 43
+        },
+        {
+          "text": "Go",
+          "x": 576,
+          "y": 706,
+          "w": 44,
+          "h": 32
+        },
+        {
+          "text": "Confirm submission",
+          "x": 226,
+          "y": 728,
+          "w": 240,
+          "h": 30
+        },
+        {
+          "text": "Form",
+          "x": 303,
+          "y": 933,
+          "w": 114,
+          "h": 44
+        },
+        {
+          "text": "Full name",
+          "x": 300,
+          "y": 1032,
+          "w": 120,
+          "h": 30
+        },
+        {
+          "text": "Avery Tenant",
+          "x": 101,
+          "y": 1103,
+          "w": 200,
+          "h": 45
+        },
+        {
+          "text": "Contact",
+          "x": 310,
+          "y": 1216,
+          "w": 100,
+          "h": 28
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "image_id": "038",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8196135811454233,
+    "size": 0.9835928865068017,
+    "color": 0.8852387070655823
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 3,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "038",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\038.png",
+    "gen_path": "swift_post\\deepseek\\038.png",
+    "ui_evaluation": {
+      "ref_blocks": 7,
+      "gen_blocks": 7,
+      "matched_pairs": 7,
+      "position_score": 0.8196135811454233,
+      "size_score": 0.9835928865068017,
+      "color_score": 0.8852387070655823
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 3,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 162,
+          "y": 38,
+          "w": 428,
+          "h": 56
+        },
+        {
+          "text": "Scanning Active",
+          "x": 24,
+          "y": 1058,
+          "w": 278,
+          "h": 54
+        },
+        {
+          "text": "Add Marker",
+          "x": 277,
+          "y": 1173,
+          "w": 200,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Invoice Scanner",
+          "x": 174,
+          "y": 34,
+          "w": 372,
+          "h": 52
+        },
+        {
+          "text": "Scanning Active",
+          "x": 26,
+          "y": 874,
+          "w": 248,
+          "h": 50
+        },
+        {
+          "text": "Add Marker",
+          "x": 271,
+          "y": 993,
+          "w": 182,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

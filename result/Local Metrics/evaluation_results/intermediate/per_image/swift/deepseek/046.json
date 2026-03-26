@@ -1,0 +1,180 @@
+{
+  "image_id": "046",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.46323540233855914,
+    "size": 0.5179144035056693,
+    "color": 0.4558289051055908
+  },
+  "text_scores": {
+    "ref_count": 12,
+    "gen_count": 7,
+    "matched": 5,
+    "similarity": 0.8385531135531135,
+    "coverage": 0.4166666666666667,
+    "overall": 0.8385531135531135
+  },
+  "details": {
+    "image_id": "046",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\046.png",
+    "gen_path": "swift_post\\deepseek\\046.png",
+    "ui_evaluation": {
+      "ref_blocks": 31,
+      "gen_blocks": 19,
+      "matched_pairs": 19,
+      "position_score": 0.46323540233855914,
+      "size_score": 0.5179144035056693,
+      "color_score": 0.4558289051055908
+    },
+    "text_evaluation": {
+      "ref_texts": 12,
+      "gen_texts": 7,
+      "matched_pairs": 5,
+      "text_score": 0.8385531135531135,
+      "coverage": 0.4166666666666667,
+      "overall_score": 0.8385531135531135,
+      "ref_text_list": [
+        {
+          "text": "Coupon Pack",
+          "x": 194,
+          "y": 36,
+          "w": 364,
+          "h": 74
+        },
+        {
+          "text": "Nearby Packs",
+          "x": 30,
+          "y": 132,
+          "w": 260,
+          "h": 52
+        },
+        {
+          "text": "B",
+          "x": 581,
+          "y": 247,
+          "w": 20,
+          "h": 22
+        },
+        {
+          "text": "Your Coupon Packs",
+          "x": 28,
+          "y": 629,
+          "w": 366,
+          "h": 55
+        },
+        {
+          "text": "Grocery Pack",
+          "x": 112,
+          "y": 821,
+          "w": 209,
+          "h": 42
+        },
+        {
+          "text": "Cafe Bundle",
+          "x": 545,
+          "y": 823,
+          "w": 182,
+          "h": 36
+        },
+        {
+          "text": "-S5",
+          "x": 69,
+          "y": 879,
+          "w": 106,
+          "h": 62
+        },
+        {
+          "text": "-15%",
+          "x": 500,
+          "y": 882,
+          "w": 148,
+          "h": 56
+        },
+        {
+          "text": "Redeem",
+          "x": 192,
+          "y": 984,
+          "w": 100,
+          "h": 30
+        },
+        {
+          "text": "Redeem",
+          "x": 622,
+          "y": 984,
+          "w": 100,
+          "h": 30
+        },
+        {
+          "text": "My Coupons",
+          "x": 103,
+          "y": 1264,
+          "w": 192,
+          "h": 45
+        },
+        {
+          "text": "Explore More",
+          "x": 453,
+          "y": 1265,
+          "w": 204,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "CouponPPack",
+          "x": 24,
+          "y": 27,
+          "w": 625,
+          "h": 127
+        },
+        {
+          "text": "A",
+          "x": 286,
+          "y": 292,
+          "w": 24,
+          "h": 26
+        },
+        {
+          "text": "B",
+          "x": 376,
+          "y": 290,
+          "w": 28,
+          "h": 30
+        },
+        {
+          "text": "Your Coupon Packs",
+          "x": 132,
+          "y": 520,
+          "w": 457,
+          "h": 69
+        },
+        {
+          "text": "ctitle",
+          "x": 131,
+          "y": 651,
+          "w": 92,
+          "h": 36
+        },
+        {
+          "text": "cvalue",
+          "x": 58,
+          "y": 720,
+          "w": 328,
+          "h": 98
+        },
+        {
+          "text": "Redeem",
+          "x": 176,
+          "y": 865,
+          "w": 113,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

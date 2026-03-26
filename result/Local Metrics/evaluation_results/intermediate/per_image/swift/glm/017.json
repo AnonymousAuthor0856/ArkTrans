@@ -1,0 +1,152 @@
+{
+  "image_id": "017",
+  "language": "swift",
+  "llm_name": "glm",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6889389371637085,
+    "size": 0.8115933220048451,
+    "color": 0.8485891222953796
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 9,
+    "matched": 5,
+    "similarity": 0.8671428571428571,
+    "coverage": 0.8333333333333334,
+    "overall": 0.8671428571428571
+  },
+  "details": {
+    "image_id": "017",
+    "language": "swift",
+    "llm_name": "glm",
+    "ref_path": "suc\\swift_img\\017.png",
+    "gen_path": "swift_post\\glm\\017.png",
+    "ui_evaluation": {
+      "ref_blocks": 27,
+      "gen_blocks": 34,
+      "matched_pairs": 27,
+      "position_score": 0.6889389371637085,
+      "size_score": 0.8115933220048451,
+      "color_score": 0.8485891222953796
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 9,
+      "matched_pairs": 5,
+      "text_score": 0.8671428571428571,
+      "coverage": 0.8333333333333334,
+      "overall_score": 0.8671428571428571,
+      "ref_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 121,
+          "y": 35,
+          "w": 514,
+          "h": 60
+        },
+        {
+          "text": "Bass 40",
+          "x": 30,
+          "y": 348,
+          "w": 126,
+          "h": 28
+        },
+        {
+          "text": "Mid 50%",
+          "x": 30,
+          "y": 482,
+          "w": 112,
+          "h": 30
+        },
+        {
+          "text": "Treble 60%",
+          "x": 30,
+          "y": 616,
+          "w": 144,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 70%",
+          "x": 31,
+          "y": 857,
+          "w": 304,
+          "h": 36
+        },
+        {
+          "text": "Apply Settings",
+          "x": 262,
+          "y": 1044,
+          "w": 229,
+          "h": 50
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Audio Mixer Terminal",
+          "x": 112,
+          "y": 36,
+          "w": 504,
+          "h": 56
+        },
+        {
+          "text": "Bass",
+          "x": 22,
+          "y": 178,
+          "w": 66,
+          "h": 30
+        },
+        {
+          "text": "50",
+          "x": 614,
+          "y": 178,
+          "w": 38,
+          "h": 30
+        },
+        {
+          "text": "Mid",
+          "x": 22,
+          "y": 282,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "50",
+          "x": 614,
+          "y": 282,
+          "w": 38,
+          "h": 30
+        },
+        {
+          "text": "Treble",
+          "x": 20,
+          "y": 382,
+          "w": 87,
+          "h": 37
+        },
+        {
+          "text": "50",
+          "x": 614,
+          "y": 386,
+          "w": 38,
+          "h": 30
+        },
+        {
+          "text": "Master Volume 75%",
+          "x": 21,
+          "y": 548,
+          "w": 296,
+          "h": 37
+        },
+        {
+          "text": "Reset",
+          "x": 317,
+          "y": 745,
+          "w": 90,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

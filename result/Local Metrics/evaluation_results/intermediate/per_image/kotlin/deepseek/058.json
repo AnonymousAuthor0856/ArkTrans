@@ -1,0 +1,152 @@
+{
+  "image_id": "058",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5168828641249437,
+    "size": 0.36019449579024315,
+    "color": 0.34375011920928955
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 9,
+    "matched": 1,
+    "similarity": 1.0,
+    "coverage": 0.16666666666666666,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "058",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\058.png",
+    "gen_path": "kt_post\\deepseek\\058.png",
+    "ui_evaluation": {
+      "ref_blocks": 9,
+      "gen_blocks": 16,
+      "matched_pairs": 9,
+      "position_score": 0.5168828641249437,
+      "size_score": 0.36019449579024315,
+      "color_score": 0.34375011920928955
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 9,
+      "matched_pairs": 1,
+      "text_score": 1.0,
+      "coverage": 0.16666666666666666,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 161,
+          "y": 23,
+          "w": 401,
+          "h": 87
+        },
+        {
+          "text": "Overview",
+          "x": 60,
+          "y": 162,
+          "w": 122,
+          "h": 32
+        },
+        {
+          "text": "Ranking",
+          "x": 303,
+          "y": 157,
+          "w": 115,
+          "h": 42
+        },
+        {
+          "text": "Stats",
+          "x": 563,
+          "y": 160,
+          "w": 77,
+          "h": 37
+        },
+        {
+          "text": "Today's Steps: 8452",
+          "x": 174,
+          "y": 258,
+          "w": 372,
+          "h": 55
+        },
+        {
+          "text": "Sync Device",
+          "x": 269,
+          "y": 415,
+          "w": 183,
+          "h": 42
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Step Challenge",
+          "x": 114,
+          "y": 21,
+          "w": 489,
+          "h": 100
+        },
+        {
+          "text": "fTodayl",
+          "x": 81,
+          "y": 165,
+          "w": 87,
+          "h": 43
+        },
+        {
+          "text": "Week",
+          "x": 324,
+          "y": 170,
+          "w": 78,
+          "h": 32
+        },
+        {
+          "text": "Month",
+          "x": 554,
+          "y": 170,
+          "w": 88,
+          "h": 32
+        },
+        {
+          "text": "8,542",
+          "x": 222,
+          "y": 346,
+          "w": 277,
+          "h": 117
+        },
+        {
+          "text": "Goal",
+          "x": 160,
+          "y": 591,
+          "w": 58,
+          "h": 30
+        },
+        {
+          "text": "Calories",
+          "x": 481,
+          "y": 591,
+          "w": 95,
+          "h": 31
+        },
+        {
+          "text": "10,000",
+          "x": 137,
+          "y": 631,
+          "w": 110,
+          "h": 40
+        },
+        {
+          "text": "412",
+          "x": 500,
+          "y": 632,
+          "w": 62,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

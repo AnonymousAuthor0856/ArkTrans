@@ -1,0 +1,243 @@
+{
+  "image_id": "060",
+  "language": "swift",
+  "llm_name": "swift-nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2787502644128664,
+    "size": 0.1754435055738909,
+    "color": 0.24753443896770477
+  },
+  "text_scores": {
+    "ref_count": 16,
+    "gen_count": 12,
+    "matched": 9,
+    "similarity": 0.8962962962962963,
+    "coverage": 0.5625,
+    "overall": 0.8962962962962963
+  },
+  "details": {
+    "image_id": "060",
+    "language": "swift",
+    "llm_name": "swift-nocolor",
+    "ref_path": "suc\\swift_img\\060.png",
+    "gen_path": "swift_ablation\\swift-nocolor\\060.png",
+    "ui_evaluation": {
+      "ref_blocks": 29,
+      "gen_blocks": 18,
+      "matched_pairs": 18,
+      "position_score": 0.2787502644128664,
+      "size_score": 0.1754435055738909,
+      "color_score": 0.24753443896770477
+    },
+    "text_evaluation": {
+      "ref_texts": 16,
+      "gen_texts": 12,
+      "matched_pairs": 9,
+      "text_score": 0.8962962962962963,
+      "coverage": 0.5625,
+      "overall_score": 0.8962962962962963,
+      "ref_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 208,
+          "y": 32,
+          "w": 336,
+          "h": 50
+        },
+        {
+          "text": "Unit Map Visualization",
+          "x": 182,
+          "y": 198,
+          "w": 384,
+          "h": 51
+        },
+        {
+          "text": "Active Unit: Length",
+          "x": 266,
+          "y": 264,
+          "w": 220,
+          "h": 32
+        },
+        {
+          "text": "Length",
+          "x": 44,
+          "y": 453,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 494,
+          "w": 170,
+          "h": 30
+        },
+        {
+          "text": "Weight",
+          "x": 46,
+          "y": 638,
+          "w": 126,
+          "h": 48
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 682,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Temperature",
+          "x": 45,
+          "y": 829,
+          "w": 224,
+          "h": 44
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 870,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Speed",
+          "x": 41,
+          "y": 1013,
+          "w": 119,
+          "h": 50
+        },
+        {
+          "text": "Tap to convert",
+          "x": 44,
+          "y": 1058,
+          "w": 170,
+          "h": 31
+        },
+        {
+          "text": "Length",
+          "x": 61,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Weight",
+          "x": 239,
+          "y": 1241,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Temper",
+          "x": 413,
+          "y": 1222,
+          "w": 110,
+          "h": 41
+        },
+        {
+          "text": "Speed",
+          "x": 596,
+          "y": 1240,
+          "w": 93,
+          "h": 38
+        },
+        {
+          "text": "ature",
+          "x": 414,
+          "y": 1260,
+          "w": 76,
+          "h": 30
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Unit Converter",
+          "x": 28,
+          "y": 33,
+          "w": 340,
+          "h": 54
+        },
+        {
+          "text": "Area",
+          "x": 360,
+          "y": 266,
+          "w": 64,
+          "h": 30
+        },
+        {
+          "text": "Length:",
+          "x": 213,
+          "y": 509,
+          "w": 108,
+          "h": 38
+        },
+        {
+          "text": "to convert",
+          "x": 370,
+          "y": 511,
+          "w": 138,
+          "h": 27
+        },
+        {
+          "text": "a unit below to convert",
+          "x": 244,
+          "y": 620,
+          "w": 282,
+          "h": 32
+        },
+        {
+          "text": "Length",
+          "x": 53,
+          "y": 785,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Weight",
+          "x": 209,
+          "y": 783,
+          "w": 100,
+          "h": 40
+        },
+        {
+          "text": "Speed",
+          "x": 495,
+          "y": 783,
+          "w": 90,
+          "h": 40
+        },
+        {
+          "text": "Map",
+          "x": 293,
+          "y": 261,
+          "w": 70,
+          "h": 42
+        },
+        {
+          "text": "Tap",
+          "x": 314,
+          "y": 507,
+          "w": 58,
+          "h": 39
+        },
+        {
+          "text": "Tap",
+          "x": 190,
+          "y": 617,
+          "w": 59,
+          "h": 42
+        },
+        {
+          "text": "Temp",
+          "x": 359,
+          "y": 780,
+          "w": 84,
+          "h": 44
+        }
+      ]
+    }
+  }
+}

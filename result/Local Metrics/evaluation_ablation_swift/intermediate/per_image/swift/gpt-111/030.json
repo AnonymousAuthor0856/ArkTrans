@@ -1,0 +1,208 @@
+{
+  "image_id": "030",
+  "language": "swift",
+  "llm_name": "gpt-111",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.2243438160847482,
+    "size": 0.23834049695926232,
+    "color": 0.20359723269939423
+  },
+  "text_scores": {
+    "ref_count": 21,
+    "gen_count": 2,
+    "matched": 2,
+    "similarity": 1.0,
+    "coverage": 0.09523809523809523,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "030",
+    "language": "swift",
+    "llm_name": "gpt-111",
+    "ref_path": "suc\\swift_img\\030.png",
+    "gen_path": "swift_ablation\\gpt-111\\030.png",
+    "ui_evaluation": {
+      "ref_blocks": 59,
+      "gen_blocks": 5,
+      "matched_pairs": 5,
+      "position_score": 0.2243438160847482,
+      "size_score": 0.23834049695926232,
+      "color_score": 0.20359723269939423
+    },
+    "text_evaluation": {
+      "ref_texts": 21,
+      "gen_texts": 2,
+      "matched_pairs": 2,
+      "text_score": 1.0,
+      "coverage": 0.09523809523809523,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Clipboard History",
+          "x": 126,
+          "y": 29,
+          "w": 356,
+          "h": 61
+        },
+        {
+          "text": "Clear",
+          "x": 630,
+          "y": 42,
+          "w": 76,
+          "h": 30
+        },
+        {
+          "text": "Link",
+          "x": 118,
+          "y": 168,
+          "w": 64,
+          "h": 32
+        },
+        {
+          "text": "5 min ago",
+          "x": 561,
+          "y": 169,
+          "w": 138,
+          "h": 36
+        },
+        {
+          "text": "https:Ilwwwexample.com/modern-design",
+          "x": 53,
+          "y": 225,
+          "w": 614,
+          "h": 42
+        },
+        {
+          "text": "Text",
+          "x": 118,
+          "y": 376,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "23 min ago",
+          "x": 545,
+          "y": 375,
+          "w": 154,
+          "h": 38
+        },
+        {
+          "text": "Final project review notes have",
+          "x": 53,
+          "y": 428,
+          "w": 454,
+          "h": 45
+        },
+        {
+          "text": "been",
+          "x": 56,
+          "y": 474,
+          "w": 76,
+          "h": 32
+        },
+        {
+          "text": "updated:",
+          "x": 130,
+          "y": 465,
+          "w": 143,
+          "h": 51
+        },
+        {
+          "text": "Color",
+          "x": 118,
+          "y": 622,
+          "w": 82,
+          "h": 30
+        },
+        {
+          "text": "hour ago",
+          "x": 573,
+          "y": 621,
+          "w": 126,
+          "h": 36
+        },
+        {
+          "text": "#OOZBFF",
+          "x": 52,
+          "y": 679,
+          "w": 137,
+          "h": 32
+        },
+        {
+          "text": "Text",
+          "x": 118,
+          "y": 828,
+          "w": 66,
+          "h": 32
+        },
+        {
+          "text": "3 hours ago",
+          "x": 535,
+          "y": 827,
+          "w": 162,
+          "h": 36
+        },
+        {
+          "text": "Meeting at 3 PM with the design team:",
+          "x": 53,
+          "y": 881,
+          "w": 560,
+          "h": 44
+        },
+        {
+          "text": "File",
+          "x": 118,
+          "y": 1036,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "Yesterday",
+          "x": 558,
+          "y": 1032,
+          "w": 139,
+          "h": 39
+        },
+        {
+          "text": "Shared file: 'Q3_Report pdf'",
+          "x": 53,
+          "y": 1090,
+          "w": 414,
+          "h": 44
+        },
+        {
+          "text": "History Limit (Hours)",
+          "x": 27,
+          "y": 1185,
+          "w": 284,
+          "h": 43
+        },
+        {
+          "text": "24",
+          "x": 676,
+          "y": 1188,
+          "w": 44,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Clipboard History",
+          "x": 126,
+          "y": 32,
+          "w": 306,
+          "h": 53
+        },
+        {
+          "text": "Clear",
+          "x": 568,
+          "y": 40,
+          "w": 76,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

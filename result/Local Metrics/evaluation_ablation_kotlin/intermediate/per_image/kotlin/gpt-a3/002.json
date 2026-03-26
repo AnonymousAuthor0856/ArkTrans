@@ -1,0 +1,257 @@
+{
+  "image_id": "002",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7090836414097387,
+    "size": 0.9035788031073677,
+    "color": 0.7636900544166565
+  },
+  "text_scores": {
+    "ref_count": 15,
+    "gen_count": 15,
+    "matched": 11,
+    "similarity": 0.9541501976284585,
+    "coverage": 0.7333333333333333,
+    "overall": 0.9541501976284585
+  },
+  "details": {
+    "image_id": "002",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\002.png",
+    "gen_path": "kt_ablation\\gpt-a3\\002.png",
+    "ui_evaluation": {
+      "ref_blocks": 21,
+      "gen_blocks": 35,
+      "matched_pairs": 21,
+      "position_score": 0.7090836414097387,
+      "size_score": 0.9035788031073677,
+      "color_score": 0.7636900544166565
+    },
+    "text_evaluation": {
+      "ref_texts": 15,
+      "gen_texts": 15,
+      "matched_pairs": 11,
+      "text_score": 0.9541501976284585,
+      "coverage": 0.7333333333333333,
+      "overall_score": 0.9541501976284585,
+      "ref_text_list": [
+        {
+          "text": "Sign in",
+          "x": 286,
+          "y": 88,
+          "w": 146,
+          "h": 56
+        },
+        {
+          "text": "Welcome back",
+          "x": 47,
+          "y": 217,
+          "w": 216,
+          "h": 36
+        },
+        {
+          "text": "Email",
+          "x": 46,
+          "y": 270,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "text": "Password",
+          "x": 46,
+          "y": 430,
+          "w": 94,
+          "h": 24
+        },
+        {
+          "text": "Forgot password?",
+          "x": 43,
+          "y": 597,
+          "w": 165,
+          "h": 28
+        },
+        {
+          "text": "Create account",
+          "x": 532,
+          "y": 598,
+          "w": 144,
+          "h": 24
+        },
+        {
+          "text": "Sign in",
+          "x": 313,
+          "y": 667,
+          "w": 94,
+          "h": 36
+        },
+        {
+          "text": "Or continue with",
+          "x": 284,
+          "y": 766,
+          "w": 152,
+          "h": 24
+        },
+        {
+          "text": "Continue with Apple",
+          "x": 231,
+          "y": 831,
+          "w": 262,
+          "h": 38
+        },
+        {
+          "text": "Continue with Google",
+          "x": 223,
+          "y": 919,
+          "w": 278,
+          "h": 38
+        },
+        {
+          "text": "Continue with GitHub",
+          "x": 224,
+          "y": 1006,
+          "w": 274,
+          "h": 32
+        },
+        {
+          "text": "By continuing you agree to the Terms and Privacy Policy",
+          "x": 108,
+          "y": 1084,
+          "w": 504,
+          "h": 28
+        },
+        {
+          "text": "Need help?",
+          "x": 47,
+          "y": 1200,
+          "w": 148,
+          "h": 40
+        },
+        {
+          "text": "Contact support@example.com",
+          "x": 45,
+          "y": 1239,
+          "w": 345,
+          "h": 29
+        },
+        {
+          "text": "Support",
+          "x": 518,
+          "y": 1218,
+          "w": 113,
+          "h": 40
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Welcomeiciin",
+          "x": 44,
+          "y": 16,
+          "w": 419,
+          "h": 93
+        },
+        {
+          "text": "Email",
+          "x": 48,
+          "y": 124,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "email",
+          "x": 324,
+          "y": 194,
+          "w": 74,
+          "h": 28
+        },
+        {
+          "text": "Password",
+          "x": 48,
+          "y": 264,
+          "w": 110,
+          "h": 26
+        },
+        {
+          "text": "password",
+          "x": 294,
+          "y": 332,
+          "w": 131,
+          "h": 37
+        },
+        {
+          "text": "Forgot password?",
+          "x": 46,
+          "y": 409,
+          "w": 207,
+          "h": 37
+        },
+        {
+          "text": "Create account",
+          "x": 498,
+          "y": 412,
+          "w": 174,
+          "h": 28
+        },
+        {
+          "text": "in",
+          "x": 379,
+          "y": 483,
+          "w": 36,
+          "h": 36
+        },
+        {
+          "text": "Or continue with",
+          "x": 264,
+          "y": 584,
+          "w": 192,
+          "h": 30
+        },
+        {
+          "text": "it label",
+          "x": 305,
+          "y": 651,
+          "w": 110,
+          "h": 38
+        },
+        {
+          "text": "By continuing you agree to the Terms and Privacy Policy",
+          "x": 21,
+          "y": 727,
+          "w": 631,
+          "h": 41
+        },
+        {
+          "text": "Need help?",
+          "x": 47,
+          "y": 851,
+          "w": 172,
+          "h": 42
+        },
+        {
+          "text": "Contact support@example.com",
+          "x": 45,
+          "y": 889,
+          "w": 408,
+          "h": 42
+        },
+        {
+          "text": "Support",
+          "x": 522,
+          "y": 870,
+          "w": 131,
+          "h": 44
+        },
+        {
+          "text": "Sign",
+          "x": 299,
+          "y": 476,
+          "w": 85,
+          "h": 54
+        }
+      ]
+    }
+  }
+}

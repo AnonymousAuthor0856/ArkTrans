@@ -1,0 +1,22 @@
+# Core dependencies
+openai
+python-dotenv
+
+# AST parsing
+tree-sitter
+tree_sitter_kotlin>=1.1.0
+tree-sitter-swift>=0.0.1
+
+# Evaluation
+opencv-python
+Pillow
+easyocr
+
+# Evaluation - ML
+torch
+transformers
+numpy
+scipy
+
+# Data processing
+pandas

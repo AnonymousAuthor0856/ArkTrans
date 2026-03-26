@@ -1,0 +1,131 @@
+{
+  "image_id": "016",
+  "language": "swift",
+  "llm_name": "kimi-turbo",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.8807305135292658,
+    "size": 0.9305368501070673,
+    "color": 0.8029521703720093
+  },
+  "text_scores": {
+    "ref_count": 6,
+    "gen_count": 6,
+    "matched": 6,
+    "similarity": 0.9979423868312757,
+    "coverage": 1.0,
+    "overall": 0.9979423868312757
+  },
+  "details": {
+    "image_id": "016",
+    "language": "swift",
+    "llm_name": "kimi-turbo",
+    "ref_path": "suc\\swift_img\\016.png",
+    "gen_path": "swift_post\\kimi-turbo\\016.png",
+    "ui_evaluation": {
+      "ref_blocks": 20,
+      "gen_blocks": 21,
+      "matched_pairs": 20,
+      "position_score": 0.8807305135292658,
+      "size_score": 0.9305368501070673,
+      "color_score": 0.8029521703720093
+    },
+    "text_evaluation": {
+      "ref_texts": 6,
+      "gen_texts": 6,
+      "matched_pairs": 6,
+      "text_score": 0.9979423868312757,
+      "coverage": 1.0,
+      "overall_score": 0.9979423868312757,
+      "ref_text_list": [
+        {
+          "text": "Neon Recorder",
+          "x": 180,
+          "y": 40,
+          "w": 398,
+          "h": 56
+        },
+        {
+          "text": "Recording name",
+          "x": 28,
+          "y": 159,
+          "w": 195,
+          "h": 36
+        },
+        {
+          "text": "Press Record",
+          "x": 263,
+          "y": 507,
+          "w": 226,
+          "h": 38
+        },
+        {
+          "text": "Record",
+          "x": 168,
+          "y": 789,
+          "w": 124,
+          "h": 40
+        },
+        {
+          "text": "Reset",
+          "x": 511,
+          "y": 791,
+          "w": 100,
+          "h": 38
+        },
+        {
+          "text": "Output Path: Istoragelrecordings/untitled mp3",
+          "x": 29,
+          "y": 991,
+          "w": 604,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Neon Recorder",
+          "x": 163,
+          "y": 27,
+          "w": 402,
+          "h": 62
+        },
+        {
+          "text": "Recording name",
+          "x": 17,
+          "y": 131,
+          "w": 190,
+          "h": 40
+        },
+        {
+          "text": "Press Record",
+          "x": 249,
+          "y": 467,
+          "w": 223,
+          "h": 38
+        },
+        {
+          "text": "Record",
+          "x": 152,
+          "y": 740,
+          "w": 126,
+          "h": 40
+        },
+        {
+          "text": "Reset",
+          "x": 495,
+          "y": 743,
+          "w": 102,
+          "h": 38
+        },
+        {
+          "text": "Output Path: Istoragelrecordingsluntitled.mp3",
+          "x": 21,
+          "y": 907,
+          "w": 602,
+          "h": 45
+        }
+      ]
+    }
+  }
+}

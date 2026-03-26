@@ -1,0 +1,96 @@
+{
+  "image_id": "039",
+  "language": "kotlin",
+  "llm_name": "gpt_nocolor",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.34139083186304264,
+    "size": 0.3693545357230049,
+    "color": 0.2172974944114685
+  },
+  "text_scores": {
+    "ref_count": 3,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "039",
+    "language": "kotlin",
+    "llm_name": "gpt_nocolor",
+    "ref_path": "suc\\kotlin_img\\039.png",
+    "gen_path": "kt_ablation\\gpt_nocolor\\039.png",
+    "ui_evaluation": {
+      "ref_blocks": 16,
+      "gen_blocks": 13,
+      "matched_pairs": 13,
+      "position_score": 0.34139083186304264,
+      "size_score": 0.3693545357230049,
+      "color_score": 0.2172974944114685
+    },
+    "text_evaluation": {
+      "ref_texts": 3,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 151,
+          "y": 35,
+          "w": 422,
+          "h": 60
+        },
+        {
+          "text": "Payment Progress",
+          "x": 205,
+          "y": 671,
+          "w": 309,
+          "h": 50
+        },
+        {
+          "text": "Reset Progress",
+          "x": 232,
+          "y": 948,
+          "w": 256,
+          "h": 49
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Installment Plan",
+          "x": 98,
+          "y": 29,
+          "w": 381,
+          "h": 54
+        },
+        {
+          "text": "Canvas Placeholder",
+          "x": 213,
+          "y": 253,
+          "w": 296,
+          "h": 43
+        },
+        {
+          "text": "Payment Progress",
+          "x": 205,
+          "y": 545,
+          "w": 313,
+          "h": 50
+        },
+        {
+          "text": "Reset Progress",
+          "x": 232,
+          "y": 805,
+          "w": 260,
+          "h": 53
+        }
+      ]
+    }
+  }
+}

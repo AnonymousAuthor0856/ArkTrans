@@ -1,0 +1,103 @@
+{
+  "image_id": "023",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.7218360908622549,
+    "size": 0.9439470282966738,
+    "color": 0.8290859460830688
+  },
+  "text_scores": {
+    "ref_count": 4,
+    "gen_count": 4,
+    "matched": 4,
+    "similarity": 1.0,
+    "coverage": 1.0,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "023",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\023.png",
+    "gen_path": "swift_post\\deepseek\\023.png",
+    "ui_evaluation": {
+      "ref_blocks": 11,
+      "gen_blocks": 10,
+      "matched_pairs": 10,
+      "position_score": 0.7218360908622549,
+      "size_score": 0.9439470282966738,
+      "color_score": 0.8290859460830688
+    },
+    "text_evaluation": {
+      "ref_texts": 4,
+      "gen_texts": 4,
+      "matched_pairs": 4,
+      "text_score": 1.0,
+      "coverage": 1.0,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Pomodoro Timer",
+          "x": 143,
+          "y": 165,
+          "w": 470,
+          "h": 62
+        },
+        {
+          "text": "Focus Mode OFF",
+          "x": 221,
+          "y": 899,
+          "w": 310,
+          "h": 42
+        },
+        {
+          "text": "Start",
+          "x": 234,
+          "y": 1068,
+          "w": 72,
+          "h": 32
+        },
+        {
+          "text": "Stop",
+          "x": 447,
+          "y": 1065,
+          "w": 69,
+          "h": 39
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Pomodoro Timer",
+          "x": 105,
+          "y": 53,
+          "w": 516,
+          "h": 66
+        },
+        {
+          "text": "Focus Mode OFF",
+          "x": 233,
+          "y": 641,
+          "w": 256,
+          "h": 36
+        },
+        {
+          "text": "Start",
+          "x": 216,
+          "y": 800,
+          "w": 78,
+          "h": 32
+        },
+        {
+          "text": "Stop",
+          "x": 424,
+          "y": 795,
+          "w": 83,
+          "h": 48
+        }
+      ]
+    }
+  }
+}

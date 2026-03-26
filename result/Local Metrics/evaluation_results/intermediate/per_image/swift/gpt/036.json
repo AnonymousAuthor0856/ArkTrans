@@ -1,0 +1,124 @@
+{
+  "image_id": "036",
+  "language": "swift",
+  "llm_name": "gpt",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.16452950037637798,
+    "size": 0.21031811243699503,
+    "color": 0.13800519704818726
+  },
+  "text_scores": {
+    "ref_count": 7,
+    "gen_count": 4,
+    "matched": 3,
+    "similarity": 1.0,
+    "coverage": 0.42857142857142855,
+    "overall": 1.0
+  },
+  "details": {
+    "image_id": "036",
+    "language": "swift",
+    "llm_name": "gpt",
+    "ref_path": "suc\\swift_img\\036.png",
+    "gen_path": "swift_post\\gpt\\036.png",
+    "ui_evaluation": {
+      "ref_blocks": 13,
+      "gen_blocks": 12,
+      "matched_pairs": 12,
+      "position_score": 0.16452950037637798,
+      "size_score": 0.21031811243699503,
+      "color_score": 0.13800519704818726
+    },
+    "text_evaluation": {
+      "ref_texts": 7,
+      "gen_texts": 4,
+      "matched_pairs": 3,
+      "text_score": 1.0,
+      "coverage": 0.42857142857142855,
+      "overall_score": 1.0,
+      "ref_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 180,
+          "y": 38,
+          "w": 390,
+          "h": 68
+        },
+        {
+          "text": "BTC",
+          "x": 166,
+          "y": 334,
+          "w": 54,
+          "h": 30
+        },
+        {
+          "text": "ETH",
+          "x": 286,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "SOL",
+          "x": 408,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "ADA",
+          "x": 530,
+          "y": 336,
+          "w": 52,
+          "h": 26
+        },
+        {
+          "text": "Price Variation",
+          "x": 251,
+          "y": 963,
+          "w": 248,
+          "h": 42
+        },
+        {
+          "text": "Auto Update",
+          "x": 31,
+          "y": 1101,
+          "w": 168,
+          "h": 38
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Crypto Market",
+          "x": 155,
+          "y": 23,
+          "w": 411,
+          "h": 79
+        },
+        {
+          "text": "Price Variation",
+          "x": 29,
+          "y": 683,
+          "w": 248,
+          "h": 38
+        },
+        {
+          "text": "Auto Update",
+          "x": 31,
+          "y": 819,
+          "w": 194,
+          "h": 42
+        },
+        {
+          "text": "Off",
+          "x": 622,
+          "y": 818,
+          "w": 48,
+          "h": 32
+        }
+      ]
+    }
+  }
+}

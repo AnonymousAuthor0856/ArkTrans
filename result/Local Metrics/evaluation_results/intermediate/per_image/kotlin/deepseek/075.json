@@ -1,0 +1,425 @@
+{
+  "image_id": "075",
+  "language": "kotlin",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.6430844132913441,
+    "size": 0.8664927814302688,
+    "color": 0.748663067817688
+  },
+  "text_scores": {
+    "ref_count": 32,
+    "gen_count": 22,
+    "matched": 15,
+    "similarity": 0.783267458727368,
+    "coverage": 0.46875,
+    "overall": 0.783267458727368
+  },
+  "details": {
+    "image_id": "075",
+    "language": "kotlin",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\kotlin_img\\075.png",
+    "gen_path": "kt_post\\deepseek\\075.png",
+    "ui_evaluation": {
+      "ref_blocks": 46,
+      "gen_blocks": 49,
+      "matched_pairs": 46,
+      "position_score": 0.6430844132913441,
+      "size_score": 0.8664927814302688,
+      "color_score": 0.748663067817688
+    },
+    "text_evaluation": {
+      "ref_texts": 32,
+      "gen_texts": 22,
+      "matched_pairs": 15,
+      "text_score": 0.783267458727368,
+      "coverage": 0.46875,
+      "overall_score": 0.783267458727368,
+      "ref_text_list": [
+        {
+          "text": "Back",
+          "x": 38,
+          "y": 50,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Study Focus Split",
+          "x": 214,
+          "y": 42,
+          "w": 294,
+          "h": 48
+        },
+        {
+          "text": "Share",
+          "x": 620,
+          "y": 50,
+          "w": 68,
+          "h": 26
+        },
+        {
+          "text": "Clay",
+          "x": 58,
+          "y": 169,
+          "w": 61,
+          "h": 37
+        },
+        {
+          "text": "Material",
+          "x": 226,
+          "y": 188,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "Morph",
+          "x": 392,
+          "y": 188,
+          "w": 74,
+          "h": 30
+        },
+        {
+          "text": "Studio",
+          "x": 552,
+          "y": 188,
+          "w": 76,
+          "h": 26
+        },
+        {
+          "text": "Resonan",
+          "x": 62,
+          "y": 204,
+          "w": 98,
+          "h": 26
+        },
+        {
+          "text": "Memory",
+          "x": 225,
+          "y": 218,
+          "w": 95,
+          "h": 32
+        },
+        {
+          "text": "Lab",
+          "x": 390,
+          "y": 222,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "Review",
+          "x": 554,
+          "y": 220,
+          "w": 82,
+          "h": 26
+        },
+        {
+          "text": "ce",
+          "x": 61,
+          "y": 241,
+          "w": 32,
+          "h": 20
+        },
+        {
+          "text": "Clay Resonance",
+          "x": 57,
+          "y": 371,
+          "w": 332,
+          "h": 62
+        },
+        {
+          "text": "Acoustic prototypes",
+          "x": 61,
+          "y": 441,
+          "w": 258,
+          "h": 38
+        },
+        {
+          "text": "Progress",
+          "x": 61,
+          "y": 507,
+          "w": 101,
+          "h": 32
+        },
+        {
+          "text": "72%",
+          "x": 585,
+          "y": 511,
+          "w": 76,
+          "h": 36
+        },
+        {
+          "text": "Review outline",
+          "x": 110,
+          "y": 640,
+          "w": 160,
+          "h": 26
+        },
+        {
+          "text": "Focus board",
+          "x": 55,
+          "y": 811,
+          "w": 204,
+          "h": 42
+        },
+        {
+          "text": "Reflection",
+          "x": 393,
+          "y": 811,
+          "w": 170,
+          "h": 42
+        },
+        {
+          "text": "Research layering",
+          "x": 69,
+          "y": 887,
+          "w": 226,
+          "h": 38
+        },
+        {
+          "text": "Focus on tone",
+          "x": 418,
+          "y": 896,
+          "w": 180,
+          "h": 30
+        },
+        {
+          "text": "45m",
+          "x": 70,
+          "y": 928,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "shifts across",
+          "x": 418,
+          "y": 934,
+          "w": 164,
+          "h": 32
+        },
+        {
+          "text": "gradients",
+          "x": 415,
+          "y": 970,
+          "w": 127,
+          "h": 43
+        },
+        {
+          "text": "Feedback sync",
+          "x": 69,
+          "y": 1003,
+          "w": 194,
+          "h": 38
+        },
+        {
+          "text": "30m",
+          "x": 68,
+          "y": 1044,
+          "w": 54,
+          "h": 26
+        },
+        {
+          "text": "Shuffle note",
+          "x": 442,
+          "y": 1080,
+          "w": 134,
+          "h": 30
+        },
+        {
+          "text": "Practice recall",
+          "x": 69,
+          "y": 1121,
+          "w": 185,
+          "h": 31
+        },
+        {
+          "text": "Next checkpoint",
+          "x": 30,
+          "y": 1182,
+          "w": 182,
+          "h": 32
+        },
+        {
+          "text": "Launch session",
+          "x": 472,
+          "y": 1201,
+          "w": 171,
+          "h": 27
+        },
+        {
+          "text": "12.40 Studio",
+          "x": 30,
+          "y": 1220,
+          "w": 164,
+          "h": 30
+        },
+        {
+          "text": "clay",
+          "x": 579,
+          "y": 931,
+          "w": 64,
+          "h": 41
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Back",
+          "x": 45,
+          "y": 49,
+          "w": 71,
+          "h": 33
+        },
+        {
+          "text": "Study Focus Split",
+          "x": 204,
+          "y": 42,
+          "w": 302,
+          "h": 50
+        },
+        {
+          "text": "Share",
+          "x": 596,
+          "y": 48,
+          "w": 80,
+          "h": 32
+        },
+        {
+          "text": "Introduction to ArkTS",
+          "x": 148,
+          "y": 180,
+          "w": 424,
+          "h": 48
+        },
+        {
+          "text": "Learn the basics of ArkTS programming",
+          "x": 103,
+          "y": 245,
+          "w": 508,
+          "h": 40
+        },
+        {
+          "text": "language and its core concepts",
+          "x": 99,
+          "y": 276,
+          "w": 412,
+          "h": 45
+        },
+        {
+          "text": "Progress",
+          "x": 59,
+          "y": 348,
+          "w": 122,
+          "h": 41
+        },
+        {
+          "text": "75%",
+          "x": 590,
+          "y": 348,
+          "w": 70,
+          "h": 32
+        },
+        {
+          "text": "Review outline",
+          "x": 264,
+          "y": 464,
+          "w": 194,
+          "h": 32
+        },
+        {
+          "text": "Focus board",
+          "x": 87,
+          "y": 625,
+          "w": 210,
+          "h": 38
+        },
+        {
+          "text": "Reflection",
+          "x": 445,
+          "y": 609,
+          "w": 174,
+          "h": 40
+        },
+        {
+          "text": "Todays focus is",
+          "x": 425,
+          "y": 689,
+          "w": 206,
+          "h": 40
+        },
+        {
+          "text": "Complete",
+          "x": 121,
+          "y": 704,
+          "w": 132,
+          "h": 38
+        },
+        {
+          "text": "on",
+          "x": 426,
+          "y": 728,
+          "w": 38,
+          "h": 26
+        },
+        {
+          "text": "practice",
+          "x": 119,
+          "y": 735,
+          "w": 115,
+          "h": 43
+        },
+        {
+          "text": "understanding",
+          "x": 424,
+          "y": 751,
+          "w": 196,
+          "h": 44
+        },
+        {
+          "text": "exercises",
+          "x": 122,
+          "y": 772,
+          "w": 122,
+          "h": 30
+        },
+        {
+          "text": "the core",
+          "x": 424,
+          "y": 790,
+          "w": 112,
+          "h": 32
+        },
+        {
+          "text": "30 minutes",
+          "x": 126,
+          "y": 810,
+          "w": 128,
+          "h": 30
+        },
+        {
+          "text": "concepts",
+          "x": 423,
+          "y": 823,
+          "w": 126,
+          "h": 38
+        },
+        {
+          "text": "Add checkpoint",
+          "x": 87,
+          "y": 903,
+          "w": 210,
+          "h": 40
+        },
+        {
+          "text": "Shuffle note",
+          "x": 449,
+          "y": 917,
+          "w": 164,
+          "h": 36
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "image_id": "001",
+  "language": "kotlin",
+  "llm_name": "gpt-a3",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.31409668089028153,
+    "size": 0.37953346197478893,
+    "color": 0.3299003839492798
+  },
+  "text_scores": {
+    "ref_count": 28,
+    "gen_count": 12,
+    "matched": 5,
+    "similarity": 0.7345238095238095,
+    "coverage": 0.17857142857142858,
+    "overall": 0.7345238095238095
+  },
+  "details": {
+    "image_id": "001",
+    "language": "kotlin",
+    "llm_name": "gpt-a3",
+    "ref_path": "suc\\kotlin_img\\001.png",
+    "gen_path": "kt_ablation\\gpt-a3\\001.png",
+    "ui_evaluation": {
+      "ref_blocks": 36,
+      "gen_blocks": 23,
+      "matched_pairs": 23,
+      "position_score": 0.31409668089028153,
+      "size_score": 0.37953346197478893,
+      "color_score": 0.3299003839492798
+    },
+    "text_evaluation": {
+      "ref_texts": 28,
+      "gen_texts": 12,
+      "matched_pairs": 5,
+      "text_score": 0.7345238095238095,
+      "coverage": 0.17857142857142858,
+      "overall_score": 0.7345238095238095,
+      "ref_text_list": [
+        {
+          "text": "",
+          "x": 46,
+          "y": 10,
+          "w": 58,
+          "h": 26
+        },
+        {
+          "text": "Shop",
+          "x": 300,
+          "y": 84,
+          "w": 119,
+          "h": 62
+        },
+        {
+          "text": "AII",
+          "x": 48,
+          "y": 252,
+          "w": 40,
+          "h": 30
+        },
+        {
+          "text": "Snacks",
+          "x": 150,
+          "y": 252,
+          "w": 84,
+          "h": 26
+        },
+        {
+          "text": "Drinks",
+          "x": 300,
+          "y": 252,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "Fruits",
+          "x": 438,
+          "y": 252,
+          "w": 66,
+          "h": 26
+        },
+        {
+          "text": "Bakery",
+          "x": 568,
+          "y": 249,
+          "w": 81,
+          "h": 33
+        },
+        {
+          "text": "In Stock",
+          "x": 44,
+          "y": 392,
+          "w": 80,
+          "h": 24
+        },
+        {
+          "text": "Under S20",
+          "x": 190,
+          "y": 390,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Rating 4+",
+          "x": 351,
+          "y": 390,
+          "w": 91,
+          "h": 28
+        },
+        {
+          "text": "Image",
+          "x": 151,
+          "y": 599,
+          "w": 65,
+          "h": 28
+        },
+        {
+          "text": "Image",
+          "x": 503,
+          "y": 599,
+          "w": 65,
+          "h": 28
+        },
+        {
+          "text": "Product 1",
+          "x": 30,
+          "y": 750,
+          "w": 124,
+          "h": 32
+        },
+        {
+          "text": "NEW",
+          "x": 282,
+          "y": 754,
+          "w": 48,
+          "h": 24
+        },
+        {
+          "text": "Product 2",
+          "x": 382,
+          "y": 750,
+          "w": 128,
+          "h": 32
+        },
+        {
+          "text": "S14.99",
+          "x": 29,
+          "y": 793,
+          "w": 122,
+          "h": 42
+        },
+        {
+          "text": "S35.99",
+          "x": 379,
+          "y": 791,
+          "w": 124,
+          "h": 44
+        },
+        {
+          "text": "4.0",
+          "x": 58,
+          "y": 850,
+          "w": 38,
+          "h": 24
+        },
+        {
+          "text": "rating",
+          "x": 91,
+          "y": 843,
+          "w": 75,
+          "h": 39
+        },
+        {
+          "text": "4.9",
+          "x": 408,
+          "y": 850,
+          "w": 38,
+          "h": 24
+        },
+        {
+          "text": "rating",
+          "x": 443,
+          "y": 843,
+          "w": 75,
+          "h": 39
+        },
+        {
+          "text": "Add to Cart",
+          "x": 112,
+          "y": 914,
+          "w": 150,
+          "h": 30
+        },
+        {
+          "text": "Add to Cart",
+          "x": 464,
+          "y": 914,
+          "w": 150,
+          "h": 30
+        },
+        {
+          "text": "Image",
+          "x": 151,
+          "y": 1131,
+          "w": 65,
+          "h": 28
+        },
+        {
+          "text": "Image",
+          "x": 503,
+          "y": 1131,
+          "w": 63,
+          "h": 27
+        },
+        {
+          "text": "Subtotal",
+          "x": 12,
+          "y": 1188,
+          "w": 82,
+          "h": 24
+        },
+        {
+          "text": "S129.96",
+          "x": 11,
+          "y": 1215,
+          "w": 146,
+          "h": 44
+        },
+        {
+          "text": "Checkout",
+          "x": 502,
+          "y": 1210,
+          "w": 128,
+          "h": 32
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "Categories",
+          "x": 13,
+          "y": 111,
+          "w": 170,
+          "h": 38
+        },
+        {
+          "text": "View all",
+          "x": 596,
+          "y": 114,
+          "w": 92,
+          "h": 26
+        },
+        {
+          "text": "Welcome back",
+          "x": 362,
+          "y": 180,
+          "w": 192,
+          "h": 32
+        },
+        {
+          "text": "Today's picks",
+          "x": 351,
+          "y": 211,
+          "w": 211,
+          "h": 50
+        },
+        {
+          "text": "Enter promo code",
+          "x": 53,
+          "y": 303,
+          "w": 272,
+          "h": 43
+        },
+        {
+          "text": "Beauty",
+          "x": 206,
+          "y": 390,
+          "w": 101,
+          "h": 39
+        },
+        {
+          "text": "Home",
+          "x": 568,
+          "y": 392,
+          "w": 82,
+          "h": 32
+        },
+        {
+          "text": "Skincare",
+          "x": 206,
+          "y": 428,
+          "w": 100,
+          "h": 26
+        },
+        {
+          "text": "Essentials",
+          "x": 552,
+          "y": 428,
+          "w": 114,
+          "h": 26
+        },
+        {
+          "text": "New arrivals",
+          "x": 114,
+          "y": 490,
+          "w": 140,
+          "h": 26
+        },
+        {
+          "text": "Best sellers",
+          "x": 472,
+          "y": 490,
+          "w": 130,
+          "h": 26
+        },
+        {
+          "text": "Shop",
+          "x": 85,
+          "y": 27,
+          "w": 114,
+          "h": 61
+        }
+      ]
+    }
+  }
+}

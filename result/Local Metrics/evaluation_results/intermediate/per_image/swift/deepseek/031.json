@@ -1,0 +1,278 @@
+{
+  "image_id": "031",
+  "language": "swift",
+  "llm_name": "deepseek",
+  "compiled": true,
+  "error_msg": "",
+  "ui_scores": {
+    "position": 0.5860232308479902,
+    "size": 0.6382559694935782,
+    "color": 0.6068090200424194
+  },
+  "text_scores": {
+    "ref_count": 20,
+    "gen_count": 13,
+    "matched": 8,
+    "similarity": 0.8486929736929737,
+    "coverage": 0.4,
+    "overall": 0.8486929736929737
+  },
+  "details": {
+    "image_id": "031",
+    "language": "swift",
+    "llm_name": "deepseek",
+    "ref_path": "suc\\swift_img\\031.png",
+    "gen_path": "swift_post\\deepseek\\031.png",
+    "ui_evaluation": {
+      "ref_blocks": 36,
+      "gen_blocks": 24,
+      "matched_pairs": 24,
+      "position_score": 0.5860232308479902,
+      "size_score": 0.6382559694935782,
+      "color_score": 0.6068090200424194
+    },
+    "text_evaluation": {
+      "ref_texts": 20,
+      "gen_texts": 13,
+      "matched_pairs": 8,
+      "text_score": 0.8486929736929737,
+      "coverage": 0.4,
+      "overall_score": 0.8486929736929737,
+      "ref_text_list": [
+        {
+          "text": "My Wallet",
+          "x": 284,
+          "y": 50,
+          "w": 185,
+          "h": 50
+        },
+        {
+          "text": "Total Balance",
+          "x": 153,
+          "y": 209,
+          "w": 202,
+          "h": 38
+        },
+        {
+          "text": "S1,145.14",
+          "x": 153,
+          "y": 268,
+          "w": 449,
+          "h": 109
+        },
+        {
+          "text": "+8234.10 today",
+          "x": 189,
+          "y": 384,
+          "w": 237,
+          "h": 44
+        },
+        {
+          "text": "Send",
+          "x": 84,
+          "y": 666,
+          "w": 68,
+          "h": 28
+        },
+        {
+          "text": "Receive",
+          "x": 240,
+          "y": 666,
+          "w": 96,
+          "h": 26
+        },
+        {
+          "text": "Add",
+          "x": 436,
+          "y": 666,
+          "w": 52,
+          "h": 28
+        },
+        {
+          "text": "More",
+          "x": 602,
+          "y": 666,
+          "w": 62,
+          "h": 26
+        },
+        {
+          "text": "Recent Activity",
+          "x": 28,
+          "y": 738,
+          "w": 281,
+          "h": 57
+        },
+        {
+          "text": "View All",
+          "x": 620,
+          "y": 754,
+          "w": 100,
+          "h": 26
+        },
+        {
+          "text": "Spotify",
+          "x": 188,
+          "y": 885,
+          "w": 118,
+          "h": 40
+        },
+        {
+          "text": "-S9.99",
+          "x": 579,
+          "y": 899,
+          "w": 112,
+          "h": 38
+        },
+        {
+          "text": "Subscription",
+          "x": 190,
+          "y": 924,
+          "w": 158,
+          "h": 32
+        },
+        {
+          "text": "Income",
+          "x": 188,
+          "y": 1094,
+          "w": 121,
+          "h": 38
+        },
+        {
+          "text": "+82,500.00",
+          "x": 502,
+          "y": 1106,
+          "w": 189,
+          "h": 44
+        },
+        {
+          "text": "Monthly Salary",
+          "x": 192,
+          "y": 1129,
+          "w": 181,
+          "h": 33
+        },
+        {
+          "text": "Home",
+          "x": 64,
+          "y": 1270,
+          "w": 72,
+          "h": 26
+        },
+        {
+          "text": "Cards",
+          "x": 246,
+          "y": 1268,
+          "w": 74,
+          "h": 28
+        },
+        {
+          "text": "Activity",
+          "x": 418,
+          "y": 1265,
+          "w": 99,
+          "h": 36
+        },
+        {
+          "text": "Profile",
+          "x": 608,
+          "y": 1268,
+          "w": 82,
+          "h": 28
+        }
+      ],
+      "gen_text_list": [
+        {
+          "text": "My Wallet",
+          "x": 31,
+          "y": 38,
+          "w": 153,
+          "h": 43
+        },
+        {
+          "text": "Total Balance",
+          "x": 272,
+          "y": 144,
+          "w": 178,
+          "h": 32
+        },
+        {
+          "text": "$ 1,145.14",
+          "x": 192,
+          "y": 188,
+          "w": 339,
+          "h": 88
+        },
+        {
+          "text": "+8234.10 today",
+          "x": 291,
+          "y": 272,
+          "w": 211,
+          "h": 44
+        },
+        {
+          "text": "action label",
+          "x": 294,
+          "y": 532,
+          "w": 132,
+          "h": 28
+        },
+        {
+          "text": "Recent",
+          "x": 29,
+          "y": 611,
+          "w": 112,
+          "h": 36
+        },
+        {
+          "text": "Activity",
+          "x": 136,
+          "y": 602,
+          "w": 126,
+          "h": 53
+        },
+        {
+          "text": "View AlI",
+          "x": 598,
+          "y": 614,
+          "w": 94,
+          "h": 26
+        },
+        {
+          "text": "transactionna",
+          "x": 184,
+          "y": 722,
+          "w": 192,
+          "h": 30
+        },
+        {
+          "text": "me",
+          "x": 188,
+          "y": 760,
+          "w": 44,
+          "h": 24
+        },
+        {
+          "text": "transaction.amount",
+          "x": 406,
+          "y": 758,
+          "w": 260,
+          "h": 30
+        },
+        {
+          "text": "transaction detail",
+          "x": 182,
+          "y": 796,
+          "w": 198,
+          "h": 26
+        },
+        {
+          "text": "item lahel",
+          "x": 303,
+          "y": 1241,
+          "w": 112,
+          "h": 20
+        }
+      ]
+    }
+  }
+}
