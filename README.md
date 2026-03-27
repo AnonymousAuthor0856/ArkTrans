@@ -137,13 +137,48 @@ ArkTrans accepts UI files of source-PLs (KJC or SwiftUI) as inputs and outputs s
 
 ![](https://blogxiaozheng.oss-cn-beijing.aliyuncs.com/images/flowchart.png)
 
-**(1) Metadata Extraction (ME):** This stage parses the source UI file to extract its component hierarchies and associated properties for UI tree construction in JSON format.
+**(1) Metadata Extraction (ME):** This stage parses the source UI file to extract its component hierarchies and associated properties for UI tree construction in JSON format (see BLACKLIST in `scripts/kt2ets/tree_kt.py` and `scripts/swift2ets/tree_swift.py`).
 
 **(2) Skeleton Construction (SC):** Using the above UI tree, ArkTrans generates an ArkUI skeleton by topology with partial ArkUI code while ensuring the maximum preservation of the metadata that cannot be migrated with heuristics. A component mapping dictionary (see `scripts/kt2ets/mappings/components.json` and `scripts/swift2ets/mappings/components.json`) defines the mappable components, properties, and modifiers from source PLs (KJC/SwiftUI) to their ArkUI counterparts.
 
 **(3) LLM-driven Translation (LT):** This stage invokes an LLM to populate the skeleton and offer a one-shot example from the ArkUI skeleton to its corresponding code, enabling the LLM to generate syntactically correct code while strictly adhering to the pre-defined layout topology.
 
 **(4) Post-Fixing (PF):** To maximize the compilability of the migrated code, this stage includes a series of heuristic rules revealed by our empirical analysis of common LLM failures during UI migration.
+
+### 5.1 Implementation Details
+
+**Blacklist Tokens (Kotlin):**
+
+~~~python
+BLACKLIST = {
+    "remember", "mutableStateOf", "mutableStateListOf",
+    "derivedStateOf", "produceState",
+    "Color", "Color.Companion",
+    "SideEffect", "LaunchedEffect", "DisposableEffect",
+    "format", "stringResource", "dimensionResource",
+    "LocalContext", "LocalDensity", "LocalLifecycleOwner",
+}
+~~~
+
+**Blacklist Tokens (Swift):**
+~~~python
+blacklist = {
+    "Color", "Divider", "EmptyView",
+    "AnyView", "some", "View",
+    "opacity", "font", "foregroundColor", "frame", "padding", "fill",
+    "overlay", "stroke", "lineWidth", "onSurface", "Colors", "Type",
+    "private", "Double", "CGFloat", "Array", "String", "CGPoint", "CGRect", "Angle",
+    # Design token namespaces
+    "AppTokens", "QuizTokens", "PT", "MP", "DP", "DM", "DesignTokens",
+    "Tokens", "ThemeTokens", "StyleTokens",
+    # Navigation/Style types
+    "StackNavigationViewStyle", "NavigationViewStyle", "TabViewStyle",
+    # Other non-View types
+    "Font", "CGSize", "UIColor", "ColorScheme", "EdgeInsets",
+    "Binding", "CGVector", "State", "ObservedObject", "Environment",
+    "GeometryReader",
+}
+~~~
 
 
 
