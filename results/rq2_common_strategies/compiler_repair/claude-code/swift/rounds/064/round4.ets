@@ -1,0 +1,494 @@
+// Shadow spec interface
+interface ShadowSpec {
+  radius: number
+  dy: number
+  opacity: number
+}
+
+// Design tokens - Colors
+class AppColors {
+  static readonly primary: string = '#111111'
+  static readonly secondary: string = '#2A2A2A'
+  static readonly tertiary: string = '#444444'
+  static readonly background: string = '#F7F7F7'
+  static readonly surface: string = '#FFFFFF'
+  static readonly surfaceVariant: string = '#EDEDED'
+  static readonly outline: string = '#D6D6D6'
+  static readonly success: string = '#1E7D4C'
+  static readonly warning: string = '#B98400'
+  static readonly error: string = '#B3261E'
+  static readonly onPrimary: string = '#FFFFFF'
+  static readonly onSecondary: string = '#FFFFFF'
+  static readonly onTertiary: string = '#FFFFFF'
+  static readonly onBackground: string = '#0A0A0A'
+  static readonly onSurface: string = '#0A0A0A'
+}
+
+// Design tokens - Typography
+class AppTypography {
+  static readonly displaySize: number = 28
+  static readonly displayWeight: FontWeight = FontWeight.Medium
+  static readonly headlineSize: number = 20
+  static readonly headlineWeight: FontWeight = FontWeight.Medium
+  static readonly titleSize: number = 16
+  static readonly titleWeight: FontWeight = FontWeight.Medium
+  static readonly bodySize: number = 14
+  static readonly bodyWeight: FontWeight = FontWeight.Regular
+  static readonly labelSize: number = 12
+  static readonly labelWeight: FontWeight = FontWeight.Medium
+}
+
+// Design tokens - Shapes
+class AppShapes {
+  static readonly small: number = 8
+  static readonly medium: number = 12
+  static readonly large: number = 16
+}
+
+// Design tokens - Spacing
+class AppSpacing {
+  static readonly xs: number = 4
+  static readonly sm: number = 8
+  static readonly md: number = 12
+  static readonly lg: number = 16
+}
+
+// Design tokens - Elevation
+class AppElevation {
+  static readonly level1: ShadowSpec = { radius: 4, dy: 2, opacity: 0.10 }
+  static readonly level2: ShadowSpec = { radius: 8, dy: 4, opacity: 0.14 }
+  static readonly level3: ShadowSpec = { radius: 12, dy: 6, opacity: 0.16 }
+}
+
+// Data model
+interface ApprovalPin {
+  id: number
+  title: string
+  status: string
+  x: number
+  y: number
+}
+
+// Filter chip component
+@Component
+struct FilterChip {
+  text: string = ''
+  isSelected: boolean = false
+  onTap: () => void = () => {}
+
+  build() {
+    Column() {
+      Text(this.text)
+        .fontSize(this.isSelected ? AppTypography.titleSize : AppTypography.bodySize)
+        .fontWeight(this.isSelected ? AppTypography.titleWeight : AppTypography.bodyWeight)
+        .fontColor(this.isSelected ? AppColors.onPrimary : AppColors.onSurface)
+        .padding({
+          left: AppSpacing.sm,
+          right: AppSpacing.sm,
+          top: AppSpacing.xs,
+          bottom: AppSpacing.xs
+        })
+    }
+    .backgroundColor(this.isSelected ? AppColors.primary : AppColors.surface)
+    .border({
+      width: 1,
+      color: AppColors.outline,
+      radius: AppShapes.small
+    })
+    .onClick(() => {
+      this.onTap()
+    })
+  }
+}
+
+// Map pin component
+@Component
+struct MapPin {
+  pin: ApprovalPin = { id: 0, title: '', status: '', x: 0, y: 0 }
+  selected: boolean = false
+  onPinClick: () => void = () => {}
+
+  private getPinSize(): number {
+    return this.selected ? 28 : 22
+  }
+
+  private getBaseColor(): string {
+    switch (this.pin.status) {
+      case 'Approved':
+        return AppColors.success
+      case 'Pending':
+        return AppColors.warning
+      case 'Rejected':
+        return AppColors.error
+      default:
+        return '#888888'
+    }
+  }
+
+  build() {
+    Stack({ alignContent: Alignment.TopStart }) {
+      // Pin circle
+      Circle()
+        .width(this.getPinSize())
+        .height(this.getPinSize())
+        .fill(this.getBaseColor())
+        .stroke(this.selected ? AppColors.primary : AppColors.surface)
+        .strokeWidth(2)
+
+      // Info card next to pin
+      Column() {
+        Text(this.pin.title)
+          .fontSize(AppTypography.labelSize)
+          .fontWeight(AppTypography.labelWeight)
+          .fontColor(AppColors.onSurface)
+          .padding({
+            left: AppSpacing.sm,
+            right: AppSpacing.sm,
+            top: AppSpacing.xs,
+            bottom: AppSpacing.xs
+          })
+      }
+      .backgroundColor(AppColors.surface)
+      .border({
+        width: 1,
+        color: AppColors.outline,
+        radius: AppShapes.small
+      })
+      .shadow({
+        radius: AppElevation.level1.radius,
+        color: `rgba(0, 0, 0, ${AppElevation.level1.opacity})`,
+        offsetX: 0,
+        offsetY: AppElevation.level1.dy
+      })
+      .margin({ left: 18, top: -4 })
+      .onClick(() => {
+        this.onPinClick()
+      })
+    }
+  }
+}
+
+// Map grid overlay component
+@Component
+struct MapGridOverlay {
+  build() {
+    Stack({ alignContent: Alignment.TopStart }) {
+      // Horizontal grid lines
+      Column() {
+        ForEach([0, 1, 2, 3, 4, 5], (_item: number, index: number) => {
+          Blank()
+          Column()
+            .width('100%')
+            .height(1)
+            .backgroundColor(AppColors.surfaceVariant)
+        }, (_item: number, index: number) => index.toString())
+        Blank()
+      }
+      .width('100%')
+      .height('100%')
+      .padding({ left: AppSpacing.lg, right: AppSpacing.lg })
+
+      // Vertical grid lines
+      Row() {
+        ForEach([0, 1, 2, 3, 4, 5], (_item: number, index: number) => {
+          Blank()
+          Column()
+            .width(1)
+            .height('100%')
+            .backgroundColor(AppColors.surfaceVariant)
+        }, (_item: number, index: number) => index.toString())
+        Blank()
+      }
+      .width('100%')
+      .height('100%')
+      .padding({ top: AppSpacing.lg, bottom: AppSpacing.lg })
+    }
+  }
+}
+
+// Main entry
+@Entry
+@Component
+struct ApprovalFlowApp {
+  @State filters: string[] = ['Pending', 'Approved']
+  @State activeFilters: string[] = ['Pending']
+  @State pins: ApprovalPin[] = [
+    { id: 1, title: 'Purchase Order #1042', status: 'Pending', x: 0.18, y: 0.35 },
+    { id: 2, title: 'Travel Request #552', status: 'Approved', x: 0.52, y: 0.42 },
+    { id: 3, title: 'Contract #A77', status: 'Pending', x: 0.76, y: 0.58 },
+    { id: 4, title: 'Budget Change #09', status: 'Rejected', x: 0.33, y: 0.72 }
+  ]
+  @State selectedPinId: number = 0
+  @State hasSelection: boolean = false
+  @State mapWidth: number = 0
+  @State mapHeight: number = 0
+
+  private shouldShowPin(pin: ApprovalPin): boolean {
+    switch (pin.status) {
+      case 'Pending':
+        return this.activeFilters.indexOf('Pending') >= 0
+      case 'Approved':
+        return this.activeFilters.indexOf('Approved') >= 0
+      case 'Rejected':
+        return true
+      default:
+        return true
+    }
+  }
+
+  private findPinById(id: number): ApprovalPin | null {
+    for (let i = 0; i < this.pins.length; i++) {
+      if (this.pins[i].id === id) {
+        return this.pins[i]
+      }
+    }
+    return null
+  }
+
+  private togglePinSelection(pinId: number): void {
+    if (this.hasSelection && this.selectedPinId === pinId) {
+      this.hasSelection = false
+      this.selectedPinId = 0
+    } else {
+      this.hasSelection = true
+      this.selectedPinId = pinId
+    }
+  }
+
+  @Builder
+  PinItemBuilder(pin: ApprovalPin) {
+    MapPin({
+      pin: pin,
+      selected: this.hasSelection && this.selectedPinId === pin.id,
+      onPinClick: () => {
+        this.togglePinSelection(pin.id)
+      }
+    })
+    .position({
+      x: this.mapWidth * pin.x,
+      y: this.mapHeight * pin.y
+    })
+  }
+
+  @Builder
+  DetailCardBuilder(pin: ApprovalPin) {
+    Row() {
+      Column() {
+        Text(pin.title)
+          .fontSize(AppTypography.titleSize)
+          .fontWeight(AppTypography.titleWeight)
+          .fontColor(AppColors.onSurface)
+        Text(pin.status)
+          .fontSize(AppTypography.labelSize)
+          .fontWeight(AppTypography.labelWeight)
+          .fontColor(AppColors.onSurface)
+          .margin({ top: AppSpacing.xs })
+      }
+      .alignItems(HorizontalAlign.Start)
+
+      Blank()
+
+      Button('Details')
+        .fontSize(AppTypography.labelSize)
+        .fontColor(AppColors.onSurface)
+        .backgroundColor(AppColors.surfaceVariant)
+        .borderRadius(AppShapes.medium)
+        .height(40)
+        .padding({ left: AppSpacing.md, right: AppSpacing.md })
+        .onClick(() => {})
+    }
+    .width('100%')
+    .padding(AppSpacing.lg)
+    .backgroundColor(AppColors.surface)
+    .border({
+      width: 1,
+      color: AppColors.outline,
+      radius: AppShapes.large
+    })
+    .shadow({
+      radius: AppElevation.level3.radius,
+      color: `rgba(0, 0, 0, ${AppElevation.level3.opacity})`,
+      offsetX: 0,
+      offsetY: AppElevation.level3.dy
+    })
+    .margin(AppSpacing.md)
+  }
+
+  @Builder
+  SelectedDetailCardBuilder() {
+    let pin: ApprovalPin | null = this.findPinById(this.selectedPinId)
+    if (pin !== null) {
+      this.DetailCardBuilder(pin)
+    }
+  }
+
+  @Builder
+  MapContentBuilder() {
+    Stack({ alignContent: Alignment.TopStart }) {
+      MapGridOverlay()
+
+      ForEach(this.pins.filter((p: ApprovalPin) => this.shouldShowPin(p)),
+        (pin: ApprovalPin) => {
+          this.PinItemBuilder(pin)
+        },
+        (pin: ApprovalPin) => pin.id.toString()
+      )
+
+      if (this.hasSelection) {
+        Column() {
+          Blank()
+          this.SelectedDetailCardBuilder()
+        }
+        .width('100%')
+        .height('100%')
+      }
+    }
+    .width('100%')
+    .height('100%')
+    .onAreaChange((_oldValue: Area, newValue: Area) => {
+      this.mapWidth = Number(newValue.width)
+      this.mapHeight = Number(newValue.height)
+    })
+  }
+
+  @Builder
+  FilterChipBuilder(filter: string) {
+    FilterChip({
+      text: filter,
+      isSelected: this.activeFilters.indexOf(filter) >= 0,
+      onTap: () => {
+        let idx: number = this.activeFilters.indexOf(filter)
+        if (idx >= 0) {
+          this.activeFilters.splice(idx, 1)
+        } else {
+          this.activeFilters.push(filter)
+        }
+      }
+    })
+  }
+
+  build() {
+    Stack({ alignContent: Alignment.TopStart }) {
+      // Background
+      Column() { }
+        .width('100%')
+        .height('100%')
+        .backgroundColor(AppColors.background)
+
+      // Main column: top bar + scrollable content + bottom bar
+      Column() {
+        // Top bar
+        Column() {
+          Text('Approval Flow')
+            .fontSize(AppTypography.displaySize)
+            .fontWeight(AppTypography.displayWeight)
+            .fontColor(AppColors.onSurface)
+        }
+        .width('100%')
+        .padding({ top: AppSpacing.md, bottom: AppSpacing.md })
+        .backgroundColor(AppColors.surface)
+
+        // Scrollable content area
+        Scroll() {
+          Column({ space: AppSpacing.md }) {
+            // Filter chips horizontal scroll
+            Scroll() {
+              Row({ space: AppSpacing.sm }) {
+                ForEach(this.filters, (filter: string) => {
+                  this.FilterChipBuilder(filter)
+                }, (filter: string) => filter)
+              }
+            }
+            .scrollable(ScrollDirection.Horizontal)
+            .scrollBar(BarState.Off)
+            .width('100%')
+            .padding({ left: AppSpacing.lg, right: AppSpacing.lg })
+            .margin({ top: AppSpacing.md })
+
+            // Map area
+            Stack({ alignContent: Alignment.TopStart }) {
+              this.MapContentBuilder()
+            }
+            .width('100%')
+            .backgroundColor(AppColors.surface)
+            .border({
+              width: 1,
+              color: AppColors.outline,
+              radius: AppShapes.large
+            })
+            .aspectRatio(0.9)
+            .margin({
+              left: AppSpacing.lg,
+              right: AppSpacing.lg,
+              bottom: AppSpacing.md
+            })
+          }
+          .width('100%')
+        }
+        .scrollable(ScrollDirection.Vertical)
+        .scrollBar(BarState.Off)
+        .flexGrow(1)
+        .width('100%')
+
+        // Bottom bar
+        Column() {
+          Row({ space: AppSpacing.md }) {
+            Button('Reject')
+              .fontSize(AppTypography.titleSize)
+              .fontWeight(AppTypography.titleWeight)
+              .fontColor(this.hasSelection ? AppColors.onSurface : '#999999')
+              .backgroundColor(AppColors.surfaceVariant)
+              .borderRadius(AppShapes.medium)
+              .height(48)
+              .flexGrow(1)
+              .enabled(this.hasSelection)
+              .onClick(() => {})
+
+            Button('Approve')
+              .fontSize(AppTypography.titleSize)
+              .fontWeight(AppTypography.titleWeight)
+              .fontColor(this.hasSelection ? AppColors.onPrimary : '#999999')
+              .backgroundColor(this.hasSelection ? AppColors.primary : '#CCCCCC')
+              .borderRadius(AppShapes.medium)
+              .height(48)
+              .flexGrow(1)
+              .enabled(this.hasSelection)
+              .onClick(() => {})
+          }
+          .width('100%')
+          .padding({
+            left: AppSpacing.lg,
+            right: AppSpacing.lg,
+            top: AppSpacing.md,
+            bottom: AppSpacing.md
+          })
+        }
+        .width('100%')
+        .backgroundColor(AppColors.surface)
+        .shadow({
+          radius: AppElevation.level2.radius,
+          color: `rgba(0, 0, 0, ${AppElevation.level2.opacity})`,
+          offsetX: 0,
+          offsetY: -AppElevation.level2.dy
+        })
+      }
+      .width('100%')
+      .height('100%')
+
+      // Floating Action Button
+      Button('+')
+        .fontSize(AppTypography.headlineSize)
+        .fontWeight(AppTypography.headlineWeight)
+        .fontColor(AppColors.onPrimary)
+        .backgroundColor(AppColors.primary)
+        .borderRadius(28)
+        .width(56)
+        .height(56)
+        .margin(AppSpacing.lg)
+        .align(Alignment.BottomEnd)
+        .onClick(() => {})
+    }
+    .width('100%')
+    .height('100%')
+  }
+}

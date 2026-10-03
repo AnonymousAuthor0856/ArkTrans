@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+
+# Local tooling / IDE
+.vscode/
+.idea/
+
+# Secrets
+scripts/.env
+.env
+
+# HarmonyOS build artifacts
+.hvigor/
+.arkui-x/
+oh_modules/
+entry/build/
+*.hap
+*.har
+local.properties
+scripts/evaluate/etssingleui_pool*/
+
+# Render / eval runtime outputs
+screenshot_eval/
+hap_cache/
+evaluation_results/
+hilog.txt
+.build.lock

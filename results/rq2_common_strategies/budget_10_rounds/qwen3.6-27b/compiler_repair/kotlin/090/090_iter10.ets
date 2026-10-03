@@ -1,0 +1,369 @@
+import { Colors, Image } from '@kit.ArkUI'
+
+@Entry
+@Component
+struct LumenAppScreen {
+  @State selectedIso: string = "400"
+  @State apertureValue: number = 2.8
+  @State selectedSpeedIndex: number = 4
+
+  private shutterSpeeds: string[] = ["1/1000", "1/500", "1/250", "1/125", "1/60", "1/30", "1/15", "1/8"]
+  private isoValues: string[] = ["100", "200", "400", "800", "1600", "3200"]
+
+  build() {
+    Column() {
+      HeaderSection()
+
+      CurrentSettingsDisplay({
+        iso: this.selectedIso,
+        aperture: this.apertureValue.toFixed(1),
+        shutter: this.shutterSpeeds[this.selectedSpeedIndex]
+      })
+
+      Column() {
+        IsoSelector({
+          currentIso: this.selectedIso,
+          onIsoSelected: (iso: string) => {
+            this.selectedIso = iso
+          }
+        })
+
+        ApertureControl({
+          value: this.apertureValue,
+          onValueChange: (val: number) => {
+            this.apertureValue = val
+          }
+        })
+
+        ShutterSpeedControl({
+          speeds: this.shutterSpeeds,
+          selectedIndex: this.selectedSpeedIndex,
+          onSelect: (index: number) => {
+            this.selectedSpeedIndex = index
+          }
+        })
+      }.margin({ top: 32 })
+
+      LogShotButton()
+    }
+    .width('100%')
+    .height('100%')
+    .padding(24)
+    .justifyContent(FlexAlign.SpaceBetween)
+    .backgroundColor(Colors.White)
+  }
+}
+
+@Component
+struct HeaderSection {
+  build() {
+    Row() {
+      Column() {
+        Text("LUMEN LOG")
+          .fontSize(14)
+          .fontWeight(FontWeight.Bold)
+          .letterSpacing(2)
+          .fontColor(Colors.Gray)
+
+        Text("Roll #034")
+          .fontSize(24)
+          .fontWeight(FontWeight.ExtraBold)
+          .fontColor(Colors.Black)
+      }
+
+      Row() {
+        Button("", { type: ButtonType.Circle, stateEffect: false })
+          .width(40)
+          .height(40)
+          .backgroundColor(Colors.Transparent)
+          .onClick(() => {})
+          .child(
+            Image($r('app.media.ic_menu')) // Placeholder for Menu Icon
+              .width(24)
+              .height(24)
+              .fillColor(Colors.Black)
+          )
+
+        Button("", { type: ButtonType.Circle, stateEffect: false })
+          .width(40)
+          .height(40)
+          .backgroundColor(Colors.Transparent)
+          .onClick(() => {})
+          .child(
+            Image($r('app.media.ic_settings')) // Placeholder for Settings Icon
+              .width(24)
+              .height(24)
+              .fillColor(Colors.Black)
+          )
+      }
+    }
+    .width('100%')
+    .justifyContent(FlexAlign.SpaceBetween)
+    .alignItems(VerticalAlign.Center)
+    .margin({ bottom: 16 })
+  }
+}
+
+@Component
+struct CurrentSettingsDisplay {
+  @Prop iso: string
+  @Prop aperture: string
+  @Prop shutter: string
+
+  build() {
+    Column() {
+      Row() {
+        Column() {
+          Text(`f/${this.aperture}`)
+            .fontSize(56)
+            .fontWeight(FontWeight.Light)
+            .letterSpacing(-2)
+            .fontColor(Colors.Black)
+
+          Text("APERTURE")
+            .fontSize(12)
+            .fontWeight(FontWeight.Bold)
+            .fontColor(Colors.Gray)
+        }
+        .layoutWeight(1.5)
+        .margin({ left: 24 })
+        .justifyContent(FlexAlign.Center)
+
+        Divider()
+          .vertical(true)
+          .width(1)
+          .height(80)
+          .color('#EEEEEE')
+
+        Column() {
+          SettingItemSmall({ label: "ISO", value: this.iso })
+          SettingItemSmall({ label: "SHUTTER", value: this.shutter })
+        }
+        .layoutWeight(1)
+        .margin({ left: 24 })
+        .justifyContent(FlexAlign.Center)
+        .itemSpacing(16)
+      }
+      .width('100%')
+      .height(160)
+      .alignItems(VerticalAlign.Center)
+    }
+    .width('100%')
+    .borderRadius(16)
+    .border({ width: 1, color: '#EEEEEE' })
+    .backgroundColor('#F8F8F8')
+  }
+}
+
+@Component
+struct SettingItemSmall {
+  @Prop label: string
+  @Prop value: string
+
+  build() {
+    Column() {
+      Text(this.value)
+        .fontSize(20)
+        .fontWeight(FontWeight.SemiBold)
+        .fontColor(Colors.Black)
+
+      Text(this.label)
+        .fontSize(10)
+        .fontWeight(FontWeight.Bold)
+        .fontColor(Colors.Gray)
+    }
+  }
+}
+
+@Component
+struct IsoSelector {
+  @Prop currentIso: string
+  @State isoValues: string[] = ["100", "200", "400", "800", "1600", "3200"]
+  onIsoSelected: (iso: string) => void = () => {}
+
+  build() {
+    Column() {
+      Text("Film Stock ISO")
+        .fontSize(14)
+        .fontWeight(FontWeight.Medium)
+        .margin({ bottom: 12 })
+
+      Flex({ wrap: FlexWrap.Wrap }) {
+        ForEach(this.isoValues, (iso: string) => {
+          let isSelected = this.currentIso === iso
+          Button(iso, { type: ButtonType.Capsule, stateEffect: false })
+            .width(60)
+            .height(36)
+            .fontSize(13)
+            .fontWeight(FontWeight.SemiBold)
+            .backgroundColor(isSelected ? Colors.Black : Colors.Transparent)
+            .fontColor(isSelected ? Colors.White : Colors.Black)
+            .border({
+              width: 1,
+              color: isSelected ? Colors.Black : '#E0E0E0',
+              radius: 50
+            })
+            .onClick(() => {
+              this.onIsoSelected(iso)
+            })
+            .margin({ right: 12 })
+        })
+      }
+    }
+  }
+}
+
+@Component
+struct ApertureControl {
+  @Prop value: number
+  onValueChange: (val: number) => void = () => {}
+
+  build() {
+    Column() {
+      Row() {
+        Text("Aperture Control")
+          .fontSize(14)
+          .fontWeight(FontWeight.Medium)
+
+        Image($r('app.media.ic_settings')) // Placeholder
+          .width(16)
+          .height(16)
+          .fillColor(Colors.Gray)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+
+      Slider({
+        min: 1.4,
+        max: 16,
+        step: 0.7,
+        value: this.value
+      })
+        .width('100%')
+        .trackThickness(4)
+        .selectedColor(Colors.Black)
+        .trackColor('#E0E0E0')
+        .onChange((value: number) => {
+          this.onValueChange(value)
+        })
+        .margin({ top: 8 })
+
+      Row() {
+        Text("f/1.4")
+          .fontSize(12)
+          .fontColor(Colors.Gray)
+
+        Text("f/16")
+          .fontSize(12)
+          .fontColor(Colors.Gray)
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+    }
+  }
+}
+
+@Component
+struct ShutterSpeedControl {
+  @Prop speeds: string[]
+  @Prop selectedIndex: number
+  onSelect: (index: number) => void = () => {}
+
+  build() {
+    Column() {
+      Text("Shutter Speed")
+        .fontSize(14)
+        .fontWeight(FontWeight.Medium)
+        .margin({ bottom: 12 })
+
+      Row() {
+        SpeedOption({
+          text: this.speeds[this.selectedIndex - 1] || "-",
+          isSelected: false,
+          onClick: () => {
+            if (this.selectedIndex > 0) {
+              this.onSelect(this.selectedIndex - 1)
+            }
+          }
+        })
+
+        SpeedOption({
+          text: this.speeds[this.selectedIndex],
+          isSelected: true,
+          onClick: () => {}
+        })
+
+        SpeedOption({
+          text: this.speeds[this.selectedIndex + 1] || "-",
+          isSelected: false,
+          onClick: () => {
+            if (this.selectedIndex < this.speeds.length - 1) {
+              this.onSelect(this.selectedIndex + 1)
+            }
+          }
+        })
+      }
+      .width('100%')
+      .justifyContent(FlexAlign.SpaceBetween)
+    }
+  }
+}
+
+@Component
+struct SpeedOption {
+  @Prop text: string
+  @Prop isSelected: boolean
+  @Prop onClick: () => void
+
+  build() {
+    Column() {
+      Text(this.text)
+        .fontSize(this.isSelected ? 22 : 16)
+        .fontWeight(this.isSelected ? FontWeight.Bold : FontWeight.Normal)
+        .fontColor(this.isSelected ? Colors.Black : Colors.Gray)
+    }
+    .width(100)
+    .height(50)
+    .justifyContent(FlexAlign.Center)
+    .alignItems(HorizontalAlign.Center)
+    .borderRadius(12)
+    .backgroundColor(this.isSelected ? '#F0F0F0' : Colors.Transparent)
+    .onClick(() => {
+      if (!this.isSelected && this.text !== "-") {
+        this.onClick()
+      }
+    })
+  }
+}
+
+@Component
+struct LogShotButton {
+  build() {
+    Button() {
+      Row() {
+        Circle({ width: 24, height: 24 })
+          .fill(Colors.White)
+          .margin({ right: 12 })
+          .child(
+            Image($r('app.media.ic_add')) // Placeholder for Add Icon
+              .width(16)
+              .height(16)
+              .fillColor(Colors.Black)
+          )
+
+        Text("LOG EXPOSURE")
+          .fontSize(16)
+          .fontWeight(FontWeight.Bold)
+          .letterSpacing(1)
+          .fontColor(Colors.White)
+      }
+      .justifyContent(FlexAlign.Center)
+      .alignItems(VerticalAlign.Center)
+    }
+    .width('100%')
+    .height(56)
+    .backgroundColor(Colors.Black)
+    .borderRadius(12)
+    .onClick(() => {})
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "_meta": {
+    "version": "2.0",
+    "description": "Kotlin Compose to ArkTS component mapping - extracted from generator_v2.py",
+    "last_updated": "2025-03-08"
+  },
+
+  "Scaffold": {
+    "arkts_component": "Stack",
+    "template_empty": "{indent}Stack() {{}}",
+    "template": "{indent}Stack({{ alignContent: Alignment.Top }}) {{\n{children}\n{indent}}}",
+    "has_children_check": true
+  },
+
+  "Column": {
+    "arkts_component": "Column",
+    "template": "{indent}Column({{ space: {space} }}) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "verticalArrangement": {
+        "type": "space"
+      },
+      "horizontalAlignment": {
+        "type": "alignment",
+        "chain_method": "alignItems",
+        "mapping": {
+          "CenterHorizontally": "HorizontalAlign.Center",
+          "Start": "HorizontalAlign.Start",
+          "End": "HorizontalAlign.End"
+        }
+      },
+      "space": {
+        "type": "param",
+        "default": 0
+      }
+    },
+    "modifier_mapping": {
+      "fillMaxWidth": ".width('100%')",
+      "fillMaxHeight": ".height('100%')",
+      "fillMaxSize": ".width('100%').height('100%')",
+      "padding": ".padding({value})",
+      "background": ".backgroundColor({value})",
+      "backgroundColor": ".backgroundColor({value})",
+      "borderRadius": ".borderRadius({value})"
+    },
+    "default_props": {
+      "space": 0
+    }
+  },
+
+  "Row": {
+    "arkts_component": "Row",
+    "template": "{indent}Row({{ space: {space} }}) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "horizontalArrangement": {
+        "type": "space"
+      },
+      "verticalAlignment": {
+        "type": "alignment",
+        "chain_method": "alignItems",
+        "mapping": {
+          "CenterVertically": "VerticalAlign.Center",
+          "Top": "VerticalAlign.Top",
+          "Bottom": "VerticalAlign.Bottom"
+        }
+      },
+      "space": {
+        "type": "param",
+        "default": 0
+      }
+    },
+    "modifier_mapping": {
+      "fillMaxWidth": ".width('100%')",
+      "fillMaxHeight": ".height('100%')",
+      "fillMaxSize": ".width('100%').height('100%')",
+      "padding": ".padding({value})",
+      "background": ".backgroundColor({value})",
+      "backgroundColor": ".backgroundColor({value})",
+      "borderRadius": ".borderRadius({value})"
+    },
+    "default_props": {
+      "space": 0
+    }
+  },
+
+  "Box": {
+    "arkts_component": "Stack",
+    "inherits": "Stack"
+  },
+
+  "Stack": {
+    "arkts_component": "Stack",
+    "template": "{indent}Stack({{ alignContent: {align} }}) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "contentAlignment": {
+        "type": "param",
+        "param_name": "align",
+        "default": "Alignment.Center"
+      }
+    },
+    "modifier_mapping": {
+      "fillMaxWidth": ".width('100%')",
+      "fillMaxHeight": ".height('100%')",
+      "fillMaxSize": ".width('100%').height('100%')",
+      "padding": ".padding({value})",
+      "background": ".backgroundColor({value})",
+      "backgroundColor": ".backgroundColor({value})",
+      "borderRadius": ".borderRadius({value})",
+      "width": ".width({value})",
+      "height": ".height({value})"
+    },
+    "default_props": {
+      "align": "Alignment.Center"
+    }
+  },
+
+  "Surface": {
+    "arkts_component": "Column",
+    "template": "{indent}Column() {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "color": {
+        "type": "chain",
+        "chain_method": "backgroundColor"
+      },
+      "shadowElevation": {
+        "type": "chain_append",
+        "chain_value": ".shadow({ radius: 4, color: '#1A000000' })"
+      },
+      "tonalElevation": {
+        "type": "chain_append",
+        "chain_value": ".shadow({ radius: 4, color: '#1A000000' })"
+      }
+    },
+    "modifier_mapping": {
+      "fillMaxWidth": ".width('100%')",
+      "fillMaxHeight": ".height('100%')",
+      "padding": ".padding({value})",
+      "width": ".width({value})",
+      "height": ".height({value})"
+    },
+    "default_chain": ".backgroundColor('#FFFFFF').borderRadius(12)"
+  },
+
+  "Card": {
+    "arkts_component": "Column",
+    "template": "{indent}Column() {{{content}\n{indent}}}{chain}",
+    "props_mapping": {},
+    "modifier_mapping": {},
+    "default_chain": ".backgroundColor('#FFFFFF').borderRadius(12).shadow({ radius: 4, color: '#1A000000' })"
+  },
+
+  "Text": {
+    "arkts_component": "Text",
+    "template": "{indent}Text('{text}'){chain}",
+    "props_mapping": {
+      "text": {
+        "type": "content",
+        "escape_quotes": true
+      },
+      "fontSize": {
+        "type": "chain_fontSize"
+      },
+      "fontWeight": {
+        "type": "chain_fontWeight"
+      },
+      "color": {
+        "type": "chain_fontColor"
+      },
+      "style": {
+        "type": "style_expand"
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "Button": {
+    "arkts_component": "Button",
+    "template_with_children": "{indent}Button() {{{content}\n{indent}}}{chain}",
+    "template_with_label": "{indent}Button('{label}'){chain}",
+    "props_mapping": {
+      "text": {
+        "type": "param",
+        "param_name": "label",
+        "default": "Button"
+      },
+      "onClick": {
+        "type": "ignore"
+      },
+      "shape": {
+        "type": "ignore"
+      },
+      "colors": {
+        "type": "ignore"
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})",
+      "backgroundColor": ".backgroundColor({value})",
+      "padding": ".padding({value})",
+      "margin": ".margin({value})"
+    }
+  },
+
+  "Image": {
+    "arkts_component": "Image",
+    "template": "{indent}Image({src}){chain}",
+    "props_mapping": {
+      "painter": {
+        "type": "src"
+      },
+      "color": {
+        "type": "chain",
+        "chain_method": "fillColor"
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})"
+    },
+    "default_chain": ".width(48).height(48)"
+  },
+
+  "Icon": {
+    "arkts_component": "Image",
+    "inherits": "Image"
+  },
+
+  "Slider": {
+    "arkts_component": "Slider",
+    "template": "{indent}Slider({{ value: {value}, min: {min}, max: {max}, step: {step}, style: SliderStyle.OutSet }}){chain}",
+    "props_mapping": {
+      "value": {
+        "type": "param_state",
+        "default": "this.fontSize"
+      },
+      "valueRange": {
+        "type": "range",
+        "default_min": 16,
+        "default_max": 48
+      },
+      "step": {
+        "type": "param",
+        "default": 1
+      },
+      "colors": {
+        "type": "slider_colors"
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})"
+    },
+    "default_chain": ".width('100%')"
+  },
+
+  "LinearProgressIndicator": {
+    "arkts_component": "Progress",
+    "inherits": "Progress",
+    "default_type": "Linear"
+  },
+
+  "CircularProgressIndicator": {
+    "arkts_component": "Progress",
+    "inherits": "Progress",
+    "default_type": "Ring"
+  },
+
+  "Progress": {
+    "arkts_component": "Progress",
+    "template": "{indent}Progress({{ value: {value}, total: {total}, type: ProgressType.{prog_type} }}){chain}",
+    "props_mapping": {
+      "progress": {
+        "type": "param_progress"
+      },
+      "value": {
+        "type": "param_progress"
+      },
+      "total": {
+        "type": "param",
+        "default": 100
+      },
+      "color": {
+        "type": "chain",
+        "chain_method": "color"
+      },
+      "trackColor": {
+        "type": "chain",
+        "chain_method": "backgroundColor"
+      },
+      "prog_type": {
+        "type": "param",
+        "param_name": "prog_type",
+        "default": "Linear"
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})"
+    },
+    "default_chain": ".width('100%')"
+  },
+
+  "Divider": {
+    "arkts_component": "Divider",
+    "template": "{indent}Divider(){chain}",
+    "props_mapping": {
+      "thickness": {
+        "type": "chain_strokeWidth"
+      },
+      "color": {
+        "type": "chain_color"
+      }
+    },
+    "modifier_mapping": {},
+    "default_chain": ".vertical(false)"
+  },
+
+  "HorizontalDivider": {
+    "arkts_component": "Divider",
+    "inherits": "Divider"
+  },
+
+  "VerticalDivider": {
+    "arkts_component": "Divider",
+    "inherits": "Divider",
+    "default_chain": ".vertical(true).strokeWidth(1).height(20)"
+  },
+
+  "Spacer": {
+    "arkts_component": "Blank",
+    "template": "{indent}Blank(){chain}",
+    "props_mapping": {},
+    "modifier_mapping": {
+      "height": {
+        "type": "chain_height"
+      },
+      "width": {
+        "type": "chain",
+        "chain_method": "width"
+      }
+    },
+    "default_chain": ".height(16)"
+  },
+
+  "TextField": {
+    "arkts_component": "TextInput",
+    "template": "{indent}TextInput({{ placeholder: '{placeholder}', text: {text} }}){chain}",
+    "props_mapping": {
+      "placeholder": {
+        "type": "param",
+        "default": ""
+      },
+      "text": {
+        "type": "param_state",
+        "default": "this.text"
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})"
+    },
+    "default_chain": ".width('100%')"
+  },
+
+  "OutlinedTextField": {
+    "arkts_component": "TextInput",
+    "inherits": "TextField"
+  },
+
+  "Switch": {
+    "arkts_component": "Toggle",
+    "template": "{indent}Toggle({{ type: ToggleType.Switch, isOn: {isOn} }}){chain}",
+    "props_mapping": {
+      "isOn": {
+        "type": "param_state",
+        "default": "this.isOn"
+      },
+      "checked": {
+        "type": "param_state",
+        "param_name": "isOn",
+        "default": "this.isOn"
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "Checkbox": {
+    "arkts_component": "Checkbox",
+    "template": "{indent}Checkbox({{ name: {name} }})\n{indent}  .select({checked}){chain}",
+    "props_mapping": {
+      "name": {
+        "type": "param_quoted",
+        "default": "checkbox"
+      },
+      "checked": {
+        "type": "param_state",
+        "default": "this.checked"
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "RadioButton": {
+    "arkts_component": "Radio",
+    "template": "{indent}Radio({{ value: '{value}', group: '{group}' }})\n{indent}  .checked({checked})",
+    "props_mapping": {
+      "value": {
+        "type": "param",
+        "default": ""
+      },
+      "group": {
+        "type": "param",
+        "default": ""
+      },
+      "checked": {
+        "type": "param",
+        "default": false
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "List": {
+    "arkts_component": "List",
+    "template": "{indent}List({{ space: {space} }}) {{{content}\n{indent}}}{chain}",
+    "props_mapping": {
+      "space": {
+        "type": "param",
+        "default": 0
+      }
+    },
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})",
+      "padding": ".padding({value})",
+      "margin": ".margin({value})"
+    },
+    "default_chain": ".width('100%')"
+  },
+
+  "LazyColumn": {
+    "arkts_component": "List",
+    "inherits": "List"
+  },
+
+  "LazyRow": {
+    "arkts_component": "List",
+    "inherits": "List",
+    "default_chain": ".width('100%').listDirection(Axis.Horizontal)"
+  },
+
+  "LazyVerticalGrid": {
+    "arkts_component": "Grid",
+    "template": "{indent}Grid() {{{content}\n{indent}}}{chain}",
+    "props_mapping": {},
+    "modifier_mapping": {
+      "width": ".width({value})",
+      "height": ".height({value})",
+      "columnsTemplate": ".columnsTemplate('{value}')",
+      "columnsGap": ".columnsGap({value})",
+      "rowsGap": ".rowsGap({value})"
+    },
+    "default_chain": ".columnsTemplate('1fr 1fr')"
+  },
+
+  "TextButton": {
+    "arkts_component": "Button",
+    "template": "{indent}Button('{label}', {{ buttonStyle: ButtonStyleMode.TEXTUAL }})\n{indent}  .fontColor({color})",
+    "props_mapping": {
+      "text": {
+        "type": "param",
+        "param_name": "label"
+      },
+      "color": {
+        "type": "param",
+        "default": "'#000000'"
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "OutlinedButton": {
+    "arkts_component": "Button",
+    "template": "{indent}Button('{label}', {{ buttonStyle: ButtonStyleMode.TEXTUAL }})\n{indent}  .border({{ width: 1, color: {borderColor}, radius: {radius} }})\n{indent}  .fontColor({textColor})",
+    "props_mapping": {},
+    "modifier_mapping": {}
+  },
+
+  "IconButton": {
+    "arkts_component": "Button",
+    "template": "{indent}Button({{ type: ButtonType.Circle }}) {{\n{indent}  Image({src}).width({iconSize}).height({iconSize})\n{indent}}}.width({size}).height({size}).backgroundColor({bgColor})",
+    "props_mapping": {
+      "iconSize": {
+        "type": "param",
+        "default": 24
+      },
+      "size": {
+        "type": "param",
+        "default": 48
+      },
+      "bgColor": {
+        "type": "param",
+        "default": "'#6750A4'"
+      },
+      "src": {
+        "type": "param",
+        "default": "$r('app.media.ic_add')"
+      }
+    },
+    "modifier_mapping": {}
+  },
+
+  "Canvas": {
+    "arkts_component": "Canvas",
+    "template": "{indent}Canvas(){chain}",
+    "props_mapping": {},
+    "modifier_mapping": {
+      "fillMaxSize": ".width('100%').height('100%')"
+    }
+  },
+
+  "_state_variables": {
+    "Slider": {
+      "var_name": "fontSize",
+      "type": "number",
+      "default": "24"
+    },
+    "LinearProgressIndicator": {
+      "var_name": "syncProgress",
+      "type": "number",
+      "default": "0.3"
+    },
+    "CircularProgressIndicator": {
+      "var_name": "syncProgress",
+      "type": "number",
+      "default": "0.3"
+    },
+    "Progress": {
+      "var_name": "progress",
+      "type": "number",
+      "default": "0"
+    },
+    "Switch": {
+      "var_name": "isOn",
+      "type": "boolean",
+      "default": "false"
+    },
+    "Checkbox": {
+      "var_name": "checked",
+      "type": "boolean",
+      "default": "false"
+    },
+    "TextField": {
+      "var_name": "text",
+      "type": "string",
+      "default": "''"
+    }
+  }
+}

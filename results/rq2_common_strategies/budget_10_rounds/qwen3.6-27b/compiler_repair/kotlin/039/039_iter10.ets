@@ -1,0 +1,229 @@
+import { window } from '@kit.ArkUI';
+import { BusinessError } from '@kit.BasicServicesKit';
+import { common } from '@kit.AbilityKit';
+
+// --- App Tokens & Constants ---
+const NAME = "051*InstallmentPlan*en";
+const UI_TYPE = "Finance";
+const STYLE_THEME = "Warm Gradient";
+const LANG = "en";
+const BASELINE_SIZE = "720x1280";
+
+class ColorRecord {
+  primary: string;
+  secondary: string;
+  tertiary: string;
+  background: string;
+  surface: string;
+  surfaceVariant: string;
+  outline: string;
+  success: string;
+  warning: string;
+  error: string;
+  onPrimary: string;
+  onSecondary: string;
+  onTertiary: string;
+  onBackground: string;
+  onSurface: string;
+
+  constructor() {
+    this.primary = '#FFA500';
+    this.secondary = '#FFC107';
+    this.tertiary = '#FFE066';
+    this.background = '#FFFBF2';
+    this.surface = '#FFFFFF';
+    this.surfaceVariant = '#FFEED6';
+    this.outline = '#F1C27D';
+    this.success = '#22C55E';
+    this.warning = '#F59E0B';
+    this.error = '#EF4444';
+    this.onPrimary = '#FFFFFF';
+    this.onSecondary = '#1E1E1E';
+    this.onTertiary = '#1E1E1E';
+    this.onBackground = '#1E1E1E';
+    this.onSurface = '#1E1E1E';
+  }
+}
+
+class SpacingRecord {
+  sm: number;
+  md: number;
+  lg: number;
+  xl: number;
+  xxl: number;
+
+  constructor() {
+    this.sm = 8;
+    this.md = 12;
+    this.lg = 16;
+    this.xl = 24;
+    this.xxl = 32;
+  }
+}
+
+class AppTokens {
+  static Colors: ColorRecord = new ColorRecord();
+  static Spacing: SpacingRecord = new SpacingRecord();
+}
+
+@Entry
+@Component
+struct RootScreen {
+  @State paymentProgress: number = 0.3;
+  @State triggerRedraw: boolean = false;
+  private ctx: common.UIAbilityContext | null = null;
+
+  aboutToAppear() {
+    // Hide system bars for immersive experience similar to Android code
+    try {
+      this.ctx = getContext(this) as common.UIAbilityContext;
+      let windowClass: window.Window | null = null;
+      if (this.ctx) {
+        windowClass = window.getWindowSync(this.ctx);
+        if (windowClass) {
+          windowClass.setWindowSystemBarEnable([], (err) => {
+            if (err) {
+              console.error(`Failed to set system bar enable. Code is ${err.code}, message is ${err.message}`);
+            }
+          });
+        }
+      }
+    } catch (exception) {
+      let err: BusinessError = exception as BusinessError;
+      console.error(`Failed to get window. Code is ${err.code}, message is ${err.message}`);
+    }
+  }
+
+  build() {
+    Column() {
+      // Top Bar
+      Row() {
+        Text("Installment Plan")
+          .fontSize(28)
+          .fontWeight(FontWeight.Bold)
+          .fontColor(AppTokens.Colors.onSurface)
+          .textAlign(TextAlign.Center)
+      }
+      .width('100%')
+      .height(56)
+      .justifyContent(FlexAlign.Center)
+      .backgroundColor(AppTokens.Colors.background)
+
+      // Main Content Area
+      Column() {
+        // Chart Card
+        Row() {
+          Canvas({ id: 'myCanvas_' + this.triggerRedraw, canvasPoolSize: { width: 100, height: 100 } })
+            .onReady((context: CanvasRenderingContext2D, canvas: Canvas) => {
+              const width: number = canvas.width;
+              const height: number = canvas.height;
+              context.canvas.width = width;
+              context.canvas.height = height;
+              this.drawChart(context);
+            })
+        }
+        .width('100%')
+        .height(240)
+        .borderRadius(20)
+        .backgroundColor('#E6FFFFFF') // Surface with alpha approx
+        .shadow({ radius: 8, color: 'rgba(0,0,0,0.18)', offsetY: 4 })
+        .margin({ top: AppTokens.Spacing.lg })
+
+        // Progress Label
+        Text("Payment Progress")
+          .fontSize(18)
+          .fontWeight(FontWeight.Medium)
+          .fontColor(AppTokens.Colors.primary)
+          .margin({ top: AppTokens.Spacing.lg })
+
+        // Linear Progress Indicator
+        Progress({ value: this.paymentProgress, total: 1.0, type: ProgressType.Linear })
+          .width('100%')
+          .height(8)
+          .color(AppTokens.Colors.primary)
+          .trackColor(AppTokens.Colors.surfaceVariant)
+          .margin({ top: AppTokens.Spacing.md })
+
+        // Slider
+        Slider({ value: this.paymentProgress, min: 0, max: 1, step: 0.01 })
+          .width('100%')
+          .blockColor(AppTokens.Colors.secondary)
+          .selectedColor(AppTokens.Colors.primary)
+          .trackColor(AppTokens.Colors.surfaceVariant)
+          .onChange((value: number) => {
+            this.paymentProgress = value;
+            // Redraw chart when slider changes
+            // Note: In a real app, we might trigger a redraw via state or event emitter
+            // For simplicity in this single file, we rely on the fact that 
+            // ArkUI canvas doesn't auto-redraw on state change unless re-rendered.
+            // We will force a re-render of the canvas component by toggling a key or just accepting 
+            // that the initial draw happens. To make it dynamic, we need a ref or rebuild.
+            // Here, we will use a simple trick: update a state that triggers canvas rebuild.
+            this.triggerRedraw = !this.triggerRedraw;
+          })
+          .margin({ top: AppTokens.Spacing.md })
+
+        // Reset Button
+        Button("Reset Progress")
+          .type(ButtonType.Normal)
+          .backgroundColor(AppTokens.Colors.tertiary)
+          .fontColor(AppTokens.Colors.onTertiary)
+          .borderRadius(12)
+          .width('100%')
+          .height(48)
+          .fontSize(18)
+          .fontWeight(FontWeight.Medium)
+          .onClick(() => {
+            this.paymentProgress = 0;
+            this.triggerRedraw = !this.triggerRedraw;
+          })
+          .margin({ top: AppTokens.Spacing.lg })
+
+      }
+      .width('100%')
+      .layoutWeight(1)
+      .padding(AppTokens.Spacing.lg)
+      .linearGradient({
+        angle: 90,
+        colors: [
+          ['rgba(255, 193, 7, 0.25)', 0],
+          ['#FFFBF2', 0.5],
+          ['rgba(255, 165, 0, 0.25)', 1]
+        ]
+      })
+
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor(AppTokens.Colors.background)
+  }
+
+  drawChart(context: CanvasRenderingContext2D) {
+    const width: number = context.canvas.width;
+    const height: number = context.canvas.height;
+    
+    // Clear previous drawing
+    context.clearRect(0, 0, width, height);
+
+    const step: number = width / 20;
+    let prevY: number = height / 2;
+    
+    context.beginPath();
+    context.strokeStyle = AppTokens.Colors.primary;
+    context.lineWidth = 5;
+    context.lineCap = 'round';
+    context.lineJoin = 'round';
+
+    // Start at first point
+    let startX: number = 0;
+    let startY: number = height / 2 + Math.sin(0 * Math.PI / 5 + this.paymentProgress * Math.PI) * (height / 3);
+    context.moveTo(startX, startY);
+
+    for (let i: number = 1; i <= 20; i++) {
+      const x: number = i * step;
+      const y: number = height / 2 + Math.sin(i * Math.PI / 5 + this.paymentProgress * Math.PI) * (height / 3);
+      context.lineTo(x, y);
+    }
+    context.stroke();
+  }
+}

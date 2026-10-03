@@ -1,0 +1,27 @@
+@Entry
+@Component
+struct TestBad {
+  // Error 1: property without initializer
+  label: string
+  
+  // Error 2: using 'new'
+  @State items: Array<number> = new Array<number>(10)
+  
+  // Error 3: untyped object
+  @State config = { name: 'test', value: 42 }
+  
+  // Error 4: using 'var'
+  var count: number = 0
+  
+  // Error 5: any type
+  @State data: any = null
+  
+  // Error 6: console.log
+  build() {
+    console.log('hello')
+    List() {
+      Text('item1')
+      Text('item2')
+    }
+  }
+}

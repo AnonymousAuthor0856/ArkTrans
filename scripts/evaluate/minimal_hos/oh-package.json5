@@ -1,0 +1,7 @@
+{
+  "modelVersion": "6.0.0",
+  "name": "minimal_hos",
+  "version": "1.0.0",
+  "description": "Minimal HarmonyOS project for compilation testing",
+  "dependencies": {}
+}
