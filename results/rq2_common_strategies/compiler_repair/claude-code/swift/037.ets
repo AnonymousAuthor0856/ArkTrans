@@ -1,0 +1,356 @@
+// App Tokens & Colors
+namespace AppTokens {
+  export namespace Colors {
+    export const primary: string = '#4A5568';
+    export const secondary: string = '#718096';
+    export const tertiary: string = '#A0AEC0';
+    export const background: string = '#F7FAFC';
+    export const surface: string = '#FFFFFFFF';
+    export const surfaceVariant: string = '#EDF2F7';
+    export const outline: string = '#E2E8F0';
+    export const success: string = '#48BB78';
+    export const warning: string = '#F59E0B';
+    export const error: string = '#F56565';
+    export const onPrimary: string = '#FFFFFFFF';
+    export const onSecondary: string = '#FFFFFFFF';
+    export const onTertiary: string = '#1A202C';
+    export const onBackground: string = '#1A202C';
+    export const onSurface: string = '#1A202C';
+  }
+
+  export namespace Gradients {
+    export const gradient1: string[] = ['#63B3ED', '#4299E1'];
+    export const gradient2: string[] = ['#4FD1C5', '#38B2AC'];
+    export const gradient3: string[] = ['#667EEA', '#5A67D8'];
+    export const gradient4: string[] = ['#ED64A6', '#D53F8C'];
+    export const gradient5: string[] = ['#F6AD55', '#ED8936'];
+  }
+
+  export namespace Typography {
+    export const displaySize: number = 36;
+    export const headlineSize: number = 24;
+    export const titleSize: number = 18;
+    export const bodySize: number = 16;
+    export const labelSize: number = 14;
+  }
+
+  export namespace Spacing {
+    export const xs: number = 4;
+    export const sm: number = 8;
+    export const md: number = 16;
+    export const lg: number = 24;
+    export const xl: number = 32;
+    export const xxl: number = 48;
+  }
+
+  export namespace Shapes {
+    export const small: number = 4;
+    export const medium: number = 8;
+    export const large: number = 16;
+  }
+}
+
+// Budget Item Model
+class BudgetItem {
+  id: string;
+  name: string;
+  value: number;
+  gradient: string[];
+
+  constructor(name: string, value: number, gradient: string[]) {
+    this.id = name;
+    this.name = name;
+    this.value = value;
+    this.gradient = gradient;
+  }
+}
+
+// Helper: format currency
+function formatCurrency(value: number): string {
+  return '$' + value.toFixed(2);
+}
+
+// Pie Slice Data
+interface SliceData {
+  startAngle: number;
+  endAngle: number;
+  gradient: string[];
+}
+
+function computeSlices(items: BudgetItem[]): SliceData[] {
+  const totalValue: number = items.reduce((sum: number, item: BudgetItem) => sum + item.value, 0);
+  let currentAngle: number = -90;
+  const result: SliceData[] = [];
+  for (let i = 0; i < items.length; i++) {
+    const item: BudgetItem = items[i];
+    const sweep: number = (item.value / totalValue) * 360;
+    result.push({
+      startAngle: currentAngle,
+      endAngle: currentAngle + sweep,
+      gradient: item.gradient
+    });
+    currentAngle += sweep;
+  }
+  return result;
+}
+
+// Budget Item Row Component
+@Component
+struct BudgetItemRow {
+  @Prop item: BudgetItem = new BudgetItem('', 0, ['', '']);
+
+  build() {
+    Row() {
+      Row() {
+        Circle({ width: 20, height: 20 })
+          .linearGradient(
+            {
+              angle: 180,
+              colors: [
+                [this.item.gradient[0], 0],
+                [this.item.gradient[1], 1]
+              ]
+            }
+          )
+        Text(this.item.name)
+          .fontSize(AppTokens.Typography.bodySize)
+          .fontColor(AppTokens.Colors.onSurface)
+          .margin({ left: AppTokens.Spacing.md })
+      }
+
+      Blank()
+
+      Text(formatCurrency(this.item.value))
+        .fontSize(AppTokens.Typography.titleSize)
+        .fontColor(AppTokens.Colors.onSurface)
+    }
+    .width('100%')
+    .padding({
+      top: AppTokens.Spacing.md,
+      bottom: AppTokens.Spacing.md,
+      left: AppTokens.Spacing.md,
+      right: AppTokens.Spacing.md
+    })
+    .backgroundColor(AppTokens.Colors.surface)
+    .borderRadius(AppTokens.Shapes.large)
+    .shadow({
+      radius: 3,
+      color: 'rgba(0, 0, 0, 0.05)',
+      offsetX: 0,
+      offsetY: 1
+    })
+  }
+}
+
+// Bottom Bar Item Component
+@Component
+struct BottomBarItem {
+  @Prop text: string = '';
+  @Prop active: boolean = false;
+
+  build() {
+    Column() {
+      Circle({ width: 24, height: 24 })
+        .fill(this.active ? AppTokens.Colors.primary : AppTokens.Colors.tertiary)
+        .opacity(0.2)
+      Text(this.text)
+        .fontSize(AppTokens.Typography.labelSize)
+        .fontColor(this.active ? AppTokens.Colors.primary : AppTokens.Colors.tertiary)
+        .textAlign(TextAlign.Center)
+        .margin({ top: AppTokens.Spacing.xs })
+    }
+    .alignItems(HorizontalAlign.Center)
+    .justifyContent(FlexAlign.Center)
+  }
+}
+
+// Pie Chart Component
+@Component
+struct PieChart {
+  @Prop items: BudgetItem[] = [];
+  @Prop strokeWidth: number = 20;
+  @State totalValue: number = 0;
+  @State slices: SliceData[] = [];
+  private settings: RenderingContextSettings = new RenderingContextSettings(true);
+  private context: CanvasRenderingContext2D = new CanvasRenderingContext2D(this.settings);
+
+  aboutToAppear() {
+    this.totalValue = this.items.reduce((sum: number, item: BudgetItem) => sum + item.value, 0);
+    this.slices = computeSlices(this.items);
+  }
+
+  build() {
+    Stack() {
+      Canvas(this.context)
+        .width('100%')
+        .height('100%')
+        .onReady(() => {
+          this.drawPieChart();
+        })
+
+      Column() {
+        Text('Total Spent')
+          .fontSize(AppTokens.Typography.labelSize)
+          .fontColor(AppTokens.Colors.secondary)
+        Text(formatCurrency(this.totalValue))
+          .fontSize(AppTokens.Typography.headlineSize)
+          .fontWeight(FontWeight.Medium)
+          .fontColor(AppTokens.Colors.primary)
+          .margin({ top: AppTokens.Spacing.xs })
+      }
+      .alignItems(HorizontalAlign.Center)
+      .justifyContent(FlexAlign.Center)
+    }
+    .width('100%')
+    .height('100%')
+    .alignContent(Alignment.Center)
+  }
+
+  drawPieChart(): void {
+    const ctx: CanvasRenderingContext2D = this.context;
+    const w: number = 240;
+    const h: number = 240;
+    const centerX: number = w / 2;
+    const centerY: number = h / 2;
+    const radius: number = (Math.min(w, h) - this.strokeWidth) / 2;
+
+    ctx.lineWidth = this.strokeWidth;
+    ctx.lineCap = 'butt';
+
+    for (let i = 0; i < this.slices.length; i++) {
+      const slice: SliceData = this.slices[i];
+      const startRad: number = (slice.startAngle * Math.PI) / 180;
+      const endRad: number = (slice.endAngle * Math.PI) / 180;
+
+      const grad: CanvasGradient = ctx.createLinearGradient(centerX, centerY - radius, centerX, centerY + radius);
+      grad.addColorStop(0, slice.gradient[0]);
+      grad.addColorStop(1, slice.gradient[1]);
+
+      ctx.beginPath();
+      ctx.arc(centerX, centerY, radius, startRad, endRad, false);
+      ctx.strokeStyle = grad;
+      ctx.stroke();
+    }
+  }
+}
+
+// Main Content View
+@Entry
+@Component
+struct BudgetPieApp {
+  @State budgetData: BudgetItem[] = [
+    new BudgetItem('Housing', 1250.00, AppTokens.Gradients.gradient1),
+    new BudgetItem('Food', 480.50, AppTokens.Gradients.gradient2),
+    new BudgetItem('Transport', 210.75, AppTokens.Gradients.gradient3),
+    new BudgetItem('Entertainment', 150.00, AppTokens.Gradients.gradient4),
+    new BudgetItem('Utilities', 320.00, AppTokens.Gradients.gradient5)
+  ];
+
+  build() {
+    Stack() {
+      Column() {
+        // Top Bar
+        Row() {
+          Blank()
+          Text('Monthly Budget')
+            .fontSize(AppTokens.Typography.headlineSize)
+            .fontWeight(FontWeight.Medium)
+            .fontColor(AppTokens.Colors.primary)
+            .padding({ top: AppTokens.Spacing.md, bottom: AppTokens.Spacing.md })
+          Blank()
+        }
+        .backgroundColor(AppTokens.Colors.background)
+
+        // Scrollable Content
+        Scroll() {
+          Column() {
+            // Pie Chart
+            PieChart({ items: this.budgetData, strokeWidth: 20 })
+              .width(240)
+              .height(240)
+              .margin({ top: AppTokens.Spacing.lg, bottom: AppTokens.Spacing.lg })
+
+            // List Items
+            Column() {
+              ForEach(this.budgetData, (item: BudgetItem) => {
+                BudgetItemRow({ item: item })
+                  .margin({ bottom: AppTokens.Spacing.md })
+              }, (item: BudgetItem) => item.id)
+            }
+            .width('100%')
+
+            // Bottom spacer
+            Blank()
+              .height(AppTokens.Spacing.xxl + 80)
+          }
+          .width('100%')
+          .padding({
+            left: AppTokens.Spacing.lg,
+            right: AppTokens.Spacing.lg
+          })
+        }
+        .scrollBar(BarState.Off)
+        .scrollable(ScrollDirection.Vertical)
+        .layoutWeight(1)
+      }
+      .width('100%')
+      .height('100%')
+
+      // Bottom App Bar & FAB Overlay
+      Column() {
+        Blank()
+
+        Stack() {
+          // Bottom Bar Background
+          Row() {
+            BottomBarItem({ text: 'Home', active: true })
+            Blank()
+            BottomBarItem({ text: 'Reports', active: false })
+            Blank()
+            Blank()
+              .width(56)
+            Blank()
+            BottomBarItem({ text: 'Goals', active: false })
+            Blank()
+            BottomBarItem({ text: 'Settings', active: false })
+          }
+          .width('100%')
+          .height(80)
+          .padding({
+            left: AppTokens.Spacing.lg,
+            right: AppTokens.Spacing.lg
+          })
+          .backgroundColor(AppTokens.Colors.surface)
+          .shadow({
+            radius: 15,
+            color: 'rgba(0, 0, 0, 0.1)',
+            offsetX: 0,
+            offsetY: -5
+          })
+
+          // FAB
+          Button() {
+            Text('+')
+              .fontSize(28)
+              .fontWeight(FontWeight.Medium)
+              .fontColor(AppTokens.Colors.onPrimary)
+          }
+          .type(ButtonType.Circle)
+          .width(56)
+          .height(56)
+          .backgroundColor(AppTokens.Colors.primary)
+          .shadow({ radius: 4, offsetY: 4 })
+          .margin({ bottom: 28 })
+          .onClick(() => {})
+        }
+        .width('100%')
+        .alignContent(Alignment.Top)
+      }
+      .width('100%')
+      .height('100%')
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor(AppTokens.Colors.background)
+  }
+}

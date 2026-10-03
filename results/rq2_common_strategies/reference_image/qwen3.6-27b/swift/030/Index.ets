@@ -1,0 +1,219 @@
+// entry/src/main/ets/viewmodels/AppTokens.ets
+/**
+ * Centralized design tokens for consistency across the application.
+ */
+export class AppTokens {
+  static readonly Colors = {
+    primary: '#007BFF',
+    secondary: '#6C757D',
+    tertiary: '#17A2B8',
+    background: '#F8F9FA',
+    surface: '#FFFFFF',
+    surfaceVariant: '#E9ECEF',
+    outline: '#DEE2E6',
+    onBackground: '#212529',
+    onSurface: '#212529'
+  }
+
+  static readonly Typography = {
+    title: { size: 22, weight: FontWeight.Medium },
+    body: { size: 16, weight: FontWeight.Normal },
+    label: { size: 14, weight: FontWeight.Medium }
+  }
+
+  static readonly Shapes = {
+    small: 4,
+    medium: 8,
+    large: 12
+  }
+
+  static readonly Spacing = {
+    xs: 4,
+    sm: 8,
+    md: 12,
+    lg: 16,
+    xl: 24
+  }
+}
+
+// entry/src/main/ets/models/ClipboardItem.ts
+/**
+ * Data model representing a single clipboard history item.
+ */
+export interface ClipboardItem {
+  id: number;
+  content: string;
+  type: string;
+  timestamp: string;
+  progress: number; // Value between 0 and 1
+}
+
+// entry/src/main/ets/components/ClipboardCard.ets
+import { AppTokens } from '../viewmodels/AppTokens';
+import { ClipboardItem } from '../models/ClipboardItem';
+
+@Component
+export struct ClipboardCard {
+  @Prop item: ClipboardItem;
+
+  build() {
+    Column() {
+      // Header Row: Icon, Type, Timestamp
+      Row() {
+        // Blue Square Icon
+        Rectangle()
+          .width(24)
+          .height(24)
+          .fill(AppTokens.Colors.primary)
+          .borderRadius(AppTokens.Shapes.small)
+
+        Text(this.item.type)
+          .fontColor(AppTokens.Colors.primary)
+          .fontWeight(FontWeight.Bold)
+          .fontSize(AppTokens.Typography.label.size)
+          .margin({ left: AppTokens.Spacing.sm })
+
+        Blank() // Spacer
+
+        Text(this.item.timestamp)
+          .fontColor(AppTokens.Colors.secondary)
+          .fontSize(AppTokens.Typography.label.size)
+      }
+      .width('100%')
+      .alignItems(VerticalAlign.Center)
+      .margin({ bottom: AppTokens.Spacing.sm })
+
+      // Content Text
+      Text(this.item.content)
+        .fontColor(AppTokens.Colors.onSurface)
+        .fontSize(AppTokens.Typography.body.size)
+        .maxLines(2)
+        .textOverflow({ overflowType: OverflowType.Ellipsis })
+        .margin({ bottom: AppTokens.Spacing.md })
+
+      // Progress Bar
+      Row() {
+        // Track (Background)
+        Rectangle()
+          .width('100%')
+          .height(4)
+          .fill(AppTokens.Colors.surfaceVariant)
+          .borderRadius(AppTokens.Shapes.small)
+
+        // Fill (Progress)
+        // Using absolute positioning to overlay the fill on top of the track
+        Rectangle()
+          .width(`${this.item.progress * 100}%`)
+          .height(4)
+          .fill(AppTokens.Colors.tertiary)
+          .borderRadius(AppTokens.Shapes.small)
+          .position({ x: 0, y: 0 })
+      }
+      .width('100%')
+      .clip(true) // Ensures the inner rectangle respects the container bounds if needed
+    }
+    .width('100%')
+    .padding(AppTokens.Spacing.md)
+    .backgroundColor(AppTokens.Colors.surface)
+    .borderRadius(AppTokens.Shapes.large)
+    .shadow({ radius: 6, color: 'rgba(0, 0, 0, 0.05)', offsetY: 2 })
+  }
+}
+
+// entry/src/main/ets/pages/Index.ets
+import { AppTokens } from '../viewmodels/AppTokens';
+import { ClipboardItem } from '../models/ClipboardItem';
+import { ClipboardCard } from '../components/ClipboardCard';
+
+@Entry
+@Component
+struct Index {
+  @State sliderValue: number = 24;
+
+  // Mock data corresponding to the SwiftUI source
+  private clipboardItems: ClipboardItem[] = [
+    { id: 1, content: "https://www.example.com/modern-design", type: "Link", timestamp: "5 min ago", progress: 0.2 },
+    { id: 2, content: "Final project review notes have been updated.", type: "Text", timestamp: "23 min ago", progress: 0.5 },
+    { id: 3, content: "#007BFF", type: "Color", timestamp: "1 hour ago", progress: 0.8 },
+    { id: 4, content: "Meeting at 3 PM with the design team.", type: "Text", timestamp: "3 hours ago", progress: 0.9 },
+    { id: 5, content: "Shared file: 'Q3_Report.pdf'", type: "File", timestamp: "Yesterday", progress: 1.0 }
+  ];
+
+  build() {
+    Column() {
+      // Top Bar
+      Row() {
+        Text("Clipboard History")
+          .fontColor(AppTokens.Colors.onBackground)
+          .fontSize(AppTokens.Typography.title.size)
+          .fontWeight(FontWeight.Medium)
+
+        Blank()
+
+        Button("Clear")
+          .type(ButtonType.Capsule)
+          .backgroundColor(AppTokens.Colors.surfaceVariant)
+          .fontColor(AppTokens.Colors.onSurface)
+          .fontSize(AppTokens.Typography.label.size)
+          .fontWeight(FontWeight.Medium)
+          .height(32)
+          .margin({ right: AppTokens.Spacing.lg })
+      }
+      .width('100%')
+      .height(56)
+      .padding({ left: AppTokens.Spacing.lg, right: AppTokens.Spacing.lg })
+      .backgroundColor(AppTokens.Colors.surface)
+      .shadow({ radius: 4, color: 'rgba(0, 0, 0, 0.05)', offsetY: 2 })
+
+      // Scrollable List Area
+      Scroll() {
+        Column() {
+          ForEach(this.clipboardItems, (item: ClipboardItem) => {
+            ClipboardCard({ item: item })
+              .margin({ bottom: AppTokens.Spacing.md })
+          }, (item: ClipboardItem) => item.id.toString())
+        }
+        .padding({ left: AppTokens.Spacing.lg, right: AppTokens.Spacing.lg, top: AppTokens.Spacing.md })
+      }
+      .layoutWeight(1) // Takes up remaining space
+      .backgroundColor(AppTokens.Colors.background)
+      .scrollBar(BarState.Off)
+
+      // Settings Pane
+      Column() {
+        Row() {
+          Text("History Limit (Hours)")
+            .fontColor(AppTokens.Colors.onSurface)
+            .fontSize(AppTokens.Typography.label.size)
+
+          Blank()
+
+          Text(`${this.sliderValue}`)
+            .fontColor(AppTokens.Colors.onSurface)
+            .fontSize(AppTokens.Typography.body.size)
+            .fontWeight(FontWeight.SemiBold)
+        }
+        .width('100%')
+        .margin({ bottom: AppTokens.Spacing.sm })
+
+        Slider({
+          value: this.sliderValue,
+          min: 1,
+          max: 72,
+          step: 1
+        })
+          .trackThickness(4)
+          .selectedColor(AppTokens.Colors.primary)
+          .blockColor('#FFFFFF')
+          .showTips(false)
+      }
+      .width('100%')
+      .padding(AppTokens.Spacing.lg)
+      .backgroundColor(AppTokens.Colors.surface)
+      .shadow({ radius: 10, color: 'rgba(0, 0, 0, 0.1)', offsetY: -4 })
+    }
+    .width('100%')
+    .height('100%')
+    .backgroundColor(AppTokens.Colors.background)
+  }
+}
