@@ -1,6 +1,6 @@
 # ArkTrans
 
-Artifact for the paper *ArkTrans: A Skeleton-guided Approach for Lightweight LLMs to Translate Declarative UIs to HarmonyOS*.
+Artifact for the paper *ArkTrans: Enabling Lightweight LLMs for Declarative UI Porting to HarmonyOS*.
 
 ArkTrans translates declarative UI code (Jetpack Compose / SwiftUI) into ArkUI through a
 four-step pipeline: **Metadata Extraction** (tree-sitter parse of the source UI tree),
